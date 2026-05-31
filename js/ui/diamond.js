@@ -19,13 +19,29 @@ export function createDiamond(svg, cx, cy, size) {
 	const second = { x: cx, y: cy - half }
 	const third = { x: cx - half, y: cy }
 
-	// Diamond shape (infield)
+	// Infield dirt — arc from 1B to 3B through 2B area
+	const dirtRadius = half * 1.05
+	const dirtPath = svgEl('path', {
+		d: [
+			`M ${home.x - half * 0.35},${home.y}`,
+			`L ${third.x},${third.y}`,
+			`A ${dirtRadius} ${dirtRadius} 0 0 1 ${first.x},${first.y}`,
+			`L ${home.x + half * 0.35},${home.y}`,
+			`A ${half * 0.3} ${half * 0.3} 0 0 1 ${home.x - half * 0.35},${home.y}`,
+			'Z'
+		].join(' '),
+		fill: '#c4a265',
+		opacity: '0.35'
+	})
+	g.appendChild(dirtPath)
+
+	// Diamond shape (baselines)
 	const diamondPath = svgEl('polygon', {
 		points: `${home.x},${home.y} ${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
 		fill: 'none',
-		stroke: 'var(--yellow)',
-		'stroke-width': '2.5',
-		'stroke-opacity': '0.8'
+		stroke: '#ffffff',
+		'stroke-width': '2',
+		'stroke-opacity': '0.9'
 	})
 	g.appendChild(diamondPath)
 

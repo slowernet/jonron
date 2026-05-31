@@ -320,7 +320,6 @@ function startGame(container, homeLineup, visitorLineup) {
 			const sectorNumber = spin(batter)
 			const targetAngle = getAngleForSector(batter, sectorNumber)
 
-			narrate(narratorEl, 'Spin...')
 			await spinTo(getBattingSpinner(), targetAngle)
 
 			const batting = resolveBatting(sectorNumber)
@@ -330,7 +329,7 @@ function startGame(container, homeLineup, visitorLineup) {
 				game.pendingResult = { type: batting.type, sectorNumber }
 				setPhase(game, 'ko-dial')
 
-				narrate(narratorEl, `Sector ${sectorNumber} — ${label}! K-O Dial spin...`)
+				narrate(narratorEl, `Sector ${sectorNumber} — ${label}. Spin the K-O dial.`)
 				controls.setPhase('ko-dial')
 				controls.enable()
 			} else {
@@ -356,7 +355,6 @@ function startGame(container, homeLineup, visitorLineup) {
 			const letter = KO_LETTERS[letterIndex]
 			const targetAngle = letterIndex * 72 + Math.random() * 72
 
-			narrate(narratorEl, 'K-O Spin...')
 			await spinTo(getFieldingSpinner(), targetAngle)
 
 			const previousHalf = game.halfInning

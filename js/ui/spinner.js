@@ -96,17 +96,21 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	const discContainer = svgEl('g', { class: 'disc-container' })
 	g.appendChild(discContainer)
 
-	// Arrow/pointer — paddle shape like a board game spinner
-	const arrowLen = outerRadius * 0.92
+	// Arrow/pointer — paddle with tail behind pivot
+	const arrowLen = outerRadius * 0.88
+	const tailLen = outerRadius * 0.25
 	const arrowGroup = svgEl('g', { class: 'spinner-arrow' })
 	const hw = 7
+	const tailHw = 5
 	const tipR = 5
 	const arrow = svgEl('path', {
 		d: [
-			`M ${-hw} 0`,
-			`L ${-hw * 0.7} ${-arrowLen + tipR}`,
-			`A ${tipR} ${tipR} 0 1 1 ${hw * 0.7} ${-arrowLen + tipR}`,
+			`M ${-tailHw} ${tailLen}`,
+			`A ${tailHw} ${tailHw} 0 0 1 ${tailHw} ${tailLen}`,
 			`L ${hw} 0`,
+			`L ${hw * 0.7} ${-arrowLen + tipR}`,
+			`A ${tipR} ${tipR} 0 1 1 ${-hw * 0.7} ${-arrowLen + tipR}`,
+			`L ${-hw} 0`,
 			'Z'
 		].join(' '),
 		fill: '#222',
@@ -119,7 +123,7 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	// Center pivot
 	const pivot = svgEl('circle', {
 		cx: 0, cy: 0, r: 10,
-		fill: '#222',
+		fill: '#333',
 		stroke: '#111',
 		'stroke-width': '1.5'
 	})
