@@ -109,8 +109,8 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const board = createBoard(container)
 
-	const visitorSpinner = createSpinner(board.svg, 190, 210, 120, 'visitor')
-	const homeSpinner = createSpinner(board.svg, 834, 210, 120, 'home')
+	const visitorSpinner = createSpinner(board.svg, 190, 210, 150, 'visitor')
+	const homeSpinner = createSpinner(board.svg, 834, 210, 150, 'home')
 
 	const diamond = createDiamond(board.svg, 512, 210, 155)
 
