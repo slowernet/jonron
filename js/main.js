@@ -365,7 +365,8 @@ function startGame(container, homeLineup, visitorLineup) {
 		spinner.hideKoRing()
 
 		const targetAngle = Math.random() * 360
-		narrate(narratorEl, `Strategy: ${playType.replace(/-/g, ' ')}...`)
+		const playLabel = playType.replace(/-/g, ' ').replace(/(\d)b\b/g, '$1B')
+		narrate(narratorEl, `Strategy: ${playLabel}...`)
 		await spinTo(spinner, targetAngle)
 
 		const letter = getStrategyLetter(targetAngle, ring)
