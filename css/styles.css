@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--green: #1a5c2a;
+	--green-dark: #0e3d1a;
+	--red: #c41e3a;
+	--yellow: #d4a017;
+	--orange: #cc6600;
+	--blue: #1a3a6b;
+	--cream: #f5f0e1;
+	--white: #fafafa;
+	--grey: #888;
+	--text: #222;
+	--font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+html {
+	font-family: var(--font);
+	color: var(--text);
+	background: var(--green-dark);
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	min-height: 100dvh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#game {
+	width: 100%;
+	max-width: 1024px;
+	aspect-ratio: 4 / 3;
+	background: var(--green);
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	touch-action: manipulation;
+}
