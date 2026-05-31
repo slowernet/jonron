@@ -38,33 +38,6 @@ export function createBoard(container) {
 	title.textContent = 'JONRÓN BASEBALL'
 	svg.appendChild(title)
 
-	// Side labels
-	const visitorLabel = svgEl('text', {
-		x: '50',
-		y: '280',
-		'text-anchor': 'middle',
-		'font-size': '14',
-		'font-weight': 'bold',
-		fill: 'var(--yellow)',
-		'font-family': 'system-ui, sans-serif',
-		transform: 'rotate(-90, 50, 280)'
-	})
-	visitorLabel.textContent = 'VISITORS AT BAT'
-	svg.appendChild(visitorLabel)
-
-	const homeLabel = svgEl('text', {
-		x: '974',
-		y: '280',
-		'text-anchor': 'middle',
-		'font-size': '14',
-		'font-weight': 'bold',
-		fill: 'var(--yellow)',
-		'font-family': 'system-ui, sans-serif',
-		transform: 'rotate(90, 974, 280)'
-	})
-	homeLabel.textContent = 'HOME AT BAT'
-	svg.appendChild(homeLabel)
-
 	// Spinner areas (placeholder groups)
 	const visitorSpinnerArea = svgEl('g', { id: 'visitor-spinner-area' })
 	svg.appendChild(visitorSpinnerArea)
