@@ -7,8 +7,8 @@
 }
 
 :root {
-	--green: #1a5c2a;
-	--green-dark: #0e3d1a;
+	--green: #2e7d46;
+	--green-dark: #245f38;
 	--red: #c41e3a;
 	--yellow: #d4a017;
 	--orange: #cc6600;
@@ -23,7 +23,7 @@
 html {
 	font-family: var(--font);
 	color: var(--text);
-	background: var(--green-dark);
+	background: #1a1a2e;
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -31,8 +31,8 @@ body {
 	min-height: 100dvh;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
-	padding: 16px 0;
+	align-items: center;
+	padding: 0;
 }
 
 #game {
@@ -43,6 +43,7 @@ body {
 	overflow: hidden;
 	position: relative;
 	touch-action: manipulation;
+	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
 /* Scoreboard */

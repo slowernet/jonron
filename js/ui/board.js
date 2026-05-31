@@ -31,7 +31,7 @@ export function createBoard(container) {
 	// Title
 	const title = svgEl('text', {
 		x: '512',
-		y: '40',
+		y: '50',
 		'text-anchor': 'middle',
 		'font-size': '28',
 		'font-weight': 'bold',
@@ -80,7 +80,7 @@ export function createBoard(container) {
 	svg.appendChild(diamondGroup)
 
 	// Batting key panel
-	const keyPanel = createBattingKey(512, 640)
+	const keyPanel = createBattingKey(512, 620)
 	svg.appendChild(keyPanel)
 
 	container.appendChild(svg)
