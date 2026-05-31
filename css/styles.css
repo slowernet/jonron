@@ -75,7 +75,7 @@ body {
 	font-variant-numeric: tabular-nums;
 }
 
-.scoreboard-cell.current {
+.scoreboard-cell.scoreboard-active {
 	background: var(--green);
 	color: #fff;
 	font-weight: bold;

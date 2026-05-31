@@ -130,12 +130,12 @@ export function updateScoreboard(scoreboard, gameState) {
 
 		// Highlight only the active half-inning cell
 		const allCells = scoreboard.querySelectorAll('.scoreboard-cell')
-		allCells.forEach(c => c.classList.remove('current'))
+		allCells.forEach(c => c.classList.remove('scoreboard-active'))
 		if (inning) {
 			const activeTeam = halfInning === 'top' ? 'visitor' : 'home'
 			const activeRow = scoreboard.querySelector(`[data-team="${activeTeam}"]`)
 			const activeCell = activeRow?.querySelector(`[data-inning="${inning}"]`)
-			if (activeCell) activeCell.classList.add('current')
+			if (activeCell) activeCell.classList.add('scoreboard-active')
 		}
 	}
 
