@@ -114,13 +114,18 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const diamond = createDiamond(board.svg, 512, 210, 155)
 
-	const controls = createControls(container, {
+	// Narrator + controls side by side
+	const actionRow = document.createElement('div')
+	actionRow.className = 'action-row'
+	container.appendChild(actionRow)
+
+	const narratorEl = createNarrator(actionRow)
+
+	const controls = createControls(actionRow, {
 		onSpin: () => handleSpin(),
 		onStrategy: (playType) => handleStrategy(playType),
 		onIntentionalWalk: () => handleIntentionalWalk()
 	})
-
-	const narratorEl = createNarrator(container)
 
 	container.appendChild(board.battingKey)
 

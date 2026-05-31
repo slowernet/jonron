@@ -142,8 +142,16 @@ body {
 	font-weight: bold;
 }
 
+/* Action row: narrator + controls side by side */
+.action-row {
+	display: flex;
+	border-top: 2px solid var(--yellow);
+}
+
 /* Narrator */
 .narrator {
+	flex: 1;
+	min-width: 0;
 	background: rgba(0, 0, 0, 0.1);
 	color: var(--cream);
 	font-family: var(--font);
@@ -153,7 +161,6 @@ body {
 	padding: 8px 16px;
 	height: calc(13px * 1.5 * 5 + 16px);
 	overflow-y: auto;
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .narrator-line {
@@ -214,8 +221,9 @@ body {
 	align-items: center;
 	gap: 8px;
 	padding: 10px 16px;
-	background: rgba(0, 0, 0, 0.1);
-	border-top: 2px solid var(--yellow);
+	background: rgba(0, 0, 0, 0.15);
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	flex-shrink: 0;
 }
 
 .control-btn {
