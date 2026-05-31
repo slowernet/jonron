@@ -363,8 +363,12 @@ function startGame(container, homeLineup, visitorLineup) {
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
 
+			const hasRunners = game.bases.first || game.bases.second || game.bases.third
 			const result = resolveKoDial(letter, pending.type, game.bases)
-			narrate(narratorEl, `K-O result: ${letter} — ${result.description}`)
+			const desc = hasRunners
+				? result.description
+				: result.description.replace(/,\s*runners?\s+.*/i, '')
+			narrate(narratorEl, `K-O result: ${letter} — ${desc}`)
 
 			game.pendingResult = null
 			recordResult(game, result)
