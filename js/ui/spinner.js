@@ -218,30 +218,38 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 	})
 }
 
+// A-E ring: A/B/C/D wide (360/11deg), E narrow (2/3 of wide). 12 segments.
+const AE_WIDE = 360 / 11
+const AE_NARROW = AE_WIDE * 2 / 3
 const STRATEGY_SECTORS_AE = [
-	{ letter: 'A', angle: 36 },
-	{ letter: 'E', angle: 36 },
-	{ letter: 'C', angle: 36 },
-	{ letter: 'C', angle: 36 },
-	{ letter: 'D', angle: 36 },
-	{ letter: 'B', angle: 36 },
-	{ letter: 'E', angle: 36 },
-	{ letter: 'A', angle: 36 },
-	{ letter: 'B', angle: 36 },
-	{ letter: 'D', angle: 36 },
+	{ letter: 'E', angle: AE_NARROW },
+	{ letter: 'C', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE },
+	{ letter: 'A', angle: AE_WIDE },
+	{ letter: 'E', angle: AE_NARROW },
+	{ letter: 'B', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE },
+	{ letter: 'C', angle: AE_WIDE },
+	{ letter: 'E', angle: AE_NARROW },
+	{ letter: 'B', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE },
+	{ letter: 'A', angle: AE_WIDE },
 ]
 
+// F-J ring: F wide (40deg, x4), G/H/I/J narrow (25deg). 12 segments.
 const STRATEGY_SECTORS_FJ = [
-	{ letter: 'I', angle: 36 },
-	{ letter: 'H', angle: 36 },
-	{ letter: 'G', angle: 36 },
-	{ letter: 'J', angle: 36 },
-	{ letter: 'F', angle: 36 },
-	{ letter: 'G', angle: 36 },
-	{ letter: 'H', angle: 36 },
-	{ letter: 'I', angle: 36 },
-	{ letter: 'J', angle: 36 },
-	{ letter: 'F', angle: 36 },
+	{ letter: 'H', angle: 25 },
+	{ letter: 'G', angle: 25 },
+	{ letter: 'F', angle: 40 },
+	{ letter: 'J', angle: 25 },
+	{ letter: 'F', angle: 40 },
+	{ letter: 'I', angle: 25 },
+	{ letter: 'H', angle: 25 },
+	{ letter: 'G', angle: 25 },
+	{ letter: 'F', angle: 40 },
+	{ letter: 'J', angle: 25 },
+	{ letter: 'F', angle: 40 },
+	{ letter: 'I', angle: 25 },
 ]
 
 export function getStrategyLetter(angle, ring) {
