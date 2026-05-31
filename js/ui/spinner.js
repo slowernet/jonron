@@ -85,7 +85,7 @@ export function createSpinner(svg, cx, cy, radius, side) {
 
 	// Inner circle background (blue like the original board)
 	const innerBg = svgEl('circle', {
-		cx: 0, cy: 0, r: 70,
+		cx: 0, cy: 0, r: innerRadius,
 		fill: 'var(--blue)',
 		stroke: '#222',
 		'stroke-width': '1.5'

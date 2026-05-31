@@ -48,44 +48,29 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(homeDirt)
 
-	// Infield grass — rounded square inside the baselines
-	const gi = half * 0.30
-	const gHome = { x: home.x, y: home.y - gi * 1.4 }
-	const gFirst = { x: first.x - gi * 1.05, y: first.y + gi * 0.1 }
-	const gSecond = { x: second.x, y: second.y + gi * 1.05 }
-	const gThird = { x: third.x + gi * 1.05, y: third.y + gi * 0.1 }
-	const gr = half * 0.15
-	const grassPath = svgEl('path', {
-		d: [
-			`M ${gHome.x},${gHome.y}`,
-			`Q ${(gHome.x + gFirst.x) / 2 + gr * 0.3},${(gHome.y + gFirst.y) / 2 - gr * 0.3} ${gFirst.x},${gFirst.y}`,
-			`Q ${(gFirst.x + gSecond.x) / 2 + gr * 0.3},${(gFirst.y + gSecond.y) / 2 - gr * 0.3} ${gSecond.x},${gSecond.y}`,
-			`Q ${(gSecond.x + gThird.x) / 2 - gr * 0.3},${(gSecond.y + gThird.y) / 2 - gr * 0.3} ${gThird.x},${gThird.y}`,
-			`Q ${(gThird.x + gHome.x) / 2 - gr * 0.3},${(gThird.y + gHome.y) / 2 - gr * 0.3} ${gHome.x},${gHome.y}`,
-			'Z'
+	// Infield grass — perfect rotated square, equal inset on all sides
+	const gi = half * 0.28
+	const grassPath = svgEl('polygon', {
+		points: [
+			`${cx},${cy + half - gi}`,
+			`${cx + half - gi},${cy}`,
+			`${cx},${cy - half + gi}`,
+			`${cx - half + gi},${cy}`
 		].join(' '),
 		fill: 'var(--green)'
 	})
 	g.appendChild(grassPath)
 
-	// Baselines (disconnected from home plate)
-	const baselineStyle = { fill: 'none', stroke: '#ffffff', 'stroke-width': '2', 'stroke-opacity': '0.9' }
-	const gap = half * 0.22
-	const gapInv = gap * inv
-
-	// 3B foul line (from near home to 3B)
-	const foul3Start = { x: home.x - gapInv, y: home.y - gapInv }
-	g.appendChild(svgEl('line', { ...baselineStyle, x1: foul3Start.x, y1: foul3Start.y, x2: third.x, y2: third.y }))
-
-	// 3B to 2B
-	g.appendChild(svgEl('line', { ...baselineStyle, x1: third.x, y1: third.y, x2: second.x, y2: second.y }))
-
-	// 2B to 1B
-	g.appendChild(svgEl('line', { ...baselineStyle, x1: second.x, y1: second.y, x2: first.x, y2: first.y }))
-
-	// 1B foul line (from 1B to near home)
-	const foul1Start = { x: home.x + gapInv, y: home.y - gapInv }
-	g.appendChild(svgEl('line', { ...baselineStyle, x1: first.x, y1: first.y, x2: foul1Start.x, y2: foul1Start.y }))
+	// Baselines (three sides between bases, no connection to home)
+	const baselines = svgEl('polyline', {
+		points: `${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
+		fill: 'none',
+		stroke: '#ffffff',
+		'stroke-width': '2',
+		'stroke-opacity': '0.9',
+		'stroke-linejoin': 'round'
+	})
+	g.appendChild(baselines)
 
 	// Pitcher's mound (60.5ft from home on a 127.3ft diagonal = ~47.5% from home)
 	const mound = svgEl('circle', {

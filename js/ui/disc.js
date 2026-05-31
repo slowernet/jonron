@@ -88,7 +88,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 	})
 
 	const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
-	const centerRadius = radius * 0.36
+	const centerRadius = 70
 
 	let currentAngle = 0
 
