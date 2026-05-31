@@ -159,7 +159,7 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 			rotation: totalRotation,
 			duration,
 			ease: 'power4.out',
-			transformOrigin: '0 0',
+			svgOrigin: '0 0',
 			onComplete: resolve
 		})
 	})

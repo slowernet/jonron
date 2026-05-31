@@ -15,7 +15,7 @@ export function createControls(container, callbacks) {
 
 	// Spin button
 	const spinBtn = document.createElement('button')
-	spinBtn.className = 'control-spin'
+	spinBtn.className = 'control-btn control-spin'
 	spinBtn.textContent = 'SPIN'
 	spinBtn.addEventListener('click', () => callbacks.onSpin())
 	bar.appendChild(spinBtn)
@@ -25,7 +25,7 @@ export function createControls(container, callbacks) {
 	strategyWrapper.className = 'control-strategy-wrapper'
 
 	const strategyBtn = document.createElement('button')
-	strategyBtn.className = 'control-strategy'
+	strategyBtn.className = 'control-btn control-strategy'
 	strategyBtn.textContent = 'STRATEGY'
 	strategyWrapper.appendChild(strategyBtn)
 
@@ -42,7 +42,7 @@ export function createControls(container, callbacks) {
 
 	// Intentional walk button
 	const walkBtn = document.createElement('button')
-	walkBtn.className = 'control-walk'
+	walkBtn.className = 'control-btn control-walk'
 	walkBtn.textContent = 'IBB'
 	walkBtn.addEventListener('click', () => callbacks.onIntentionalWalk())
 	bar.appendChild(walkBtn)

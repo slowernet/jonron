@@ -116,19 +116,19 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const board = createBoard(container)
 
-	const visitorSpinner = createSpinner(board.svg, 200, 300, 120, 'visitor')
-	const homeSpinner = createSpinner(board.svg, 824, 300, 120, 'home')
+	const visitorSpinner = createSpinner(board.svg, 190, 280, 110, 'visitor')
+	const homeSpinner = createSpinner(board.svg, 834, 280, 110, 'home')
 
-	const diamond = createDiamond(board.svg, 512, 250, 160)
-
-	const scoreboard = createScoreboard(container)
-	const narratorEl = createNarrator(container)
+	const diamond = createDiamond(board.svg, 512, 240, 150)
 
 	const controls = createControls(container, {
 		onSpin: () => handleSpin(),
 		onStrategy: (playType) => handleStrategy(playType),
 		onIntentionalWalk: () => handleIntentionalWalk()
 	})
+
+	const scoreboard = createScoreboard(container)
+	const narratorEl = createNarrator(container)
 
 	// --- Helper: which spinner is active for batting / K-O ---
 	const getBattingSpinner = () => game.halfInning === 'top' ? visitorSpinner : homeSpinner
@@ -315,22 +315,21 @@ function startGame(container, homeLineup, visitorLineup) {
 			await spinTo(getBattingSpinner(), targetAngle)
 
 			const batting = resolveBatting(sectorNumber)
+			const label = RESULT_LABELS[batting.type] || batting.type
 
 			if (batting.needsKoDial) {
-				// Store pending result and switch to K-O phase
 				game.pendingResult = { type: batting.type, sectorNumber }
 				setPhase(game, 'ko-dial')
 
-				const label = RESULT_LABELS[batting.type] || batting.type
-				narrate(narratorEl, `${label}! K-O Dial spin...`)
+				narrate(narratorEl, `Sector ${sectorNumber} — ${label}! K-O Dial spin...`)
 				controls.setPhase('ko-dial')
 				controls.enable()
 			} else {
-				// Immediate result
 				const previousHalf = game.halfInning
 				const previousInning = game.inning
 				const result = resolveImmediate(batting.type, game.bases, batter.id)
 
+				narrate(narratorEl, `Sector ${sectorNumber} — ${label}!`)
 				narrateResult(batting.type, result, batter)
 				recordResult(game, result)
 

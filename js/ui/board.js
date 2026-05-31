@@ -1,5 +1,3 @@
-import { BATTING_KEY } from '../game/rules.js'
-
 const SVG_NS = 'http://www.w3.org/2000/svg'
 
 function svgEl(tag, attrs = {}) {
@@ -14,16 +12,15 @@ export function createBoard(container) {
 	container.textContent = ''
 
 	const svg = svgEl('svg', {
-		viewBox: '0 0 1024 768',
+		viewBox: '0 0 1024 520',
 		width: '100%',
-		height: '100%',
 		preserveAspectRatio: 'xMidYMid meet'
 	})
 
 	// Background
 	const bg = svgEl('rect', {
 		width: '1024',
-		height: '768',
+		height: '520',
 		fill: 'var(--green)'
 	})
 	svg.appendChild(bg)
@@ -31,7 +28,7 @@ export function createBoard(container) {
 	// Title
 	const title = svgEl('text', {
 		x: '512',
-		y: '50',
+		y: '40',
 		'text-anchor': 'middle',
 		'font-size': '28',
 		'font-weight': 'bold',
@@ -43,27 +40,27 @@ export function createBoard(container) {
 
 	// Side labels
 	const visitorLabel = svgEl('text', {
-		x: '60',
-		y: '384',
+		x: '50',
+		y: '280',
 		'text-anchor': 'middle',
 		'font-size': '14',
 		'font-weight': 'bold',
 		fill: 'var(--yellow)',
 		'font-family': 'system-ui, sans-serif',
-		transform: 'rotate(-90, 60, 384)'
+		transform: 'rotate(-90, 50, 280)'
 	})
 	visitorLabel.textContent = 'VISITORS AT BAT'
 	svg.appendChild(visitorLabel)
 
 	const homeLabel = svgEl('text', {
-		x: '964',
-		y: '384',
+		x: '974',
+		y: '280',
 		'text-anchor': 'middle',
 		'font-size': '14',
 		'font-weight': 'bold',
 		fill: 'var(--yellow)',
 		'font-family': 'system-ui, sans-serif',
-		transform: 'rotate(90, 964, 384)'
+		transform: 'rotate(90, 974, 280)'
 	})
 	homeLabel.textContent = 'HOME AT BAT'
 	svg.appendChild(homeLabel)
@@ -79,105 +76,55 @@ export function createBoard(container) {
 	const diamondGroup = svgEl('g', { id: 'diamond-group' })
 	svg.appendChild(diamondGroup)
 
-	// Batting key panel
-	const keyPanel = createBattingKey(512, 620)
-	svg.appendChild(keyPanel)
-
 	container.appendChild(svg)
+
+	// Batting key as HTML
+	const keyEl = createBattingKeyHTML()
+	container.appendChild(keyEl)
 
 	return {
 		svg,
 		diamondGroup,
 		visitorSpinnerArea,
-		homeSpinnerArea,
-		keyPanel
+		homeSpinnerArea
 	}
 }
 
-function createBattingKey(cx, cy) {
-	const g = svgEl('g', { id: 'batting-key' })
+function createBattingKeyHTML() {
+	const labels = [
+		'HOME RUN', 'GROUND BALL', 'FLY BALL', 'FLY BALL',
+		'TRIPLE', 'GROUND BALL', 'SINGLE', 'FLY BALL',
+		'WALK', 'STRIKEOUT', 'DOUBLE', 'GROUND BALL',
+		'SINGLE', 'FLY BALL'
+	]
 
-	// Background panel
-	const panelW = 520
-	const panelH = 110
-	const panel = svgEl('rect', {
-		x: cx - panelW / 2,
-		y: cy - panelH / 2,
-		width: panelW,
-		height: panelH,
-		rx: '6',
-		ry: '6',
-		fill: 'var(--green-dark)',
-		stroke: 'var(--yellow)',
-		'stroke-width': '2'
-	})
-	g.appendChild(panel)
+	const wrapper = document.createElement('div')
+	wrapper.className = 'batting-key'
 
-	// Title
-	const title = svgEl('text', {
-		x: cx,
-		y: cy - panelH / 2 + 18,
-		'text-anchor': 'middle',
-		'font-size': '13',
-		'font-weight': 'bold',
-		fill: 'var(--yellow)',
-		'font-family': 'system-ui, sans-serif'
-	})
+	const title = document.createElement('div')
+	title.className = 'batting-key-title'
 	title.textContent = 'BATTING KEY'
-	g.appendChild(title)
+	wrapper.appendChild(title)
 
-	const labels = {
-		1: 'HOME RUN',
-		2: 'GROUND BALL',
-		3: 'FLY BALL',
-		4: 'FLY BALL',
-		5: 'TRIPLE',
-		6: 'GROUND BALL',
-		7: 'SINGLE',
-		8: 'FLY BALL',
-		9: 'WALK',
-		10: 'STRIKEOUT',
-		11: 'DOUBLE',
-		12: 'GROUND BALL',
-		13: 'SINGLE',
-		14: 'FLY BALL'
+	const grid = document.createElement('div')
+	grid.className = 'batting-key-grid'
+
+	for (let i = 0; i < 14; i++) {
+		const entry = document.createElement('div')
+		entry.className = 'batting-key-entry'
+
+		const num = document.createElement('span')
+		num.className = 'batting-key-num'
+		num.textContent = `${i + 1}.`
+
+		const label = document.createElement('span')
+		label.textContent = labels[i]
+
+		entry.appendChild(num)
+		entry.appendChild(label)
+		grid.appendChild(entry)
 	}
 
-	const cols = 2
-	const rows = 7
-	const colW = 240
-	const rowH = 12
-	const startX = cx - panelW / 2 + 20
-	const startY = cy - panelH / 2 + 32
-
-	for (let i = 1; i <= 14; i++) {
-		const col = i <= 7 ? 0 : 1
-		const row = i <= 7 ? i - 1 : i - 8
-
-		const x = startX + col * colW
-		const y = startY + row * rowH
-
-		const numText = svgEl('text', {
-			x: x,
-			y: y + 9,
-			'font-size': '10',
-			'font-weight': 'bold',
-			fill: 'var(--cream)',
-			'font-family': 'system-ui, sans-serif'
-		})
-		numText.textContent = `${i}.`
-		g.appendChild(numText)
-
-		const labelText = svgEl('text', {
-			x: x + 22,
-			y: y + 9,
-			'font-size': '10',
-			fill: 'var(--cream)',
-			'font-family': 'system-ui, sans-serif'
-		})
-		labelText.textContent = labels[i]
-		g.appendChild(labelText)
-	}
-
-	return g
+	wrapper.appendChild(grid)
+	return wrapper
 }
