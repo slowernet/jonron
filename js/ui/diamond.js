@@ -68,15 +68,24 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(grassPath)
 
-	// Diamond shape (baselines)
-	const diamondPath = svgEl('polygon', {
-		points: `${home.x},${home.y} ${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
-		fill: 'none',
-		stroke: '#ffffff',
-		'stroke-width': '2',
-		'stroke-opacity': '0.9'
-	})
-	g.appendChild(diamondPath)
+	// Baselines (disconnected from home plate)
+	const baselineStyle = { fill: 'none', stroke: '#ffffff', 'stroke-width': '2', 'stroke-opacity': '0.9' }
+	const gap = half * 0.12
+	const gapInv = gap * inv
+
+	// 3B foul line (from near home to 3B)
+	const foul3Start = { x: home.x - gapInv, y: home.y - gapInv }
+	g.appendChild(svgEl('line', { ...baselineStyle, x1: foul3Start.x, y1: foul3Start.y, x2: third.x, y2: third.y }))
+
+	// 3B to 2B
+	g.appendChild(svgEl('line', { ...baselineStyle, x1: third.x, y1: third.y, x2: second.x, y2: second.y }))
+
+	// 2B to 1B
+	g.appendChild(svgEl('line', { ...baselineStyle, x1: second.x, y1: second.y, x2: first.x, y2: first.y }))
+
+	// 1B foul line (from 1B to near home)
+	const foul1Start = { x: home.x + gapInv, y: home.y - gapInv }
+	g.appendChild(svgEl('line', { ...baselineStyle, x1: first.x, y1: first.y, x2: foul1Start.x, y2: foul1Start.y }))
 
 	// Pitcher's mound (60.5ft from home on a 127.3ft diagonal = ~47.5% from home)
 	const mound = svgEl('circle', {
@@ -89,15 +98,15 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(mound)
 
-	// Home plate (pentagon)
-	const hpSize = 12
+	// Home plate (top-down pentagon)
+	const hp = 10
 	const homePlate = svgEl('polygon', {
 		points: [
-			`${home.x},${home.y + hpSize}`,
-			`${home.x - hpSize},${home.y + 2}`,
-			`${home.x - hpSize * 0.7},${home.y - hpSize * 0.5}`,
-			`${home.x + hpSize * 0.7},${home.y - hpSize * 0.5}`,
-			`${home.x + hpSize},${home.y + 2}`
+			`${home.x},${home.y + hp}`,
+			`${home.x - hp},${home.y}`,
+			`${home.x - hp * 0.7},${home.y - hp * 0.7}`,
+			`${home.x + hp * 0.7},${home.y - hp * 0.7}`,
+			`${home.x + hp},${home.y}`
 		].join(' '),
 		fill: '#ffffff',
 		stroke: '#ccc',
@@ -123,27 +132,6 @@ export function createDiamond(svg, cx, cy, size) {
 		})
 		g.appendChild(marker)
 		baseMarkers[name] = marker
-	}
-
-	// Base labels
-	const labelOffset = 18
-	const labelData = [
-		{ text: '1B', x: first.x + labelOffset, y: first.y + 4 },
-		{ text: '2B', x: second.x, y: second.y - labelOffset },
-		{ text: '3B', x: third.x - labelOffset, y: third.y + 4 }
-	]
-	for (const ld of labelData) {
-		const label = svgEl('text', {
-			x: ld.x,
-			y: ld.y,
-			'text-anchor': 'middle',
-			'font-size': '11',
-			'font-weight': 'bold',
-			fill: 'var(--cream)',
-			'font-family': 'system-ui, sans-serif'
-		})
-		label.textContent = ld.text
-		g.appendChild(label)
 	}
 
 	// Runner pegs (initially hidden)

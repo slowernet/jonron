@@ -63,7 +63,6 @@ function showStartScreen(container, players) {
 	title.textContent = 'JONRÓN BASEBALL'
 	title.style.color = 'var(--yellow)'
 	title.style.fontSize = '36px'
-	title.style.letterSpacing = '3px'
 	title.style.marginBottom = '48px'
 
 	const draftBtn = document.createElement('button')
@@ -196,7 +195,6 @@ function startGame(container, homeLineup, visitorLineup) {
 		heading.style.color = 'var(--yellow)'
 		heading.style.fontSize = '36px'
 		heading.style.marginBottom = '16px'
-		heading.style.letterSpacing = '3px'
 
 		const result = document.createElement('div')
 		result.style.fontSize = '24px'

@@ -186,7 +186,6 @@ body {
 	font-size: 10px;
 	font-weight: bold;
 	color: var(--yellow);
-	letter-spacing: 1px;
 	margin-bottom: 4px;
 }
 
@@ -230,7 +229,6 @@ body {
 	border-radius: 4px;
 	cursor: pointer;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
 	transition: opacity 0.15s, transform 0.1s;
 }
 
@@ -251,8 +249,6 @@ body {
 .control-spin {
 	background: var(--red);
 	min-width: 120px;
-	font-size: 16px;
-	letter-spacing: 1px;
 }
 
 .control-strategy-wrapper {
@@ -346,7 +342,6 @@ body {
 .draft-header h1 {
 	font-size: 24px;
 	color: var(--yellow);
-	letter-spacing: 2px;
 	margin-bottom: 8px;
 }
 
@@ -451,7 +446,6 @@ body {
 	font-weight: bold;
 	color: var(--yellow);
 	margin-bottom: 6px;
-	letter-spacing: 1px;
 }
 
 .draft-roster-list {
@@ -488,7 +482,6 @@ body {
 	border: none;
 	border-radius: 6px;
 	cursor: pointer;
-	letter-spacing: 1px;
 	transition: transform 0.1s;
 }
 
@@ -523,7 +516,6 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	color: var(--yellow);
-	letter-spacing: 1px;
 	margin-bottom: 8px;
 	text-align: center;
 }
