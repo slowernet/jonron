@@ -109,10 +109,8 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const board = createBoard(container)
 
-	const visitorSpinner = createSpinner(board.svg, 190, 210, 150, 'visitor')
-	const homeSpinner = createSpinner(board.svg, 834, 210, 150, 'home')
-
-	const diamond = createDiamond(board.svg, 512, 210, 155)
+	const diamond = createDiamond(board.svg, 190, 210, 155)
+	const spinner = createSpinner(board.svg, 540, 210, 150, 'AT BAT')
 
 	// Narrator + controls side by side
 	const actionRow = document.createElement('div')
@@ -129,15 +127,11 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	container.appendChild(board.battingKey)
 
-	// --- Helper: which spinner is active for batting / K-O ---
-	const getBattingSpinner = () => game.halfInning === 'top' ? visitorSpinner : homeSpinner
-	const getFieldingSpinner = () => game.halfInning === 'top' ? homeSpinner : visitorSpinner
-
-	// --- Helper: place current batter's disc on the active spinner ---
+	// --- Helper: place current batter's disc on the spinner ---
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)
 		const discSvg = createDiscSVG(batter, 0, 0, 120)
-		getBattingSpinner().setDisc(discSvg)
+		spinner.setDisc(discSvg)
 	}
 
 	// --- Helper: find the angle range for a given sector on the current batter's disc ---
@@ -232,8 +226,7 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	// --- Helper: check for half-inning transition or game over after a result ---
 	function afterResult(previousHalf, previousInning) {
-		const prevSpinner = previousHalf === 'top' ? visitorSpinner : homeSpinner
-		prevSpinner.clearDisc()
+		spinner.clearDisc()
 
 		if (game.phase === 'game-over') {
 			narrate(narratorEl, 'Game over!', { highlight: true })
@@ -315,7 +308,6 @@ function startGame(container, homeLineup, visitorLineup) {
 		controls.disable()
 
 		const batter = getCurrentBatter(game)
-		const spinner = getBattingSpinner()
 		const sectorNumber = spin(batter)
 		const targetAngle = getAngleForSector(batter, sectorNumber)
 
@@ -378,10 +370,9 @@ function startGame(container, homeLineup, visitorLineup) {
 		const letterIndex = Math.floor(Math.random() * 5)
 		const letter = letters[letterIndex]
 
-		// Animate on the batting spinner
 		const targetAngle = Math.random() * 360
 		narrate(narratorEl, `Strategy: ${playType.replace(/-/g, ' ')}...`)
-		await spinTo(getBattingSpinner(), targetAngle)
+		await spinTo(spinner, targetAngle)
 
 		const previousHalf = game.halfInning
 		const previousInning = game.inning

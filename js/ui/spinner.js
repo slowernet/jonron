@@ -31,9 +31,9 @@ function describeSector(cx, cy, radius, startAngle, endAngle) {
 
 const KO_LETTERS = ['K', 'L', 'M', 'N', 'O']
 
-export function createSpinner(svg, cx, cy, radius, side) {
+export function createSpinner(svg, cx, cy, radius, label) {
 	const g = svgEl('g', {
-		id: `${side}-spinner`,
+		id: 'spinner',
 		transform: `translate(${cx}, ${cy})`
 	})
 
@@ -128,8 +128,8 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	arrowGroup.appendChild(pivot)
 	g.appendChild(arrowGroup)
 
-	// Side label
-	const sideLabel = svgEl('text', {
+	// Label
+	const labelEl = svgEl('text', {
 		x: 0,
 		y: outerRadius + 22,
 		'text-anchor': 'middle',
@@ -138,8 +138,8 @@ export function createSpinner(svg, cx, cy, radius, side) {
 		fill: 'var(--cream)',
 		'font-family': 'system-ui, sans-serif'
 	})
-	sideLabel.textContent = side === 'visitor' ? 'VISITORS' : 'HOME'
-	g.appendChild(sideLabel)
+	labelEl.textContent = label
+	g.appendChild(labelEl)
 
 	svg.appendChild(g)
 
@@ -154,6 +154,10 @@ export function createSpinner(svg, cx, cy, radius, side) {
 
 		clearDisc() {
 			discContainer.textContent = ''
+		},
+
+		setLabel(text) {
+			labelEl.textContent = text
 		},
 
 		getResult(angle) {

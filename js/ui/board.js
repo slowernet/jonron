@@ -10,37 +10,23 @@ function svgEl(tag, attrs = {}) {
 
 export function createBoard(container) {
 	const svg = svgEl('svg', {
-		viewBox: '0 0 1024 420',
+		viewBox: '0 0 740 420',
 		width: '100%',
 		preserveAspectRatio: 'xMidYMid meet'
 	})
 
 	// Background
 	const bg = svgEl('rect', {
-		width: '1024',
+		width: '740',
 		height: '420',
 		fill: 'var(--green)'
 	})
 	svg.appendChild(bg)
 
-	// Spinner areas (placeholder groups)
-	const visitorSpinnerArea = svgEl('g', { id: 'visitor-spinner-area' })
-	svg.appendChild(visitorSpinnerArea)
-
-	const homeSpinnerArea = svgEl('g', { id: 'home-spinner-area' })
-	svg.appendChild(homeSpinnerArea)
-
-	// Diamond area (placeholder group)
-	const diamondGroup = svgEl('g', { id: 'diamond-group' })
-	svg.appendChild(diamondGroup)
-
 	container.appendChild(svg)
 
 	return {
 		svg,
-		diamondGroup,
-		visitorSpinnerArea,
-		homeSpinnerArea,
 		battingKey: createBattingKeyHTML()
 	}
 }
