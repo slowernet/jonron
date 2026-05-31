@@ -64,14 +64,7 @@ function showStartScreen(container, players) {
 	title.style.color = 'var(--yellow)'
 	title.style.fontSize = '36px'
 	title.style.letterSpacing = '3px'
-	title.style.marginBottom = '8px'
-
-	const subtitle = document.createElement('div')
-	subtitle.textContent = 'Based on Cadaco All-Star Baseball'
-	subtitle.style.color = 'var(--cream)'
-	subtitle.style.opacity = '0.6'
-	subtitle.style.fontSize = '14px'
-	subtitle.style.marginBottom = '48px'
+	title.style.marginBottom = '48px'
 
 	const draftBtn = document.createElement('button')
 	draftBtn.className = 'draft-btn draft-btn-play'
@@ -101,7 +94,6 @@ function showStartScreen(container, players) {
 	})
 
 	content.appendChild(title)
-	content.appendChild(subtitle)
 	content.appendChild(draftBtn)
 	content.appendChild(quickBtn)
 	overlay.appendChild(content)
@@ -236,7 +228,8 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	// --- Helper: check for half-inning transition or game over after a result ---
 	function afterResult(previousHalf, previousInning) {
-		getBattingSpinner().clearDisc()
+		const prevSpinner = previousHalf === 'top' ? visitorSpinner : homeSpinner
+		prevSpinner.clearDisc()
 
 		if (game.phase === 'game-over') {
 			narrate(narratorEl, 'Game over!', { highlight: true })

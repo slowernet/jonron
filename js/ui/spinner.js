@@ -100,16 +100,14 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	const arrowLen = outerRadius * 0.88
 	const tailLen = outerRadius * 0.25
 	const arrowGroup = svgEl('g', { class: 'spinner-arrow' })
-	const hw = 7
+	const hw = 6
 	const tailHw = 5
-	const tipR = 5
 	const arrow = svgEl('path', {
 		d: [
 			`M ${-tailHw} ${tailLen}`,
 			`A ${tailHw} ${tailHw} 0 0 1 ${tailHw} ${tailLen}`,
 			`L ${hw} 0`,
-			`L ${hw * 0.7} ${-arrowLen + tipR}`,
-			`A ${tipR} ${tipR} 0 1 1 ${-hw * 0.7} ${-arrowLen + tipR}`,
+			`L 0 ${-arrowLen}`,
 			`L ${-hw} 0`,
 			'Z'
 		].join(' '),
