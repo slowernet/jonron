@@ -349,7 +349,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			const result = resolveKoDial(letter, batting.type, game.bases)
 			const desc = hasRunners
 				? result.description
-				: result.description.replace(/,\s*runners?\s+.*/i, '')
+				: result.description.replace(/,\s.+/, '')
 			narrate(narratorEl, `${letter} — ${desc}`)
 
 			recordResult(game, result)
