@@ -135,8 +135,6 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	return {
 		element: g,
 		arrow: arrowGroup,
-		cx,
-		cy,
 
 		setDisc(discSvg) {
 			discContainer.textContent = ''
@@ -155,14 +153,21 @@ export function createSpinner(svg, cx, cy, radius, side) {
 export function spinTo(spinner, targetAngle, duration = 2.5) {
 	const fullSpins = (3 + Math.floor(Math.random() * 3)) * 360
 	const totalRotation = fullSpins + targetAngle
+	const startRotation = spinner._rotation ?? 0
 
 	return new Promise((resolve) => {
-		gsap.to(spinner.arrow, {
-			rotation: totalRotation,
+		const proxy = { angle: startRotation }
+		gsap.to(proxy, {
+			angle: totalRotation,
 			duration,
 			ease: 'power4.out',
-			svgOrigin: `${spinner.cx} ${spinner.cy}`,
-			onComplete: resolve
+			onUpdate() {
+				spinner.arrow.setAttribute('transform', `rotate(${proxy.angle})`)
+			},
+			onComplete() {
+				spinner._rotation = totalRotation
+				resolve()
+			}
 		})
 	})
 }
