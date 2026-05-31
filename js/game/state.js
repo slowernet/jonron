@@ -4,7 +4,7 @@ export function createGame(homeLineup, visitorLineup) {
 		halfInning: 'top',
 		outs: 0,
 		bases: { first: null, second: null, third: null },
-		score: { home: [0], visitor: [0] },
+		score: { home: [], visitor: [0] },
 		homeLineup: [...homeLineup],
 		visitorLineup: [...visitorLineup],
 		homeBatterIndex: 0,

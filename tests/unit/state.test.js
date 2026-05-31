@@ -50,7 +50,7 @@ describe('createGame', () => {
 		expect(game.outs).toBe(0)
 		expect(game.bases).toEqual({ first: null, second: null, third: null })
 		expect(game.phase).toBe('batting')
-		expect(game.score.home).toEqual([0])
+		expect(game.score.home).toEqual([])
 		expect(game.score.visitor).toEqual([0])
 	})
 })
