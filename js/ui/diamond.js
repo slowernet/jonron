@@ -41,7 +41,7 @@ export function createDiamond(svg, cx, cy, size) {
 	g.appendChild(mound)
 
 	// Home plate (pentagon)
-	const hpSize = 10
+	const hpSize = 12
 	const homePlate = svgEl('polygon', {
 		points: [
 			`${home.x},${home.y + hpSize}`,
@@ -51,13 +51,13 @@ export function createDiamond(svg, cx, cy, size) {
 			`${home.x + hpSize},${home.y + 2}`
 		].join(' '),
 		fill: '#ffffff',
-		stroke: '#888',
-		'stroke-width': '1'
+		stroke: '#ccc',
+		'stroke-width': '1.5'
 	})
 	g.appendChild(homePlate)
 
 	// Base markers (1B, 2B, 3B)
-	const baseSize = 9
+	const baseSize = 11
 	const baseMarkers = {}
 
 	const basePositions = { first, second, third }
