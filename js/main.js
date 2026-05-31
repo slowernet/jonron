@@ -288,15 +288,16 @@ function startGame(container, homeLineup, visitorLineup) {
 		const runs = result.runsScored || 0
 		const label = RESULT_LABELS[resultType] || resultType
 		const isHit = ['home-run', 'triple', 'double', 'single'].includes(resultType)
+		const runsText = runs > 0 ? ` ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.` : ''
 
 		if (resultType === 'home-run') {
-			narrate(narratorEl, `${label}! ${batter.name} circles the bases. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: true })
+			narrate(narratorEl, `${label}! ${batter.name} circles the bases.${runsText}`, { highlight: true })
 		} else if (resultType === 'triple') {
-			narrate(narratorEl, `${label}! ${batter.name} slides into third. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: isHit })
+			narrate(narratorEl, `${label}! ${batter.name} slides into third.${runsText}`, { highlight: isHit })
 		} else if (resultType === 'double') {
-			narrate(narratorEl, `${label}! ${batter.name} pulls into second. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: isHit })
+			narrate(narratorEl, `${label}! ${batter.name} pulls into second.${runsText}`, { highlight: isHit })
 		} else if (resultType === 'walk') {
-			narrate(narratorEl, `${label}. ${batter.name} takes first.${runs > 0 ? ` ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.` : ''}`)
+			narrate(narratorEl, `${label}. ${batter.name} takes first.${runsText}`)
 		} else if (resultType === 'strikeout') {
 			narrate(narratorEl, `Strikeout! ${batter.name} goes down swinging.`)
 		} else if (result.description) {
