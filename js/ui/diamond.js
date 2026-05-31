@@ -70,7 +70,7 @@ export function createDiamond(svg, cx, cy, size) {
 
 	// Baselines (disconnected from home plate)
 	const baselineStyle = { fill: 'none', stroke: '#ffffff', 'stroke-width': '2', 'stroke-opacity': '0.9' }
-	const gap = half * 0.12
+	const gap = half * 0.22
 	const gapInv = gap * inv
 
 	// 3B foul line (from near home to 3B)
@@ -98,15 +98,15 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(mound)
 
-	// Home plate (top-down pentagon)
+	// Home plate (flat top, point at bottom)
 	const hp = 10
 	const homePlate = svgEl('polygon', {
 		points: [
+			`${home.x - hp},${home.y - hp * 0.6}`,
+			`${home.x + hp},${home.y - hp * 0.6}`,
+			`${home.x + hp},${home.y + hp * 0.2}`,
 			`${home.x},${home.y + hp}`,
-			`${home.x - hp},${home.y}`,
-			`${home.x - hp * 0.7},${home.y - hp * 0.7}`,
-			`${home.x + hp * 0.7},${home.y - hp * 0.7}`,
-			`${home.x + hp},${home.y}`
+			`${home.x - hp},${home.y + hp * 0.2}`
 		].join(' '),
 		fill: '#ffffff',
 		stroke: '#ccc',

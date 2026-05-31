@@ -47,8 +47,8 @@ export function createSpinner(svg, cx, cy, radius, side) {
 
 		const sectorPath = svgEl('path', {
 			d: describeSector(0, 0, outerRadius, startAngle, endAngle),
-			fill: 'var(--red)',
-			stroke: '#222',
+			fill: '#271f6b',
+			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
 		})
 		g.appendChild(sectorPath)
@@ -63,7 +63,7 @@ export function createSpinner(svg, cx, cy, radius, side) {
 			'dominant-baseline': 'central',
 			'font-size': '16',
 			'font-weight': 'bold',
-			fill: 'var(--yellow)',
+			fill: 'var(--cream)',
 			'font-family': 'system-ui, sans-serif'
 		})
 		label.textContent = letter
@@ -77,7 +77,7 @@ export function createSpinner(svg, cx, cy, radius, side) {
 			y1: lineStart.y,
 			x2: lineEnd.x,
 			y2: lineEnd.y,
-			stroke: '#222',
+			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
 		})
 		g.appendChild(line)

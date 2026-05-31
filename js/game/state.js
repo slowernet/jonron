@@ -82,9 +82,6 @@ export function recordResult(game, result) {
 	while (game.score[side].length <= inningIndex) {
 		game.score[side].push(0)
 	}
-	while (game.score[side === 'visitor' ? 'home' : 'visitor'].length <= inningIndex) {
-		game.score[side === 'visitor' ? 'home' : 'visitor'].push(0)
-	}
 
 	game.score[side][inningIndex] += (result.runsScored || 0)
 

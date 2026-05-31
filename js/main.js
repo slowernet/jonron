@@ -136,7 +136,7 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- Helper: place current batter's disc on the active spinner ---
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)
-		const discSvg = createDiscSVG(batter, 0, 0, 95)
+		const discSvg = createDiscSVG(batter, 0, 0, 120)
 		getBattingSpinner().setDisc(discSvg)
 	}
 
