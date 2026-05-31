@@ -184,6 +184,11 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			koRing.style.opacity = ''
 		},
 
+		resetArrow() {
+			this._rotation = 0
+			arrowGroup.setAttribute('transform', 'rotate(0)')
+		},
+
 		getResult(angle) {
 			return {
 				koLetter: getKoLetter(angle),

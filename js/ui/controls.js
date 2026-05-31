@@ -1,4 +1,4 @@
-const STRATEGY_LABELS = {
+export const STRATEGY_LABELS = {
 	'steal-1b': 'Steal 2nd (from 1B)',
 	'steal-2b': 'Steal 3rd (from 2B)',
 	'double-steal-1b-3b': 'Double Steal (1B & 3B)',

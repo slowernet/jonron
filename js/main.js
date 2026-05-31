@@ -11,7 +11,7 @@ import { createSpinner, spinTo, getKoLetter, getStrategyLetter } from './ui/spin
 import { createDiamond, updateRunners } from './ui/diamond.js'
 import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
-import { createControls } from './ui/controls.js'
+import { createControls, STRATEGY_LABELS } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
 
 const RESULT_LABELS = {
@@ -126,6 +126,9 @@ function startGame(container, homeLineup, visitorLineup) {
 		const batter = getCurrentBatter(game)
 		const discSvg = createDiscSVG(batter, 0, 0, 120)
 		spinner.setDisc(discSvg)
+		// Reset the arrow to neutral so the prior spin's resting position
+		// isn't mistaken for the new batter's outcome
+		spinner.resetArrow()
 	}
 
 	// --- Helper: find the angle range for a given sector on the current batter's disc ---
@@ -371,7 +374,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		spinner.hideKoRing()
 
 		const targetAngle = Math.random() * 360
-		const playLabel = playType.replace(/-/g, ' ').replace(/(\d)b\b/g, '$1B')
+		const playLabel = STRATEGY_LABELS[playType] ?? playType
 		narrate(narratorEl, `Strategy: ${playLabel}...`)
 		await spinTo(spinner, targetAngle)
 
