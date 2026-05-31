@@ -110,12 +110,6 @@ export function createControls(container, callbacks) {
 					spinBtn.textContent = 'SPIN'
 					strategyBtn.disabled = dropdown.children.length === 0
 					break
-				case 'ko-dial':
-					spinBtn.disabled = false
-					spinBtn.textContent = 'K-O SPIN'
-					strategyBtn.disabled = true
-					dropdown.hidden = true
-					break
 				case 'strategy':
 					spinBtn.disabled = true
 					strategyBtn.disabled = true

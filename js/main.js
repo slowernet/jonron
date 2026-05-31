@@ -309,61 +309,57 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- 3. Game loop: event-driven callbacks ---
 
 	async function handleSpin() {
-		if (game.phase === 'batting') {
-			controls.disable()
+		if (game.phase !== 'batting') return
+		controls.disable()
 
-			const batter = getCurrentBatter(game)
-			const sectorNumber = spin(batter)
-			const targetAngle = getAngleForSector(batter, sectorNumber)
+		const batter = getCurrentBatter(game)
+		const spinner = getBattingSpinner()
+		const sectorNumber = spin(batter)
+		const targetAngle = getAngleForSector(batter, sectorNumber)
 
-			await spinTo(getBattingSpinner(), targetAngle)
+		await spinTo(spinner, targetAngle)
 
-			const batting = resolveBatting(sectorNumber)
-			const label = RESULT_LABELS[batting.type] || batting.type
+		const batting = resolveBatting(sectorNumber)
+		const label = RESULT_LABELS[batting.type] || batting.type
 
-			if (batting.needsKoDial) {
-				game.pendingResult = { type: batting.type, sectorNumber }
-				setPhase(game, 'ko-dial')
+		if (batting.needsKoDial) {
+			narrate(narratorEl, `${sectorNumber} — ${label}...`)
 
-				narrate(narratorEl, `Sector ${sectorNumber} — ${label}. Spin the K-O dial.`)
-				controls.setPhase('ko-dial')
-				controls.enable()
-			} else {
-				const previousHalf = game.halfInning
-				const previousInning = game.inning
-				const result = resolveImmediate(batting.type, game.bases, batter.id)
+			// Gray out the disc during K-O spin
+			const discContainer = spinner.element.querySelector('.disc-container')
+			if (discContainer) discContainer.style.opacity = '0.25'
 
-				narrate(narratorEl, `Sector ${sectorNumber} — ${label}!`)
-				narrateResult(batting.type, result, batter)
-				recordResult(game, result)
+			await new Promise(r => setTimeout(r, 1000))
 
-				afterResult(previousHalf, previousInning)
-			}
-
-		} else if (game.phase === 'ko-dial') {
-			controls.disable()
-
-			const pending = game.pendingResult
-			if (!pending) return
-
-			// Generate random K-O letter
+			// Auto K-O spin on the same spinner
 			const letterIndex = Math.floor(Math.random() * 5)
 			const letter = KO_LETTERS[letterIndex]
-			const targetAngle = letterIndex * 72 + Math.random() * 72
+			const koAngle = letterIndex * 72 + Math.random() * 72
 
-			await spinTo(getFieldingSpinner(), targetAngle)
+			await spinTo(spinner, koAngle)
+
+			// Restore disc opacity
+			if (discContainer) discContainer.style.opacity = ''
 
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
 
 			const hasRunners = game.bases.first || game.bases.second || game.bases.third
-			const result = resolveKoDial(letter, pending.type, game.bases)
+			const result = resolveKoDial(letter, batting.type, game.bases)
 			const desc = hasRunners
 				? result.description
 				: result.description.replace(/,\s*runners?\s+.*/i, '')
-			narrate(narratorEl, `K-O result: ${letter} — ${desc}`)
+			narrate(narratorEl, `${letter} — ${desc}`)
 
-			game.pendingResult = null
+			recordResult(game, result)
+			afterResult(previousHalf, previousInning)
+		} else {
+			const previousHalf = game.halfInning
+			const previousInning = game.inning
+			const result = resolveImmediate(batting.type, game.bases, batter.id)
+
+			narrate(narratorEl, `${sectorNumber} — ${label}!`)
+			narrateResult(batting.type, result, batter)
 			recordResult(game, result)
 
 			afterResult(previousHalf, previousInning)
