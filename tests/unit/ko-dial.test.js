@@ -206,9 +206,13 @@ describe('resolveKoDial', () => {
 			expect(result.isError).toBe(false)
 		})
 		it('single O is a hit (batter safe at 2B)', () => {
-			const result = resolveKoDial('O', 'single', empty)
+			const result = resolveKoDial('O', 'single', { first: 'p1', second: null, third: null })
 			expect(result.isHit).toBe(true)
 			expect(result.isError).toBe(false)
+		})
+		it('single O with no runners puts batter at 1B, not 2B', () => {
+			const result = resolveKoDial('O', 'single', empty)
+			expect(result.batter.base).toBe(1)
 		})
 	})
 

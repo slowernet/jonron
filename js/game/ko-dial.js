@@ -29,6 +29,11 @@ export function resolveKoDial(letter, resultType, bases) {
 	// Find lead runner (highest base)
 	const leadRunner = occupied.length > 0 ? occupied[0] : null
 
+	// Batter's extra base on leadRunnerOut only applies with runners on
+	if (rr.leadRunnerOut && !leadRunner && !rule.batter.out && rule.batter.base > 1) {
+		outcome.batter.base = 1
+	}
+
 	if (rr.hold) {
 		// All runners hold
 		for (const r of occupied) {
