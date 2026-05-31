@@ -44,3 +44,134 @@ body {
 	position: relative;
 	touch-action: manipulation;
 }
+
+/* Scoreboard */
+.scoreboard {
+	background: var(--blue);
+	color: var(--cream);
+	font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+	font-size: 13px;
+	padding: 8px 12px;
+	border-top: 2px solid var(--yellow);
+}
+
+.scoreboard-row {
+	display: flex;
+	gap: 2px;
+	align-items: center;
+}
+
+.scoreboard-header {
+	font-size: 10px;
+	opacity: 0.7;
+	margin-bottom: 2px;
+}
+
+.scoreboard-team {
+	width: 44px;
+	font-weight: bold;
+	font-size: 11px;
+	flex-shrink: 0;
+}
+
+.scoreboard-cell {
+	width: 24px;
+	text-align: center;
+	padding: 2px 0;
+	font-variant-numeric: tabular-nums;
+}
+
+.scoreboard-cell.current {
+	background: var(--yellow);
+	color: var(--blue);
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.scoreboard-total {
+	font-weight: bold;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	margin-left: 4px;
+	padding-left: 6px;
+}
+
+.scoreboard-info {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	margin-top: 6px;
+	padding-top: 6px;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	font-size: 12px;
+}
+
+.scoreboard-outs {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+.outs-label {
+	font-size: 10px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+
+.out-dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 1.5px solid var(--cream);
+	background: transparent;
+}
+
+.out-dot.active {
+	background: var(--red);
+	border-color: var(--red);
+}
+
+.scoreboard-batter,
+.scoreboard-inning {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+.batter-label,
+.inning-label {
+	font-size: 10px;
+	font-weight: bold;
+	opacity: 0.7;
+}
+
+.batter-name {
+	font-weight: bold;
+}
+
+/* Narrator */
+.narrator {
+	background: var(--green-dark);
+	color: var(--cream);
+	font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+	font-size: 12px;
+	line-height: 1.6;
+	padding: 8px 12px;
+	height: 72px;
+	overflow-y: auto;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.narrator-line {
+	animation: narratorFadeIn 0.3s ease-out;
+}
+
+@keyframes narratorFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(4px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
