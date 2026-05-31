@@ -19,17 +19,20 @@ export function createDiamond(svg, cx, cy, size) {
 	const second = { x: cx, y: cy - half }
 	const third = { x: cx - half, y: cy }
 
-	// Infield dirt — horseshoe arc extending beyond baselines
+	// Infield dirt — connected from home along foul lines through arc
 	const dirtColor = '#a0784a'
-	const ext = half * 0.3
 	const inv = 1 / Math.SQRT2
+	const foulExt = half * 0.3
 
-	// Extend foul lines past the bases
-	const past3B = { x: third.x - inv * ext, y: third.y - inv * ext }
-	const past1B = { x: first.x + inv * ext, y: first.y - inv * ext }
+	// Foul line extensions past the bases
+	const past3B = { x: third.x - inv * foulExt, y: third.y - inv * foulExt }
+	const past1B = { x: first.x + inv * foulExt, y: first.y - inv * foulExt }
 
-	// Arc radius — smaller values create more outward bulge
+	// Arc radius for dirt behind bases
 	const dirtR = half * 0.82
+
+	// Dirt along foul lines widens from home to the bases
+	const dirtWidth = half * 0.06
 	const dirtArc = svgEl('path', {
 		d: [
 			`M ${home.x},${home.y}`,
@@ -41,9 +44,9 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(dirtArc)
 
-	// Home plate dirt circle
+	// Home plate dirt circle (larger, like real fields)
 	const homeDirt = svgEl('circle', {
-		cx: home.x, cy: home.y, r: half * 0.22,
+		cx: home.x, cy: home.y, r: half * 0.28,
 		fill: dirtColor
 	})
 	g.appendChild(homeDirt)
@@ -61,16 +64,20 @@ export function createDiamond(svg, cx, cy, size) {
 	})
 	g.appendChild(grassPath)
 
-	// Baselines (three sides between bases, no connection to home)
-	const baselines = svgEl('polyline', {
-		points: `${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
-		fill: 'none',
-		stroke: '#ffffff',
-		'stroke-width': '2',
-		'stroke-opacity': '0.9',
+	// Baselines (full diamond) and foul line extensions past bases
+	const lineStyle = { fill: 'none', stroke: '#ffffff', 'stroke-width': '2', 'stroke-opacity': '0.9' }
+
+	// Full diamond: home → 1B → 2B → 3B → home
+	const diamond = svgEl('polygon', {
+		...lineStyle,
+		points: `${home.x},${home.y} ${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
 		'stroke-linejoin': 'round'
 	})
-	g.appendChild(baselines)
+	g.appendChild(diamond)
+
+	// Foul line extensions past bases
+	g.appendChild(svgEl('line', { ...lineStyle, x1: first.x, y1: first.y, x2: past1B.x, y2: past1B.y }))
+	g.appendChild(svgEl('line', { ...lineStyle, x1: third.x, y1: third.y, x2: past3B.x, y2: past3B.y }))
 
 	// Pitcher's mound (60.5ft from home on a 127.3ft diagonal = ~47.5% from home)
 	const mound = svgEl('circle', {
