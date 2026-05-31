@@ -30,14 +30,16 @@ function describeSector(cx, cy, radius, startAngle, endAngle) {
 }
 
 const KO_SECTORS = [
-	{ letter: 'K', angle: 28 },
-	{ letter: 'N', angle: 50 },
-	{ letter: 'O', angle: 40 },
-	{ letter: 'N', angle: 50 },
-	{ letter: 'K', angle: 28 },
-	{ letter: 'L', angle: 47 },
-	{ letter: 'M', angle: 70 },
-	{ letter: 'L', angle: 47 },
+	{ letter: 'K', angle: 26, fill: '#111' },
+	{ letter: 'N', angle: 32, fill: '#271f6b' },
+	{ letter: 'O', angle: 26, fill: '#111' },
+	{ letter: 'N', angle: 32, fill: '#271f6b' },
+	{ letter: 'K', angle: 26, fill: '#111' },
+	{ letter: 'L', angle: 48, fill: '#271f6b' },
+	{ letter: 'N', angle: 48, fill: '#271f6b' },
+	{ letter: 'M', angle: 26, fill: '#111' },
+	{ letter: 'N', angle: 48, fill: '#271f6b' },
+	{ letter: 'L', angle: 48, fill: '#271f6b' },
 ]
 
 export function createSpinner(svg, cx, cy, radius, label) {
@@ -56,7 +58,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 
 		const sectorPath = svgEl('path', {
 			d: describeSector(0, 0, outerRadius, currentAngle, endAngle),
-			fill: '#271f6b',
+			fill: sector.fill,
 			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
 		})

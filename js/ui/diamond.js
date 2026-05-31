@@ -91,7 +91,7 @@ export function createDiamond(svg, cx, cy, size) {
 	g.appendChild(mound)
 
 	// Home plate (flat top, point at bottom)
-	const hp = 10
+	const hp = 7
 	const homePlate = svgEl('polygon', {
 		points: [
 			`${home.x - hp},${home.y - hp * 0.6}`,
@@ -100,9 +100,7 @@ export function createDiamond(svg, cx, cy, size) {
 			`${home.x},${home.y + hp}`,
 			`${home.x - hp},${home.y + hp * 0.2}`
 		].join(' '),
-		fill: '#ffffff',
-		stroke: '#ccc',
-		'stroke-width': '1.5'
+		fill: '#ffffff'
 	})
 	g.appendChild(homePlate)
 
