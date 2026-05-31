@@ -19,21 +19,46 @@ export function createDiamond(svg, cx, cy, size) {
 	const second = { x: cx, y: cy - half }
 	const third = { x: cx - half, y: cy }
 
-	// Infield dirt — arc from 1B to 3B through 2B area
-	const dirtRadius = half * 1.05
-	const dirtPath = svgEl('path', {
+	// Infield dirt — arc behind baselines from foul line to foul line
+	const dirtColor = '#b8935a'
+	const dirtR = half * 1.15
+	const dirtArc = svgEl('path', {
 		d: [
-			`M ${home.x - half * 0.35},${home.y}`,
+			`M ${home.x},${home.y}`,
 			`L ${third.x},${third.y}`,
-			`A ${dirtRadius} ${dirtRadius} 0 0 1 ${first.x},${first.y}`,
-			`L ${home.x + half * 0.35},${home.y}`,
-			`A ${half * 0.3} ${half * 0.3} 0 0 1 ${home.x - half * 0.35},${home.y}`,
+			`A ${dirtR} ${dirtR} 0 0 1 ${first.x},${first.y}`,
 			'Z'
 		].join(' '),
-		fill: '#c4a265',
-		opacity: '0.35'
+		fill: dirtColor
 	})
-	g.appendChild(dirtPath)
+	g.appendChild(dirtArc)
+
+	// Home plate dirt circle
+	const homeDirtR = half * 0.22
+	const homeDirt = svgEl('circle', {
+		cx: home.x, cy: home.y, r: homeDirtR,
+		fill: dirtColor
+	})
+	g.appendChild(homeDirt)
+
+	// Infield grass (inside the diamond)
+	const grassInset = half * 0.15
+	const gHome = { x: home.x, y: home.y + grassInset * 0.3 }
+	const gFirst = { x: first.x - grassInset, y: first.y }
+	const gSecond = { x: second.x, y: second.y + grassInset }
+	const gThird = { x: third.x + grassInset, y: third.y }
+	const grassPath = svgEl('path', {
+		d: [
+			`M ${gHome.x},${gHome.y}`,
+			`C ${gHome.x + half * 0.3},${gHome.y - half * 0.15} ${gFirst.x - half * 0.15},${gFirst.y + half * 0.3} ${gFirst.x},${gFirst.y}`,
+			`C ${gFirst.x - half * 0.15},${gFirst.y - half * 0.3} ${gSecond.x + half * 0.3},${gSecond.y + half * 0.15} ${gSecond.x},${gSecond.y}`,
+			`C ${gSecond.x - half * 0.3},${gSecond.y + half * 0.15} ${gThird.x + half * 0.15},${gThird.y - half * 0.3} ${gThird.x},${gThird.y}`,
+			`C ${gThird.x + half * 0.15},${gThird.y + half * 0.3} ${gHome.x - half * 0.3},${gHome.y - half * 0.15} ${gHome.x},${gHome.y}`,
+			'Z'
+		].join(' '),
+		fill: 'var(--green)'
+	})
+	g.appendChild(grassPath)
 
 	// Diamond shape (baselines)
 	const diamondPath = svgEl('polygon', {
