@@ -53,6 +53,14 @@ describe('createGame', () => {
 		expect(game.score.home).toEqual([])
 		expect(game.score.visitor).toEqual([0])
 	})
+
+	it('initializes stats with zero hits and errors for both teams', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		expect(game.stats).toEqual({
+			home: { hits: 0, errors: 0 },
+			visitor: { hits: 0, errors: 0 }
+		})
+	})
 })
 
 describe('getCurrentBatter', () => {
@@ -96,6 +104,30 @@ describe('recordResult', () => {
 		expect(game.score.visitor[0]).toBe(1)
 		const totals = getScore(game)
 		expect(totals.visitor).toBe(1)
+	})
+
+	it('records hits for the batting team', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordResult(game, { ...homeRun(), isHit: true })
+		expect(game.stats.visitor.hits).toBe(1)
+		expect(game.stats.home.hits).toBe(0)
+	})
+
+	it('records errors for the fielding team', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordResult(game, {
+			outs: 0, runsScored: 0, isError: true,
+			newBases: { first: 'b', second: null, third: null },
+			events: []
+		})
+		expect(game.stats.home.errors).toBe(1)
+		expect(game.stats.visitor.errors).toBe(0)
+	})
+
+	it('does not count non-hit results as hits', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordResult(game, strikeout())
+		expect(game.stats.visitor.hits).toBe(0)
 	})
 })
 

@@ -5,11 +5,15 @@ export function resolveImmediate(type, bases, batterId) {
 		throw new Error(`Not an immediate result type: ${type}`)
 	}
 
+	const isHit = ['home-run', 'triple', 'double', 'single'].includes(type)
+
 	const result = {
 		newBases: { first: null, second: null, third: null },
 		runsScored: 0,
 		outs: 0,
-		events: []
+		events: [],
+		isHit,
+		isError: false
 	}
 
 	const runners = []

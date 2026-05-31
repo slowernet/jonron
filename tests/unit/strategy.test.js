@@ -118,6 +118,29 @@ describe('resolveStrategy', () => {
 		])
 	})
 
+	describe('isHit flag', () => {
+		it('hit-and-run A (singles) is a hit', () => {
+			const result = resolveStrategy('hit-and-run', 'A', { first: 'p1', second: null, third: null })
+			expect(result.isHit).toBe(true)
+		})
+		it('squeeze C (beats out bunt) is a hit', () => {
+			const result = resolveStrategy('squeeze', 'C', { first: null, second: null, third: 'p3' })
+			expect(result.isHit).toBe(true)
+		})
+		it('sac-bunt-1b H (beats out bunt) is a hit', () => {
+			const result = resolveStrategy('sac-bunt-1b', 'H', { first: 'p1', second: null, third: null })
+			expect(result.isHit).toBe(true)
+		})
+		it('steal-1b B (grounds out) is not a hit', () => {
+			const result = resolveStrategy('steal-1b', 'B', { first: 'p1', second: null, third: null })
+			expect(result.isHit).toBe(false)
+		})
+		it('steal-1b A (takes pitch) is not a hit', () => {
+			const result = resolveStrategy('steal-1b', 'A', { first: 'p1', second: null, third: null })
+			expect(result.isHit).toBe(false)
+		})
+	})
+
 	it('double-steal-1b-3b D: runner on 1B safe at 2B, runner on 3B out at home → 1 out', () => {
 		const result = resolveStrategy('double-steal-1b-3b', 'D', { first: 'p1', second: null, third: 'p3' })
 		expect(result.batter.result).toBe('takes-pitch')

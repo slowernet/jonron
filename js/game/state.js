@@ -5,6 +5,7 @@ export function createGame(homeLineup, visitorLineup) {
 		outs: 0,
 		bases: { first: null, second: null, third: null },
 		score: { home: [], visitor: [0] },
+		stats: { home: { hits: 0, errors: 0 }, visitor: { hits: 0, errors: 0 } },
 		homeLineup: [...homeLineup],
 		visitorLineup: [...visitorLineup],
 		homeBatterIndex: 0,
@@ -84,6 +85,10 @@ export function recordResult(game, result) {
 	}
 
 	game.score[side][inningIndex] += (result.runsScored || 0)
+
+	const fieldingSide = side === 'visitor' ? 'home' : 'visitor'
+	if (result.isHit) game.stats[side].hits++
+	if (result.isError) game.stats[fieldingSide].errors++
 
 	// Update bases
 	if (result.newBases) {

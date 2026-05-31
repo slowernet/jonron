@@ -8,21 +8,27 @@ export function createScoreboard(container) {
 	for (let i = 1; i <= maxInnings; i++) {
 		headerHtml += `<span class="scoreboard-cell" data-inning="${i}">${i}</span>`
 	}
-	headerHtml += '<span class="scoreboard-cell scoreboard-total">R</span></div>'
+	headerHtml += '<span class="scoreboard-cell scoreboard-total">R</span>'
+	headerHtml += '<span class="scoreboard-cell scoreboard-total">H</span>'
+	headerHtml += '<span class="scoreboard-cell scoreboard-total">E</span></div>'
 
 	// Visitor row
 	let visitorHtml = '<div class="scoreboard-row" data-team="visitor"><span class="scoreboard-team">VIS</span>'
 	for (let i = 1; i <= maxInnings; i++) {
 		visitorHtml += `<span class="scoreboard-cell" data-inning="${i}">-</span>`
 	}
-	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-total="visitor">0</span></div>'
+	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-total="visitor">0</span>'
+	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-hits="visitor">0</span>'
+	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-errors="visitor">0</span></div>'
 
 	// Home row
 	let homeHtml = '<div class="scoreboard-row" data-team="home"><span class="scoreboard-team">HOME</span>'
 	for (let i = 1; i <= maxInnings; i++) {
 		homeHtml += `<span class="scoreboard-cell" data-inning="${i}">-</span>`
 	}
-	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-total="home">0</span></div>'
+	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-total="home">0</span>'
+	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-hits="home">0</span>'
+	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-errors="home">0</span></div>'
 
 	el.innerHTML = headerHtml + visitorHtml + homeHtml
 
@@ -55,7 +61,7 @@ export function createScoreboard(container) {
 export function updateScoreboard(scoreboard, gameState) {
 	if (!gameState) return
 
-	const { inning, halfInning, outs, score, currentBatter } = gameState
+	const { inning, halfInning, outs, score, stats, currentBatter } = gameState
 
 	// Update outs
 	const dots = scoreboard.querySelectorAll('.out-dot')
@@ -130,6 +136,15 @@ export function updateScoreboard(scoreboard, gameState) {
 			const activeRow = scoreboard.querySelector(`[data-team="${activeTeam}"]`)
 			const activeCell = activeRow?.querySelector(`[data-inning="${inning}"]`)
 			if (activeCell) activeCell.classList.add('current')
+		}
+	}
+
+	if (stats) {
+		for (const team of ['visitor', 'home']) {
+			const hitsCell = scoreboard.querySelector(`[data-hits="${team}"]`)
+			if (hitsCell) hitsCell.textContent = stats[team]?.hits ?? 0
+			const errorsCell = scoreboard.querySelector(`[data-errors="${team}"]`)
+			if (errorsCell) errorsCell.textContent = stats[team]?.errors ?? 0
 		}
 	}
 }

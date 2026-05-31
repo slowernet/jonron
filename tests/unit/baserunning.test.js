@@ -103,4 +103,25 @@ describe('resolveImmediate', () => {
 			expect(result.newBases).toEqual({ first: 'r1', second: null, third: 'r3' })
 		})
 	})
+
+	describe('isHit flag', () => {
+		it('home-run is a hit', () => {
+			expect(resolveImmediate('home-run', empty, 'b').isHit).toBe(true)
+		})
+		it('triple is a hit', () => {
+			expect(resolveImmediate('triple', empty, 'b').isHit).toBe(true)
+		})
+		it('double is a hit', () => {
+			expect(resolveImmediate('double', empty, 'b').isHit).toBe(true)
+		})
+		it('home-run isError is false', () => {
+			expect(resolveImmediate('home-run', empty, 'b').isError).toBe(false)
+		})
+		it('walk is not a hit', () => {
+			expect(resolveImmediate('walk', empty, 'b').isHit).toBe(false)
+		})
+		it('strikeout is not a hit', () => {
+			expect(resolveImmediate('strikeout', empty, 'b').isHit).toBe(false)
+		})
+	})
 })

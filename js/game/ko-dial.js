@@ -6,12 +6,17 @@ export function resolveKoDial(letter, resultType, bases) {
 		throw new Error(`Invalid KO dial lookup: ${resultType} / ${letter}`)
 	}
 
+	const isError = rule.isError ?? false
+	const isHit = !isError && !rule.batter.out && rule.batter.base != null
+
 	const outcome = {
 		batter: { base: rule.batter.base, out: rule.batter.out },
 		outs: rule.batter.out ? 1 : 0,
 		runners: [],
 		runsScored: 0,
-		description: rule.description
+		description: rule.description,
+		isHit,
+		isError
 	}
 
 	const occupied = []

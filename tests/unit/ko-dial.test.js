@@ -174,6 +174,44 @@ describe('resolveKoDial', () => {
 		})
 	})
 
+	describe('isHit and isError flags', () => {
+		it('fly-ball K is an error, not a hit', () => {
+			const result = resolveKoDial('K', 'fly-ball', empty)
+			expect(result.isError).toBe(true)
+			expect(result.isHit).toBe(false)
+		})
+		it('fly-ball L is neither hit nor error', () => {
+			const result = resolveKoDial('L', 'fly-ball', empty)
+			expect(result.isHit).toBe(false)
+			expect(result.isError).toBe(false)
+		})
+		it('ground-ball K is an error, not a hit', () => {
+			const result = resolveKoDial('K', 'ground-ball', empty)
+			expect(result.isError).toBe(true)
+			expect(result.isHit).toBe(false)
+		})
+		it('ground-ball L is neither hit nor error', () => {
+			const result = resolveKoDial('L', 'ground-ball', empty)
+			expect(result.isHit).toBe(false)
+			expect(result.isError).toBe(false)
+		})
+		it('single L is a hit', () => {
+			const result = resolveKoDial('L', 'single', empty)
+			expect(result.isHit).toBe(true)
+			expect(result.isError).toBe(false)
+		})
+		it('single K is not a hit (batter out)', () => {
+			const result = resolveKoDial('K', 'single', empty)
+			expect(result.isHit).toBe(false)
+			expect(result.isError).toBe(false)
+		})
+		it('single O is a hit (batter safe at 2B)', () => {
+			const result = resolveKoDial('O', 'single', empty)
+			expect(result.isHit).toBe(true)
+			expect(result.isError).toBe(false)
+		})
+	})
+
 	describe('all 15 combinations with empty bases', () => {
 		const letters = ['K', 'L', 'M', 'N', 'O']
 		const types = ['single', 'fly-ball', 'ground-ball']

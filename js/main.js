@@ -163,6 +163,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			halfInning: game.halfInning,
 			outs: game.outs,
 			score: game.score,
+			stats: game.stats,
 			currentBatter: batter
 		})
 		const strategies = getAvailableStrategies(game.bases)

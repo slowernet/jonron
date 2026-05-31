@@ -28,7 +28,8 @@ export const KO_DIAL = {
 		K: {
 			batter: { base: 2, out: false },
 			runners: { advance: 2 },
-			description: 'Safe at 2B on error, runners advance 2 bases'
+			description: 'Safe at 2B on error, runners advance 2 bases',
+			isError: true
 		},
 		L: {
 			batter: { base: null, out: true },
@@ -82,7 +83,8 @@ export const KO_DIAL = {
 		K: {
 			batter: { base: 1, out: false },
 			runners: { advance: 1 },
-			description: 'Safe at 1B on error, runners advance 1 base'
+			description: 'Safe at 1B on error, runners advance 1 base',
+			isError: true
 		},
 		L: {
 			batter: { base: null, out: true },
