@@ -46,11 +46,67 @@ document.addEventListener('DOMContentLoaded', async () => {
 		return
 	}
 
-	// Draft — use full draft UI
-	startDraft(players, ({ homeLineup, visitorLineup }) => {
-		startGame(container, homeLineup, visitorLineup)
-	})
+	// Show start screen with draft choice
+	showStartScreen(container, players)
 })
+
+function showStartScreen(container, players) {
+	const overlay = document.createElement('div')
+	overlay.className = 'draft-overlay'
+	overlay.style.justifyContent = 'center'
+	overlay.style.alignItems = 'center'
+
+	const content = document.createElement('div')
+	content.style.textAlign = 'center'
+
+	const title = document.createElement('h1')
+	title.textContent = 'JONRÓN BASEBALL'
+	title.style.color = 'var(--yellow)'
+	title.style.fontSize = '36px'
+	title.style.letterSpacing = '3px'
+	title.style.marginBottom = '8px'
+
+	const subtitle = document.createElement('div')
+	subtitle.textContent = 'Based on Cadaco All-Star Baseball'
+	subtitle.style.color = 'var(--cream)'
+	subtitle.style.opacity = '0.6'
+	subtitle.style.fontSize = '14px'
+	subtitle.style.marginBottom = '48px'
+
+	const draftBtn = document.createElement('button')
+	draftBtn.className = 'draft-btn draft-btn-play'
+	draftBtn.textContent = 'DRAFT TEAMS'
+	draftBtn.style.display = 'block'
+	draftBtn.style.width = '240px'
+	draftBtn.style.marginBottom = '16px'
+	draftBtn.addEventListener('click', () => {
+		overlay.remove()
+		startDraft(players, ({ homeLineup, visitorLineup }) => {
+			startGame(container, homeLineup, visitorLineup)
+		})
+	})
+
+	const quickBtn = document.createElement('button')
+	quickBtn.className = 'draft-btn'
+	quickBtn.textContent = 'QUICK START'
+	quickBtn.style.display = 'block'
+	quickBtn.style.width = '240px'
+	quickBtn.style.background = 'var(--blue)'
+	quickBtn.style.color = 'var(--cream)'
+	quickBtn.addEventListener('click', () => {
+		overlay.remove()
+		createQuickDraft(players, ({ homeLineup, visitorLineup }) => {
+			startGame(container, homeLineup, visitorLineup)
+		})
+	})
+
+	content.appendChild(title)
+	content.appendChild(subtitle)
+	content.appendChild(draftBtn)
+	content.appendChild(quickBtn)
+	overlay.appendChild(content)
+	document.body.appendChild(overlay)
+}
 
 function startGame(container, homeLineup, visitorLineup) {
 	container.textContent = ''
