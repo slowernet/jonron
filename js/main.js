@@ -305,6 +305,8 @@ function startGame(container, homeLineup, visitorLineup) {
 		const sectorNumber = spin(batter)
 		const targetAngle = getAngleForSector(batter, sectorNumber)
 
+		// First spin is on the inner player disc — dim the outer K-O ring
+		spinner.hideKoRing()
 		await spinTo(spinner, targetAngle)
 
 		const batting = resolveBatting(sectorNumber)
@@ -313,9 +315,10 @@ function startGame(container, homeLineup, visitorLineup) {
 		if (batting.needsKoDial) {
 			narrate(narratorEl, `${sectorNumber} — ${label}...`)
 
-			// Gray out the disc during K-O spin
+			// Shift focus to the K-O ring: gray the disc, restore the ring
 			const discContainer = spinner.element.querySelector('.disc-container')
 			if (discContainer) discContainer.style.opacity = '0.25'
+			spinner.showKoRing()
 
 			await new Promise(r => setTimeout(r, 1000))
 
@@ -341,6 +344,9 @@ function startGame(container, homeLineup, visitorLineup) {
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
 		} else {
+			// No K-O spin needed — restore the outer ring for the next at-bat
+			spinner.showKoRing()
+
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
 			const result = resolveImmediate(batting.type, game.bases, batter.id)
