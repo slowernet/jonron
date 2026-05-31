@@ -40,13 +40,6 @@ export function createControls(container, callbacks) {
 
 	bar.appendChild(strategyWrapper)
 
-	// Intentional walk button
-	const walkBtn = document.createElement('button')
-	walkBtn.className = 'control-btn control-walk'
-	walkBtn.textContent = 'IBB'
-	walkBtn.addEventListener('click', () => callbacks.onIntentionalWalk())
-	bar.appendChild(walkBtn)
-
 	// Message area
 	const messageEl = document.createElement('div')
 	messageEl.className = 'control-message'
@@ -66,25 +59,19 @@ export function createControls(container, callbacks) {
 
 		enable() {
 			spinBtn.disabled = false
-			strategyBtn.disabled = false
-			walkBtn.disabled = false
+			strategyBtn.disabled = dropdown.children.length === 0
 		},
 
 		disable() {
 			spinBtn.disabled = true
 			strategyBtn.disabled = true
-			walkBtn.disabled = true
 			dropdown.hidden = true
 		},
 
 		updateStrategies(availablePlays) {
 			dropdown.textContent = ''
-			if (!availablePlays || availablePlays.length === 0) {
-				strategyBtn.disabled = true
-				return
-			}
-			strategyBtn.disabled = false
-			for (const playType of availablePlays) {
+
+			for (const playType of (availablePlays ?? [])) {
 				const option = document.createElement('button')
 				option.className = 'control-strategy-option'
 				option.textContent = STRATEGY_LABELS[playType] ?? playType
@@ -94,6 +81,18 @@ export function createControls(container, callbacks) {
 				})
 				dropdown.appendChild(option)
 			}
+
+			// IBB is always available
+			const ibbOption = document.createElement('button')
+			ibbOption.className = 'control-strategy-option'
+			ibbOption.textContent = 'Intentional Walk'
+			ibbOption.addEventListener('click', () => {
+				dropdown.hidden = true
+				callbacks.onIntentionalWalk()
+			})
+			dropdown.appendChild(ibbOption)
+
+			strategyBtn.disabled = false
 		},
 
 		showMessage(text) {
@@ -109,21 +108,17 @@ export function createControls(container, callbacks) {
 				case 'batting':
 					spinBtn.disabled = false
 					spinBtn.textContent = 'SPIN'
-					walkBtn.disabled = false
-					// Strategy enabled only if options exist
 					strategyBtn.disabled = dropdown.children.length === 0
 					break
 				case 'ko-dial':
 					spinBtn.disabled = false
 					spinBtn.textContent = 'K-O SPIN'
 					strategyBtn.disabled = true
-					walkBtn.disabled = true
 					dropdown.hidden = true
 					break
 				case 'strategy':
 					spinBtn.disabled = true
 					strategyBtn.disabled = true
-					walkBtn.disabled = true
 					dropdown.hidden = true
 					break
 				default:
