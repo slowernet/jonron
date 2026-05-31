@@ -1,51 +1,359 @@
+import { loadPlayers } from './data/players.js'
+import { createGame, getCurrentBatter, getScore, isGameOver, setPhase, recordResult } from './game/state.js'
+import { resolveBatting, spin } from './game/batting.js'
+import { resolveImmediate } from './game/baserunning.js'
+import { resolveKoDial } from './game/ko-dial.js'
+import { resolveStrategy, getAvailableStrategies } from './game/strategy.js'
+import { STRATEGY_DISC } from './game/rules.js'
 import { createBoard } from './ui/board.js'
 import { createDiscSVG } from './ui/disc.js'
-import { createSpinner } from './ui/spinner.js'
+import { createSpinner, spinTo, getKoLetter } from './ui/spinner.js'
 import { createDiamond, updateRunners } from './ui/diamond.js'
-import { createScoreboard } from './ui/scoreboard.js'
+import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
+import { createControls } from './ui/controls.js'
+import { startDraft, createQuickDraft } from './ui/lineup.js'
 
-document.addEventListener('DOMContentLoaded', () => {
+const KO_LETTERS = ['K', 'L', 'M', 'N', 'O']
+const STRATEGY_LETTERS_AE = ['A', 'B', 'C', 'D', 'E']
+const STRATEGY_LETTERS_FJ = ['F', 'G', 'H', 'I', 'J']
+
+const RESULT_LABELS = {
+	'home-run': 'Home Run',
+	'triple': 'Triple',
+	'double': 'Double',
+	'single': 'Single',
+	'walk': 'Walk',
+	'strikeout': 'Strikeout',
+	'fly-ball': 'Fly Ball',
+	'ground-ball': 'Ground Ball'
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
 	const container = document.getElementById('game')
 
-	// Create board
-	const board = createBoard(container)
-
-	// Test disc
-	const testDisc = {
-		id: 'test',
-		name: 'Babe Ruth',
-		position: 'outfield',
-		sectors: [
-			{ number: 1, size: 40 },
-			{ number: 9, size: 35 },
-			{ number: 10, size: 55 },
-			{ number: 7, size: 30 },
-			{ number: 14, size: 50 },
-			{ number: 11, size: 25 },
-			{ number: 2, size: 30 },
-			{ number: 13, size: 20 },
-			{ number: 6, size: 25 },
-			{ number: 8, size: 20 },
-			{ number: 5, size: 10 },
-			{ number: 12, size: 20 }
-		]
+	// --- 1. Startup: load players and draft ---
+	let players
+	try {
+		players = await loadPlayers('data/players.json')
+	} catch (err) {
+		container.textContent = `Failed to load players: ${err.message}`
+		return
 	}
 
-	// Create spinner with disc
-	const spinner = createSpinner(board.svg, 200, 400, 120, 'visitor')
-	const discSvg = createDiscSVG(testDisc, 0, 0, 100)
-	spinner.setDisc(discSvg)
+	if (players.length < 18) {
+		container.textContent = `Not enough players to form two teams (need 18, got ${players.length}).`
+		return
+	}
 
-	// Test diamond with runners
-	const diamond = createDiamond(board.svg, 512, 250, 180)
-	updateRunners(diamond, { first: 'test', second: null, third: 'test2' })
-
-	// Test scoreboard
-	const scoreboard = createScoreboard(container)
-
-	// Test narrator
-	const narratorEl = createNarrator(container)
-	narrate(narratorEl, 'Welcome to Jonrón Baseball!')
-	narrate(narratorEl, 'Ruth steps to the plate...')
+	// Draft — use full draft UI
+	startDraft(players, ({ homeLineup, visitorLineup }) => {
+		startGame(container, homeLineup, visitorLineup)
+	})
 })
+
+function startGame(container, homeLineup, visitorLineup) {
+	container.textContent = ''
+
+	// --- 2. Game setup ---
+	const game = createGame(homeLineup, visitorLineup)
+
+	const board = createBoard(container)
+
+	const visitorSpinner = createSpinner(board.svg, 200, 340, 120, 'visitor')
+	const homeSpinner = createSpinner(board.svg, 824, 340, 120, 'home')
+
+	const diamond = createDiamond(board.svg, 512, 250, 160)
+
+	const scoreboard = createScoreboard(container)
+	const narratorEl = createNarrator(container)
+
+	const controls = createControls(container, {
+		onSpin: () => handleSpin(),
+		onStrategy: (playType) => handleStrategy(playType),
+		onIntentionalWalk: () => handleIntentionalWalk()
+	})
+
+	// --- Helper: which spinner is active for batting / K-O ---
+	const getBattingSpinner = () => game.halfInning === 'top' ? visitorSpinner : homeSpinner
+	const getFieldingSpinner = () => game.halfInning === 'top' ? homeSpinner : visitorSpinner
+
+	// --- Helper: place current batter's disc on the active spinner ---
+	function placeBatterDisc() {
+		const batter = getCurrentBatter(game)
+		const discSvg = createDiscSVG(batter, 0, 0, 100)
+		getBattingSpinner().setDisc(discSvg)
+	}
+
+	// --- Helper: find the angle range for a given sector on the current batter's disc ---
+	function getAngleForSector(disc, sectorNumber) {
+		let currentAngle = 0
+		for (const sector of disc.sectors) {
+			const sectorAngle = (sector.size / 360) * 360
+			if (sector.number === sectorNumber) {
+				// Pick a random angle within this sector
+				return currentAngle + Math.random() * sectorAngle
+			}
+			currentAngle += sectorAngle
+		}
+		return Math.random() * 360
+	}
+
+	// --- Helper: refresh all UI ---
+	function refreshUI() {
+		const batter = getCurrentBatter(game)
+		updateRunners(diamond, game.bases)
+		updateScoreboard(scoreboard, {
+			inning: game.inning,
+			halfInning: game.halfInning,
+			outs: game.outs,
+			score: game.score,
+			currentBatter: batter
+		})
+		const strategies = getAvailableStrategies(game.bases)
+		controls.updateStrategies(strategies)
+	}
+
+	// --- Helper: ordinal suffix for innings ---
+	function ordinal(n) {
+		const s = ['th', 'st', 'nd', 'rd']
+		const v = n % 100
+		return n + (s[(v - 20) % 10] || s[v] || s[0])
+	}
+
+	// --- Helper: show game over overlay ---
+	function showGameOver() {
+		controls.disable()
+
+		const { home, visitor } = getScore(game)
+		const winner = home > visitor ? 'Home' : 'Visitors'
+
+		const overlay = document.createElement('div')
+		overlay.className = 'draft-overlay'
+		overlay.style.display = 'flex'
+		overlay.style.justifyContent = 'center'
+		overlay.style.alignItems = 'center'
+
+		const content = document.createElement('div')
+		content.style.textAlign = 'center'
+
+		const heading = document.createElement('h1')
+		heading.textContent = 'GAME OVER'
+		heading.style.color = 'var(--yellow)'
+		heading.style.fontSize = '36px'
+		heading.style.marginBottom = '16px'
+		heading.style.letterSpacing = '3px'
+
+		const result = document.createElement('div')
+		result.style.fontSize = '24px'
+		result.style.color = 'var(--cream)'
+		result.style.marginBottom = '8px'
+		result.textContent = `${winner} win!`
+
+		const scoreDisplay = document.createElement('div')
+		scoreDisplay.style.fontSize = '20px'
+		scoreDisplay.style.color = 'var(--cream)'
+		scoreDisplay.style.marginBottom = '32px'
+		scoreDisplay.textContent = `Visitors ${visitor} — Home ${home}`
+
+		const playAgain = document.createElement('button')
+		playAgain.className = 'draft-btn draft-btn-play'
+		playAgain.textContent = 'Play Again'
+		playAgain.addEventListener('click', () => {
+			overlay.remove()
+			location.reload()
+		})
+
+		content.appendChild(heading)
+		content.appendChild(result)
+		content.appendChild(scoreDisplay)
+		content.appendChild(playAgain)
+		overlay.appendChild(content)
+		document.body.appendChild(overlay)
+	}
+
+	// --- Helper: check for half-inning transition or game over after a result ---
+	function afterResult(previousHalf, previousInning) {
+		if (game.phase === 'game-over') {
+			narrate(narratorEl, 'Game over!')
+			const { home, visitor } = getScore(game)
+			narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`)
+			refreshUI()
+			showGameOver()
+			return
+		}
+
+		// Check if half-inning flipped (3 outs were recorded)
+		if (game.halfInning !== previousHalf || game.inning !== previousInning) {
+			const halfLabel = previousHalf === 'top' ? 'top' : 'bottom'
+			const { home, visitor } = getScore(game)
+			narrate(narratorEl, `3 outs. End of the ${halfLabel} of the ${ordinal(previousInning)}. Visitors: ${visitor}, Home: ${home}`)
+
+			// Check if game is over after the flip
+			if (isGameOver(game)) {
+				game.phase = 'game-over'
+				narrate(narratorEl, 'Game over!')
+				narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`)
+				refreshUI()
+				showGameOver()
+				return
+			}
+
+			// Brief delay before next at-bat
+			refreshUI()
+			updateRunners(diamond, game.bases)
+			controls.disable()
+			setTimeout(() => {
+				placeBatterDisc()
+				const batter = getCurrentBatter(game)
+				narrate(narratorEl, `${batter.name} steps to the plate.`)
+				refreshUI()
+				controls.setPhase('batting')
+				controls.enable()
+			}, 1200)
+			return
+		}
+
+		// Normal next at-bat (no inning change)
+		placeBatterDisc()
+		const batter = getCurrentBatter(game)
+		narrate(narratorEl, `${batter.name} steps to the plate.`)
+		refreshUI()
+		controls.setPhase('batting')
+		controls.enable()
+	}
+
+	// --- Helper: narrate the result of a play ---
+	function narrateResult(resultType, result, batter) {
+		const runs = result.runsScored || 0
+		const label = RESULT_LABELS[resultType] || resultType
+
+		if (resultType === 'home-run') {
+			narrate(narratorEl, `${label}! ${batter.name} circles the bases. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+		} else if (resultType === 'triple') {
+			narrate(narratorEl, `${label}! ${batter.name} slides into third. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+		} else if (resultType === 'double') {
+			narrate(narratorEl, `${label}! ${batter.name} pulls into second. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+		} else if (resultType === 'walk') {
+			narrate(narratorEl, `${label}. ${batter.name} takes first.${runs > 0 ? ` ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.` : ''}`)
+		} else if (resultType === 'strikeout') {
+			narrate(narratorEl, `Strikeout! ${batter.name} goes down swinging.`)
+		} else if (result.description) {
+			narrate(narratorEl, `${result.description}`)
+		} else {
+			narrate(narratorEl, `${label}. ${result.outs} out${result.outs !== 1 ? 's' : ''}.`)
+		}
+	}
+
+	// --- 3. Game loop: event-driven callbacks ---
+
+	async function handleSpin() {
+		if (game.phase === 'batting') {
+			controls.disable()
+
+			const batter = getCurrentBatter(game)
+			const sectorNumber = spin(batter)
+			const targetAngle = getAngleForSector(batter, sectorNumber)
+
+			narrate(narratorEl, 'Spin...')
+			await spinTo(getBattingSpinner(), targetAngle)
+
+			const batting = resolveBatting(sectorNumber)
+
+			if (batting.needsKoDial) {
+				// Store pending result and switch to K-O phase
+				game.pendingResult = { type: batting.type, sectorNumber }
+				setPhase(game, 'ko-dial')
+
+				const label = RESULT_LABELS[batting.type] || batting.type
+				narrate(narratorEl, `${label}! K-O Dial spin...`)
+				controls.setPhase('ko-dial')
+				controls.enable()
+			} else {
+				// Immediate result
+				const previousHalf = game.halfInning
+				const previousInning = game.inning
+				const result = resolveImmediate(batting.type, game.bases, batter.id)
+
+				narrateResult(batting.type, result, batter)
+				recordResult(game, result)
+
+				afterResult(previousHalf, previousInning)
+			}
+
+		} else if (game.phase === 'ko-dial') {
+			controls.disable()
+
+			const pending = game.pendingResult
+			if (!pending) return
+
+			// Generate random K-O letter
+			const letterIndex = Math.floor(Math.random() * 5)
+			const letter = KO_LETTERS[letterIndex]
+			const targetAngle = letterIndex * 72 + Math.random() * 72
+
+			narrate(narratorEl, 'K-O Spin...')
+			await spinTo(getFieldingSpinner(), targetAngle)
+
+			const previousHalf = game.halfInning
+			const previousInning = game.inning
+
+			const result = resolveKoDial(letter, pending.type, game.bases)
+			narrate(narratorEl, `K-O result: ${letter} — ${result.description}`)
+
+			game.pendingResult = null
+			recordResult(game, result)
+
+			afterResult(previousHalf, previousInning)
+		}
+	}
+
+	async function handleStrategy(playType) {
+		controls.disable()
+		setPhase(game, 'strategy')
+
+		const batter = getCurrentBatter(game)
+		const disc = STRATEGY_DISC[playType]
+		const letters = disc === 'A-E' ? STRATEGY_LETTERS_AE : STRATEGY_LETTERS_FJ
+		const letterIndex = Math.floor(Math.random() * 5)
+		const letter = letters[letterIndex]
+
+		// Animate on the batting spinner
+		const targetAngle = Math.random() * 360
+		narrate(narratorEl, `Strategy: ${playType.replace(/-/g, ' ')}...`)
+		await spinTo(getBattingSpinner(), targetAngle)
+
+		const previousHalf = game.halfInning
+		const previousInning = game.inning
+
+		const result = resolveStrategy(playType, letter, game.bases)
+		narrate(narratorEl, `${letter} — ${result.description}`)
+
+		recordResult(game, result)
+
+		afterResult(previousHalf, previousInning)
+	}
+
+	function handleIntentionalWalk() {
+		controls.disable()
+
+		const batter = getCurrentBatter(game)
+		const previousHalf = game.halfInning
+		const previousInning = game.inning
+
+		const result = resolveImmediate('walk', game.bases, batter.id)
+		narrate(narratorEl, `Intentional walk to ${batter.name}.`)
+		recordResult(game, result)
+
+		afterResult(previousHalf, previousInning)
+	}
+
+	// --- 4. Initialize first at-bat ---
+	placeBatterDisc()
+	const firstBatter = getCurrentBatter(game)
+	narrate(narratorEl, 'Play ball!')
+	narrate(narratorEl, `${firstBatter.name} steps to the plate.`)
+	refreshUI()
+	controls.setPhase('batting')
+	controls.enable()
+}
