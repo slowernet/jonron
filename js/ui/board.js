@@ -38,7 +38,7 @@ export function createBoard(container) {
 		fill: 'var(--cream)',
 		'font-family': 'system-ui, sans-serif'
 	})
-	title.textContent = 'ALL-STAR BASEBALL'
+	title.textContent = 'JONRÓN BASEBALL'
 	svg.appendChild(title)
 
 	// Side labels

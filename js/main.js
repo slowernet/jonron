@@ -46,6 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Test narrator
 	const narratorEl = createNarrator(container)
-	narrate(narratorEl, 'Welcome to All-Star Baseball!')
+	narrate(narratorEl, 'Welcome to Jonrón Baseball!')
 	narrate(narratorEl, 'Ruth steps to the plate...')
 })
