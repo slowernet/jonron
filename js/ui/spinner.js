@@ -169,7 +169,10 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 	const startRotation = spinner._rotation ?? 0
 	const minDelta = 540
 	const extraSpins = (1 + Math.floor(Math.random() * 3)) * 360
-	const totalRotation = startRotation + minDelta + extraSpins + (targetAngle - startRotation % 360 + 360) % 360
+	const baseSpins = minDelta + extraSpins
+	const currentRemainder = ((startRotation + baseSpins) % 360 + 360) % 360
+	const adjust = ((targetAngle - currentRemainder) % 360 + 360) % 360
+	const totalRotation = startRotation + baseSpins + adjust
 
 	return new Promise((resolve) => {
 		const proxy = { angle: startRotation }

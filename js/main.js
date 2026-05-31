@@ -142,11 +142,11 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	// --- Helper: find the angle range for a given sector on the current batter's disc ---
 	function getAngleForSector(disc, sectorNumber) {
+		const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
 		let currentAngle = 0
 		for (const sector of disc.sectors) {
-			const sectorAngle = (sector.size / 360) * 360
+			const sectorAngle = (sector.size / totalSize) * 360
 			if (sector.number === sectorNumber) {
-				// Pick a random angle within this sector
 				return currentAngle + Math.random() * sectorAngle
 			}
 			currentAngle += sectorAngle
