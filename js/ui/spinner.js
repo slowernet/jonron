@@ -96,23 +96,32 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	const discContainer = svgEl('g', { class: 'disc-container' })
 	g.appendChild(discContainer)
 
-	// Arrow/pointer
-	const arrowLen = outerRadius + 8
+	// Arrow/pointer — paddle shape like a board game spinner
+	const arrowLen = outerRadius * 0.92
 	const arrowGroup = svgEl('g', { class: 'spinner-arrow' })
-	const arrow = svgEl('polygon', {
-		points: `0,${-arrowLen} -5,-${arrowLen * 0.3} 0,-${arrowLen * 0.2} 5,-${arrowLen * 0.3}`,
-		fill: '#444',
-		stroke: '#222',
-		'stroke-width': '1'
+	const hw = 7
+	const tipR = 5
+	const arrow = svgEl('path', {
+		d: [
+			`M ${-hw} 0`,
+			`L ${-hw * 0.7} ${-arrowLen + tipR}`,
+			`A ${tipR} ${tipR} 0 1 1 ${hw * 0.7} ${-arrowLen + tipR}`,
+			`L ${hw} 0`,
+			'Z'
+		].join(' '),
+		fill: '#222',
+		stroke: '#111',
+		'stroke-width': '1',
+		'stroke-linejoin': 'round'
 	})
 	arrowGroup.appendChild(arrow)
 
-	// Arrow center pivot
+	// Center pivot
 	const pivot = svgEl('circle', {
-		cx: 0, cy: 0, r: 5,
-		fill: '#444',
-		stroke: '#222',
-		'stroke-width': '1'
+		cx: 0, cy: 0, r: 10,
+		fill: '#222',
+		stroke: '#111',
+		'stroke-width': '1.5'
 	})
 	arrowGroup.appendChild(pivot)
 	g.appendChild(arrowGroup)
