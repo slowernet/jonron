@@ -185,9 +185,9 @@ export function createSpinner(svg, cx, cy, radius, label) {
 
 export function spinTo(spinner, targetAngle, duration = 2.5) {
 	const startRotation = spinner._rotation ?? 0
-	const minDelta = 540
-	const extraSpins = (1 + Math.floor(Math.random() * 3)) * 360
-	const baseSpins = minDelta + extraSpins
+	const minSpins = 720
+	const maxSpins = 1800
+	const baseSpins = minSpins + Math.random() * (maxSpins - minSpins)
 	const currentRemainder = ((startRotation + baseSpins) % 360 + 360) % 360
 	const adjust = ((targetAngle - currentRemainder) % 360 + 360) % 360
 	const totalRotation = startRotation + baseSpins + adjust
