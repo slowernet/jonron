@@ -124,8 +124,6 @@ function startGame(container, homeLineup, visitorLineup) {
 		onIntentionalWalk: () => handleIntentionalWalk()
 	})
 
-	container.appendChild(board.battingKey)
-
 	// --- Helper: place current batter's disc on the spinner ---
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)

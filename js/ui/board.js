@@ -25,47 +25,5 @@ export function createBoard(container) {
 
 	container.appendChild(svg)
 
-	return {
-		svg,
-		battingKey: createBattingKeyHTML()
-	}
-}
-
-function createBattingKeyHTML() {
-	const labels = [
-		'HOME RUN', 'GROUND BALL', 'FLY BALL', 'FLY BALL',
-		'TRIPLE', 'GROUND BALL', 'SINGLE', 'FLY BALL',
-		'WALK', 'STRIKEOUT', 'DOUBLE', 'GROUND BALL',
-		'SINGLE', 'FLY BALL'
-	]
-
-	const wrapper = document.createElement('div')
-	wrapper.className = 'batting-key'
-
-	const title = document.createElement('div')
-	title.className = 'batting-key-title'
-	title.textContent = 'BATTING KEY'
-	wrapper.appendChild(title)
-
-	const grid = document.createElement('div')
-	grid.className = 'batting-key-grid'
-
-	for (let i = 0; i < 14; i++) {
-		const entry = document.createElement('div')
-		entry.className = 'batting-key-entry'
-
-		const num = document.createElement('span')
-		num.className = 'batting-key-num'
-		num.textContent = `${i + 1}.`
-
-		const label = document.createElement('span')
-		label.textContent = labels[i]
-
-		entry.appendChild(num)
-		entry.appendChild(label)
-		grid.appendChild(entry)
-	}
-
-	wrapper.appendChild(grid)
-	return wrapper
+	return { svg }
 }

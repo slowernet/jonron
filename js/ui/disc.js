@@ -82,6 +82,13 @@ const POSITION_ABBREV = {
 	rf: 'RF'
 }
 
+const SECTOR_LABELS = {
+	1: 'HR', 2: 'GB', 3: 'FB', 4: 'FB',
+	5: '3B', 6: 'GB', 7: '1B', 8: 'FB',
+	9: 'BB', 10: 'K', 11: '2B', 12: 'GB',
+	13: '1B', 14: 'FB'
+}
+
 export function createDiscSVG(disc, cx, cy, radius) {
 	const g = svgEl('g', {
 		'data-disc-id': disc.id ?? disc.name
@@ -121,7 +128,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 			fill: '#333',
 			'font-family': 'system-ui, sans-serif'
 		})
-		label.textContent = sector.number
+		label.textContent = SECTOR_LABELS[sector.number] ?? sector.number
 		g.appendChild(label)
 
 		// Radial separator line

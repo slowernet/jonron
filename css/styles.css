@@ -183,38 +183,6 @@ body {
 }
 
 /* Batting key */
-.batting-key {
-	background: var(--green);
-	padding: 6px 16px 8px;
-	border-top: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.batting-key-title {
-	font-size: 10px;
-	font-weight: bold;
-	color: var(--yellow);
-	margin-bottom: 4px;
-}
-
-.batting-key-grid {
-	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	gap: 1px 10px;
-	max-width: 700px;
-}
-
-.batting-key-entry {
-	font-size: 11px;
-	color: var(--cream);
-	white-space: nowrap;
-}
-
-.batting-key-num {
-	font-weight: bold;
-	margin-right: 4px;
-	color: var(--yellow);
-}
-
 /* Control bar */
 .control-bar {
 	display: flex;
