@@ -51,7 +51,8 @@ export function createSpinner(svg, cx, cy, radius, label) {
 	const outerRadius = radius
 	const innerRadius = radius * 0.82
 
-	// K-O outer ring sectors (unequal sizes matching original board)
+	// K-O outer ring group
+	const koRing = svgEl('g', { class: 'ko-ring' })
 	let currentAngle = 0
 	KO_SECTORS.forEach((sector) => {
 		const endAngle = currentAngle + sector.angle
@@ -62,7 +63,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
 		})
-		g.appendChild(sectorPath)
+		koRing.appendChild(sectorPath)
 
 		// Letter label
 		const midAngle = currentAngle + sector.angle / 2
@@ -79,7 +80,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			'font-family': 'system-ui, sans-serif'
 		})
 		letterLabel.textContent = sector.letter
-		g.appendChild(letterLabel)
+		koRing.appendChild(letterLabel)
 
 		// Radial separator
 		const lineStart = polarToCartesian(0, 0, innerRadius, currentAngle)
@@ -92,10 +93,11 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
 		})
-		g.appendChild(line)
+		koRing.appendChild(line)
 
 		currentAngle = endAngle
 	})
+	g.appendChild(koRing)
 
 	// Inner circle background (blue like the original board)
 	const innerBg = svgEl('circle', {
@@ -174,10 +176,17 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			labelEl.textContent = text
 		},
 
+		hideKoRing() {
+			koRing.style.opacity = '0.15'
+		},
+
+		showKoRing() {
+			koRing.style.opacity = ''
+		},
+
 		getResult(angle) {
 			return {
 				koLetter: getKoLetter(angle),
-				// Sector number requires disc data — use getSectorNumber externally
 			}
 		}
 	}
@@ -207,6 +216,43 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 			}
 		})
 	})
+}
+
+const STRATEGY_SECTORS_AE = [
+	{ letter: 'A', angle: 36 },
+	{ letter: 'E', angle: 36 },
+	{ letter: 'C', angle: 36 },
+	{ letter: 'C', angle: 36 },
+	{ letter: 'D', angle: 36 },
+	{ letter: 'B', angle: 36 },
+	{ letter: 'E', angle: 36 },
+	{ letter: 'A', angle: 36 },
+	{ letter: 'B', angle: 36 },
+	{ letter: 'D', angle: 36 },
+]
+
+const STRATEGY_SECTORS_FJ = [
+	{ letter: 'I', angle: 36 },
+	{ letter: 'H', angle: 36 },
+	{ letter: 'G', angle: 36 },
+	{ letter: 'J', angle: 36 },
+	{ letter: 'F', angle: 36 },
+	{ letter: 'G', angle: 36 },
+	{ letter: 'H', angle: 36 },
+	{ letter: 'I', angle: 36 },
+	{ letter: 'J', angle: 36 },
+	{ letter: 'F', angle: 36 },
+]
+
+export function getStrategyLetter(angle, ring) {
+	const sectors = ring === 'A-E' ? STRATEGY_SECTORS_AE : STRATEGY_SECTORS_FJ
+	const normalized = ((angle % 360) + 360) % 360
+	let current = 0
+	for (const sector of sectors) {
+		current += sector.angle
+		if (normalized < current) return sector.letter
+	}
+	return sectors[0].letter
 }
 
 export function getKoLetter(angle) {

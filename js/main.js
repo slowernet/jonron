@@ -6,16 +6,13 @@ import { resolveKoDial } from './game/ko-dial.js'
 import { resolveStrategy, getAvailableStrategies } from './game/strategy.js'
 import { STRATEGY_DISC } from './game/rules.js'
 import { createBoard } from './ui/board.js'
-import { createDiscSVG } from './ui/disc.js'
-import { createSpinner, spinTo, getKoLetter } from './ui/spinner.js'
+import { createDiscSVG, createStrategyDiscSVG } from './ui/disc.js'
+import { createSpinner, spinTo, getKoLetter, getStrategyLetter } from './ui/spinner.js'
 import { createDiamond, updateRunners } from './ui/diamond.js'
 import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
-
-const STRATEGY_LETTERS_AE = ['A', 'B', 'C', 'D', 'E']
-const STRATEGY_LETTERS_FJ = ['F', 'G', 'H', 'I', 'J']
 
 const RESULT_LABELS = {
 	'home-run': 'Home Run',
@@ -360,15 +357,18 @@ function startGame(container, homeLineup, visitorLineup) {
 		controls.disable()
 		setPhase(game, 'strategy')
 
-		const batter = getCurrentBatter(game)
-		const disc = STRATEGY_DISC[playType]
-		const letters = disc === 'A-E' ? STRATEGY_LETTERS_AE : STRATEGY_LETTERS_FJ
-		const letterIndex = Math.floor(Math.random() * 5)
-		const letter = letters[letterIndex]
+		const ring = STRATEGY_DISC[playType]
+
+		const strategyDisc = createStrategyDiscSVG(0, 0, 120, ring)
+		spinner.setDisc(strategyDisc)
+		spinner.setLabel('STRATEGY')
+		spinner.hideKoRing()
 
 		const targetAngle = Math.random() * 360
 		narrate(narratorEl, `Strategy: ${playType.replace(/-/g, ' ')}...`)
 		await spinTo(spinner, targetAngle)
+
+		const letter = getStrategyLetter(targetAngle, ring)
 
 		const previousHalf = game.halfInning
 		const previousInning = game.inning
@@ -378,6 +378,8 @@ function startGame(container, homeLineup, visitorLineup) {
 
 		recordResult(game, result)
 
+		spinner.showKoRing()
+		spinner.setLabel('AT BAT')
 		afterResult(previousHalf, previousInning)
 	}
 

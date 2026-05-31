@@ -89,6 +89,32 @@ const SECTOR_LABELS = {
 	13: '1B', 14: 'FB'
 }
 
+const STRATEGY_SECTORS_AE = [
+	{ letter: 'A', angle: 36 },
+	{ letter: 'E', angle: 36 },
+	{ letter: 'C', angle: 36 },
+	{ letter: 'C', angle: 36 },
+	{ letter: 'D', angle: 36 },
+	{ letter: 'B', angle: 36 },
+	{ letter: 'E', angle: 36 },
+	{ letter: 'A', angle: 36 },
+	{ letter: 'B', angle: 36 },
+	{ letter: 'D', angle: 36 },
+]
+
+const STRATEGY_SECTORS_FJ = [
+	{ letter: 'I', angle: 36 },
+	{ letter: 'H', angle: 36 },
+	{ letter: 'G', angle: 36 },
+	{ letter: 'J', angle: 36 },
+	{ letter: 'F', angle: 36 },
+	{ letter: 'G', angle: 36 },
+	{ letter: 'H', angle: 36 },
+	{ letter: 'I', angle: 36 },
+	{ letter: 'J', angle: 36 },
+	{ letter: 'F', angle: 36 },
+]
+
 export function createDiscSVG(disc, cx, cy, radius) {
 	const g = svgEl('g', {
 		'data-disc-id': disc.id ?? disc.name
@@ -195,4 +221,127 @@ export function createDiscSVG(disc, cx, cy, radius) {
 	g.appendChild(posText)
 
 	return g
+}
+
+export function createStrategyDiscSVG(cx, cy, radius, activeRing) {
+	const g = svgEl('g')
+
+	const outerR = radius
+	const midR = radius * 0.65
+	const innerR = radius * 0.35
+
+	function renderRing(sectors, rOuter, rInner, baseFill, isActive) {
+		const opacity = isActive ? 1 : 0.35
+		let currentAngle = 0
+
+		sectors.forEach((sector, i) => {
+			const endAngle = currentAngle + sector.angle
+			const startRad = (currentAngle - 90) * Math.PI / 180
+			const endRad = (endAngle - 90) * Math.PI / 180
+
+			const outerStart = {
+				x: cx + rOuter * Math.cos(startRad),
+				y: cy + rOuter * Math.sin(startRad)
+			}
+			const outerEnd = {
+				x: cx + rOuter * Math.cos(endRad),
+				y: cy + rOuter * Math.sin(endRad)
+			}
+			const innerEnd = {
+				x: cx + rInner * Math.cos(endRad),
+				y: cy + rInner * Math.sin(endRad)
+			}
+			const innerStart = {
+				x: cx + rInner * Math.cos(startRad),
+				y: cy + rInner * Math.sin(startRad)
+			}
+
+			const largeArc = sector.angle > 180 ? 1 : 0
+			const d = [
+				'M', outerStart.x, outerStart.y,
+				'A', rOuter, rOuter, 0, largeArc, 1, outerEnd.x, outerEnd.y,
+				'L', innerEnd.x, innerEnd.y,
+				'A', rInner, rInner, 0, largeArc, 0, innerStart.x, innerStart.y,
+				'Z'
+			].join(' ')
+
+			const fill = i % 2 === 0 ? baseFill : adjustBrightness(baseFill, -15)
+			const path = svgEl('path', {
+				d,
+				fill,
+				stroke: '#333',
+				'stroke-width': '0.5',
+				opacity
+			})
+			g.appendChild(path)
+
+			const midAngle = currentAngle + sector.angle / 2
+			const labelR = (rOuter + rInner) / 2
+			const labelRad = (midAngle - 90) * Math.PI / 180
+			const lx = cx + labelR * Math.cos(labelRad)
+			const ly = cy + labelR * Math.sin(labelRad)
+
+			const label = svgEl('text', {
+				x: lx,
+				y: ly,
+				'text-anchor': 'middle',
+				'dominant-baseline': 'central',
+				'font-size': '11',
+				'font-weight': 'bold',
+				fill: '#fff',
+				opacity,
+				'font-family': 'system-ui, sans-serif'
+			})
+			label.textContent = sector.letter
+			g.appendChild(label)
+
+			currentAngle = endAngle
+		})
+	}
+
+	renderRing(STRATEGY_SECTORS_AE, outerR, midR, '#c41e3a', activeRing === 'A-E')
+	renderRing(STRATEGY_SECTORS_FJ, midR, innerR, '#222', activeRing === 'F-J')
+
+	const center = svgEl('circle', {
+		cx, cy, r: innerR,
+		fill: '#f5f0e1',
+		stroke: '#333',
+		'stroke-width': '1'
+	})
+	g.appendChild(center)
+
+	const titleText = svgEl('text', {
+		x: cx,
+		y: cy - 6,
+		'text-anchor': 'middle',
+		'dominant-baseline': 'central',
+		'font-size': '9',
+		'font-weight': 'bold',
+		fill: '#222',
+		'font-family': 'system-ui, sans-serif'
+	})
+	titleText.textContent = 'STRATEGY'
+	g.appendChild(titleText)
+
+	const ringText = svgEl('text', {
+		x: cx,
+		y: cy + 8,
+		'text-anchor': 'middle',
+		'dominant-baseline': 'central',
+		'font-size': '10',
+		'font-weight': 'bold',
+		fill: activeRing === 'A-E' ? '#c41e3a' : '#222',
+		'font-family': 'system-ui, sans-serif'
+	})
+	ringText.textContent = activeRing
+	g.appendChild(ringText)
+
+	return g
+}
+
+function adjustBrightness(hex, amount) {
+	const r = Math.max(0, Math.min(255, parseInt(hex.slice(1, 3), 16) + amount))
+	const gr = Math.max(0, Math.min(255, parseInt(hex.slice(3, 5), 16) + amount))
+	const b = Math.max(0, Math.min(255, parseInt(hex.slice(5, 7), 16) + amount))
+	return `#${r.toString(16).padStart(2, '0')}${gr.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`
 }
