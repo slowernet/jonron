@@ -18,9 +18,19 @@
 
 ## Basic project facts
 
-- Browser-based game
+- Browser-based implementation of Cadaco All-Star Baseball (1960s tabletop game)
+- Vanilla JS with ES modules (no bundler), SVG rendering, GSAP for animation
 - No heavy frameworks (React, Angular, Vue) unless explicitly approved
 - Full automation only: avoid features requiring manual curation
+- Game rules reference: `docs/cadaco-allstar-baseball-rules.md`
+- Implementation plan: `docs/plans/2026-05-31-core-game.md`
+
+## Running the project
+
+- **Dev server:** `npm run dev` (Python http.server on port 8080)
+- **Unit tests:** `npm test` (Vitest)
+- **E2E tests:** `npm run test:e2e` (Playwright)
+- **Live site:** https://slowernet.github.io/jonron/ (deploys from main via GitHub Pages)
 
 ## Priority when instructions conflict
 
