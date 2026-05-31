@@ -9,10 +9,8 @@ function svgEl(tag, attrs = {}) {
 }
 
 export function createBoard(container) {
-	container.textContent = ''
-
 	const svg = svgEl('svg', {
-		viewBox: '0 0 1024 520',
+		viewBox: '0 0 1024 420',
 		width: '100%',
 		preserveAspectRatio: 'xMidYMid meet'
 	})
@@ -20,23 +18,10 @@ export function createBoard(container) {
 	// Background
 	const bg = svgEl('rect', {
 		width: '1024',
-		height: '520',
+		height: '420',
 		fill: 'var(--green)'
 	})
 	svg.appendChild(bg)
-
-	// Title
-	const title = svgEl('text', {
-		x: '512',
-		y: '40',
-		'text-anchor': 'middle',
-		'font-size': '28',
-		'font-weight': 'bold',
-		fill: 'var(--cream)',
-		'font-family': 'system-ui, sans-serif'
-	})
-	title.textContent = 'JONRÓN BASEBALL'
-	svg.appendChild(title)
 
 	// Spinner areas (placeholder groups)
 	const visitorSpinnerArea = svgEl('g', { id: 'visitor-spinner-area' })

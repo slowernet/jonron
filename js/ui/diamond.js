@@ -22,31 +22,18 @@ export function createDiamond(svg, cx, cy, size) {
 	// Diamond shape (infield)
 	const diamondPath = svgEl('polygon', {
 		points: `${home.x},${home.y} ${first.x},${first.y} ${second.x},${second.y} ${third.x},${third.y}`,
-		fill: 'var(--green)',
+		fill: 'none',
 		stroke: 'var(--yellow)',
-		'stroke-width': '3'
+		'stroke-width': '2.5',
+		'stroke-opacity': '0.8'
 	})
 	g.appendChild(diamondPath)
 
-	// Baselines (white lines)
-	const bases = [home, first, second, third]
-	for (let i = 0; i < 4; i++) {
-		const from = bases[i]
-		const to = bases[(i + 1) % 4]
-		const line = svgEl('line', {
-			x1: from.x, y1: from.y,
-			x2: to.x, y2: to.y,
-			stroke: 'rgba(255,255,255,0.4)',
-			'stroke-width': '2'
-		})
-		g.appendChild(line)
-	}
-
-	// Pitcher's mound
+	// Pitcher's mound (60.5ft from home on a 127.3ft diagonal = ~47.5% from home)
 	const mound = svgEl('circle', {
 		cx: cx,
-		cy: cy + half * 0.15,
-		r: 8,
+		cy: cy + half * 0.05,
+		r: 7,
 		fill: '#c4a265',
 		stroke: '#8a7040',
 		'stroke-width': '1.5'

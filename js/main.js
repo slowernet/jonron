@@ -114,12 +114,14 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- 2. Game setup ---
 	const game = createGame(homeLineup, visitorLineup)
 
+	const scoreboard = createScoreboard(container)
+
 	const board = createBoard(container)
 
-	const visitorSpinner = createSpinner(board.svg, 200, 275, 130, 'visitor')
-	const homeSpinner = createSpinner(board.svg, 824, 275, 130, 'home')
+	const visitorSpinner = createSpinner(board.svg, 190, 210, 120, 'visitor')
+	const homeSpinner = createSpinner(board.svg, 834, 210, 120, 'home')
 
-	const diamond = createDiamond(board.svg, 512, 275, 170)
+	const diamond = createDiamond(board.svg, 512, 210, 155)
 
 	const controls = createControls(container, {
 		onSpin: () => handleSpin(),
@@ -129,12 +131,7 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const narratorEl = createNarrator(container)
 
-	const bottomRow = document.createElement('div')
-	bottomRow.className = 'bottom-row'
-	container.appendChild(bottomRow)
-
-	const scoreboard = createScoreboard(bottomRow)
-	bottomRow.appendChild(board.battingKey)
+	container.appendChild(board.battingKey)
 
 	// --- Helper: which spinner is active for batting / K-O ---
 	const getBattingSpinner = () => game.halfInning === 'top' ? visitorSpinner : homeSpinner
@@ -143,7 +140,7 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- Helper: place current batter's disc on the active spinner ---
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)
-		const discSvg = createDiscSVG(batter, 0, 0, 103)
+		const discSvg = createDiscSVG(batter, 0, 0, 95)
 		getBattingSpinner().setDisc(discSvg)
 	}
 
