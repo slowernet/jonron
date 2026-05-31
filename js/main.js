@@ -14,7 +14,6 @@ import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
 
-const KO_LETTERS = ['K', 'L', 'M', 'N', 'O']
 const STRATEGY_LETTERS_AE = ['A', 'B', 'C', 'D', 'E']
 const STRATEGY_LETTERS_FJ = ['F', 'G', 'H', 'I', 'J']
 
@@ -325,10 +324,9 @@ function startGame(container, homeLineup, visitorLineup) {
 
 			await new Promise(r => setTimeout(r, 1000))
 
-			// Auto K-O spin on the same spinner
-			const letterIndex = Math.floor(Math.random() * 5)
-			const letter = KO_LETTERS[letterIndex]
-			const koAngle = letterIndex * 72 + Math.random() * 72
+			// Auto K-O spin — angle determines letter via sector layout
+			const koAngle = Math.random() * 360
+			const letter = getKoLetter(koAngle)
 
 			await spinTo(spinner, koAngle)
 

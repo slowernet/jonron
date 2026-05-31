@@ -13,7 +13,7 @@ export function createScoreboard(container) {
 	headerHtml += '<span class="scoreboard-cell scoreboard-total">E</span></div>'
 
 	// Visitor row
-	let visitorHtml = '<div class="scoreboard-row" data-team="visitor"><span class="scoreboard-team">VIS</span>'
+	let visitorHtml = '<div class="scoreboard-row" data-team="visitor"><span class="scoreboard-team">AWAY</span>'
 	for (let i = 1; i <= maxInnings; i++) {
 		visitorHtml += `<span class="scoreboard-cell" data-inning="${i}">-</span>`
 	}
@@ -40,7 +40,6 @@ export function createScoreboard(container) {
 			<span class="outs-label">OUTS</span>
 			<span class="out-dot" data-out="1"></span>
 			<span class="out-dot" data-out="2"></span>
-			<span class="out-dot" data-out="3"></span>
 		</div>
 		<div class="scoreboard-batter">
 			<span class="batter-label">AT BAT:</span>

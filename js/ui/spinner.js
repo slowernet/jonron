@@ -29,7 +29,16 @@ function describeSector(cx, cy, radius, startAngle, endAngle) {
 	].join(' ')
 }
 
-const KO_LETTERS = ['K', 'L', 'M', 'N', 'O']
+const KO_SECTORS = [
+	{ letter: 'K', angle: 28 },
+	{ letter: 'N', angle: 50 },
+	{ letter: 'O', angle: 40 },
+	{ letter: 'N', angle: 50 },
+	{ letter: 'K', angle: 28 },
+	{ letter: 'L', angle: 47 },
+	{ letter: 'M', angle: 70 },
+	{ letter: 'L', angle: 47 },
+]
 
 export function createSpinner(svg, cx, cy, radius, label) {
 	const g = svgEl('g', {
@@ -40,13 +49,13 @@ export function createSpinner(svg, cx, cy, radius, label) {
 	const outerRadius = radius
 	const innerRadius = radius * 0.82
 
-	// K-O outer ring sectors
-	KO_LETTERS.forEach((letter, i) => {
-		const startAngle = i * 72
-		const endAngle = (i + 1) * 72
+	// K-O outer ring sectors (unequal sizes matching original board)
+	let currentAngle = 0
+	KO_SECTORS.forEach((sector) => {
+		const endAngle = currentAngle + sector.angle
 
 		const sectorPath = svgEl('path', {
-			d: describeSector(0, 0, outerRadius, startAngle, endAngle),
+			d: describeSector(0, 0, outerRadius, currentAngle, endAngle),
 			fill: '#271f6b',
 			stroke: '#4a3fa0',
 			'stroke-width': '1.5'
@@ -54,24 +63,25 @@ export function createSpinner(svg, cx, cy, radius, label) {
 		g.appendChild(sectorPath)
 
 		// Letter label
-		const midAngle = startAngle + 36
-		const labelPos = polarToCartesian(0, 0, (outerRadius + innerRadius) / 2, midAngle)
-		const label = svgEl('text', {
+		const midAngle = currentAngle + sector.angle / 2
+		const labelR = (outerRadius + innerRadius) / 2
+		const labelPos = polarToCartesian(0, 0, labelR, midAngle)
+		const letterLabel = svgEl('text', {
 			x: labelPos.x,
 			y: labelPos.y,
 			'text-anchor': 'middle',
 			'dominant-baseline': 'central',
-			'font-size': '16',
+			'font-size': sector.angle < 35 ? '12' : '16',
 			'font-weight': 'bold',
 			fill: 'var(--cream)',
 			'font-family': 'system-ui, sans-serif'
 		})
-		label.textContent = letter
-		g.appendChild(label)
+		letterLabel.textContent = sector.letter
+		g.appendChild(letterLabel)
 
 		// Radial separator
-		const lineStart = polarToCartesian(0, 0, innerRadius, startAngle)
-		const lineEnd = polarToCartesian(0, 0, outerRadius, startAngle)
+		const lineStart = polarToCartesian(0, 0, innerRadius, currentAngle)
+		const lineEnd = polarToCartesian(0, 0, outerRadius, currentAngle)
 		const line = svgEl('line', {
 			x1: lineStart.x,
 			y1: lineStart.y,
@@ -81,6 +91,8 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			'stroke-width': '1.5'
 		})
 		g.appendChild(line)
+
+		currentAngle = endAngle
 	})
 
 	// Inner circle background (blue like the original board)
@@ -196,10 +208,13 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 }
 
 export function getKoLetter(angle) {
-	// Normalize to 0-360
 	const normalized = ((angle % 360) + 360) % 360
-	const index = Math.floor(normalized / 72)
-	return KO_LETTERS[index]
+	let current = 0
+	for (const sector of KO_SECTORS) {
+		current += sector.angle
+		if (normalized < current) return sector.letter
+	}
+	return KO_SECTORS[0].letter
 }
 
 export function getSectorNumber(disc, angle) {
