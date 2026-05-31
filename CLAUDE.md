@@ -153,7 +153,12 @@ Review early, review often. Mandatory after completing tasks and before merging.
 
 - Semantic HTML elements where appropriate
 - Prefer CSS custom properties for theming/shared values
-- Mobile-first responsive design
+- Mobile-first responsive design — must work well on tablets and phones (touch events, responsive SVG viewBox)
+
+### Architecture
+
+- Game state must be serializable (plain objects, no class instances or DOM references in state) to support save/load via localStorage and future multiplayer sync
+- Sound effects will be added later — design hooks for them but don't implement yet
 
 ### Code consistency checks
 
