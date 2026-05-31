@@ -52,7 +52,8 @@ export async function loadPlayers(url) {
 		throw new Error(`Failed to fetch players: ${response.status}`)
 	}
 
-	const discs = await response.json()
+	const data = await response.json()
+	const discs = Array.isArray(data) ? data : data.players
 	const valid = []
 
 	for (const disc of discs) {
