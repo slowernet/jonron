@@ -151,9 +151,10 @@ export function createSpinner(svg, cx, cy, radius, side) {
 }
 
 export function spinTo(spinner, targetAngle, duration = 2.5) {
-	const fullSpins = (3 + Math.floor(Math.random() * 3)) * 360
-	const totalRotation = fullSpins + targetAngle
 	const startRotation = spinner._rotation ?? 0
+	const minDelta = 540
+	const extraSpins = (1 + Math.floor(Math.random() * 3)) * 360
+	const totalRotation = startRotation + minDelta + extraSpins + (targetAngle - startRotation % 360 + 360) % 360
 
 	return new Promise((resolve) => {
 		const proxy = { angle: startRotation }
