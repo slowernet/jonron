@@ -119,8 +119,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 			'font-size': sectorAngle < 15 ? '8' : '11',
 			'font-weight': 'bold',
 			fill: '#333',
-			'font-family': 'system-ui, sans-serif',
-			transform: `rotate(${labelAngle}, ${labelPos.x}, ${labelPos.y})`
+			'font-family': 'system-ui, sans-serif'
 		})
 		label.textContent = sector.number
 		g.appendChild(label)
@@ -166,8 +165,8 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		y: cy - 4,
 		'text-anchor': 'middle',
 		'dominant-baseline': 'central',
-		'font-size': '10',
-		'font-weight': 'bold',
+		'font-size': '12',
+		'font-weight': '600',
 		fill: '#111',
 		'font-family': 'system-ui, sans-serif'
 	})
