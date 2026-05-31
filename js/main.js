@@ -236,6 +236,8 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	// --- Helper: check for half-inning transition or game over after a result ---
 	function afterResult(previousHalf, previousInning) {
+		getBattingSpinner().clearDisc()
+
 		if (game.phase === 'game-over') {
 			narrate(narratorEl, 'Game over!', { highlight: true })
 			const { home, visitor } = getScore(game)

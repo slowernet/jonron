@@ -141,6 +141,10 @@ export function createSpinner(svg, cx, cy, radius, side) {
 			discContainer.appendChild(discSvg)
 		},
 
+		clearDisc() {
+			discContainer.textContent = ''
+		},
+
 		getResult(angle) {
 			return {
 				koLetter: getKoLetter(angle),
