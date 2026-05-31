@@ -135,6 +135,8 @@ export function createSpinner(svg, cx, cy, radius, side) {
 	return {
 		element: g,
 		arrow: arrowGroup,
+		cx,
+		cy,
 
 		setDisc(discSvg) {
 			discContainer.textContent = ''
@@ -159,7 +161,7 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 			rotation: totalRotation,
 			duration,
 			ease: 'power4.out',
-			svgOrigin: '0 0',
+			svgOrigin: `${spinner.cx} ${spinner.cy}`,
 			onComplete: resolve
 		})
 	})

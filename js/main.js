@@ -116,10 +116,10 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	const board = createBoard(container)
 
-	const visitorSpinner = createSpinner(board.svg, 190, 280, 110, 'visitor')
-	const homeSpinner = createSpinner(board.svg, 834, 280, 110, 'home')
+	const visitorSpinner = createSpinner(board.svg, 200, 275, 130, 'visitor')
+	const homeSpinner = createSpinner(board.svg, 824, 275, 130, 'home')
 
-	const diamond = createDiamond(board.svg, 512, 240, 150)
+	const diamond = createDiamond(board.svg, 512, 275, 170)
 
 	const controls = createControls(container, {
 		onSpin: () => handleSpin(),
@@ -137,7 +137,7 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- Helper: place current batter's disc on the active spinner ---
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)
-		const discSvg = createDiscSVG(batter, 0, 0, 100)
+		const discSvg = createDiscSVG(batter, 0, 0, 103)
 		getBattingSpinner().setDisc(discSvg)
 	}
 

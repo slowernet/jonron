@@ -43,16 +43,43 @@ function describeSector(cx, cy, radius, startAngle, endAngle) {
 const POSITION_COLORS = {
 	pitcher: '#ffffff',
 	catcher: '#ffffff',
+	'first-base': '#aaaaaa',
+	'second-base': '#aaaaaa',
+	'third-base': '#aaaaaa',
+	shortstop: '#aaaaaa',
+	'left-field': '#c41e3a',
+	'center-field': '#c41e3a',
+	'right-field': '#c41e3a',
+	outfield: '#c41e3a',
+	infield: '#aaaaaa',
 	'1b': '#aaaaaa',
 	'2b': '#aaaaaa',
 	'3b': '#aaaaaa',
 	ss: '#aaaaaa',
-	shortstop: '#aaaaaa',
-	infield: '#aaaaaa',
 	lf: '#c41e3a',
 	cf: '#c41e3a',
-	rf: '#c41e3a',
-	outfield: '#c41e3a'
+	rf: '#c41e3a'
+}
+
+const POSITION_ABBREV = {
+	pitcher: 'P',
+	catcher: 'C',
+	'first-base': '1B',
+	'second-base': '2B',
+	'third-base': '3B',
+	shortstop: 'SS',
+	'left-field': 'LF',
+	'center-field': 'CF',
+	'right-field': 'RF',
+	outfield: 'OF',
+	infield: 'IF',
+	'1b': '1B',
+	'2b': '2B',
+	'3b': '3B',
+	ss: 'SS',
+	lf: 'LF',
+	cf: 'CF',
+	rf: 'RF'
 }
 
 export function createDiscSVG(disc, cx, cy, radius) {
@@ -61,7 +88,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 	})
 
 	const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
-	const centerRadius = radius * 0.28
+	const centerRadius = radius * 0.36
 
 	let currentAngle = 0
 
@@ -157,7 +184,8 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		fill: '#333',
 		'font-family': 'system-ui, sans-serif'
 	})
-	posText.textContent = (disc.position ?? '').toUpperCase()
+	const posKey = (disc.position ?? '').toLowerCase()
+	posText.textContent = POSITION_ABBREV[posKey] ?? posKey.toUpperCase()
 	g.appendChild(posText)
 
 	return g
