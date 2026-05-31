@@ -31,13 +31,13 @@ body {
 	min-height: 100dvh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	padding: 16px 0;
 }
 
 #game {
 	width: 100%;
 	max-width: 1024px;
-	aspect-ratio: 4 / 3;
 	background: var(--green);
 	border-radius: 8px;
 	overflow: hidden;
