@@ -19,14 +19,22 @@ export function createDiamond(svg, cx, cy, size) {
 	const second = { x: cx, y: cy - half }
 	const third = { x: cx - half, y: cy }
 
-	// Infield dirt — arc behind baselines from foul line to foul line
+	// Infield dirt — horseshoe arc extending beyond baselines
 	const dirtColor = '#a0784a'
-	const dirtR = half * 1.2
+	const ext = half * 0.3
+	const inv = 1 / Math.SQRT2
+
+	// Extend foul lines past the bases
+	const past3B = { x: third.x - inv * ext, y: third.y - inv * ext }
+	const past1B = { x: first.x + inv * ext, y: first.y - inv * ext }
+
+	// Arc radius — smaller values create more outward bulge
+	const dirtR = half * 0.82
 	const dirtArc = svgEl('path', {
 		d: [
 			`M ${home.x},${home.y}`,
-			`L ${third.x},${third.y}`,
-			`A ${dirtR} ${dirtR} 0 0 1 ${first.x},${first.y}`,
+			`L ${past3B.x},${past3B.y}`,
+			`A ${dirtR} ${dirtR} 0 0 1 ${past1B.x},${past1B.y}`,
 			'Z'
 		].join(' '),
 		fill: dirtColor
@@ -35,19 +43,27 @@ export function createDiamond(svg, cx, cy, size) {
 
 	// Home plate dirt circle
 	const homeDirt = svgEl('circle', {
-		cx: home.x, cy: home.y, r: half * 0.25,
+		cx: home.x, cy: home.y, r: half * 0.22,
 		fill: dirtColor
 	})
 	g.appendChild(homeDirt)
 
-	// Infield grass (inside the diamond) — inset from baselines
-	const gi = half * 0.28
-	const gHome = { x: home.x, y: home.y - gi * 0.5 }
-	const gFirst = { x: first.x - gi, y: first.y }
-	const gSecond = { x: second.x, y: second.y + gi }
-	const gThird = { x: third.x + gi, y: third.y }
-	const grassPath = svgEl('polygon', {
-		points: `${gHome.x},${gHome.y} ${gFirst.x},${gFirst.y} ${gSecond.x},${gSecond.y} ${gThird.x},${gThird.y}`,
+	// Infield grass — rounded square inside the baselines
+	const gi = half * 0.30
+	const gHome = { x: home.x, y: home.y - gi * 1.4 }
+	const gFirst = { x: first.x - gi * 1.05, y: first.y + gi * 0.1 }
+	const gSecond = { x: second.x, y: second.y + gi * 1.05 }
+	const gThird = { x: third.x + gi * 1.05, y: third.y + gi * 0.1 }
+	const gr = half * 0.15
+	const grassPath = svgEl('path', {
+		d: [
+			`M ${gHome.x},${gHome.y}`,
+			`Q ${(gHome.x + gFirst.x) / 2 + gr * 0.3},${(gHome.y + gFirst.y) / 2 - gr * 0.3} ${gFirst.x},${gFirst.y}`,
+			`Q ${(gFirst.x + gSecond.x) / 2 + gr * 0.3},${(gFirst.y + gSecond.y) / 2 - gr * 0.3} ${gSecond.x},${gSecond.y}`,
+			`Q ${(gSecond.x + gThird.x) / 2 - gr * 0.3},${(gSecond.y + gThird.y) / 2 - gr * 0.3} ${gThird.x},${gThird.y}`,
+			`Q ${(gThird.x + gHome.x) / 2 - gr * 0.3},${(gThird.y + gHome.y) / 2 - gr * 0.3} ${gHome.x},${gHome.y}`,
+			'Z'
+		].join(' '),
 		fill: 'var(--green)'
 	})
 	g.appendChild(grassPath)
