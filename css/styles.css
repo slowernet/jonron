@@ -7,8 +7,7 @@
 }
 
 :root {
-	--green: #2e7d46;
-	--green-dark: #245f38;
+	--green: #5db277;
 	--red: #c41e3a;
 	--yellow: #d4a017;
 	--orange: #cc6600;
@@ -23,7 +22,7 @@
 html {
 	font-family: var(--font);
 	color: var(--text);
-	background: #1a1a2e;
+	background: var(--green);
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -31,7 +30,6 @@ body {
 	min-height: 100dvh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	padding: 0;
 }
 
@@ -39,11 +37,8 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	background: var(--green);
-	border-radius: 8px;
-	overflow: hidden;
 	position: relative;
 	touch-action: manipulation;
-	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
 /* Scoreboard */
@@ -151,19 +146,24 @@ body {
 
 /* Narrator */
 .narrator {
-	background: var(--green-dark);
+	background: var(--green);
 	color: var(--cream);
-	font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
-	font-size: 12px;
-	line-height: 1.6;
+	font-family: var(--font);
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.5;
 	padding: 8px 12px;
-	height: 72px;
+	height: calc(13px * 1.5 * 5 + 16px);
 	overflow-y: auto;
 	border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .narrator-line {
 	animation: narratorFadeIn 0.3s ease-out;
+}
+
+.narrator-highlight {
+	color: var(--yellow);
 }
 
 @keyframes narratorFadeIn {
@@ -179,26 +179,24 @@ body {
 
 /* Batting key */
 .batting-key {
-	background: var(--green-dark);
-	padding: 8px 16px 10px;
-	border-top: 2px solid var(--yellow);
+	background: var(--blue);
+	padding: 8px 12px 10px;
+	flex: 1;
+	min-width: 0;
 }
 
 .batting-key-title {
-	text-align: center;
-	font-size: 11px;
+	font-size: 10px;
 	font-weight: bold;
 	color: var(--yellow);
 	letter-spacing: 1px;
-	margin-bottom: 6px;
+	margin-bottom: 4px;
 }
 
 .batting-key-grid {
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	gap: 2px 12px;
-	max-width: 600px;
-	margin: 0 auto;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1px 12px;
 }
 
 .batting-key-entry {
@@ -213,13 +211,29 @@ body {
 	color: var(--yellow);
 }
 
+/* Bottom row: scoreboard + batting key */
+.bottom-row {
+	display: flex;
+	border-top: 2px solid var(--yellow);
+}
+
+.bottom-row .scoreboard {
+	flex: 1;
+	min-width: 0;
+	border-top: none;
+}
+
+.bottom-row .batting-key {
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 /* Control bar */
 .control-bar {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 	padding: 10px 16px;
-	background: var(--green-dark);
+	background: var(--green);
 	border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -333,7 +347,7 @@ body {
 	position: fixed;
 	inset: 0;
 	z-index: 1000;
-	background: var(--green-dark);
+	background: var(--green);
 	color: var(--cream);
 	font-family: var(--font);
 	display: flex;
@@ -506,7 +520,7 @@ body {
 
 .draft-btn-play {
 	background: var(--yellow);
-	color: var(--green-dark);
+	color: var(--text);
 }
 
 /* Batting order screen */

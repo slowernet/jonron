@@ -51,15 +51,12 @@ export function createBoard(container) {
 
 	container.appendChild(svg)
 
-	// Batting key as HTML
-	const keyEl = createBattingKeyHTML()
-	container.appendChild(keyEl)
-
 	return {
 		svg,
 		diamondGroup,
 		visitorSpinnerArea,
-		homeSpinnerArea
+		homeSpinnerArea,
+		battingKey: createBattingKeyHTML()
 	}
 }
 

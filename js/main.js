@@ -127,8 +127,14 @@ function startGame(container, homeLineup, visitorLineup) {
 		onIntentionalWalk: () => handleIntentionalWalk()
 	})
 
-	const scoreboard = createScoreboard(container)
 	const narratorEl = createNarrator(container)
+
+	const bottomRow = document.createElement('div')
+	bottomRow.className = 'bottom-row'
+	container.appendChild(bottomRow)
+
+	const scoreboard = createScoreboard(bottomRow)
+	bottomRow.appendChild(board.battingKey)
 
 	// --- Helper: which spinner is active for batting / K-O ---
 	const getBattingSpinner = () => game.halfInning === 'top' ? visitorSpinner : homeSpinner
@@ -170,11 +176,14 @@ function startGame(container, homeLineup, visitorLineup) {
 		controls.updateStrategies(strategies)
 	}
 
-	// --- Helper: ordinal suffix for innings ---
-	function ordinal(n) {
+	// --- Helper: ordinal word for innings ---
+	function inningOrdinal(n) {
+		const words = ['', 'first', 'second', 'third', 'fourth', 'fifth',
+			'sixth', 'seventh', 'eighth', 'ninth']
+		if (n >= 1 && n <= 9) return `the ${words[n]}`
 		const s = ['th', 'st', 'nd', 'rd']
 		const v = n % 100
-		return n + (s[(v - 20) % 10] || s[v] || s[0])
+		return `the ${n}${s[(v - 20) % 10] || s[v] || s[0]}`
 	}
 
 	// --- Helper: show game over overlay ---
@@ -231,9 +240,9 @@ function startGame(container, homeLineup, visitorLineup) {
 	// --- Helper: check for half-inning transition or game over after a result ---
 	function afterResult(previousHalf, previousInning) {
 		if (game.phase === 'game-over') {
-			narrate(narratorEl, 'Game over!')
+			narrate(narratorEl, 'Game over!', { highlight: true })
 			const { home, visitor } = getScore(game)
-			narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`)
+			narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`, { highlight: true })
 			refreshUI()
 			showGameOver()
 			return
@@ -241,15 +250,15 @@ function startGame(container, homeLineup, visitorLineup) {
 
 		// Check if half-inning flipped (3 outs were recorded)
 		if (game.halfInning !== previousHalf || game.inning !== previousInning) {
-			const halfLabel = previousHalf === 'top' ? 'top' : 'bottom'
+			const breakLabel = previousHalf === 'top' ? 'Middle' : 'End'
 			const { home, visitor } = getScore(game)
-			narrate(narratorEl, `3 outs. End of the ${halfLabel} of the ${ordinal(previousInning)}. Visitors: ${visitor}, Home: ${home}`)
+			narrate(narratorEl, `3 outs. ${breakLabel} of ${inningOrdinal(previousInning)}. Visitors: ${visitor}, Home: ${home}`, { highlight: true })
 
 			// Check if game is over after the flip
 			if (isGameOver(game)) {
 				game.phase = 'game-over'
-				narrate(narratorEl, 'Game over!')
-				narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`)
+				narrate(narratorEl, 'Game over!', { highlight: true })
+				narrate(narratorEl, `Final score — Visitors: ${visitor}, Home: ${home}`, { highlight: true })
 				refreshUI()
 				showGameOver()
 				return
@@ -283,13 +292,14 @@ function startGame(container, homeLineup, visitorLineup) {
 	function narrateResult(resultType, result, batter) {
 		const runs = result.runsScored || 0
 		const label = RESULT_LABELS[resultType] || resultType
+		const isHit = ['home-run', 'triple', 'double', 'single'].includes(resultType)
 
 		if (resultType === 'home-run') {
-			narrate(narratorEl, `${label}! ${batter.name} circles the bases. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+			narrate(narratorEl, `${label}! ${batter.name} circles the bases. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: true })
 		} else if (resultType === 'triple') {
-			narrate(narratorEl, `${label}! ${batter.name} slides into third. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+			narrate(narratorEl, `${label}! ${batter.name} slides into third. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: isHit })
 		} else if (resultType === 'double') {
-			narrate(narratorEl, `${label}! ${batter.name} pulls into second. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`)
+			narrate(narratorEl, `${label}! ${batter.name} pulls into second. ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.`, { highlight: isHit })
 		} else if (resultType === 'walk') {
 			narrate(narratorEl, `${label}. ${batter.name} takes first.${runs > 0 ? ` ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.` : ''}`)
 		} else if (resultType === 'strikeout') {
