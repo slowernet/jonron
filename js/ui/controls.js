@@ -26,7 +26,7 @@ export function createControls(container, callbacks) {
 
 	const strategyBtn = document.createElement('button')
 	strategyBtn.className = 'control-btn control-strategy'
-	strategyBtn.innerHTML = 'Strategy <span class="caret">&#9650;</span>'
+	strategyBtn.innerHTML = 'Strategy <span class="caret">&#9660;</span>'
 	strategyWrapper.appendChild(strategyBtn)
 
 	const dropdown = document.createElement('div')
