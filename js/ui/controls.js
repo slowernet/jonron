@@ -13,13 +13,20 @@ export function createControls(container, callbacks) {
 	const bar = document.createElement('div')
 	bar.className = 'control-bar'
 
+	// Spin button (primary action)
+	const spinBtn = document.createElement('button')
+	spinBtn.className = 'control-btn control-spin'
+	spinBtn.textContent = 'SPIN'
+	spinBtn.addEventListener('click', () => callbacks.onSpin())
+	bar.appendChild(spinBtn)
+
 	// Strategy wrapper (button + dropdown)
 	const strategyWrapper = document.createElement('div')
 	strategyWrapper.className = 'control-strategy-wrapper'
 
 	const strategyBtn = document.createElement('button')
 	strategyBtn.className = 'control-btn control-strategy'
-	strategyBtn.textContent = 'STRATEGY'
+	strategyBtn.innerHTML = 'Strategy <span class="caret">&#9650;</span>'
 	strategyWrapper.appendChild(strategyBtn)
 
 	const dropdown = document.createElement('div')
@@ -32,13 +39,6 @@ export function createControls(container, callbacks) {
 	})
 
 	bar.appendChild(strategyWrapper)
-
-	// Spin button
-	const spinBtn = document.createElement('button')
-	spinBtn.className = 'control-btn control-spin'
-	spinBtn.textContent = 'SPIN'
-	spinBtn.addEventListener('click', () => callbacks.onSpin())
-	bar.appendChild(spinBtn)
 
 	// Message area
 	const messageEl = document.createElement('div')
