@@ -500,7 +500,7 @@ body {
 	display: flex;
 	gap: 8px;
 	align-items: center;
-	padding: 8px 10px;
+	padding: 10px 12px;
 	border-radius: 4px;
 	cursor: pointer;
 	transition: background 0.15s;
@@ -530,8 +530,9 @@ body {
 }
 
 .lineup-pos {
-	font-size: 11px;
-	color: var(--grey);
-	width: 24px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.55);
+	width: 28px;
 	text-align: right;
+	flex-shrink: 0;
 }

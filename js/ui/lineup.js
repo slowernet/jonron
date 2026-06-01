@@ -264,11 +264,17 @@ export function startDraft(players, onComplete) {
 	renderPositionGroup()
 }
 
+function pitcherLast(roster) {
+	const order = roster.filter(p => p.position !== 'pitcher')
+	const pitchers = roster.filter(p => p.position === 'pitcher')
+	return [...order, ...pitchers]
+}
+
 function showBattingOrder(overlay, homeRoster, visitorRoster, onComplete) {
 	overlay.textContent = ''
 
-	const homeOrder = [...homeRoster]
-	const visitorOrder = [...visitorRoster]
+	const homeOrder = pitcherLast(homeRoster)
+	const visitorOrder = pitcherLast(visitorRoster)
 
 	let swapState = { team: null, index: null }
 
