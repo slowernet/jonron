@@ -316,7 +316,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		const label = RESULT_LABELS[batting.type] || batting.type
 
 		if (batting.needsKoDial) {
-			narrate(narratorEl, `${sectorNumber} — ${label}...`)
+			narrate(narratorEl, `${label}...`)
 
 			// Shift focus to the K-O ring: gray the disc, restore the ring
 			const discContainer = spinner.element.querySelector('.disc-container')
@@ -342,7 +342,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			const desc = hasRunners
 				? result.description
 				: result.description.replace(/,\s.+/, '')
-			narrate(narratorEl, `${letter} — ${desc}`)
+			narrate(narratorEl, `${label}... ${desc}`)
 
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
@@ -354,7 +354,6 @@ function startGame(container, homeLineup, visitorLineup) {
 			const previousInning = game.inning
 			const result = resolveImmediate(batting.type, game.bases, batter.id)
 
-			narrate(narratorEl, `${sectorNumber} — ${label}!`)
 			narrateResult(batting.type, result, batter)
 			recordResult(game, result)
 
@@ -384,7 +383,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		const previousInning = game.inning
 
 		const result = resolveStrategy(playType, letter, game.bases)
-		narrate(narratorEl, `${letter} — ${result.description}`)
+		narrate(narratorEl, result.description)
 
 		recordResult(game, result)
 
