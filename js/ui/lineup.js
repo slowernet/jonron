@@ -302,8 +302,9 @@ function showBattingOrder(overlay, homeRoster, visitorRoster, onComplete) {
 
 		order.forEach((player, i) => {
 			const isSelected = swapState.team === team && swapState.index === i
+			const isPitcher = player.position === 'pitcher'
 			const row = el('div', {
-				className: `lineup-row ${isSelected ? 'lineup-row-selected' : ''}`,
+				className: `lineup-row${isPitcher ? ' lineup-row-pitcher' : ''}${isSelected ? ' lineup-row-selected' : ''}`,
 			}, [
 				el('span', { className: 'lineup-num', textContent: `${i + 1}.` }),
 				el('span', { className: 'lineup-name', textContent: player.name }),

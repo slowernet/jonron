@@ -536,3 +536,8 @@ body {
 	text-align: right;
 	flex-shrink: 0;
 }
+
+.lineup-row-pitcher {
+	opacity: 0.6;
+	font-style: italic;
+}
