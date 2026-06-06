@@ -43,6 +43,7 @@
 	--panel-edge: rgba(22, 36, 63, 0.22);
 	--panel-shadow: 0 2px 0 rgba(22, 36, 63, 0.12), 0 10px 26px -14px rgba(22, 36, 63, 0.4);
 	--accent: var(--red);
+	--accent-edge: #7d2417;
 	--marquee-bg: #16243f;
 	--marquee-ink: #f4ead0;
 
@@ -94,6 +95,7 @@
 	--panel-edge: rgba(244, 234, 208, 0.16);
 	--panel-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 18px 40px -18px rgba(0, 0, 0, 0.8);
 	--accent: #1fa15e;
+	--accent-edge: #0c5e38;
 	--accent-ink: #07130a;
 	--marquee-bg: #0a1322;
 	--marquee-ink: #f4ead0;
@@ -668,17 +670,17 @@ body {
 	font-size: 24px;
 	color: #fff;
 	background: var(--accent);
-	box-shadow: 0 4px 0 var(--needle-edge), 0 8px 18px -6px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 0 var(--accent-edge), 0 8px 18px -6px rgba(0, 0, 0, 0.5);
 }
 
 .jr-btn-spin:hover:not(:disabled) {
 	transform: translateY(-1px);
-	box-shadow: 0 5px 0 var(--needle-edge), 0 12px 22px -8px rgba(0, 0, 0, 0.55);
+	box-shadow: 0 5px 0 var(--accent-edge), 0 12px 22px -8px rgba(0, 0, 0, 0.55);
 }
 
 .jr-btn-spin:active:not(:disabled) {
 	transform: translateY(3px);
-	box-shadow: 0 1px 0 var(--needle-edge);
+	box-shadow: 0 1px 0 var(--accent-edge);
 }
 
 .jr-btn-strategy {
@@ -1031,7 +1033,7 @@ body {
 .jr-cta-primary {
 	color: #fff;
 	background: var(--accent);
-	box-shadow: 0 4px 0 var(--needle-edge), 0 10px 22px -8px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 0 var(--accent-edge), 0 10px 22px -8px rgba(0, 0, 0, 0.5);
 }
 
 .jr-cta-primary:hover {
@@ -1040,7 +1042,7 @@ body {
 
 .jr-cta-primary:active {
 	transform: translateY(3px);
-	box-shadow: 0 1px 0 var(--needle-edge);
+	box-shadow: 0 1px 0 var(--accent-edge);
 }
 
 .jr-cta-secondary {
