@@ -77,10 +77,10 @@ export function createSpinner(svg, cx, cy, radius, label) {
 
 	// pointer — teardrop shape with equal mass behind pivot
 	const arrowLen = outerRadius * 0.88
-	const tailLen = outerRadius * 0.38
+	const tailLen = outerRadius * 0.46
 	const arrowGroup = svgEl('g', { class: 'spinner-arrow' })
 	const tipHw = 5
-	const bulbR = 12
+	const bulbR = 14
 	// tip (narrow diamond point) -> waist -> bulb tail (wide rounded end)
 	arrowGroup.appendChild(svgEl('path', {
 		d: [
