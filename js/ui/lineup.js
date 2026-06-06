@@ -1,3 +1,5 @@
+import { track } from '../analytics.js'
+
 const POSITION_LABELS = {
 	pitcher: 'Pitchers', catcher: 'Catchers', 'first-base': '1st Base',
 	'second-base': '2nd Base', shortstop: 'Shortstop', 'third-base': '3rd Base',
@@ -159,6 +161,7 @@ export function startDraft(players, onComplete) {
 			const card = createPlayerCard(player, (p, cardEl) => {
 				drafted.add(p.id)
 				;(team === 'H' ? homeRoster : visitorRoster).push(p)
+				track('draft:pick', { round: pickIndex[pos] + 1, player_id: p.id })
 				cardEl.classList.add('jr-card-picked')
 				updateRosterPanel('home', homeRoster)
 				updateRosterPanel('visitor', visitorRoster)

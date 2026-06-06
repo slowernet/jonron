@@ -12,6 +12,7 @@ import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
+import { track } from './analytics.js'
 
 const RESULT_LABELS = {
 	'home-run': 'Home Run', triple: 'Triple', double: 'Double', single: 'Single',
@@ -137,7 +138,7 @@ function showStartScreen(container, players) {
 	draftBtn.textContent = 'Draft Teams'
 	draftBtn.addEventListener('click', () => {
 		overlay.remove()
-		startDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup))
+		startDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup, 'draft'))
 	})
 
 	const quickBtn = document.createElement('button')
@@ -145,7 +146,7 @@ function showStartScreen(container, players) {
 	quickBtn.textContent = 'Quick Start'
 	quickBtn.addEventListener('click', () => {
 		overlay.remove()
-		createQuickDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup))
+		createQuickDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup, 'quickstart'))
 	})
 
 	actions.append(draftBtn, quickBtn)
@@ -153,8 +154,9 @@ function showStartScreen(container, players) {
 	document.body.appendChild(overlay)
 }
 
-function startGame(container, homeLineup, visitorLineup) {
+function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 	const game = createGame(homeLineup, visitorLineup)
+	track('game:start', { mode })
 
 	const layout = createLayout(container, {
 		theme: getTheme(),
@@ -224,6 +226,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		controls.disable()
 		const { home, visitor } = getScore(game)
 		const homeWins = home > visitor
+		track('game:end', { innings: game.inning, score_home: home, score_visitor: visitor })
 		const overlay = document.createElement('div')
 		overlay.className = 'jr-overlay'
 		overlay.setAttribute('data-theme', getTheme())
@@ -310,6 +313,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		spinner.hideKoRing()
 		await spinTo(spinner, targetAngle)
 		const batting = resolveBatting(sectorNumber)
+		track('bat:spin', { inning: game.inning, half: game.halfInning, result_type: batting.type })
 		const label = RESULT_LABELS[batting.type] || batting.type
 		if (batting.needsKoDial) {
 			narrate(narratorEl, `${label}...`)
@@ -319,6 +323,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			await new Promise(r => setTimeout(r, 1000))
 			const koAngle = Math.random() * 360
 			const letter = getKoLetter(koAngle)
+			track('bat:ko', { ko_letter: letter })
 			await spinTo(spinner, koAngle)
 			if (discContainer) discContainer.style.opacity = ''
 			const previousHalf = game.halfInning
@@ -344,6 +349,7 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	async function handleStrategy(playType) {
 		controls.disable()
+		track('strategy:call', { play_type: playType })
 		setPhase(game, 'strategy')
 		const ring = STRATEGY_DISC[playType]
 		spinner.setDisc(createStrategyDiscSVG(0, 0, 120, ring))
@@ -373,6 +379,7 @@ function startGame(container, homeLineup, visitorLineup) {
 
 	function handleIntentionalWalk() {
 		controls.disable()
+		track('strategy:call', { play_type: 'ibb' })
 		const batter = getCurrentBatter(game)
 		const previousHalf = game.halfInning
 		const previousInning = game.inning
