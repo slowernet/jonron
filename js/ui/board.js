@@ -1,10 +1,4 @@
-const SVG_NS = 'http://www.w3.org/2000/svg'
-
-function svgEl(tag, attrs = {}) {
-	const el = document.createElementNS(SVG_NS, tag)
-	for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v)
-	return el
-}
+import { svgEl } from './svg-utils.js'
 
 function h(tag, cls, html) {
 	const el = document.createElement(tag)
@@ -115,14 +109,11 @@ export function createLayout(container) {
 			innEl.querySelector('[data-half]').textContent = text.startsWith('Bot') ? '\u25BC' : '\u25B2'
 			innEl.querySelector('[data-inning]').textContent = (text.match(/\d+/) || ['1'])[0]
 		},
-		setScore() {},
 		setOuts(n) { outDots.forEach((d, i) => d.classList.toggle('on', i < n)) },
 		setBases(bases) {
 			for (const b of ['first', 'second', 'third']) {
 				mb.bases[b].classList.toggle('on', bases[b] != null)
 			}
 		},
-		setBatting() {},
-		setTheme() {}
 	}
 }

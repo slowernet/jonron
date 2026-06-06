@@ -79,9 +79,6 @@
 	--pivot: #d6a23c;
 	--pivot-edge: #8a6410;
 
-	/* diamond */
-
-	--glow: none;
 }
 
 /* ---------- THEME B — NIGHT GAME (dark) ---------- */
@@ -128,8 +125,6 @@
 	--pivot: #e0ae45;
 	--pivot-edge: #5a3f0c;
 
-
-	--glow: drop-shadow(0 0 14px rgba(224, 174, 69, 0.18));
 }
 
 /* ============================================================
@@ -207,71 +202,6 @@ body {
 	align-items: center;
 	gap: 18px;
 	min-width: 0;
-}
-
-.jr-scorebug {
-	display: flex;
-	align-items: center;
-	gap: 18px;
-}
-
-.jr-scorebug .bug-grp {
-	display: flex;
-	align-items: center;
-	gap: 8px;
-}
-
-.bug-caret {
-	color: var(--accent);
-	font-size: 13px;
-	line-height: 1;
-}
-
-.bug-num {
-	font-family: var(--f-display);
-	font-weight: 700;
-	font-size: 26px;
-	color: var(--cream);
-	font-variant-numeric: tabular-nums;
-}
-
-.bug-dots {
-	display: flex;
-	gap: 5px;
-}
-
-.bug-dot {
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	border: 1.5px solid rgba(244, 234, 208, 0.45);
-	transition: background 0.2s, box-shadow 0.2s;
-}
-
-.bug-dot.on {
-	background: var(--red-bright);
-	border-color: var(--red-bright);
-	box-shadow: 0 0 8px rgba(216, 71, 58, 0.65);
-}
-
-.bug-k {
-	font-family: var(--f-body);
-	font-size: 11px;
-	color: var(--ink-soft);
-}
-
-.bug-score {
-	font-family: var(--f-display);
-	font-weight: 700;
-	font-size: 26px;
-	color: var(--cream);
-	font-variant-numeric: tabular-nums;
-	gap: 6px;
-}
-
-.bug-score .bug-dash {
-	color: var(--gold);
-	font-size: 18px;
 }
 
 .jr-marquee-linescore {
@@ -387,44 +317,6 @@ body {
 	min-height: 0;
 }
 
-.jr-col {
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-	min-width: 0;
-}
-
-.jr-panel {
-	background: var(--panel);
-	border: 1px solid var(--panel-edge);
-	border-radius: 10px;
-	box-shadow: var(--panel-shadow);
-	position: relative;
-}
-
-.jr-panel-head {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10px 14px;
-	border-bottom: 1px solid var(--ink-faint);
-}
-
-.jr-panel-head h3 {
-	font-family: var(--f-display);
-	font-weight: 700;
-	font-size: 15px;
-	text-transform: uppercase;
-	color: var(--ink);
-}
-
-.jr-panel-head .tag {
-	font-family: var(--f-mono);
-	font-size: 9px;
-	text-transform: uppercase;
-	color: var(--accent);
-}
-
 /* ---------- Linescore scoreboard ---------- */
 .jr-scoreboard {
 	background: var(--sb-bg);
@@ -491,54 +383,6 @@ body {
 
 .jr-linescore tbody tr + tr td {
 	border-top: 1px solid var(--sb-grid);
-}
-
-/* ---------- Diamond panel ---------- */
-.jr-diamond-wrap {
-	padding: 8px 10px 12px;
-}
-
-.jr-diamond-wrap svg {
-	width: 100%;
-	height: auto;
-	display: block;
-	filter: var(--glow);
-}
-
-.jr-bases-row {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 14px 12px;
-}
-
-.jr-onbase {
-	display: flex;
-	gap: 6px;
-	align-items: center;
-}
-
-.jr-onbase .pip {
-	width: 13px;
-	height: 13px;
-	transform: rotate(45deg);
-	border: 1.5px solid var(--ink-soft);
-	background: transparent;
-	transition: background 0.2s, box-shadow 0.2s;
-}
-
-.jr-onbase .pip.on {
-	background: var(--gold);
-	border-color: var(--gold);
-	box-shadow: 0 0 8px rgba(214, 162, 60, 0.6);
-}
-
-.jr-onbase .lab {
-	font-family: var(--f-mono);
-	font-size: 9px;
-	text-transform: uppercase;
-	color: var(--ink-soft);
-	margin-right: 2px;
 }
 
 /* ---------- Hero: the disc/spinner ---------- */

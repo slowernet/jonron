@@ -1,26 +1,5 @@
-const SVG_NS = 'http://www.w3.org/2000/svg'
-
-function svgEl(tag, attrs = {}) {
-	const el = document.createElementNS(SVG_NS, tag)
-	for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v)
-	return el
-}
-
-function polarToCartesian(cx, cy, radius, angleDeg) {
-	const rad = (angleDeg - 90) * Math.PI / 180
-	return { x: cx + radius * Math.cos(rad), y: cy + radius * Math.sin(rad) }
-}
-
-function describeSector(cx, cy, radius, startAngle, endAngle) {
-	const start = polarToCartesian(cx, cy, radius, startAngle)
-	const end = polarToCartesian(cx, cy, radius, endAngle)
-	const largeArc = endAngle - startAngle > 180 ? 1 : 0
-	return ['M', cx, cy, 'L', start.x, start.y,
-		'A', radius, radius, 0, largeArc, 1, end.x, end.y, 'Z'].join(' ')
-}
-
-const BATTERY = new Set(['pitcher', 'catcher'])
-const OUTFIELD = new Set(['outfield', 'left-field', 'center-field', 'right-field', 'lf', 'cf', 'rf'])
+import { svgEl, polarToCartesian, describeSector } from './svg-utils.js'
+import { BATTERY, OUTFIELD, POSITION_ABBREV, STRATEGY_SECTORS_AE, STRATEGY_SECTORS_FJ } from '../constants.js'
 
 function hubVar(position) {
 	const p = (position ?? '').toLowerCase()
@@ -34,12 +13,6 @@ function inkVar(position) {
 	if (BATTERY.has(p)) return 'var(--ink-on-battery)'
 	if (OUTFIELD.has(p)) return 'var(--ink-on-outfield)'
 	return 'var(--ink-on-infield)'
-}
-
-const POSITION_ABBREV = {
-	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
-	'third-base': '3B', shortstop: 'SS', outfield: 'OF',
-	'left-field': 'LF', 'center-field': 'CF', 'right-field': 'RF'
 }
 
 const SECTOR_LABELS = {
@@ -155,23 +128,6 @@ export function createDiscSVG(disc, cx, cy, radius) {
 }
 
 // ---- Strategy disc (two rings) ----
-const AE_WIDE = 360 / 11
-const AE_NARROW = AE_WIDE * 2 / 3
-const STRATEGY_SECTORS_AE = [
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'C', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'C', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE }
-]
-const STRATEGY_SECTORS_FJ = [
-	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 },
-	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 }
-]
-
 export function createStrategyDiscSVG(cx, cy, radius, activeRing) {
 	const g = svgEl('g')
 	const outerR = radius

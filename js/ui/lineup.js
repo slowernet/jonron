@@ -1,13 +1,10 @@
 import { track } from '../analytics.js'
+import { POSITION_ABBREV } from '../constants.js'
 
 const POSITION_LABELS = {
 	pitcher: 'Pitchers', catcher: 'Catchers', 'first-base': '1st Base',
 	'second-base': '2nd Base', shortstop: 'Shortstop', 'third-base': '3rd Base',
 	outfield: 'Outfield'
-}
-const POSITION_ABBR = {
-	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
-	shortstop: 'SS', 'third-base': '3B', outfield: 'OF'
 }
 const POSITION_ORDER = ['catcher', 'pitcher', 'first-base', 'second-base', 'shortstop', 'third-base', 'outfield']
 const DRAFT_ORDER = {
@@ -57,7 +54,7 @@ function getHitSectors(disc) {
 function createPlayerCard(player, onClick) {
 	const card = el('div', { className: 'jr-card' }, [
 		el('div', { className: 'jr-card-top' }, [
-			el('span', { className: 'jr-card-pos', textContent: POSITION_ABBR[player.position] }),
+			el('span', { className: 'jr-card-pos', textContent: POSITION_ABBREV[player.position] }),
 			el('span', { className: 'jr-card-team', textContent: player.team ?? '' })
 		]),
 		el('div', { className: 'jr-card-body' }, [
@@ -85,7 +82,7 @@ function updateRosterPanel(team, players) {
 	list.textContent = ''
 	for (const p of players) {
 		list.appendChild(el('div', { className: 'jr-roster-item' }, [
-			el('span', { className: 'jr-roster-pos', textContent: POSITION_ABBR[p.position] }),
+			el('span', { className: 'jr-roster-pos', textContent: POSITION_ABBREV[p.position] }),
 			el('span', { textContent: p.name })
 		]))
 	}
@@ -213,7 +210,7 @@ function showBattingOrder(overlay, homeRoster, visitorRoster, onComplete) {
 			}, [
 				el('span', { className: 'jr-lineup-num', textContent: `${i + 1}` }),
 				el('span', { className: 'jr-lineup-name', textContent: player.name }),
-				el('span', { className: 'jr-lineup-pos', textContent: POSITION_ABBR[player.position] })
+				el('span', { className: 'jr-lineup-pos', textContent: POSITION_ABBREV[player.position] })
 			])
 			row.addEventListener('click', () => {
 				if (swapState.team === null) { swapState = { team, index: i }; renderColumns() }

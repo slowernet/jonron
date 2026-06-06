@@ -1,23 +1,10 @@
-const SVG_NS = 'http://www.w3.org/2000/svg'
+import { svgEl, polarToCartesian, describeSector } from './svg-utils.js'
+import { STRATEGY_SECTORS_AE, STRATEGY_SECTORS_FJ } from '../constants.js'
 
-function svgEl(tag, attrs = {}) {
-	const el = document.createElementNS(SVG_NS, tag)
-	for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v)
-	return el
-}
-
-function polarToCartesian(cx, cy, radius, angleDeg) {
-	const rad = (angleDeg - 90) * Math.PI / 180
-	return { x: cx + radius * Math.cos(rad), y: cy + radius * Math.sin(rad) }
-}
-
-function describeSector(cx, cy, radius, startAngle, endAngle) {
-	const start = polarToCartesian(cx, cy, radius, startAngle)
-	const end = polarToCartesian(cx, cy, radius, endAngle)
-	const largeArc = endAngle - startAngle > 180 ? 1 : 0
-	return ['M', cx, cy, 'L', start.x, start.y,
-		'A', radius, radius, 0, largeArc, 1, end.x, end.y, 'Z'].join(' ')
-}
+const KO_RING_INNER_RATIO = 0.82
+const MIN_SPIN_DEGREES = 720
+const MAX_SPIN_DEGREES = 1800
+const SPIN_DURATION = 2.5
 
 // K / O are "strike" cells (dark); L / M / N are field cells
 const KO_SECTORS = [
@@ -36,7 +23,7 @@ const KO_SECTORS = [
 export function createSpinner(svg, cx, cy, radius, label) {
 	const g = svgEl('g', { id: 'spinner', transform: `translate(${cx}, ${cy})` })
 	const outerRadius = radius
-	const innerRadius = radius * 0.82
+	const innerRadius = radius * KO_RING_INNER_RATIO
 
 	// K-O outer ring
 	const koRing = svgEl('g', { class: 'ko-ring' })
@@ -112,7 +99,6 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			discContainer.appendChild(discSvg)
 		},
 		clearDisc() { discContainer.textContent = '' },
-		setLabel() {},
 		hideKoRing() { koRing.style.opacity = '0.12' },
 		showKoRing() { koRing.style.opacity = '0.85' },
 		resetArrow() {
@@ -123,11 +109,9 @@ export function createSpinner(svg, cx, cy, radius, label) {
 	}
 }
 
-export function spinTo(spinner, targetAngle, duration = 2.5) {
+export function spinTo(spinner, targetAngle, duration = SPIN_DURATION) {
 	const startRotation = spinner._rotation ?? 0
-	const minSpins = 720
-	const maxSpins = 1800
-	const baseSpins = minSpins + Math.random() * (maxSpins - minSpins)
+	const baseSpins = MIN_SPIN_DEGREES + Math.random() * (MAX_SPIN_DEGREES - MIN_SPIN_DEGREES)
 	const currentRemainder = ((startRotation + baseSpins) % 360 + 360) % 360
 	const adjust = ((targetAngle - currentRemainder) % 360 + 360) % 360
 	const totalRotation = startRotation + baseSpins + adjust
@@ -147,23 +131,6 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 		})
 	})
 }
-
-const AE_WIDE = 360 / 11
-const AE_NARROW = AE_WIDE * 2 / 3
-const STRATEGY_SECTORS_AE = [
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'C', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'C', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE }
-]
-const STRATEGY_SECTORS_FJ = [
-	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 },
-	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 }
-]
 
 export function getStrategyLetter(angle, ring) {
 	const sectors = ring === 'A-E' ? STRATEGY_SECTORS_AE : STRATEGY_SECTORS_FJ

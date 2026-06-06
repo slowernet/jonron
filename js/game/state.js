@@ -1,3 +1,5 @@
+import { REGULATION_INNINGS, LINEUP_SIZE } from '../constants.js'
+
 export function createGame(homeLineup, visitorLineup) {
 	return {
 		inning: 1,
@@ -32,12 +34,12 @@ export function getScore(game) {
 }
 
 export function isGameOver(game) {
-	if (game.inning < 9) return false
+	if (game.inning < REGULATION_INNINGS) return false
 
 	const { home, visitor } = getScore(game)
 
 	// After bottom of any inning 9+: game over if not tied
-	if (game.halfInning === 'top' && game.outs === 0 && game.inning > 9) {
+	if (game.halfInning === 'top' && game.outs === 0 && game.inning > REGULATION_INNINGS) {
 		// We just finished a complete inning (flipped to top of next)
 		// Actually, check: if we're at top of inning N+1 with 0 outs, the previous
 		// full inning just ended. But inning > 9 means inning >= 10, so inning 9
@@ -46,7 +48,7 @@ export function isGameOver(game) {
 	}
 
 	// Mid-inning checks for 9+:
-	if (game.inning >= 9) {
+	if (game.inning >= REGULATION_INNINGS) {
 		// After top of 9+ (halfInning just became 'bottom' or we're in bottom with 0 outs):
 		// if home leads, they don't need to bat
 		if (game.halfInning === 'bottom' && game.outs === 0 &&
@@ -144,14 +146,14 @@ export function recordResult(game, result) {
 	// Advance batter index (skip when batter stays at plate, e.g. takes-pitch)
 	if (!result.batterStays) {
 		if (game.halfInning === 'top') {
-			game.visitorBatterIndex = (game.visitorBatterIndex + 1) % 9
+			game.visitorBatterIndex = (game.visitorBatterIndex + 1) % LINEUP_SIZE
 		} else {
-			game.homeBatterIndex = (game.homeBatterIndex + 1) % 9
+			game.homeBatterIndex = (game.homeBatterIndex + 1) % LINEUP_SIZE
 		}
 	}
 
 	// Check walk-off before flipping inning
-	if (game.halfInning === 'bottom' && game.inning >= 9) {
+	if (game.halfInning === 'bottom' && game.inning >= REGULATION_INNINGS) {
 		const { home, visitor } = getScore(game)
 		if (home > visitor) {
 			game.phase = 'game-over'
@@ -163,7 +165,7 @@ export function recordResult(game, result) {
 	if (game.outs >= 3) {
 		if (game.halfInning === 'top') {
 			// Check if home doesn't need to bat (inning 9+ and home leads)
-			if (game.inning >= 9) {
+			if (game.inning >= REGULATION_INNINGS) {
 				const { home, visitor } = getScore(game)
 				if (home > visitor) {
 					game.phase = 'game-over'
@@ -173,7 +175,7 @@ export function recordResult(game, result) {
 			game.halfInning = 'bottom'
 		} else {
 			// End of bottom half
-			if (game.inning >= 9) {
+			if (game.inning >= REGULATION_INNINGS) {
 				const { home, visitor } = getScore(game)
 				if (home !== visitor) {
 					game.phase = 'game-over'

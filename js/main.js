@@ -13,6 +13,7 @@ import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
 import { track } from './analytics.js'
+import { POSITION_ABBREV, BATTERY, OUTFIELD } from './constants.js'
 
 const RESULT_LABELS = {
 	'home-run': 'Home Run', triple: 'Triple', double: 'Double', single: 'Single',
@@ -26,31 +27,13 @@ const STRATEGY_ABBREV = {
 	'singles': '1B', 'beats-out-bunt': '1B', 'grounds-out': 'GB',
 	'flies-out': 'FB', 'pops-out': 'FB', 'lines-out': 'FB', 'safe-at-1b': 'FC'
 }
-const POSITION_ABBR = {
-	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
-	shortstop: 'SS', 'third-base': '3B', outfield: 'OF'
-}
-const BATTERY = new Set(['pitcher', 'catcher'])
-const OUTFIELD = new Set(['outfield'])
 function posClass(position) {
 	if (BATTERY.has(position)) return 'pos-battery'
 	if (OUTFIELD.has(position)) return 'pos-outfield'
 	return 'pos-infield'
 }
 
-// ---------- Theme ----------
-// Committed to Night mode.
-const THEME_KEY = 'jonron-theme'
 function getTheme() { return 'night' }
-function applyTheme(theme) {
-	localStorage.setItem(THEME_KEY, theme)
-	document.documentElement.setAttribute('data-theme', theme)
-	document.querySelectorAll('.jr-overlay').forEach(o => o.setAttribute('data-theme', theme))
-	window.__jrLayout?.setTheme(theme)
-	document.querySelectorAll('[data-theme-toggle]').forEach(t => {
-		t.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.theme === theme))
-	})
-}
 
 // Build a dimensional, angled baseball with paired chevron stitches along the seams
 function baseballMarkup() {
@@ -158,11 +141,7 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 	const game = createGame(homeLineup, visitorLineup)
 	track('game:start', { mode })
 
-	const layout = createLayout(container, {
-		theme: getTheme(),
-		onTheme: applyTheme
-	})
-	window.__jrLayout = layout
+	const layout = createLayout(container)
 
 	const scoreboard = createScoreboard(layout.scoreboardHost)
 	const { cx: scx, cy: scy, r: sr } = layout.spinnerCenter
@@ -198,11 +177,9 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 		})
 		const { home, visitor } = getScore(game)
 		layout.setInning(`${game.halfInning === 'bottom' ? 'Bot' : 'Top'} ${game.inning}`)
-		layout.setScore(visitor, home)
 		layout.setOuts(game.outs)
 		layout.setBases(game.bases)
-		layout.setBatting(game.halfInning === 'top' ? 'away' : 'home')
-		layout.nameplate.posEl.textContent = POSITION_ABBR[batter.position] ?? '—'
+		layout.nameplate.posEl.textContent = POSITION_ABBREV[batter.position] ?? '—'
 		layout.nameplate.posEl.className = `pos ${posClass(batter.position)}`
 		layout.nameplate.nameEl.textContent = batter.name
 		const line = getGameLine(game, batter.id)
