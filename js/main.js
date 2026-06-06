@@ -1,5 +1,5 @@
 import { loadPlayers } from './data/players.js'
-import { createGame, getCurrentBatter, getScore, isGameOver, setPhase, recordResult } from './game/state.js'
+import { createGame, getCurrentBatter, getScore, isGameOver, setPhase, recordResult, recordGameLine, getGameLine } from './game/state.js'
 import { resolveBatting, spin } from './game/batting.js'
 import { resolveImmediate } from './game/baserunning.js'
 import { resolveKoDial } from './game/ko-dial.js'
@@ -16,6 +16,14 @@ import { startDraft, createQuickDraft } from './ui/lineup.js'
 const RESULT_LABELS = {
 	'home-run': 'Home Run', triple: 'Triple', double: 'Double', single: 'Single',
 	walk: 'Walk', strikeout: 'Strikeout', 'fly-ball': 'Fly ball', 'ground-ball': 'Ground ball'
+}
+const RESULT_ABBREV = {
+	'home-run': 'HR', triple: '3B', double: '2B', single: '1B',
+	walk: 'BB', strikeout: 'K', 'fly-ball': 'FB', 'ground-ball': 'GB'
+}
+const STRATEGY_ABBREV = {
+	'singles': '1B', 'beats-out-bunt': '1B', 'grounds-out': 'GB',
+	'flies-out': 'FB', 'pops-out': 'FB', 'lines-out': 'FB', 'safe-at-1b': 'FC'
 }
 const POSITION_ABBR = {
 	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
@@ -195,6 +203,12 @@ function startGame(container, homeLineup, visitorLineup) {
 		layout.nameplate.posEl.textContent = POSITION_ABBR[batter.position] ?? '—'
 		layout.nameplate.posEl.className = `pos ${posClass(batter.position)}`
 		layout.nameplate.nameEl.textContent = batter.name
+		const line = getGameLine(game, batter.id)
+		if (line) {
+			layout.nameplate.labEl.innerHTML = `Now Batting <span class="game-line">${line}</span>`
+		} else {
+			layout.nameplate.labEl.textContent = 'Now Batting'
+		}
 		controls.updateStrategies(getAvailableStrategies(game.bases))
 	}
 
@@ -313,6 +327,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			const result = resolveKoDial(letter, batting.type, game.bases)
 			const desc = hasRunners ? result.description : result.description.replace(/,\s.+/, '')
 			narrate(narratorEl, `${label}... ${desc}`, { replace: true })
+			recordGameLine(game, batter.id, RESULT_ABBREV[batting.type] ?? 'FB')
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
 		} else {
@@ -321,6 +336,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			const previousInning = game.inning
 			const result = resolveImmediate(batting.type, game.bases, batter.id)
 			narrateResult(batting.type, result, batter)
+			recordGameLine(game, batter.id, RESULT_ABBREV[batting.type] ?? batting.type)
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
 		}
@@ -338,8 +354,12 @@ function startGame(container, homeLineup, visitorLineup) {
 		const letter = getStrategyLetter(targetAngle, ring)
 		const previousHalf = game.halfInning
 		const previousInning = game.inning
+		const batter = getCurrentBatter(game)
 		const result = resolveStrategy(playType, letter, game.bases)
 		narrate(narratorEl, result.description)
+		if (!result.batterStays) {
+			recordGameLine(game, batter.id, STRATEGY_ABBREV[result.batter.result] ?? 'GB')
+		}
 		recordResult(game, result)
 		spinner.showKoRing()
 		if (result.batterStays) {
@@ -359,6 +379,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		const previousInning = game.inning
 		const result = resolveImmediate('walk', game.bases, batter.id)
 		narrate(narratorEl, `Intentional walk to ${batter.name}.`)
+		recordGameLine(game, batter.id, 'BB')
 		recordResult(game, result)
 		afterResult(previousHalf, previousInning)
 	}

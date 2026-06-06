@@ -604,6 +604,10 @@ body {
 	text-transform: uppercase;
 	color: var(--accent);
 }
+.jr-nameplate .meta .lab .game-line {
+	color: var(--ink);
+	margin-left: 6px;
+}
 
 .jr-nameplate .meta .name {
 	font-family: var(--f-display);

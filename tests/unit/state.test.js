@@ -3,6 +3,8 @@ import {
 	createGame,
 	getCurrentBatter,
 	recordResult,
+	recordGameLine,
+	getGameLine,
 	setPhase,
 	isGameOver,
 	getScore
@@ -161,6 +163,35 @@ describe('batterStays', () => {
 			batterStays: false
 		})
 		expect(game.visitorBatterIndex).toBe(1)
+	})
+})
+
+describe('game lines', () => {
+	it('returns null when no PAs recorded', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		expect(getGameLine(game, 'visitor-0')).toBeNull()
+	})
+
+	it('formats a single hit correctly', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordGameLine(game, 'visitor-0', 'HR')
+		expect(getGameLine(game, 'visitor-0')).toBe('1-1, HR')
+	})
+
+	it('formats multiple outcomes correctly', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordGameLine(game, 'visitor-0', '2B')
+		recordGameLine(game, 'visitor-0', 'K')
+		recordGameLine(game, 'visitor-0', 'BB')
+		recordGameLine(game, 'visitor-0', '1B')
+		expect(getGameLine(game, 'visitor-0')).toBe('2-3, 2B, K, BB, 1B')
+	})
+
+	it('excludes walks from AB count', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordGameLine(game, 'visitor-0', 'BB')
+		recordGameLine(game, 'visitor-0', 'BB')
+		expect(getGameLine(game, 'visitor-0')).toBe('0-0, BB, BB')
 	})
 })
 

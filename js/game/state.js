@@ -12,7 +12,8 @@ export function createGame(homeLineup, visitorLineup) {
 		visitorBatterIndex: 0,
 		phase: 'batting',
 		pendingResult: null,
-		log: []
+		log: [],
+		gameLines: {}
 	}
 }
 
@@ -61,6 +62,21 @@ export function isGameOver(game) {
 	}
 
 	return false
+}
+
+export function recordGameLine(game, batterId, abbrev) {
+	if (!game.gameLines[batterId]) game.gameLines[batterId] = []
+	game.gameLines[batterId].push(abbrev)
+}
+
+export function getGameLine(game, batterId) {
+	const outcomes = game.gameLines[batterId]
+	if (!outcomes?.length) return null
+	const AB_EXCLUDED = new Set(['BB', 'HBP', 'SF', 'SH'])
+	const HIT_ABBREVS = new Set(['HR', '3B', '2B', '1B'])
+	const abs = outcomes.filter(o => !AB_EXCLUDED.has(o)).length
+	const hits = outcomes.filter(o => HIT_ABBREVS.has(o)).length
+	return `${hits}-${abs}, ${outcomes.join(', ')}`
 }
 
 export function setPhase(game, phase) {
