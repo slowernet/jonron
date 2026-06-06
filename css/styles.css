@@ -1322,8 +1322,9 @@ body {
 	/* Simplify marquee at mobile */
 	.jr-marquee {
 		flex-wrap: wrap;
-		padding: 10px 14px;
+		padding: 10px;
 		gap: 10px;
+		border: none;
 	}
 	.jr-marquee-right {
 		display: contents;
@@ -1362,7 +1363,9 @@ body {
 	}
 	.jr-narrator {
 		height: calc(4.35 * 1.45em + 8px);
+		min-height: calc(4.35 * 1.45em + 8px);
 		max-height: calc(4.35 * 1.45em + 8px);
+		flex: none;
 		overflow-y: auto;
 		-webkit-overflow-scrolling: touch;
 	}
