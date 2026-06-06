@@ -45,16 +45,15 @@ export function createSpinner(svg, cx, cy, radius, label) {
 		const endAngle = currentAngle + sector.angle
 		koRing.appendChild(svgEl('path', {
 			d: describeSector(0, 0, outerRadius, currentAngle, endAngle),
-			fill: sector.kind === 'strike' ? 'var(--ko-strike)' : 'var(--ko-field)',
-			stroke: 'var(--ko-line)', 'stroke-width': '1.5'
+			class: 'ko-sector',
+			fill: sector.kind === 'strike' ? 'var(--ko-strike)' : 'var(--ko-field)'
 		}))
 		const midAngle = currentAngle + sector.angle / 2
 		const labelPos = polarToCartesian(0, 0, (outerRadius + innerRadius) / 2, midAngle)
 		const lbl = svgEl('text', {
-			x: labelPos.x, y: labelPos.y, class: 'jr-mono',
-			'text-anchor': 'middle', 'dominant-baseline': 'central',
-			'font-size': sector.angle < 35 ? '12' : '15', 'font-weight': '700',
-			fill: 'var(--ko-letter)'
+			x: labelPos.x, y: labelPos.y,
+			class: sector.angle < 35 ? 'ko-label ko-label-sm' : 'ko-label',
+			'text-anchor': 'middle', 'dominant-baseline': 'central'
 		})
 		lbl.textContent = sector.letter
 		koRing.appendChild(lbl)
@@ -62,7 +61,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 		const le = polarToCartesian(0, 0, outerRadius, currentAngle)
 		koRing.appendChild(svgEl('line', {
 			x1: ls.x, y1: ls.y, x2: le.x, y2: le.y,
-			stroke: 'var(--ko-line)', 'stroke-width': '1.5'
+			class: 'ko-divider'
 		}))
 		currentAngle = endAngle
 	})
@@ -70,8 +69,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 
 	// inner core background behind the disc
 	g.appendChild(svgEl('circle', {
-		cx: 0, cy: 0, r: innerRadius,
-		fill: 'var(--spin-core)', stroke: 'var(--spin-core-edge)', 'stroke-width': '2'
+		cx: 0, cy: 0, r: innerRadius, class: 'spinner-core'
 	}))
 
 	const discContainer = svgEl('g', { class: 'disc-container' })
@@ -93,16 +91,14 @@ export function createSpinner(svg, cx, cy, radius, label) {
 			`C ${-bulbR} ${tailLen * 0.55} ${-tipHw - 2} ${tailLen * 0.3} ${-tipHw} ${-arrowLen * 0.15}`,
 			'Z'
 		].join(' '),
-		fill: 'var(--needle)', stroke: 'var(--needle-edge)',
-		'stroke-width': '1.5', 'stroke-linejoin': 'round'
+		class: 'spinner-needle'
 	}))
 	// pivot rivet
 	arrowGroup.appendChild(svgEl('circle', {
-		cx: 0, cy: 0, r: 8, fill: 'var(--pivot)',
-		stroke: 'var(--pivot-edge)', 'stroke-width': '2'
+		cx: 0, cy: 0, r: 8, class: 'spinner-pivot'
 	}))
 	arrowGroup.appendChild(svgEl('circle', {
-		cx: 0, cy: 0, r: 3, fill: 'var(--pivot-edge)'
+		cx: 0, cy: 0, r: 3, class: 'spinner-pivot-dot'
 	}))
 	g.appendChild(arrowGroup)
 

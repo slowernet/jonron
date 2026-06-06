@@ -64,9 +64,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 
 		const path = svgEl('path', {
 			d: describeSector(cx, cy, radius, currentAngle, endAngle),
-			fill: 'var(--disc-a)',
-			stroke: 'var(--disc-rule)',
-			'stroke-width': '0.5'
+			class: 'disc-sector'
 		})
 		g.appendChild(path)
 
@@ -82,7 +80,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 			g.appendChild(svgEl('path', {
 				d: ['M', a.x, a.y, 'A', bandOuter, bandOuter, 0, large, 1, b.x, b.y,
 					'L', c.x, c.y, 'A', bandInner, bandInner, 0, large, 0, d.x, d.y, 'Z'].join(' '),
-				fill: 'var(--accent)', opacity: '0.9'
+				class: 'disc-accent'
 			}))
 		}
 
@@ -91,8 +89,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		const label = svgEl('text', {
 			x: labelPos.x, y: labelPos.y,
 			class: sectorAngle < 15 ? 'disc-label disc-label-sm' : 'disc-label',
-			'text-anchor': 'middle', 'dominant-baseline': 'central',
-			fill: 'var(--disc-label)'
+			'text-anchor': 'middle', 'dominant-baseline': 'central'
 		})
 		label.textContent = SECTOR_LABELS[sector.number] ?? sector.number
 		g.appendChild(label)
@@ -101,25 +98,24 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		const lineEnd = polarToCartesian(cx, cy, radius, currentAngle)
 		g.appendChild(svgEl('line', {
 			x1: lineStart.x, y1: lineStart.y, x2: lineEnd.x, y2: lineEnd.y,
-			stroke: 'var(--disc-rule)', 'stroke-width': '0.75'
+			class: 'disc-divider'
 		}))
 		currentAngle = endAngle
 	})
 
 	g.appendChild(svgEl('circle', {
-		cx, cy, r: radius, fill: 'none',
-		stroke: 'var(--disc-edge)', 'stroke-width': '2.5'
+		cx, cy, r: radius, class: 'disc-rim'
 	}))
 
 	// center hub
 	g.appendChild(svgEl('circle', {
-		cx, cy, r: centerRadius,
-		fill: hubVar(disc.position), stroke: 'var(--disc-edge)', 'stroke-width': '1.5'
+		cx, cy, r: centerRadius, class: 'disc-hub',
+		fill: hubVar(disc.position)
 	}))
 	// inner keyline ring on the hub
 	g.appendChild(svgEl('circle', {
-		cx, cy, r: centerRadius - 5, fill: 'none',
-		stroke: ink, 'stroke-width': '0.75', opacity: '0.35'
+		cx, cy, r: centerRadius - 5, class: 'disc-hub-keyline',
+		stroke: ink
 	}))
 
 	// player name (wraps to two lines if needed)
@@ -131,8 +127,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 	const n1 = svgEl('text', {
 		x: cx, y: line2 ? cy - nameFs * 1.18 : cy - 4,
 		'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
-		'font-size': nameFs, 'font-weight': '700',
-		fill: ink
+		'font-size': nameFs, fill: ink
 	})
 	n1.textContent = line1
 	g.appendChild(n1)
@@ -141,8 +136,7 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		const n2 = svgEl('text', {
 			x: cx, y: cy + nameFs * 0.92,
 			'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
-			'font-size': nameFs, 'font-weight': '700',
-			fill: ink
+			'font-size': nameFs, fill: ink
 		})
 		n2.textContent = line2
 		g.appendChild(n2)
@@ -150,10 +144,9 @@ export function createDiscSVG(disc, cx, cy, radius) {
 
 	const posKey = (disc.position ?? '').toLowerCase()
 	const posText = svgEl('text', {
-		x: cx + centerRadius * 0.52, y: cy, class: 'jr-mono',
+		x: cx + centerRadius * 0.52, y: cy, class: 'disc-pos',
 		'text-anchor': 'middle', 'dominant-baseline': 'central',
-		'font-size': '8.5',
-		fill: ink, opacity: '0.7'
+		fill: ink
 	})
 	posText.textContent = POSITION_ABBREV[posKey] ?? posKey.toUpperCase()
 	g.appendChild(posText)
@@ -200,17 +193,15 @@ export function createStrategyDiscSVG(cx, cy, radius, activeRing) {
 			g.appendChild(svgEl('path', {
 				d: ['M', oS.x, oS.y, 'A', rOuter, rOuter, 0, large, 1, oE.x, oE.y,
 					'L', iE.x, iE.y, 'A', rInner, rInner, 0, large, 0, iS.x, iS.y, 'Z'].join(' '),
-				fill: fillVar,
-				stroke: 'var(--disc-edge)', 'stroke-width': '0.5', opacity
+				class: 'strategy-sector', fill: fillVar, opacity
 			}))
 			const mid = currentAngle + sector.angle / 2
 			const lRad = (mid - 90) * Math.PI / 180
 			const lr = (rOuter + rInner) / 2
 			const t = svgEl('text', {
-				x: cx + lr * Math.cos(lRad), y: cy + lr * Math.sin(lRad), class: 'jr-mono',
+				x: cx + lr * Math.cos(lRad), y: cy + lr * Math.sin(lRad),
+				class: 'strategy-label',
 				'text-anchor': 'middle', 'dominant-baseline': 'central',
-				'font-size': '11', 'font-weight': '700',
-				fill: 'var(--hub-ink)',
 				opacity
 			})
 			t.textContent = sector.letter
@@ -223,20 +214,18 @@ export function createStrategyDiscSVG(cx, cy, radius, activeRing) {
 	renderRing(STRATEGY_SECTORS_FJ, midR, innerR, 'var(--hub-battery)', activeRing === 'F-J')
 
 	g.appendChild(svgEl('circle', {
-		cx, cy, r: innerR, fill: 'var(--disc-a)',
-		stroke: 'var(--disc-edge)', 'stroke-width': '1.5'
+		cx, cy, r: innerR, class: 'disc-hub',
+		fill: 'var(--disc-a)'
 	}))
 	const title = svgEl('text', {
-		x: cx, y: cy - 6, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
-		'font-size': '9', 'font-weight': '700',
-		fill: 'var(--disc-name)'
+		x: cx, y: cy - 6, 'text-anchor': 'middle', 'dominant-baseline': 'central',
+		class: 'strategy-title'
 	})
 	title.textContent = 'STRATEGY'
 	g.appendChild(title)
 	const ringT = svgEl('text', {
-		x: cx, y: cy + 9, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-mono',
-		'font-size': '11', 'font-weight': '700',
-		fill: 'var(--accent)'
+		x: cx, y: cy + 9, 'text-anchor': 'middle', 'dominant-baseline': 'central',
+		class: 'strategy-ring-label'
 	})
 	ringT.textContent = activeRing
 	g.appendChild(ringT)

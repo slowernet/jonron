@@ -43,7 +43,6 @@
 	--panel-edge: rgba(22, 36, 63, 0.22);
 	--panel-shadow: 0 2px 0 rgba(22, 36, 63, 0.12), 0 10px 26px -14px rgba(22, 36, 63, 0.4);
 	--accent: var(--red);
-	--accent-ink: #fbf5e6;
 	--marquee-bg: #16243f;
 	--marquee-ink: #f4ead0;
 
@@ -889,27 +888,121 @@ body {
 	display: none;
 }
 
-/* disc player-name text follows the display font */
-.jr-disc-name {
-	font-family: var(--f-display);
-}
-
 /* SVG text font hooks (so Spline Sans lives only in the --f-mono variable) */
 .jr-mono {
 	font-family: var(--f-mono);
 }
 
+.jr-display {
+	font-family: var(--f-display);
+}
+
+/* ---- SVG presentation (disc) ---- */
+.disc-sector {
+	fill: var(--disc-a);
+	stroke: var(--disc-rule);
+	stroke-width: 0.5;
+}
+.disc-accent {
+	fill: var(--accent);
+	opacity: 0.9;
+}
 .disc-label {
 	font-family: var(--f-mono);
 	font-size: 12px;
 	font-weight: 600;
+	fill: var(--disc-label);
 }
-.disc-label-sm {
-	font-size: 9px;
+.disc-label-sm { font-size: 9px; }
+.disc-divider {
+	stroke: var(--disc-rule);
+	stroke-width: 0.75;
+}
+.disc-rim {
+	fill: none;
+	stroke: var(--disc-edge);
+	stroke-width: 2.5;
+}
+.disc-hub {
+	stroke: var(--disc-edge);
+	stroke-width: 1.5;
+}
+.disc-hub-keyline {
+	fill: none;
+	stroke-width: 0.75;
+	opacity: 0.35;
+}
+.disc-pos {
+	font-family: var(--f-mono);
+	font-size: 8.5px;
+	font-weight: 600;
+	opacity: 0.7;
 }
 
-.jr-display {
+/* ---- SVG presentation (disc — player name) ---- */
+.jr-disc-name {
 	font-family: var(--f-display);
+	font-weight: 700;
+}
+
+/* ---- SVG presentation (strategy disc) ---- */
+.strategy-sector {
+	stroke: var(--disc-edge);
+	stroke-width: 0.5;
+}
+.strategy-label {
+	font-family: var(--f-mono);
+	font-size: 11px;
+	font-weight: 700;
+	fill: var(--hub-ink);
+}
+.strategy-title {
+	font-family: var(--f-display);
+	font-size: 9px;
+	font-weight: 700;
+	fill: var(--disc-name);
+}
+.strategy-ring-label {
+	font-family: var(--f-mono);
+	font-size: 11px;
+	font-weight: 700;
+	fill: var(--accent);
+}
+
+/* ---- SVG presentation (spinner) ---- */
+.ko-sector {
+	stroke: var(--ko-line);
+	stroke-width: 1.5;
+}
+.ko-label {
+	font-family: var(--f-mono);
+	font-size: 15px;
+	font-weight: 700;
+	fill: var(--ko-letter);
+}
+.ko-label-sm { font-size: 12px; }
+.ko-divider {
+	stroke: var(--ko-line);
+	stroke-width: 1.5;
+}
+.spinner-core {
+	fill: var(--spin-core);
+	stroke: var(--spin-core-edge);
+	stroke-width: 2;
+}
+.spinner-needle {
+	fill: var(--needle);
+	stroke: var(--needle-edge);
+	stroke-width: 1.5;
+	stroke-linejoin: round;
+}
+.spinner-pivot {
+	fill: var(--pivot);
+	stroke: var(--pivot-edge);
+	stroke-width: 2;
+}
+.spinner-pivot-dot {
+	fill: var(--pivot-edge);
 }
 
 .jr-title .rule {
