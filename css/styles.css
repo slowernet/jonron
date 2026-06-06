@@ -1319,22 +1319,84 @@ body {
 	.jr-board {
 		grid-template-columns: 1fr;
 	}
+
+	/* Flatten marquee: wordmark + tvbug inline, linescore wraps below */
 	.jr-marquee {
 		flex-wrap: wrap;
 	}
 	.jr-marquee-right {
-		order: 3;
-		width: 100%;
-		margin-left: 0;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		gap: 16px;
-		padding-top: 12px;
-		border-top: 1px solid rgba(244, 234, 208, 0.14);
+		display: contents;
+	}
+	.jr-tvbug {
+		margin-left: auto;
+		order: 1;
 	}
 	.jr-marquee-linescore {
-		padding-left: 0;
-		border-left: none;
+		order: 2;
+		width: 100%;
+		padding-top: 10px;
+		border-top: 1px solid rgba(244, 234, 208, 0.14);
+		transform: none;
+	}
+
+	/* Reorder stacked layout:
+	   marquee(1) -> linescore is inside marquee already
+	   colLeft has: nameplate + pbp
+	   hero has: spinner + controls
+	   We want: pbp -> nameplate -> spinner -> controls */
+	.jr-stage-left {
+		display: contents;
+	}
+	.jr-hero {
+		display: contents;
+	}
+	.jr-hero::before {
+		display: none !important;
+	}
+	.jr-board {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	/* PBP ticker: fixed ~3 lines, ordered first */
+	.jr-pbp {
+		order: 1;
+		min-height: 0;
+		flex: none;
+	}
+	.jr-narrator {
+		max-height: calc(3 * 1.45em + 8px);
+		overflow: hidden;
+	}
+
+	/* Nameplate after PBP */
+	.jr-nameplate {
+		order: 2;
+		max-width: none;
+		margin-bottom: 0;
+	}
+
+	/* Spinner area */
+	.jr-spinner-wrap {
+		order: 3;
+		max-width: 340px;
+		margin: 0 auto;
+		background: var(--panel);
+		border: 1px solid var(--panel-edge);
+		border-radius: 12px;
+		box-shadow: var(--panel-shadow);
+		padding: 12px;
+	}
+
+	/* Controls last, side by side */
+	.jr-controls {
+		order: 4;
+		flex-direction: row !important;
+		max-width: none;
+	}
+	.jr-btn-strategy {
+		width: auto;
 	}
 }
 
@@ -1348,12 +1410,18 @@ body {
 	.jr-lineup-cols {
 		flex-direction: column;
 	}
+	/* Keep controls side by side on mobile */
 	.jr-controls {
-		flex-direction: column;
+		flex-direction: row !important;
+	}
+	.jr-btn-spin {
+		font-size: 20px;
+		min-height: 48px;
+		padding: 0 24px;
 	}
 	.jr-btn-strategy {
-		width: 100%;
-		justify-content: center;
+		min-height: 48px;
+		font-size: 13px;
 	}
 }
 
