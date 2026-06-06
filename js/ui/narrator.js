@@ -5,13 +5,19 @@ export function createNarrator(container) {
 	return el
 }
 
-export function narrate(narrator, text, { highlight = false } = {}) {
+export function narrate(narrator, text, { highlight = false, replace = false } = {}) {
+	if (replace && narrator.lastChild) {
+		const last = narrator.lastChild
+		last.textContent = text
+		if (highlight) last.classList.add('narrator-highlight')
+		narrator.scrollTop = narrator.scrollHeight
+		return
+	}
 	const line = document.createElement('div')
 	line.className = 'narrator-line'
 	if (highlight) line.classList.add('narrator-highlight')
 	line.textContent = text
 	narrator.appendChild(line)
-	// keep the log from growing unbounded
 	while (narrator.children.length > 60) narrator.removeChild(narrator.firstChild)
 	narrator.scrollTop = narrator.scrollHeight
 }

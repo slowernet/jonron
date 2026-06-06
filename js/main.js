@@ -15,7 +15,7 @@ import { startDraft, createQuickDraft } from './ui/lineup.js'
 
 const RESULT_LABELS = {
 	'home-run': 'Home Run', triple: 'Triple', double: 'Double', single: 'Single',
-	walk: 'Walk', strikeout: 'Strikeout', 'fly-ball': 'Fly Ball', 'ground-ball': 'Ground Ball'
+	walk: 'Walk', strikeout: 'Strikeout', 'fly-ball': 'Fly ball', 'ground-ball': 'Ground ball'
 }
 const POSITION_ABBR = {
 	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
@@ -195,7 +195,6 @@ function startGame(container, homeLineup, visitorLineup) {
 		layout.nameplate.posEl.textContent = POSITION_ABBR[batter.position] ?? '—'
 		layout.nameplate.posEl.className = `pos ${posClass(batter.position)}`
 		layout.nameplate.nameEl.textContent = batter.name
-		layout.nameplate.teamEl.textContent = batter.team ? `${batter.team} · ${game.halfInning === 'top' ? 'Visitors' : 'Home'}` : ''
 		controls.updateStrategies(getAvailableStrategies(game.bases))
 	}
 
@@ -313,7 +312,7 @@ function startGame(container, homeLineup, visitorLineup) {
 			const hasRunners = game.bases.first || game.bases.second || game.bases.third
 			const result = resolveKoDial(letter, batting.type, game.bases)
 			const desc = hasRunners ? result.description : result.description.replace(/,\s.+/, '')
-			narrate(narratorEl, `${label}... ${desc}`)
+			narrate(narratorEl, `${label}... ${desc}`, { replace: true })
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
 		} else {

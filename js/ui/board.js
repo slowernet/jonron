@@ -66,8 +66,7 @@ export function createLayout(container) {
 	const posEl = h('div', 'pos', 'P')
 	const meta = h('div', 'meta')
 	const nameEl = h('div', 'name', '—')
-	const teamEl = h('div', 'team', '')
-	meta.append(h('div', 'lab', 'Now Batting'), nameEl, teamEl)
+	meta.append(h('div', 'lab', 'Now Batting'), nameEl)
 	nameplate.append(posEl, meta)
 
 	const pbp = h('div', 'jr-pbp')
@@ -107,7 +106,7 @@ export function createLayout(container) {
 	return {
 		scoreboardHost,
 		syncHeight: syncLeftHeight,
-		nameplate: { posEl, nameEl, teamEl },
+		nameplate: { posEl, nameEl },
 		spinnerSvg, spinnerCenter: { cx: 180, cy: 180, r: 150 },
 		controlsHost,
 		narratorHost,
