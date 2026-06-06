@@ -131,6 +131,39 @@ describe('recordResult', () => {
 	})
 })
 
+describe('batterStays', () => {
+	it('does not advance batter index when batterStays is true', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		expect(game.visitorBatterIndex).toBe(0)
+		recordResult(game, {
+			batter: { result: 'takes-pitch', base: null, out: false },
+			outs: 0,
+			runners: [{ from: 1, to: 2, out: false, scored: false }],
+			runsScored: 0,
+			description: 'Takes pitch, runner safe at 2B',
+			isHit: false,
+			isError: false,
+			batterStays: true
+		})
+		expect(game.visitorBatterIndex).toBe(0)
+	})
+
+	it('advances batter index when batterStays is false', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		recordResult(game, {
+			batter: { result: 'grounds-out', base: null, out: true },
+			outs: 1,
+			runners: [{ from: 1, to: 2, out: false, scored: false }],
+			runsScored: 0,
+			description: 'Grounds out, runners advance',
+			isHit: false,
+			isError: false,
+			batterStays: false
+		})
+		expect(game.visitorBatterIndex).toBe(1)
+	})
+})
+
 describe('batter index wrapping', () => {
 	it('after 9 at-bats, index returns to 0', () => {
 		const game = createGame(makeLineup('home'), makeLineup('visitor'))

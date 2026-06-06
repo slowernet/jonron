@@ -141,6 +141,29 @@ describe('resolveStrategy', () => {
 		})
 	})
 
+	describe('batterStays flag', () => {
+		it('takes-pitch → batter stays', () => {
+			const result = resolveStrategy('steal-1b', 'A', { first: 'p1', second: null, third: null })
+			expect(result.batterStays).toBe(true)
+		})
+		it('misses-ball → batter stays', () => {
+			const result = resolveStrategy('hit-and-run', 'C', { first: 'p1', second: null, third: null })
+			expect(result.batterStays).toBe(true)
+		})
+		it('misses-pitch → batter stays', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'J', { first: null, second: 'p2', third: null })
+			expect(result.batterStays).toBe(true)
+		})
+		it('grounds-out → batter does not stay', () => {
+			const result = resolveStrategy('steal-1b', 'B', { first: 'p1', second: null, third: null })
+			expect(result.batterStays).toBe(false)
+		})
+		it('singles → batter does not stay', () => {
+			const result = resolveStrategy('hit-and-run', 'A', { first: 'p1', second: null, third: null })
+			expect(result.batterStays).toBe(false)
+		})
+	})
+
 	it('double-steal-1b-3b D: runner on 1B safe at 2B, runner on 3B out at home → 1 out', () => {
 		const result = resolveStrategy('double-steal-1b-3b', 'D', { first: 'p1', second: null, third: 'p3' })
 		expect(result.batter.result).toBe('takes-pitch')

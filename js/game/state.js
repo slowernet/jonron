@@ -125,11 +125,13 @@ export function recordResult(game, result) {
 		runsScored: result.runsScored || 0
 	})
 
-	// Advance batter index
-	if (game.halfInning === 'top') {
-		game.visitorBatterIndex = (game.visitorBatterIndex + 1) % 9
-	} else {
-		game.homeBatterIndex = (game.homeBatterIndex + 1) % 9
+	// Advance batter index (skip when batter stays at plate, e.g. takes-pitch)
+	if (!result.batterStays) {
+		if (game.halfInning === 'top') {
+			game.visitorBatterIndex = (game.visitorBatterIndex + 1) % 9
+		} else {
+			game.homeBatterIndex = (game.homeBatterIndex + 1) % 9
+		}
 	}
 
 	// Check walk-off before flipping inning

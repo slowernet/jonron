@@ -342,7 +342,14 @@ function startGame(container, homeLineup, visitorLineup) {
 		narrate(narratorEl, result.description)
 		recordResult(game, result)
 		spinner.showKoRing()
-		afterResult(previousHalf, previousInning)
+		if (result.batterStays) {
+			placeBatterDisc()
+			refreshUI()
+			controls.setPhase('batting')
+			controls.enable()
+		} else {
+			afterResult(previousHalf, previousInning)
+		}
 	}
 
 	function handleIntentionalWalk() {

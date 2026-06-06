@@ -3,6 +3,7 @@ import { STRATEGY, STRATEGY_REQUIREMENTS } from './rules.js'
 const BATTER_OUT = new Set(['grounds-out', 'flies-out', 'pops-out', 'lines-out'])
 const BATTER_SAFE_1B = new Set(['singles', 'beats-out-bunt', 'safe-at-1b'])
 const BATTER_HIT = new Set(['singles', 'beats-out-bunt'])
+const BATTER_STAYS = new Set(['takes-pitch', 'misses-ball', 'misses-pitch'])
 
 export function getAvailableStrategies(bases) {
 	const available = []
@@ -188,6 +189,7 @@ export function resolveStrategy(playType, letter, bases) {
 		runsScored,
 		description: entry.description,
 		isHit: BATTER_HIT.has(batterCode),
-		isError: false
+		isError: false,
+		batterStays: BATTER_STAYS.has(batterCode)
 	}
 }
