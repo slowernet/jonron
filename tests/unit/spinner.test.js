@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getStrategyLetter, getKoLetter } from '../../js/ui/spinner.js'
+import { getStrategyLetter, getKoLetter, getSectorNumber } from '../../js/ui/spinner.js'
 
 // Sample the ring finely and return each letter's fraction of the circle.
 function sampleProportions(ring) {
@@ -71,5 +71,60 @@ describe('getKoLetter', () => {
 		for (let angle = 0; angle < 360; angle += 5) {
 			expect(valid.has(getKoLetter(angle))).toBe(true)
 		}
+	})
+})
+
+describe('getSectorNumber', () => {
+	const singleSector = { sectors: [{ number: 7, size: 360 }] }
+	const twoEqual = { sectors: [{ number: 1, size: 180 }, { number: 2, size: 180 }] }
+	const unequal = { sectors: [{ number: 10, size: 90 }, { number: 20, size: 270 }] }
+
+	it('single sector disc always returns that sector number', () => {
+		expect(getSectorNumber(singleSector, 0)).toBe(7)
+		expect(getSectorNumber(singleSector, 180)).toBe(7)
+		expect(getSectorNumber(singleSector, 359.9)).toBe(7)
+	})
+
+	it('angle 0 returns first sector', () => {
+		expect(getSectorNumber(twoEqual, 0)).toBe(1)
+	})
+
+	it('two equal sectors: angle 0 returns first, angle 180 returns second', () => {
+		expect(getSectorNumber(twoEqual, 0)).toBe(1)
+		expect(getSectorNumber(twoEqual, 90)).toBe(1)
+		expect(getSectorNumber(twoEqual, 180)).toBe(2)
+		expect(getSectorNumber(twoEqual, 270)).toBe(2)
+	})
+
+	it('unequal sectors: boundary angles', () => {
+		// First sector spans 0-90, second spans 90-360
+		expect(getSectorNumber(unequal, 0)).toBe(10)
+		expect(getSectorNumber(unequal, 89.9)).toBe(10)
+		expect(getSectorNumber(unequal, 90)).toBe(20)
+		expect(getSectorNumber(unequal, 359.9)).toBe(20)
+	})
+
+	it('negative angle wraps correctly', () => {
+		// -90 wraps to 270, which is in the second sector (90-360)
+		expect(getSectorNumber(twoEqual, -90)).toBe(2)
+		// -10 wraps to 350, which is in the second sector
+		expect(getSectorNumber(twoEqual, -10)).toBe(2)
+		// -360 wraps to 0, which is in the first sector
+		expect(getSectorNumber(twoEqual, -360)).toBe(1)
+	})
+
+	it('angle > 360 wraps correctly', () => {
+		// 450 wraps to 90, which is in the first sector (0-180)
+		expect(getSectorNumber(twoEqual, 450)).toBe(1)
+		// 540 wraps to 180, which is in the second sector
+		expect(getSectorNumber(twoEqual, 540)).toBe(2)
+		// 720 wraps to 0, which is in the first sector
+		expect(getSectorNumber(twoEqual, 720)).toBe(1)
+	})
+
+	it('edge: angle just below boundary vs at boundary', () => {
+		// Boundary at 180 for equal sectors
+		expect(getSectorNumber(twoEqual, 179.999)).toBe(1)
+		expect(getSectorNumber(twoEqual, 180)).toBe(2)
 	})
 })

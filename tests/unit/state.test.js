@@ -332,4 +332,64 @@ describe('isGameOver', () => {
 		recordNStrikeouts(game3, 3)
 		expect(game3.phase).toBe('game-over')
 	})
+
+	it('home trailing in bottom 9: game is NOT over', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		// Top 1st: HR + 3 Ks (visitor leads 1-0)
+		recordResult(game, homeRun())
+		recordNStrikeouts(game, 3)
+		// Bottom 1st through top 9th: all Ks (16 half-innings = 48 Ks)
+		recordNStrikeouts(game, 48)
+		// Now in bottom 9th, visitor leads 1-0, home still batting
+		expect(game.inning).toBe(9)
+		expect(game.halfInning).toBe('bottom')
+		expect(isGameOver(game)).toBe(false)
+		expect(game.phase).toBe('batting')
+	})
+
+	it('recordResult resets phase to batting', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		setPhase(game, 'strategy')
+		expect(game.phase).toBe('strategy')
+		recordResult(game, strikeout())
+		expect(game.phase).toBe('batting')
+	})
+
+	it('recordResult with KO-dial runner format updates bases', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		game.bases = { first: 'r1', second: null, third: null }
+		recordResult(game, {
+			batter: { base: 1, out: false },
+			outs: 0,
+			runners: [{ from: 1, to: 2, out: false, scored: false, playerId: 'r1' }],
+			runsScored: 0,
+			description: 'Safe at 1B',
+			isHit: true,
+			isError: false
+		})
+		expect(game.bases.first).toBe('visitor-0')
+		expect(game.bases.second).toBe('r1')
+		expect(game.bases.third).toBeNull()
+	})
+
+	it('recordResult with KO-dial runner scoring updates score and bases', () => {
+		const game = createGame(makeLineup('home'), makeLineup('visitor'))
+		game.bases = { first: 'r1', second: null, third: 'r3' }
+		recordResult(game, {
+			batter: { base: 1, out: false },
+			outs: 0,
+			runners: [
+				{ from: 3, to: 4, out: false, scored: true, playerId: 'r3' },
+				{ from: 1, to: 2, out: false, scored: false, playerId: 'r1' }
+			],
+			runsScored: 1,
+			description: 'Single, run scores',
+			isHit: true,
+			isError: false
+		})
+		expect(game.score.visitor[0]).toBe(1)
+		expect(game.bases.first).toBe('visitor-0')
+		expect(game.bases.second).toBe('r1')
+		expect(game.bases.third).toBeNull()
+	})
 })

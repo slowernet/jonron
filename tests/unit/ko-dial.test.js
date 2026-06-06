@@ -39,6 +39,55 @@ describe('resolveKoDial', () => {
 			}
 		})
 
+		it('M: runner on 3B scores, batter out', () => {
+			const result = resolveKoDial('M', 'fly-ball', { first: null, second: null, third: 'p3' })
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			const r3 = result.runners.find(r => r.from === 3)
+			expect(r3.to).toBe(4)
+			expect(r3.scored).toBe(true)
+			expect(result.runsScored).toBe(1)
+		})
+
+		it('M: runner on 2B advances to 3B, batter out', () => {
+			const result = resolveKoDial('M', 'fly-ball', { first: null, second: 'p2', third: null })
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			const r2 = result.runners.find(r => r.from === 2)
+			expect(r2.to).toBe(3)
+			expect(r2.scored).toBe(false)
+			expect(result.runsScored).toBe(0)
+		})
+
+		it('M: runners on 1B and 2B, batter out, 2B→3B, 1B holds', () => {
+			const result = resolveKoDial('M', 'fly-ball', { first: 'p1', second: 'p2', third: null })
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			const r2 = result.runners.find(r => r.from === 2)
+			expect(r2.to).toBe(3)
+			expect(r2.scored).toBe(false)
+			const r1 = result.runners.find(r => r.from === 1)
+			expect(r1.to).toBe(1)
+			expect(r1.scored).toBe(false)
+			expect(result.runsScored).toBe(0)
+		})
+
+		it('M: bases loaded, 3B scores, 2B→3B, 1B holds', () => {
+			const result = resolveKoDial('M', 'fly-ball', { first: 'p1', second: 'p2', third: 'p3' })
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			const r3 = result.runners.find(r => r.from === 3)
+			expect(r3.to).toBe(4)
+			expect(r3.scored).toBe(true)
+			const r2 = result.runners.find(r => r.from === 2)
+			expect(r2.to).toBe(3)
+			expect(r2.scored).toBe(false)
+			const r1 = result.runners.find(r => r.from === 1)
+			expect(r1.to).toBe(1)
+			expect(r1.scored).toBe(false)
+			expect(result.runsScored).toBe(1)
+		})
+
 		it('O with runners on 2B and 3B: batter out, lead runner (3B) doubled off, 2B holds', () => {
 			const result = resolveKoDial('O', 'fly-ball', { first: null, second: 'p2', third: 'p3' })
 			expect(result.batter.out).toBe(true)
@@ -91,6 +140,28 @@ describe('resolveKoDial', () => {
 			expect(r2.scored).toBe(true)
 			const r1 = result.runners.find(r => r.from === 1)
 			expect(r1.to).toBe(3)
+			expect(result.runsScored).toBe(1)
+		})
+
+		it('M: runner on 1B, batter at 1B, runner advances to 2B', () => {
+			const result = resolveKoDial('M', 'single', { first: 'p1', second: null, third: null })
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.outs).toBe(0)
+			const r1 = result.runners.find(r => r.from === 1)
+			expect(r1.to).toBe(2)
+			expect(result.runsScored).toBe(0)
+			expect(result.isHit).toBe(true)
+		})
+
+		it('M: runner on 3B, batter at 1B, runner on 3B scores', () => {
+			const result = resolveKoDial('M', 'single', { first: null, second: null, third: 'p3' })
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.outs).toBe(0)
+			const r3 = result.runners.find(r => r.from === 3)
+			expect(r3.to).toBe(4)
+			expect(r3.scored).toBe(true)
 			expect(result.runsScored).toBe(1)
 		})
 
@@ -214,6 +285,10 @@ describe('resolveKoDial', () => {
 			const result = resolveKoDial('O', 'single', empty)
 			expect(result.batter.base).toBe(1)
 		})
+	})
+
+	it('throws on invalid letter', () => {
+		expect(() => resolveKoDial('X', 'fly-ball', empty)).toThrow()
 	})
 
 	describe('all 15 combinations with empty bases', () => {

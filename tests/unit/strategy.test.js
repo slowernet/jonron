@@ -164,6 +164,249 @@ describe('resolveStrategy', () => {
 		})
 	})
 
+	describe('double-steal-1b-2b', () => {
+		const bases = { first: 'p1', second: 'p2', third: null }
+
+		it('F: takes-pitch, runners advance 1 → p2 to 3B, p1 to 2B', () => {
+			const result = resolveStrategy('double-steal-1b-2b', 'F', bases)
+			expect(result.batter.result).toBe('takes-pitch')
+			expect(result.batter.out).toBe(false)
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(0)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: false, scored: false })
+		})
+
+		it('G: flies-out, runners hold → 1 out', () => {
+			const result = resolveStrategy('double-steal-1b-2b', 'G', bases)
+			expect(result.batter.result).toBe('flies-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.batterStays).toBe(false)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 2, out: false, scored: false })
+			expect(result.runners).toContainEqual({ from: 1, to: 1, out: false, scored: false })
+		})
+
+		it('H: takes-pitch, out at 3B, safe at 2B → p2 out, p1 to 2B', () => {
+			const result = resolveStrategy('double-steal-1b-2b', 'H', bases)
+			expect(result.batter.result).toBe('takes-pitch')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: true, scored: false })
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: false, scored: false })
+		})
+
+		it('I: singles, runners advance 2 → p2 scores, p1 to 3B', () => {
+			const result = resolveStrategy('double-steal-1b-2b', 'I', bases)
+			expect(result.batter.result).toBe('singles')
+			expect(result.batter.base).toBe(1)
+			expect(result.isHit).toBe(true)
+			expect(result.runsScored).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 4, out: false, scored: true })
+			expect(result.runners).toContainEqual({ from: 1, to: 3, out: false, scored: false })
+		})
+
+		it('J: grounds-out, out at 2B DP, safe at 3B → batter out, p1 out, p2 to 3B', () => {
+			const result = resolveStrategy('double-steal-1b-2b', 'J', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(2)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: true, scored: false })
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+		})
+	})
+
+	describe('sac-bunt-2b', () => {
+		const bases = { first: null, second: 'p2', third: null }
+
+		it('F: grounds-out, runner advances 1 → p2 to 3B', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'F', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+		})
+
+		it('G: safe-at-1b, out at 3B → batter at 1B, p2 out at 3B', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'G', bases)
+			expect(result.batter.result).toBe('safe-at-1b')
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: true, scored: false })
+		})
+
+		it('H: beats-out-bunt, runners advance 1 → batter at 1B, p2 to 3B', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'H', bases)
+			expect(result.batter.result).toBe('beats-out-bunt')
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.isHit).toBe(true)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+		})
+
+		it('I: pops-out, runners hold → p2 stays at 2B', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'I', bases)
+			expect(result.batter.result).toBe('pops-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 2, out: false, scored: false })
+		})
+
+		it('J: misses-pitch, caught off 2B → p2 out at 2B', () => {
+			const result = resolveStrategy('sac-bunt-2b', 'J', bases)
+			expect(result.batter.result).toBe('misses-pitch')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 2, out: true, scored: false })
+		})
+	})
+
+	describe('steal-1b missing letters', () => {
+		const bases = { first: 'p1', second: null, third: null }
+
+		it('B: grounds-out, runners advance 1 → 1 out', () => {
+			const result = resolveStrategy('steal-1b', 'B', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: false, scored: false })
+		})
+
+		it('C: singles, runners advance 2 → isHit true', () => {
+			const result = resolveStrategy('steal-1b', 'C', bases)
+			expect(result.batter.result).toBe('singles')
+			expect(result.batter.base).toBe(1)
+			expect(result.isHit).toBe(true)
+			expect(result.runners).toContainEqual({ from: 1, to: 3, out: false, scored: false })
+		})
+
+		it('E: flies-out, runners hold → 1 out', () => {
+			const result = resolveStrategy('steal-1b', 'E', bases)
+			expect(result.batter.result).toBe('flies-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 1, out: false, scored: false })
+		})
+	})
+
+	describe('hit-and-run missing letters', () => {
+		const bases = { first: 'p1', second: null, third: null }
+
+		it('B: flies-out, runners hold → 1 out', () => {
+			const result = resolveStrategy('hit-and-run', 'B', bases)
+			expect(result.batter.result).toBe('flies-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.batterStays).toBe(false)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 1, out: false, scored: false })
+		})
+
+		it('D: grounds-out, runners advance 1 → 1 out', () => {
+			const result = resolveStrategy('hit-and-run', 'D', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: false, scored: false })
+		})
+
+		it('E: misses-ball, runner out at 2B → batterStays true', () => {
+			const result = resolveStrategy('hit-and-run', 'E', bases)
+			expect(result.batter.result).toBe('misses-ball')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: true, scored: false })
+		})
+	})
+
+	describe('steal-2b missing letters', () => {
+		const bases = { first: null, second: 'p2', third: null }
+
+		it('F: takes-pitch, runner safe at 3B → batterStays true', () => {
+			const result = resolveStrategy('steal-2b', 'F', bases)
+			expect(result.batter.result).toBe('takes-pitch')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(0)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+		})
+
+		it('H: takes-pitch, runner out at 3B → 1 out, batterStays true', () => {
+			const result = resolveStrategy('steal-2b', 'H', bases)
+			expect(result.batter.result).toBe('takes-pitch')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: true, scored: false })
+		})
+
+		it('I: grounds-out, runner safe at 3B → 1 out', () => {
+			const result = resolveStrategy('steal-2b', 'I', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 2, to: 3, out: false, scored: false })
+		})
+
+		it('J: lines-out, runner caught off 2B (DP) → 2 outs', () => {
+			const result = resolveStrategy('steal-2b', 'J', bases)
+			expect(result.batter.result).toBe('lines-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(2)
+			expect(result.runners).toContainEqual({ from: 2, to: 2, out: true, scored: false })
+		})
+	})
+
+	describe('squeeze missing letters', () => {
+		const bases = { first: null, second: null, third: 'p3' }
+
+		it('B: misses-ball, runner out at plate → 1 out, batterStays true', () => {
+			const result = resolveStrategy('squeeze', 'B', bases)
+			expect(result.batter.result).toBe('misses-ball')
+			expect(result.batterStays).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runsScored).toBe(0)
+			expect(result.runners).toContainEqual({ from: 3, to: 4, out: true, scored: false })
+		})
+
+		it('D: safe-at-1b, runner out at plate → 1 out', () => {
+			const result = resolveStrategy('squeeze', 'D', bases)
+			expect(result.batter.result).toBe('safe-at-1b')
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.outs).toBe(1)
+			expect(result.runsScored).toBe(0)
+			expect(result.runners).toContainEqual({ from: 3, to: 4, out: true, scored: false })
+		})
+	})
+
+	describe('sac-bunt-1b missing letters', () => {
+		const bases = { first: 'p1', second: null, third: null }
+
+		it('F: grounds-out, runner advances 1 → 1 out', () => {
+			const result = resolveStrategy('sac-bunt-1b', 'F', bases)
+			expect(result.batter.result).toBe('grounds-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: false, scored: false })
+		})
+
+		it('G: safe-at-1b, runner out at 2B → 1 out', () => {
+			const result = resolveStrategy('sac-bunt-1b', 'G', bases)
+			expect(result.batter.result).toBe('safe-at-1b')
+			expect(result.batter.base).toBe(1)
+			expect(result.batter.out).toBe(false)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 2, out: true, scored: false })
+		})
+
+		it('I: pops-out, runner holds → 1 out', () => {
+			const result = resolveStrategy('sac-bunt-1b', 'I', bases)
+			expect(result.batter.result).toBe('pops-out')
+			expect(result.batter.out).toBe(true)
+			expect(result.outs).toBe(1)
+			expect(result.runners).toContainEqual({ from: 1, to: 1, out: false, scored: false })
+		})
+	})
+
 	it('double-steal-1b-3b D: runner on 1B safe at 2B, runner on 3B out at home → 1 out', () => {
 		const result = resolveStrategy('double-steal-1b-3b', 'D', { first: 'p1', second: null, third: 'p3' })
 		expect(result.batter.result).toBe('takes-pitch')
