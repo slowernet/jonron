@@ -89,10 +89,9 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		const labelAngle = currentAngle + sectorAngle / 2
 		const labelPos = polarToCartesian(cx, cy, radius * 0.72, labelAngle)
 		const label = svgEl('text', {
-			x: labelPos.x, y: labelPos.y, class: 'jr-mono',
+			x: labelPos.x, y: labelPos.y,
+			class: sectorAngle < 15 ? 'disc-label disc-label-sm' : 'disc-label',
 			'text-anchor': 'middle', 'dominant-baseline': 'central',
-			'font-size': sectorAngle < 15 ? '7.5' : '10',
-			'font-weight': '600',
 			fill: 'var(--disc-label)'
 		})
 		label.textContent = SECTOR_LABELS[sector.number] ?? sector.number

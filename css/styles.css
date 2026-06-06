@@ -899,6 +899,15 @@ body {
 	font-family: var(--f-mono);
 }
 
+.disc-label {
+	font-family: var(--f-mono);
+	font-size: 12px;
+	font-weight: 600;
+}
+.disc-label-sm {
+	font-size: 9px;
+}
+
 .jr-display {
 	font-family: var(--f-display);
 }
