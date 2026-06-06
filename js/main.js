@@ -329,9 +329,9 @@ function startGame(container, homeLineup, visitorLineup) {
 			narrate(narratorEl, `${label}... ${desc}`, { replace: true })
 			recordGameLine(game, batter.id, RESULT_ABBREV[batting.type] ?? 'FB')
 			recordResult(game, result)
+			spinner.hideKoRing()
 			afterResult(previousHalf, previousInning)
 		} else {
-			spinner.showKoRing()
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
 			const result = resolveImmediate(batting.type, game.bases, batter.id)
@@ -361,7 +361,6 @@ function startGame(container, homeLineup, visitorLineup) {
 			recordGameLine(game, batter.id, STRATEGY_ABBREV[result.batter.result] ?? 'GB')
 		}
 		recordResult(game, result)
-		spinner.showKoRing()
 		if (result.batterStays) {
 			placeBatterDisc()
 			refreshUI()
