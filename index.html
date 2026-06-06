@@ -10,7 +10,7 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	  gtag('config', 'G-CG8MYVNYHZ');
+	  gtag('config', 'G-CG8MYVNYHZ', new URLSearchParams(location.search).has('debug_mode') ? { debug_mode: true } : {});
 	</script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
