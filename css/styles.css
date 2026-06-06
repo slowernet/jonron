@@ -1316,9 +1316,11 @@ body {
    RESPONSIVE
    ============================================================ */
 @media (max-width: 820px) {
-	/* Flatten marquee: wordmark + tvbug inline, linescore wraps below */
+	/* Simplify marquee at mobile */
 	.jr-marquee {
 		flex-wrap: wrap;
+		padding: 10px 14px;
+		gap: 10px;
 	}
 	.jr-marquee-right {
 		display: contents;
@@ -1326,11 +1328,12 @@ body {
 	.jr-tvbug {
 		margin-left: auto;
 		order: 1;
+		transform: translateY(-4px);
 	}
 	.jr-marquee-linescore {
 		order: 2;
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 8px;
 		border-top: 1px solid rgba(244, 234, 208, 0.14);
 		transform: none;
 	}
@@ -1347,7 +1350,7 @@ body {
 		display: contents;
 	}
 
-	/* PBP ticker: fixed ~3 lines, full width */
+	/* PBP ticker: ~3 lines, full width */
 	.jr-pbp {
 		order: 1;
 		width: 100%;
@@ -1355,7 +1358,7 @@ body {
 		flex: none;
 	}
 	.jr-narrator {
-		max-height: calc(3 * 1.45em + 8px);
+		max-height: calc(4.35 * 1.45em + 8px);
 		overflow: hidden;
 	}
 
@@ -1384,6 +1387,13 @@ body {
 	}
 	.jr-btn-strategy {
 		width: auto;
+	}
+
+	/* Strategy menu: position above button, left-aligned */
+	.jr-strategy-menu {
+		left: 0;
+		right: auto;
+		min-width: 200px;
 	}
 }
 

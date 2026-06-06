@@ -77,7 +77,7 @@ export function createLayout(container) {
 	// right column: spinner + controls
 	const hero = h('div', 'jr-hero')
 	const spinnerWrap = h('div', 'jr-spinner-wrap')
-	const spinnerSvg = svgEl('svg', { viewBox: '0 0 360 360', preserveAspectRatio: 'xMidYMid meet' })
+	const spinnerSvg = svgEl('svg', { viewBox: '10 10 340 340', preserveAspectRatio: 'xMidYMid meet' })
 	spinnerWrap.appendChild(spinnerSvg)
 	hero.appendChild(spinnerWrap)
 
