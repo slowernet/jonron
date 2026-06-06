@@ -16,7 +16,7 @@
 :root {
 	/* type */
 	--f-display: 'Archivo', 'Helvetica Neue', sans-serif;
-	--f-body: 'Libre Franklin', system-ui, sans-serif;
+	--f-body: system-ui, sans-serif;
 	--f-mono: 'Spline Sans Mono', ui-monospace, monospace;
 
 	/* shared brand inks (constant across themes) */
