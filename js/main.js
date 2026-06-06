@@ -167,7 +167,6 @@ function startGame(container, homeLineup, visitorLineup) {
 	function placeBatterDisc() {
 		const batter = getCurrentBatter(game)
 		spinner.setDisc(createDiscSVG(batter, 0, 0, 120))
-		spinner.resetArrow()
 	}
 
 	function getAngleForSector(disc, sectorNumber) {

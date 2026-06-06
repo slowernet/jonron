@@ -77,26 +77,32 @@ export function createSpinner(svg, cx, cy, radius, label) {
 	const discContainer = svgEl('g', { class: 'disc-container' })
 	g.appendChild(discContainer)
 
-	// needle — slender pointer with a tail
-	const arrowLen = outerRadius * 0.9
-	const tailLen = outerRadius * 0.26
+	// pointer — teardrop shape with equal mass behind pivot
+	const arrowLen = outerRadius * 0.88
+	const tailLen = outerRadius * 0.38
 	const arrowGroup = svgEl('g', { class: 'spinner-arrow' })
-	const hw = 5.5
-	const tailHw = 4.5
+	const tipHw = 5
+	const bulbR = 12
+	// tip (narrow diamond point) -> waist -> bulb tail (wide rounded end)
 	arrowGroup.appendChild(svgEl('path', {
-		d: [`M ${-tailHw} ${tailLen}`,
-			`A ${tailHw} ${tailHw} 0 0 1 ${tailHw} ${tailLen}`,
-			`L ${hw} 0`, `L 0 ${-arrowLen}`, `L ${-hw} 0`, 'Z'].join(' '),
+		d: [
+			`M 0 ${-arrowLen}`,
+			`L ${tipHw} ${-arrowLen * 0.15}`,
+			`C ${tipHw + 2} ${tailLen * 0.3} ${bulbR} ${tailLen * 0.55} ${bulbR} ${tailLen * 0.75}`,
+			`A ${bulbR} ${bulbR} 0 1 1 ${-bulbR} ${tailLen * 0.75}`,
+			`C ${-bulbR} ${tailLen * 0.55} ${-tipHw - 2} ${tailLen * 0.3} ${-tipHw} ${-arrowLen * 0.15}`,
+			'Z'
+		].join(' '),
 		fill: 'var(--needle)', stroke: 'var(--needle-edge)',
-		'stroke-width': '1', 'stroke-linejoin': 'round'
+		'stroke-width': '1.5', 'stroke-linejoin': 'round'
 	}))
-	// brass pivot
+	// pivot rivet
 	arrowGroup.appendChild(svgEl('circle', {
-		cx: 0, cy: 0, r: 11, fill: 'var(--pivot)',
+		cx: 0, cy: 0, r: 8, fill: 'var(--pivot)',
 		stroke: 'var(--pivot-edge)', 'stroke-width': '2'
 	}))
 	arrowGroup.appendChild(svgEl('circle', {
-		cx: 0, cy: 0, r: 4, fill: 'var(--pivot-edge)'
+		cx: 0, cy: 0, r: 3, fill: 'var(--pivot-edge)'
 	}))
 	g.appendChild(arrowGroup)
 
