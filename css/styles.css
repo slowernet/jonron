@@ -967,6 +967,10 @@ body {
 }
 
 /* ---- SVG presentation (spinner) ---- */
+.ko-ring {
+	opacity: 0.12;
+	transition: opacity 0.3s;
+}
 .ko-sector {
 	stroke: var(--ko-line);
 	stroke-width: 1.5;

@@ -113,8 +113,8 @@ export function createSpinner(svg, cx, cy, radius, label) {
 		},
 		clearDisc() { discContainer.textContent = '' },
 		setLabel() {},
-		hideKoRing() { koRing.style.opacity = '0.18' },
-		showKoRing() { koRing.style.opacity = '' },
+		hideKoRing() { koRing.style.opacity = '0.12' },
+		showKoRing() { koRing.style.opacity = '0.85' },
 		resetArrow() {
 			this._rotation = 0
 			arrowGroup.setAttribute('transform', 'rotate(0)')
