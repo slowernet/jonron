@@ -61,8 +61,8 @@ function baseballMarkup() {
 	]
 	let stitches = ''
 	for (const s of seams) {
-		for (let i = 0; i <= 7; i++) {
-			const t = 0.08 + i * 0.115
+		for (let i = 0; i <= 14; i++) {
+			const t = 0.06 + i * 0.062
 			const px = cub(t, ...s.x)
 			const py = cub(t, ...s.y)
 			let dx = cubD(t, ...s.x)
