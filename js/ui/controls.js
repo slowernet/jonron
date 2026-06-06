@@ -11,115 +11,75 @@ export const STRATEGY_LABELS = {
 
 export function createControls(container, callbacks) {
 	const bar = document.createElement('div')
-	bar.className = 'control-bar'
+	bar.className = 'jr-controls'
 
-	// Spin button (primary action)
 	const spinBtn = document.createElement('button')
-	spinBtn.className = 'control-btn control-spin'
-	spinBtn.textContent = 'SPIN'
+	spinBtn.className = 'jr-btn jr-btn-spin'
+	spinBtn.textContent = 'Spin'
 	spinBtn.addEventListener('click', () => callbacks.onSpin())
-	bar.appendChild(spinBtn)
 
-	// Strategy wrapper (button + dropdown)
-	const strategyWrapper = document.createElement('div')
-	strategyWrapper.className = 'control-strategy-wrapper'
-
+	const wrap = document.createElement('div')
+	wrap.className = 'jr-strategy-wrap'
 	const strategyBtn = document.createElement('button')
-	strategyBtn.className = 'control-btn control-strategy'
+	strategyBtn.className = 'jr-btn jr-btn-strategy'
 	strategyBtn.innerHTML = 'Strategy <span class="caret">&#9660;</span>'
-	strategyWrapper.appendChild(strategyBtn)
+	wrap.appendChild(strategyBtn)
 
-	const dropdown = document.createElement('div')
-	dropdown.className = 'control-strategy-dropdown'
-	dropdown.hidden = true
-	strategyWrapper.appendChild(dropdown)
+	const menu = document.createElement('div')
+	menu.className = 'jr-strategy-menu'
+	menu.hidden = true
+	wrap.appendChild(menu)
 
-	strategyBtn.addEventListener('click', () => {
-		dropdown.hidden = !dropdown.hidden
-	})
-
-	bar.appendChild(strategyWrapper)
-
-	// Message area
-	const messageEl = document.createElement('div')
-	messageEl.className = 'control-message'
-	bar.appendChild(messageEl)
-
-	// Close dropdown on outside click
+	strategyBtn.addEventListener('click', () => { menu.hidden = !menu.hidden })
 	document.addEventListener('click', (e) => {
-		if (!strategyWrapper.contains(e.target)) {
-			dropdown.hidden = true
-		}
+		if (!wrap.contains(e.target)) menu.hidden = true
 	})
 
+	// Strategy on the left, Spin (primary) on the right
+	bar.append(wrap, spinBtn)
 	container.appendChild(bar)
 
-	const api = {
+	return {
 		element: bar,
-
 		enable() {
 			spinBtn.disabled = false
-			strategyBtn.disabled = dropdown.children.length === 0
+			strategyBtn.disabled = menu.children.length === 0
 		},
-
 		disable() {
 			spinBtn.disabled = true
 			strategyBtn.disabled = true
-			dropdown.hidden = true
+			menu.hidden = true
 		},
-
 		updateStrategies(availablePlays) {
-			dropdown.textContent = ''
-
+			menu.textContent = ''
 			for (const playType of (availablePlays ?? [])) {
-				const option = document.createElement('button')
-				option.className = 'control-strategy-option'
-				option.textContent = STRATEGY_LABELS[playType] ?? playType
-				option.addEventListener('click', () => {
-					dropdown.hidden = true
+				const opt = document.createElement('button')
+				opt.textContent = STRATEGY_LABELS[playType] ?? playType
+				opt.addEventListener('click', () => {
+					menu.hidden = true
 					callbacks.onStrategy(playType)
 				})
-				dropdown.appendChild(option)
+				menu.appendChild(opt)
 			}
-
-			// IBB is always available
-			const ibbOption = document.createElement('button')
-			ibbOption.className = 'control-strategy-option'
-			ibbOption.textContent = 'Intentional Walk'
-			ibbOption.addEventListener('click', () => {
-				dropdown.hidden = true
+			const ibb = document.createElement('button')
+			ibb.textContent = 'Intentional Walk'
+			ibb.addEventListener('click', () => {
+				menu.hidden = true
 				callbacks.onIntentionalWalk()
 			})
-			dropdown.appendChild(ibbOption)
-
+			menu.appendChild(ibb)
 			strategyBtn.disabled = false
 		},
-
-		showMessage(text) {
-			messageEl.textContent = text
-			messageEl.classList.remove('control-message-fade')
-			// Force reflow to restart animation
-			void messageEl.offsetWidth
-			messageEl.classList.add('control-message-fade')
-		},
-
 		setPhase(phase) {
-			switch (phase) {
-				case 'batting':
-					spinBtn.disabled = false
-					spinBtn.textContent = 'SPIN'
-					strategyBtn.disabled = dropdown.children.length === 0
-					break
-				case 'strategy':
-					spinBtn.disabled = true
-					strategyBtn.disabled = true
-					dropdown.hidden = true
-					break
-				default:
-					break
+			if (phase === 'batting') {
+				spinBtn.disabled = false
+				spinBtn.textContent = 'Spin'
+				strategyBtn.disabled = menu.children.length === 0
+			} else if (phase === 'strategy') {
+				spinBtn.disabled = true
+				strategyBtn.disabled = true
+				menu.hidden = true
 			}
 		}
 	}
-
-	return api
 }

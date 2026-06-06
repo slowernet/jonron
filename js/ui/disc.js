@@ -2,354 +2,244 @@ const SVG_NS = 'http://www.w3.org/2000/svg'
 
 function svgEl(tag, attrs = {}) {
 	const el = document.createElementNS(SVG_NS, tag)
-	for (const [k, v] of Object.entries(attrs)) {
-		el.setAttribute(k, v)
-	}
+	for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v)
 	return el
 }
 
 function polarToCartesian(cx, cy, radius, angleDeg) {
 	const rad = (angleDeg - 90) * Math.PI / 180
-	return {
-		x: cx + radius * Math.cos(rad),
-		y: cy + radius * Math.sin(rad)
-	}
-}
-
-function describeArc(cx, cy, radius, startAngle, endAngle) {
-	const start = polarToCartesian(cx, cy, radius, endAngle)
-	const end = polarToCartesian(cx, cy, radius, startAngle)
-	const largeArc = endAngle - startAngle > 180 ? 1 : 0
-
-	return [
-		'M', start.x, start.y,
-		'A', radius, radius, 0, largeArc, 0, end.x, end.y
-	].join(' ')
+	return { x: cx + radius * Math.cos(rad), y: cy + radius * Math.sin(rad) }
 }
 
 function describeSector(cx, cy, radius, startAngle, endAngle) {
 	const start = polarToCartesian(cx, cy, radius, startAngle)
 	const end = polarToCartesian(cx, cy, radius, endAngle)
 	const largeArc = endAngle - startAngle > 180 ? 1 : 0
-
-	return [
-		'M', cx, cy,
-		'L', start.x, start.y,
-		'A', radius, radius, 0, largeArc, 1, end.x, end.y,
-		'Z'
-	].join(' ')
+	return ['M', cx, cy, 'L', start.x, start.y,
+		'A', radius, radius, 0, largeArc, 1, end.x, end.y, 'Z'].join(' ')
 }
 
-const POSITION_COLORS = {
-	pitcher: '#ffffff',
-	catcher: '#ffffff',
-	'first-base': '#aaaaaa',
-	'second-base': '#aaaaaa',
-	'third-base': '#aaaaaa',
-	shortstop: '#aaaaaa',
-	'left-field': '#c41e3a',
-	'center-field': '#c41e3a',
-	'right-field': '#c41e3a',
-	outfield: '#c41e3a',
-	infield: '#aaaaaa',
-	'1b': '#aaaaaa',
-	'2b': '#aaaaaa',
-	'3b': '#aaaaaa',
-	ss: '#aaaaaa',
-	lf: '#c41e3a',
-	cf: '#c41e3a',
-	rf: '#c41e3a'
+const BATTERY = new Set(['pitcher', 'catcher'])
+const OUTFIELD = new Set(['outfield', 'left-field', 'center-field', 'right-field', 'lf', 'cf', 'rf'])
+
+function hubVar(position) {
+	const p = (position ?? '').toLowerCase()
+	if (BATTERY.has(p)) return 'var(--hub-battery)'
+	if (OUTFIELD.has(p)) return 'var(--hub-outfield)'
+	return 'var(--hub-infield)'
+}
+
+function inkVar(position) {
+	const p = (position ?? '').toLowerCase()
+	if (BATTERY.has(p)) return 'var(--ink-on-battery)'
+	if (OUTFIELD.has(p)) return 'var(--ink-on-outfield)'
+	return 'var(--ink-on-infield)'
 }
 
 const POSITION_ABBREV = {
-	pitcher: 'P',
-	catcher: 'C',
-	'first-base': '1B',
-	'second-base': '2B',
-	'third-base': '3B',
-	shortstop: 'SS',
-	'left-field': 'LF',
-	'center-field': 'CF',
-	'right-field': 'RF',
-	outfield: 'OF',
-	infield: 'IF',
-	'1b': '1B',
-	'2b': '2B',
-	'3b': '3B',
-	ss: 'SS',
-	lf: 'LF',
-	cf: 'CF',
-	rf: 'RF'
+	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
+	'third-base': '3B', shortstop: 'SS', outfield: 'OF',
+	'left-field': 'LF', 'center-field': 'CF', 'right-field': 'RF'
 }
 
 const SECTOR_LABELS = {
-	1: 'HR', 2: 'GB', 3: 'FB', 4: 'FB',
-	5: '3B', 6: 'GB', 7: '1B', 8: 'FB',
-	9: 'BB', 10: 'K', 11: '2B', 12: 'GB',
-	13: '1B', 14: 'FB'
+	1: 'HR', 2: 'GB', 3: 'FB', 4: 'FB', 5: '3B', 6: 'GB', 7: '1B',
+	8: 'FB', 9: 'BB', 10: 'K', 11: '2B', 12: 'GB', 13: '1B', 14: 'FB'
 }
 
-// A-E ring: A/B/C/D wide (360/11deg), E narrow (2/3 of wide). 12 segments.
-const AE_WIDE = 360 / 11
-const AE_NARROW = AE_WIDE * 2 / 3
-const STRATEGY_SECTORS_AE = [
-	{ letter: 'E', angle: AE_NARROW },
-	{ letter: 'C', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE },
-	{ letter: 'A', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW },
-	{ letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE },
-	{ letter: 'C', angle: AE_WIDE },
-	{ letter: 'E', angle: AE_NARROW },
-	{ letter: 'B', angle: AE_WIDE },
-	{ letter: 'D', angle: AE_WIDE },
-	{ letter: 'A', angle: AE_WIDE },
-]
-
-// F-J ring: F wide (40deg, x4), G/H/I/J narrow (25deg). 12 segments.
-const STRATEGY_SECTORS_FJ = [
-	{ letter: 'H', angle: 25 },
-	{ letter: 'G', angle: 25 },
-	{ letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 },
-	{ letter: 'F', angle: 40 },
-	{ letter: 'I', angle: 25 },
-	{ letter: 'H', angle: 25 },
-	{ letter: 'G', angle: 25 },
-	{ letter: 'F', angle: 40 },
-	{ letter: 'J', angle: 25 },
-	{ letter: 'F', angle: 40 },
-	{ letter: 'I', angle: 25 },
-]
+// Outcome sectors get a small accent tick so hits read at a glance
+const HIT_SECTORS = new Set([1, 5, 7, 11, 13])
 
 export function createDiscSVG(disc, cx, cy, radius) {
-	const g = svgEl('g', {
-		'data-disc-id': disc.id ?? disc.name
-	})
-
+	const g = svgEl('g', { 'data-disc-id': disc.id ?? disc.name })
+	const ink = inkVar(disc.position)
 	const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
-	const centerRadius = 70
-
+	const centerRadius = radius * 0.5
 	let currentAngle = 0
 
 	disc.sectors.forEach((sector, i) => {
 		const sectorAngle = (sector.size / totalSize) * 360
 		const endAngle = currentAngle + sectorAngle
+		const isHit = HIT_SECTORS.has(sector.number)
 
-		// Sector fill — alternate cream shades
-		const fill = i % 2 === 0 ? '#f5f0e1' : '#e8e0cc'
 		const path = svgEl('path', {
 			d: describeSector(cx, cy, radius, currentAngle, endAngle),
-			fill,
-			stroke: '#555',
+			fill: 'var(--disc-a)',
+			stroke: 'var(--disc-rule)',
 			'stroke-width': '0.5'
 		})
 		g.appendChild(path)
 
-		// Sector number label at ~70% radius
-		const labelAngle = currentAngle + sectorAngle / 2
-		const labelR = radius * 0.72
-		const labelPos = polarToCartesian(cx, cy, labelR, labelAngle)
+		// thin accent band on the rim for hit outcomes (graphic, flat)
+		if (isHit) {
+			const bandOuter = radius
+			const bandInner = radius * 0.9
+			const a = polarToCartesian(cx, cy, bandOuter, currentAngle)
+			const b = polarToCartesian(cx, cy, bandOuter, endAngle)
+			const c = polarToCartesian(cx, cy, bandInner, endAngle)
+			const d = polarToCartesian(cx, cy, bandInner, currentAngle)
+			const large = sectorAngle > 180 ? 1 : 0
+			g.appendChild(svgEl('path', {
+				d: ['M', a.x, a.y, 'A', bandOuter, bandOuter, 0, large, 1, b.x, b.y,
+					'L', c.x, c.y, 'A', bandInner, bandInner, 0, large, 0, d.x, d.y, 'Z'].join(' '),
+				fill: 'var(--accent)', opacity: '0.9'
+			}))
+		}
 
+		const labelAngle = currentAngle + sectorAngle / 2
+		const labelPos = polarToCartesian(cx, cy, radius * 0.72, labelAngle)
 		const label = svgEl('text', {
-			x: labelPos.x,
-			y: labelPos.y,
-			'text-anchor': 'middle',
-			'dominant-baseline': 'central',
-			'font-size': sectorAngle < 15 ? '8' : '11',
-			'font-weight': 'bold',
-			fill: '#333',
-			'font-family': 'system-ui, sans-serif'
+			x: labelPos.x, y: labelPos.y, class: 'jr-mono',
+			'text-anchor': 'middle', 'dominant-baseline': 'central',
+			'font-size': sectorAngle < 15 ? '7.5' : '10',
+			'font-weight': '600',
+			fill: 'var(--disc-label)'
 		})
 		label.textContent = SECTOR_LABELS[sector.number] ?? sector.number
 		g.appendChild(label)
 
-		// Radial separator line
 		const lineStart = polarToCartesian(cx, cy, centerRadius, currentAngle)
 		const lineEnd = polarToCartesian(cx, cy, radius, currentAngle)
-		const line = svgEl('line', {
-			x1: lineStart.x,
-			y1: lineStart.y,
-			x2: lineEnd.x,
-			y2: lineEnd.y,
-			stroke: '#555',
-			'stroke-width': '1'
-		})
-		g.appendChild(line)
-
+		g.appendChild(svgEl('line', {
+			x1: lineStart.x, y1: lineStart.y, x2: lineEnd.x, y2: lineEnd.y,
+			stroke: 'var(--disc-rule)', 'stroke-width': '0.75'
+		}))
 		currentAngle = endAngle
 	})
 
-	// Outer border
-	const outerCircle = svgEl('circle', {
-		cx, cy, r: radius,
-		fill: 'none',
-		stroke: '#333',
-		'stroke-width': '2'
-	})
-	g.appendChild(outerCircle)
+	g.appendChild(svgEl('circle', {
+		cx, cy, r: radius, fill: 'none',
+		stroke: 'var(--disc-edge)', 'stroke-width': '2.5'
+	}))
 
-	// Center circle
-	const posColor = POSITION_COLORS[disc.position?.toLowerCase()] ?? '#aaaaaa'
-	const centerCircle = svgEl('circle', {
+	// center hub
+	g.appendChild(svgEl('circle', {
 		cx, cy, r: centerRadius,
-		fill: posColor,
-		stroke: '#333',
-		'stroke-width': '1.5'
-	})
-	g.appendChild(centerCircle)
+		fill: hubVar(disc.position), stroke: 'var(--disc-edge)', 'stroke-width': '1.5'
+	}))
+	// inner keyline ring on the hub
+	g.appendChild(svgEl('circle', {
+		cx, cy, r: centerRadius - 5, fill: 'none',
+		stroke: ink, 'stroke-width': '0.75', opacity: '0.35'
+	}))
 
-	// Player name
-	const nameText = svgEl('text', {
-		x: cx,
-		y: cy - 4,
-		'text-anchor': 'middle',
-		'dominant-baseline': 'central',
-		'font-size': '12',
-		'font-weight': '600',
-		fill: '#111',
-		'font-family': 'system-ui, sans-serif'
-	})
-	nameText.textContent = disc.name
-	g.appendChild(nameText)
+	// player name (wraps to two lines if needed)
+	const parts = String(disc.name).split(' ')
+	const line1 = parts.length > 1 ? parts.slice(0, -1).join(' ') : parts[0]
+	const line2 = parts.length > 1 ? parts[parts.length - 1] : ''
+	const nameFs = Math.max(11, Math.min(16, centerRadius * 0.34))
 
-	// Position
-	const posText = svgEl('text', {
-		x: cx,
-		y: cy + 10,
-		'text-anchor': 'middle',
-		'dominant-baseline': 'central',
-		'font-size': '8',
-		fill: '#333',
-		'font-family': 'system-ui, sans-serif'
+	const n1 = svgEl('text', {
+		x: cx, y: line2 ? cy - nameFs * 1.18 : cy - 4,
+		'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
+		'font-size': nameFs, 'font-weight': '700',
+		fill: ink
 	})
+	n1.textContent = line1
+	g.appendChild(n1)
+
+	if (line2) {
+		const n2 = svgEl('text', {
+			x: cx, y: cy + nameFs * 0.92,
+			'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
+			'font-size': nameFs, 'font-weight': '700',
+			fill: ink
+		})
+		n2.textContent = line2
+		g.appendChild(n2)
+	}
+
 	const posKey = (disc.position ?? '').toLowerCase()
+	const posText = svgEl('text', {
+		x: cx + centerRadius * 0.52, y: cy, class: 'jr-mono',
+		'text-anchor': 'middle', 'dominant-baseline': 'central',
+		'font-size': '8.5',
+		fill: ink, opacity: '0.7'
+	})
 	posText.textContent = POSITION_ABBREV[posKey] ?? posKey.toUpperCase()
 	g.appendChild(posText)
 
 	return g
 }
 
+// ---- Strategy disc (two rings) ----
+const AE_WIDE = 360 / 11
+const AE_NARROW = AE_WIDE * 2 / 3
+const STRATEGY_SECTORS_AE = [
+	{ letter: 'E', angle: AE_NARROW }, { letter: 'C', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE },
+	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE }, { letter: 'C', angle: AE_WIDE },
+	{ letter: 'E', angle: AE_NARROW }, { letter: 'B', angle: AE_WIDE },
+	{ letter: 'D', angle: AE_WIDE }, { letter: 'A', angle: AE_WIDE }
+]
+const STRATEGY_SECTORS_FJ = [
+	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
+	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 },
+	{ letter: 'H', angle: 25 }, { letter: 'G', angle: 25 }, { letter: 'F', angle: 40 },
+	{ letter: 'J', angle: 25 }, { letter: 'F', angle: 40 }, { letter: 'I', angle: 25 }
+]
+
 export function createStrategyDiscSVG(cx, cy, radius, activeRing) {
 	const g = svgEl('g')
-
 	const outerR = radius
-	const midR = radius * 0.65
-	const innerR = radius * 0.35
+	const midR = radius * 0.66
+	const innerR = radius * 0.36
 
-	function renderRing(sectors, rOuter, rInner, baseFill, isActive) {
-		const opacity = isActive ? 1 : 0.35
+	function renderRing(sectors, rOuter, rInner, fillVar, isActive) {
+		const opacity = isActive ? 1 : 0.3
 		let currentAngle = 0
-
 		sectors.forEach((sector, i) => {
 			const endAngle = currentAngle + sector.angle
-			const startRad = (currentAngle - 90) * Math.PI / 180
-			const endRad = (endAngle - 90) * Math.PI / 180
-
-			const outerStart = {
-				x: cx + rOuter * Math.cos(startRad),
-				y: cy + rOuter * Math.sin(startRad)
-			}
-			const outerEnd = {
-				x: cx + rOuter * Math.cos(endRad),
-				y: cy + rOuter * Math.sin(endRad)
-			}
-			const innerEnd = {
-				x: cx + rInner * Math.cos(endRad),
-				y: cy + rInner * Math.sin(endRad)
-			}
-			const innerStart = {
-				x: cx + rInner * Math.cos(startRad),
-				y: cy + rInner * Math.sin(startRad)
-			}
-
-			const largeArc = sector.angle > 180 ? 1 : 0
-			const d = [
-				'M', outerStart.x, outerStart.y,
-				'A', rOuter, rOuter, 0, largeArc, 1, outerEnd.x, outerEnd.y,
-				'L', innerEnd.x, innerEnd.y,
-				'A', rInner, rInner, 0, largeArc, 0, innerStart.x, innerStart.y,
-				'Z'
-			].join(' ')
-
-			const fill = i % 2 === 0 ? baseFill : adjustBrightness(baseFill, -15)
-			const path = svgEl('path', {
-				d,
-				fill,
-				stroke: '#333',
-				'stroke-width': '0.5',
+			const sRad = (currentAngle - 90) * Math.PI / 180
+			const eRad = (endAngle - 90) * Math.PI / 180
+			const oS = { x: cx + rOuter * Math.cos(sRad), y: cy + rOuter * Math.sin(sRad) }
+			const oE = { x: cx + rOuter * Math.cos(eRad), y: cy + rOuter * Math.sin(eRad) }
+			const iE = { x: cx + rInner * Math.cos(eRad), y: cy + rInner * Math.sin(eRad) }
+			const iS = { x: cx + rInner * Math.cos(sRad), y: cy + rInner * Math.sin(sRad) }
+			const large = sector.angle > 180 ? 1 : 0
+			g.appendChild(svgEl('path', {
+				d: ['M', oS.x, oS.y, 'A', rOuter, rOuter, 0, large, 1, oE.x, oE.y,
+					'L', iE.x, iE.y, 'A', rInner, rInner, 0, large, 0, iS.x, iS.y, 'Z'].join(' '),
+				fill: fillVar,
+				stroke: 'var(--disc-edge)', 'stroke-width': '0.5', opacity
+			}))
+			const mid = currentAngle + sector.angle / 2
+			const lRad = (mid - 90) * Math.PI / 180
+			const lr = (rOuter + rInner) / 2
+			const t = svgEl('text', {
+				x: cx + lr * Math.cos(lRad), y: cy + lr * Math.sin(lRad), class: 'jr-mono',
+				'text-anchor': 'middle', 'dominant-baseline': 'central',
+				'font-size': '11', 'font-weight': '700',
+				fill: 'var(--hub-ink)',
 				opacity
 			})
-			g.appendChild(path)
-
-			const midAngle = currentAngle + sector.angle / 2
-			const labelR = (rOuter + rInner) / 2
-			const labelRad = (midAngle - 90) * Math.PI / 180
-			const lx = cx + labelR * Math.cos(labelRad)
-			const ly = cy + labelR * Math.sin(labelRad)
-
-			const label = svgEl('text', {
-				x: lx,
-				y: ly,
-				'text-anchor': 'middle',
-				'dominant-baseline': 'central',
-				'font-size': '11',
-				'font-weight': 'bold',
-				fill: '#fff',
-				opacity,
-				'font-family': 'system-ui, sans-serif'
-			})
-			label.textContent = sector.letter
-			g.appendChild(label)
-
+			t.textContent = sector.letter
+			g.appendChild(t)
 			currentAngle = endAngle
 		})
 	}
 
-	renderRing(STRATEGY_SECTORS_AE, outerR, midR, '#c41e3a', activeRing === 'A-E')
-	renderRing(STRATEGY_SECTORS_FJ, midR, innerR, '#222', activeRing === 'F-J')
+	renderRing(STRATEGY_SECTORS_AE, outerR, midR, 'var(--hub-outfield)', activeRing === 'A-E')
+	renderRing(STRATEGY_SECTORS_FJ, midR, innerR, 'var(--hub-battery)', activeRing === 'F-J')
 
-	const center = svgEl('circle', {
-		cx, cy, r: innerR,
-		fill: '#f5f0e1',
-		stroke: '#333',
-		'stroke-width': '1'
+	g.appendChild(svgEl('circle', {
+		cx, cy, r: innerR, fill: 'var(--disc-a)',
+		stroke: 'var(--disc-edge)', 'stroke-width': '1.5'
+	}))
+	const title = svgEl('text', {
+		x: cx, y: cy - 6, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-disc-name',
+		'font-size': '9', 'font-weight': '700',
+		fill: 'var(--disc-name)'
 	})
-	g.appendChild(center)
-
-	const titleText = svgEl('text', {
-		x: cx,
-		y: cy - 6,
-		'text-anchor': 'middle',
-		'dominant-baseline': 'central',
-		'font-size': '9',
-		'font-weight': 'bold',
-		fill: '#222',
-		'font-family': 'system-ui, sans-serif'
+	title.textContent = 'STRATEGY'
+	g.appendChild(title)
+	const ringT = svgEl('text', {
+		x: cx, y: cy + 9, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'jr-mono',
+		'font-size': '11', 'font-weight': '700',
+		fill: 'var(--accent)'
 	})
-	titleText.textContent = 'STRATEGY'
-	g.appendChild(titleText)
-
-	const ringText = svgEl('text', {
-		x: cx,
-		y: cy + 8,
-		'text-anchor': 'middle',
-		'dominant-baseline': 'central',
-		'font-size': '10',
-		'font-weight': 'bold',
-		fill: activeRing === 'A-E' ? '#c41e3a' : '#222',
-		'font-family': 'system-ui, sans-serif'
-	})
-	ringText.textContent = activeRing
-	g.appendChild(ringText)
-
+	ringT.textContent = activeRing
+	g.appendChild(ringT)
 	return g
-}
-
-function adjustBrightness(hex, amount) {
-	const r = Math.max(0, Math.min(255, parseInt(hex.slice(1, 3), 16) + amount))
-	const gr = Math.max(0, Math.min(255, parseInt(hex.slice(3, 5), 16) + amount))
-	const b = Math.max(0, Math.min(255, parseInt(hex.slice(5, 7), 16) + amount))
-	return `#${r.toString(16).padStart(2, '0')}${gr.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`
 }

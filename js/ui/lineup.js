@@ -1,50 +1,25 @@
 const POSITION_LABELS = {
-	pitcher: 'Pitchers',
-	catcher: 'Catchers',
-	'first-base': '1st Base',
-	'second-base': '2nd Base',
-	shortstop: 'Shortstop',
-	'third-base': '3rd Base',
+	pitcher: 'Pitchers', catcher: 'Catchers', 'first-base': '1st Base',
+	'second-base': '2nd Base', shortstop: 'Shortstop', 'third-base': '3rd Base',
 	outfield: 'Outfield'
 }
-
 const POSITION_ABBR = {
-	pitcher: 'P',
-	catcher: 'C',
-	'first-base': '1B',
-	'second-base': '2B',
-	shortstop: 'SS',
-	'third-base': '3B',
-	outfield: 'OF'
+	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
+	shortstop: 'SS', 'third-base': '3B', outfield: 'OF'
 }
-
-const POSITION_ORDER = [
-	'catcher', 'pitcher', 'first-base', 'second-base',
-	'shortstop', 'third-base', 'outfield'
-]
-
-// From the box lid rules: which picks go to home (H) vs visitor (V)
-// For positions with 2 players, only picks 1-2 matter
-// For outfield with 8 players, picks 1-8 matter
+const POSITION_ORDER = ['catcher', 'pitcher', 'first-base', 'second-base', 'shortstop', 'third-base', 'outfield']
 const DRAFT_ORDER = {
-	catcher:      ['H', 'V', 'V', 'H'],
-	pitcher:      ['V', 'H', 'H', 'V', 'H', 'V', 'H', 'V'],
+	catcher: ['H', 'V', 'V', 'H'],
+	pitcher: ['V', 'H', 'H', 'V', 'H', 'V', 'H', 'V'],
 	'first-base': ['H', 'V', 'V', 'H'],
-	'second-base':['V', 'H', 'H', 'V'],
-	shortstop:    ['H', 'V', 'V', 'H'],
+	'second-base': ['V', 'H', 'H', 'V'],
+	shortstop: ['H', 'V', 'V', 'H'],
 	'third-base': ['V', 'H', 'H', 'V'],
-	outfield:     ['H', 'V', 'V', 'H', 'H', 'V', 'V', 'H', 'H', 'V', 'V', 'H']
+	outfield: ['H', 'V', 'V', 'H', 'H', 'V', 'V', 'H', 'H', 'V', 'V', 'H']
 }
-
-// How many each team drafts per position (half the available pool)
 const ROSTER_NEEDS = {
-	pitcher: 1,
-	catcher: 1,
-	'first-base': 1,
-	'second-base': 1,
-	shortstop: 1,
-	'third-base': 1,
-	outfield: 4
+	pitcher: 1, catcher: 1, 'first-base': 1, 'second-base': 1,
+	shortstop: 1, 'third-base': 1, outfield: 4
 }
 
 function el(tag, attrs = {}, children = []) {
@@ -52,6 +27,7 @@ function el(tag, attrs = {}, children = []) {
 	for (const [k, v] of Object.entries(attrs)) {
 		if (k === 'className') node.className = v
 		else if (k === 'textContent') node.textContent = v
+		else if (k === 'html') node.innerHTML = v
 		else if (k.startsWith('on')) node.addEventListener(k.slice(2).toLowerCase(), v)
 		else node.setAttribute(k, v)
 	}
@@ -63,49 +39,42 @@ function el(tag, attrs = {}, children = []) {
 }
 
 function getBiggestSector(disc) {
-	const labels = {
-		1: 'HR', 5: '3B', 7: '1B', 9: 'BB',
-		10: 'K', 11: '2B', 13: '1B'
-	}
-	const notable = disc.sectors
-		.filter(s => labels[s.number])
-		.sort((a, b) => b.size - a.size)
-	if (notable.length === 0) return ''
+	const labels = { 1: 'HR', 5: '3B', 7: '1B', 9: 'BB', 10: 'K', 11: '2B', 13: '1B' }
+	const notable = disc.sectors.filter(s => labels[s.number]).sort((a, b) => b.size - a.size)
+	if (notable.length === 0) return '—'
 	const top = notable[0]
 	return `${labels[top.number]} ${Math.round(top.size / 3.6)}%`
 }
 
 function getHitSectors(disc) {
 	const hitNums = new Set([1, 5, 7, 11, 13])
-	const total = disc.sectors
-		.filter(s => hitNums.has(s.number))
-		.reduce((sum, s) => sum + s.size, 0)
+	const total = disc.sectors.filter(s => hitNums.has(s.number)).reduce((sum, s) => sum + s.size, 0)
 	return Math.round(total / 3.6)
 }
 
 function createPlayerCard(player, onClick) {
-	const hitPct = getHitSectors(player)
-	const bigSector = getBiggestSector(player)
-
-	const card = el('div', { className: 'draft-card' }, [
-		el('div', { className: 'draft-card-name', textContent: player.name }),
-		el('div', { className: 'draft-card-info' }, [
-			el('span', { textContent: `${POSITION_ABBR[player.position]} / ${player.team}` }),
-			el('span', { textContent: `Hit: ${hitPct}%` }),
+	const card = el('div', { className: 'jr-card' }, [
+		el('div', { className: 'jr-card-top' }, [
+			el('span', { className: 'jr-card-pos', textContent: POSITION_ABBR[player.position] }),
+			el('span', { className: 'jr-card-team', textContent: player.team ?? '' })
 		]),
-		el('div', { className: 'draft-card-stat', textContent: bigSector }),
+		el('div', { className: 'jr-card-body' }, [
+			el('div', { className: 'jr-card-name', textContent: player.name }),
+			el('div', { className: 'jr-card-stats' }, [
+				el('div', { className: 'jr-stat', html: `<span class="k">On Base</span><span class="v">${getHitSectors(player)}%</span>` }),
+				el('div', { className: 'jr-stat', html: `<span class="k">Power</span><span class="v">${getBiggestSector(player)}</span>` })
+			])
+		])
 	])
-
 	card.addEventListener('click', () => onClick(player, card))
 	return card
 }
 
 function createRosterPanel(label, team) {
-	const panel = el('div', { className: 'draft-roster' }, [
-		el('div', { className: 'draft-roster-title', textContent: label }),
-		el('div', { className: 'draft-roster-list', id: `roster-${team}` }),
+	return el('div', { className: 'jr-roster' }, [
+		el('div', { className: 'jr-roster-title', textContent: label }),
+		el('div', { className: 'jr-roster-list', id: `roster-${team}` })
 	])
-	return panel
 }
 
 function updateRosterPanel(team, players) {
@@ -113,150 +82,93 @@ function updateRosterPanel(team, players) {
 	if (!list) return
 	list.textContent = ''
 	for (const p of players) {
-		list.appendChild(el('div', { className: 'draft-roster-item' }, [
-			el('span', { className: 'draft-roster-pos', textContent: POSITION_ABBR[p.position] }),
-			el('span', { textContent: p.name }),
+		list.appendChild(el('div', { className: 'jr-roster-item' }, [
+			el('span', { className: 'jr-roster-pos', textContent: POSITION_ABBR[p.position] }),
+			el('span', { textContent: p.name })
 		]))
 	}
 }
 
 function createOverlay() {
-	const overlay = el('div', { className: 'draft-overlay' })
+	const overlay = el('div', { className: 'jr-overlay' })
+	const theme = document.documentElement.getAttribute('data-theme') || 'program'
+	overlay.setAttribute('data-theme', theme)
 	document.body.appendChild(overlay)
 	return overlay
 }
 
 export function startDraft(players, onComplete) {
 	const overlay = createOverlay()
-
 	const homeRoster = []
 	const visitorRoster = []
 	const drafted = new Set()
 	const pickIndex = {}
 	POSITION_ORDER.forEach(pos => { pickIndex[pos] = 0 })
-
 	let currentPosition = 0
 
-	const header = el('div', { className: 'draft-header' }, [
-		el('h1', { textContent: 'DRAFT YOUR TEAMS' }),
-		el('div', { className: 'draft-turn', id: 'draft-turn' }),
+	const header = el('div', { className: 'jr-ov-head' }, [
+		el('h1', { textContent: 'Draft Your Teams' }),
+		el('div', { className: 'jr-turn', id: 'draft-turn' })
 	])
-
-	const main = el('div', { className: 'draft-main' })
-
-	const rosterArea = el('div', { className: 'draft-rosters' }, [
-		createRosterPanel('VISITORS', 'visitor'),
-		createRosterPanel('HOME', 'home'),
+	const main = el('div', { className: 'jr-ov-main' })
+	const rosterArea = el('div', { className: 'jr-rosters' }, [
+		createRosterPanel('Visitors', 'visitor'),
+		createRosterPanel('Home', 'home')
 	])
-
-	const actions = el('div', { className: 'draft-actions' })
-
-	overlay.appendChild(header)
-	overlay.appendChild(main)
-	overlay.appendChild(rosterArea)
-	overlay.appendChild(actions)
+	overlay.append(header, main, rosterArea)
 
 	const grouped = {}
-	for (const pos of POSITION_ORDER) {
-		grouped[pos] = players.filter(p => p.position === pos)
-	}
+	for (const pos of POSITION_ORDER) grouped[pos] = players.filter(p => p.position === pos)
 
-	function getCurrentTeam() {
+	const getCurrentTeam = () => {
 		const pos = POSITION_ORDER[currentPosition]
 		const order = DRAFT_ORDER[pos]
 		const idx = pickIndex[pos]
-		if (idx >= order.length) return null
-		return order[idx]
+		return idx >= order.length ? null : order[idx]
 	}
-
-	function getHomeCounts() {
-		const counts = {}
-		for (const pos of POSITION_ORDER) counts[pos] = 0
-		for (const p of homeRoster) counts[p.position]++
-		return counts
+	const counts = (roster) => {
+		const c = {}
+		for (const pos of POSITION_ORDER) c[pos] = 0
+		for (const p of roster) c[p.position]++
+		return c
 	}
-
-	function getVisitorCounts() {
-		const counts = {}
-		for (const pos of POSITION_ORDER) counts[pos] = 0
-		for (const p of visitorRoster) counts[p.position]++
-		return counts
-	}
-
-	function isPositionDone(pos) {
-		const homeCounts = getHomeCounts()
-		const visitorCounts = getVisitorCounts()
+	const isPositionDone = (pos) => {
 		const need = ROSTER_NEEDS[pos]
-		return homeCounts[pos] >= need && visitorCounts[pos] >= need
+		return counts(homeRoster)[pos] >= need && counts(visitorRoster)[pos] >= need
 	}
-
-	function allPositionsDone() {
-		return POSITION_ORDER.every(isPositionDone)
-	}
+	const allPositionsDone = () => POSITION_ORDER.every(isPositionDone)
 
 	function renderPositionGroup() {
 		main.textContent = ''
-
 		if (currentPosition >= POSITION_ORDER.length) {
-			if (allPositionsDone()) {
-				showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
-			}
+			if (allPositionsDone()) showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
 			return
 		}
-
 		const pos = POSITION_ORDER[currentPosition]
-
-		// Skip positions that are already fully drafted
-		if (isPositionDone(pos)) {
-			currentPosition++
-			renderPositionGroup()
-			return
-		}
+		if (isPositionDone(pos)) { currentPosition++; renderPositionGroup(); return }
 
 		const team = getCurrentTeam()
-		const teamLabel = team === 'H' ? 'HOME' : 'VISITOR'
 		const turnEl = document.getElementById('draft-turn')
 		if (turnEl) {
-			turnEl.textContent = `${POSITION_LABELS[pos]} — ${teamLabel} picks`
-			turnEl.className = `draft-turn ${team === 'H' ? 'draft-turn-home' : 'draft-turn-visitor'}`
+			turnEl.textContent = `${POSITION_LABELS[pos]} — ${team === 'H' ? 'Home' : 'Visitor'} picks`
+			turnEl.className = `jr-turn ${team === 'H' ? 'jr-turn-home' : 'jr-turn-visitor'}`
 		}
-
-		const section = el('div', { className: 'draft-section' })
-		const grid = el('div', { className: 'draft-grid' })
-
+		const grid = el('div', { className: 'jr-draft-grid' })
 		const available = grouped[pos].filter(p => !drafted.has(p.id))
-
 		for (const player of available) {
 			const card = createPlayerCard(player, (p, cardEl) => {
 				drafted.add(p.id)
-				if (team === 'H') {
-					homeRoster.push(p)
-				} else {
-					visitorRoster.push(p)
-				}
-
-				cardEl.classList.add('draft-card-picked')
-				cardEl.style.pointerEvents = 'none'
-
+				;(team === 'H' ? homeRoster : visitorRoster).push(p)
+				cardEl.classList.add('jr-card-picked')
 				updateRosterPanel('home', homeRoster)
 				updateRosterPanel('visitor', visitorRoster)
-
 				pickIndex[pos]++
-
-				// Check if this position group is done
-				if (isPositionDone(pos)) {
-					currentPosition++
-					setTimeout(() => renderPositionGroup(), 300)
-				} else {
-					// More picks needed in this position
-					setTimeout(() => renderPositionGroup(), 200)
-				}
+				if (isPositionDone(pos)) { currentPosition++; setTimeout(renderPositionGroup, 280) }
+				else setTimeout(renderPositionGroup, 180)
 			})
 			grid.appendChild(card)
 		}
-
-		section.appendChild(grid)
-		main.appendChild(section)
+		main.appendChild(grid)
 	}
 
 	updateRosterPanel('home', homeRoster)
@@ -272,118 +184,64 @@ function pitcherLast(roster) {
 
 function showBattingOrder(overlay, homeRoster, visitorRoster, onComplete) {
 	overlay.textContent = ''
-
 	const homeOrder = pitcherLast(homeRoster)
 	const visitorOrder = pitcherLast(visitorRoster)
-
 	let swapState = { team: null, index: null }
 
-	const header = el('div', { className: 'draft-header' }, [
-		el('h1', { textContent: 'SET BATTING ORDER' }),
-		el('div', { className: 'draft-subtitle', textContent: 'Click two players on the same team to swap their positions' }),
+	const header = el('div', { className: 'jr-ov-head' }, [
+		el('h1', { textContent: 'Set the Lineup' }),
+		el('div', { className: 'sub', textContent: 'Tap two players on the same team to swap their spots in the order' })
 	])
-
-	const columns = el('div', { className: 'lineup-columns' })
+	const columns = el('div', { className: 'jr-lineup-cols' })
 
 	function renderColumns() {
 		columns.textContent = ''
-
-		const visCol = renderTeamOrder('VISITORS', visitorOrder, 'visitor')
-		const homeCol = renderTeamOrder('HOME', homeOrder, 'home')
-
-		columns.appendChild(visCol)
-		columns.appendChild(homeCol)
+		columns.appendChild(renderTeamOrder('Visitors', visitorOrder, 'visitor'))
+		columns.appendChild(renderTeamOrder('Home', homeOrder, 'home'))
 	}
 
 	function renderTeamOrder(label, order, team) {
-		const col = el('div', { className: 'lineup-column' }, [
-			el('div', { className: 'lineup-column-title', textContent: label }),
-		])
-
+		const col = el('div', { className: 'jr-lineup-col' }, [el('h4', { textContent: label })])
 		order.forEach((player, i) => {
-			const isSelected = swapState.team === team && swapState.index === i
+			const isSel = swapState.team === team && swapState.index === i
 			const isPitcher = player.position === 'pitcher'
 			const row = el('div', {
-				className: `lineup-row${isPitcher ? ' lineup-row-pitcher' : ''}${isSelected ? ' lineup-row-selected' : ''}`,
+				className: `jr-lineup-row${isPitcher ? ' pitcher' : ''}${isSel ? ' sel' : ''}`
 			}, [
-				el('span', { className: 'lineup-num', textContent: `${i + 1}.` }),
-				el('span', { className: 'lineup-name', textContent: player.name }),
-				el('span', { className: 'lineup-pos', textContent: POSITION_ABBR[player.position] }),
+				el('span', { className: 'jr-lineup-num', textContent: `${i + 1}` }),
+				el('span', { className: 'jr-lineup-name', textContent: player.name }),
+				el('span', { className: 'jr-lineup-pos', textContent: POSITION_ABBR[player.position] })
 			])
-
 			row.addEventListener('click', () => {
-				if (swapState.team === null) {
-					swapState = { team, index: i }
-					renderColumns()
-				} else if (swapState.team === team && swapState.index !== i) {
+				if (swapState.team === null) { swapState = { team, index: i }; renderColumns() }
+				else if (swapState.team === team && swapState.index !== i) {
 					const arr = team === 'home' ? homeOrder : visitorOrder
-					const tmp = arr[swapState.index]
-					arr[swapState.index] = arr[i]
-					arr[i] = tmp
+					;[arr[swapState.index], arr[i]] = [arr[i], arr[swapState.index]]
 					swapState = { team: null, index: null }
 					renderColumns()
-				} else {
-					swapState = { team: null, index: null }
-					renderColumns()
-				}
+				} else { swapState = { team: null, index: null }; renderColumns() }
 			})
-
 			col.appendChild(row)
 		})
-
 		return col
 	}
 
-	const playBtn = el('button', {
-		className: 'draft-btn draft-btn-play',
-		textContent: 'PLAY BALL!',
-	})
+	const playBtn = el('button', { className: 'jr-cta jr-cta-primary', textContent: 'Play Ball!' })
 	playBtn.addEventListener('click', () => {
 		overlay.remove()
-		onComplete({
-			homeLineup: [...homeOrder],
-			visitorLineup: [...visitorOrder],
-		})
+		onComplete({ homeLineup: [...homeOrder], visitorLineup: [...visitorOrder] })
 	})
 
-	const actionsArea = el('div', { className: 'draft-actions' }, [playBtn])
-
-	overlay.appendChild(header)
-	overlay.appendChild(columns)
-	overlay.appendChild(actionsArea)
-
+	overlay.append(header, columns, el('div', { className: 'jr-ov-actions' }, [playBtn]))
 	renderColumns()
 }
 
 export function createQuickDraft(players, onComplete) {
 	const overlay = createOverlay()
-
 	const grouped = {}
-	for (const pos of POSITION_ORDER) {
-		grouped[pos] = [...players.filter(p => p.position === pos)]
-	}
-
+	for (const pos of POSITION_ORDER) grouped[pos] = [...players.filter(p => p.position === pos)]
 	const homeRoster = []
 	const visitorRoster = []
-
-	for (const pos of POSITION_ORDER) {
-		const pool = grouped[pos]
-		// Shuffle
-		for (let i = pool.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1))
-			;[pool[i], pool[j]] = [pool[j], pool[i]]
-		}
-
-		const need = ROSTER_NEEDS[pos]
-		for (let i = 0; i < need && i < pool.length; i++) {
-			homeRoster.push(pool[i])
-		}
-		for (let i = need; i < need * 2 && i < pool.length; i++) {
-			visitorRoster.push(pool[i])
-		}
-	}
-
-	// Shuffle batting orders
 	const shuffle = (arr) => {
 		for (let i = arr.length - 1; i > 0; i--) {
 			const j = Math.floor(Math.random() * (i + 1))
@@ -391,9 +249,13 @@ export function createQuickDraft(players, onComplete) {
 		}
 		return arr
 	}
-
+	for (const pos of POSITION_ORDER) {
+		const pool = shuffle(grouped[pos])
+		const need = ROSTER_NEEDS[pos]
+		for (let i = 0; i < need && i < pool.length; i++) homeRoster.push(pool[i])
+		for (let i = need; i < need * 2 && i < pool.length; i++) visitorRoster.push(pool[i])
+	}
 	shuffle(homeRoster)
 	shuffle(visitorRoster)
-
 	showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
 }

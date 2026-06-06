@@ -1,149 +1,84 @@
 export function createScoreboard(container) {
 	const el = document.createElement('div')
-	el.className = 'scoreboard'
+	el.className = 'jr-scoreboard'
 
-	// Inning header row
+	const table = document.createElement('table')
+	table.className = 'jr-linescore'
 	const maxInnings = 9
-	let headerHtml = '<div class="scoreboard-row scoreboard-header"><span class="scoreboard-team"></span>'
-	for (let i = 1; i <= maxInnings; i++) {
-		headerHtml += `<span class="scoreboard-cell" data-inning="${i}">${i}</span>`
+
+	let head = '<thead><tr><th class="team"></th>'
+	for (let i = 1; i <= maxInnings; i++) head += `<th data-h="${i}">${i}</th>`
+	head += '<th class="rhe first">R</th><th class="rhe">H</th><th class="rhe">E</th></tr></thead>'
+
+	function bodyRow(team, label) {
+		let r = `<tr data-team="${team}"><td class="team">${label}</td>`
+		for (let i = 1; i <= maxInnings; i++) r += `<td data-inning="${i}">·</td>`
+		r += `<td class="rhe first" data-total="${team}">0</td>`
+		r += `<td class="rhe" data-hits="${team}">0</td>`
+		r += `<td class="rhe" data-errors="${team}">0</td></tr>`
+		return r
 	}
-	headerHtml += '<span class="scoreboard-cell scoreboard-total">R</span>'
-	headerHtml += '<span class="scoreboard-cell scoreboard-total">H</span>'
-	headerHtml += '<span class="scoreboard-cell scoreboard-total">E</span></div>'
 
-	// Visitor row
-	let visitorHtml = '<div class="scoreboard-row" data-team="visitor"><span class="scoreboard-team">AWAY</span>'
-	for (let i = 1; i <= maxInnings; i++) {
-		visitorHtml += `<span class="scoreboard-cell" data-inning="${i}">-</span>`
-	}
-	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-total="visitor">0</span>'
-	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-hits="visitor">0</span>'
-	visitorHtml += '<span class="scoreboard-cell scoreboard-total" data-errors="visitor">0</span></div>'
-
-	// Home row
-	let homeHtml = '<div class="scoreboard-row" data-team="home"><span class="scoreboard-team">HOME</span>'
-	for (let i = 1; i <= maxInnings; i++) {
-		homeHtml += `<span class="scoreboard-cell" data-inning="${i}">-</span>`
-	}
-	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-total="home">0</span>'
-	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-hits="home">0</span>'
-	homeHtml += '<span class="scoreboard-cell scoreboard-total" data-errors="home">0</span></div>'
-
-	el.innerHTML = headerHtml + visitorHtml + homeHtml
-
-	// Game info bar
-	const infoBar = document.createElement('div')
-	infoBar.className = 'scoreboard-info'
-	infoBar.innerHTML = `
-		<div class="scoreboard-outs">
-			<span class="outs-label">OUTS</span>
-			<span class="out-dot" data-out="1"></span>
-			<span class="out-dot" data-out="2"></span>
-		</div>
-		<div class="scoreboard-batter">
-			<span class="batter-label">AT BAT:</span>
-			<span class="batter-name">---</span>
-		</div>
-		<div class="scoreboard-inning">
-			<span class="inning-label">INNING:</span>
-			<span class="inning-value">Top 1</span>
-		</div>
-	`
-	el.appendChild(infoBar)
-
+	table.innerHTML = head + '<tbody>' +
+		bodyRow('visitor', 'AWAY') + bodyRow('home', 'HOME') + '</tbody>'
+	el.appendChild(table)
 	container.appendChild(el)
-
 	return el
 }
 
 export function updateScoreboard(scoreboard, gameState) {
 	if (!gameState) return
+	const { inning, halfInning, score, stats } = gameState
 
-	const { inning, halfInning, outs, score, stats, currentBatter } = gameState
-
-	// Update outs
-	const dots = scoreboard.querySelectorAll('.out-dot')
-	dots.forEach((dot, i) => {
-		dot.classList.toggle('active', i < (outs ?? 0))
-	})
-
-	// Update batter
-	const batterName = scoreboard.querySelector('.batter-name')
-	if (batterName) {
-		batterName.textContent = currentBatter?.name ?? '---'
-	}
-
-	// Update inning display
-	const inningValue = scoreboard.querySelector('.inning-value')
-	if (inningValue && inning != null) {
-		const half = halfInning === 'bottom' ? 'Bot' : 'Top'
-		inningValue.textContent = `${half} ${inning}`
-	}
-
-	// Update score cells
 	if (score) {
+		const headRow = scoreboard.querySelector('thead tr')
+		const currentCols = headRow.querySelectorAll('th[data-h]').length
+
 		for (const team of ['visitor', 'home']) {
-			const row = scoreboard.querySelector(`[data-team="${team}"]`)
+			const row = scoreboard.querySelector(`tr[data-team="${team}"]`)
 			if (!row || !score[team]) continue
-
-			let total = 0
 			const innings = score[team]
-
-			// Add extra inning columns if needed
-			const headerRow = scoreboard.querySelector('.scoreboard-header')
-			const currentCols = headerRow.querySelectorAll('.scoreboard-cell:not(.scoreboard-total)').length
 
 			if (innings.length > currentCols) {
 				for (let i = currentCols + 1; i <= innings.length; i++) {
-					// Add header cell
-					const headerCell = document.createElement('span')
-					headerCell.className = 'scoreboard-cell'
-					headerCell.dataset.inning = i
-					headerCell.textContent = i
-					headerRow.insertBefore(headerCell, headerRow.querySelector('.scoreboard-total'))
-
-					// Add cells to both rows
+					const th = document.createElement('th')
+					th.dataset.h = i
+					th.textContent = i
+					headRow.insertBefore(th, headRow.querySelector('.rhe.first'))
 					for (const t of ['visitor', 'home']) {
-						const r = scoreboard.querySelector(`[data-team="${t}"]`)
-						const cell = document.createElement('span')
-						cell.className = 'scoreboard-cell'
-						cell.dataset.inning = i
-						cell.textContent = '-'
-						r.insertBefore(cell, r.querySelector('.scoreboard-total'))
+						const r = scoreboard.querySelector(`tr[data-team="${t}"]`)
+						const td = document.createElement('td')
+						td.dataset.inning = i
+						td.textContent = '·'
+						r.insertBefore(td, r.querySelector('.rhe.first'))
 					}
 				}
 			}
 
+			let total = 0
 			innings.forEach((runs, idx) => {
-				const cell = row.querySelector(`[data-inning="${idx + 1}"]`)
-				if (cell) {
-					cell.textContent = runs ?? '-'
-					total += runs ?? 0
-				}
+				const cell = row.querySelector(`td[data-inning="${idx + 1}"]`)
+				if (cell) { cell.textContent = runs ?? '·'; total += runs ?? 0 }
 			})
-
-			const totalCell = scoreboard.querySelector(`[data-total="${team}"]`)
+			const totalCell = scoreboard.querySelector(`td[data-total="${team}"]`)
 			if (totalCell) totalCell.textContent = total
 		}
 
-		// Highlight only the active half-inning cell
-		const allCells = scoreboard.querySelectorAll('.scoreboard-cell')
-		allCells.forEach(c => c.classList.remove('scoreboard-active'))
+		scoreboard.querySelectorAll('td[data-inning]').forEach(c => c.classList.remove('active'))
 		if (inning) {
 			const activeTeam = halfInning === 'top' ? 'visitor' : 'home'
-			const activeRow = scoreboard.querySelector(`[data-team="${activeTeam}"]`)
-			const activeCell = activeRow?.querySelector(`[data-inning="${inning}"]`)
-			if (activeCell) activeCell.classList.add('scoreboard-active')
+			const activeRow = scoreboard.querySelector(`tr[data-team="${activeTeam}"]`)
+			const cell = activeRow?.querySelector(`td[data-inning="${inning}"]`)
+			if (cell) cell.classList.add('active')
 		}
 	}
 
 	if (stats) {
 		for (const team of ['visitor', 'home']) {
-			const hitsCell = scoreboard.querySelector(`[data-hits="${team}"]`)
-			if (hitsCell) hitsCell.textContent = stats[team]?.hits ?? 0
-			const errorsCell = scoreboard.querySelector(`[data-errors="${team}"]`)
-			if (errorsCell) errorsCell.textContent = stats[team]?.errors ?? 0
+			const h = scoreboard.querySelector(`td[data-hits="${team}"]`)
+			if (h) h.textContent = stats[team]?.hits ?? 0
+			const e = scoreboard.querySelector(`td[data-errors="${team}"]`)
+			if (e) e.textContent = stats[team]?.errors ?? 0
 		}
 	}
 }
