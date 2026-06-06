@@ -1340,18 +1340,11 @@ body {
 	}
 
 	/* Reorder stacked layout:
-	   marquee(1) -> linescore is inside marquee already
 	   colLeft has: nameplate + pbp
-	   hero has: spinner + controls
-	   We want: pbp -> nameplate -> spinner -> controls */
+	   hero has: spinner + controls (keep together as a card)
+	   We want: pbp -> nameplate -> hero(spinner + controls) */
 	.jr-stage-left {
 		display: contents;
-	}
-	.jr-hero {
-		display: contents;
-	}
-	.jr-hero::before {
-		display: none !important;
 	}
 	.jr-board {
 		display: flex;
@@ -1359,7 +1352,7 @@ body {
 		gap: 12px;
 	}
 
-	/* PBP ticker: fixed ~3 lines, ordered first */
+	/* PBP ticker: fixed ~3 lines, ordered first, full width */
 	.jr-pbp {
 		order: 1;
 		min-height: 0;
@@ -1370,28 +1363,23 @@ body {
 		overflow: hidden;
 	}
 
-	/* Nameplate after PBP */
+	/* Nameplate after PBP, full width */
 	.jr-nameplate {
 		order: 2;
 		max-width: none;
 		margin-bottom: 0;
 	}
 
-	/* Spinner area */
-	.jr-spinner-wrap {
+	/* Hero card: keeps spinner + controls together, full width */
+	.jr-hero {
 		order: 3;
-		max-width: 340px;
-		margin: 0 auto;
-		background: var(--panel);
-		border: 1px solid var(--panel-edge);
-		border-radius: 12px;
-		box-shadow: var(--panel-shadow);
-		padding: 12px;
+	}
+	.jr-spinner-wrap {
+		max-width: none;
 	}
 
-	/* Controls last, side by side */
+	/* Controls side by side within the card */
 	.jr-controls {
-		order: 4;
 		flex-direction: row !important;
 		max-width: none;
 	}
