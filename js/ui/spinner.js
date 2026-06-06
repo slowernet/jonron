@@ -117,7 +117,7 @@ export function createSpinner(svg, cx, cy, radius, label) {
 		showKoRing() { koRing.style.opacity = '0.85' },
 		resetArrow() {
 			this._rotation = 0
-			arrowGroup.setAttribute('transform', 'rotate(0)')
+			arrowGroup.style.transform = 'rotate(0deg)'
 		},
 		getResult(angle) { return { koLetter: getKoLetter(angle) } }
 	}
@@ -134,7 +134,7 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 
 	return new Promise((resolve) => {
 		if (typeof gsap === 'undefined') {
-			spinner.arrow.setAttribute('transform', `rotate(${totalRotation})`)
+			spinner.arrow.style.transform = `rotate(${totalRotation}deg)`
 			spinner._rotation = totalRotation
 			resolve()
 			return
@@ -142,7 +142,7 @@ export function spinTo(spinner, targetAngle, duration = 2.5) {
 		const proxy = { angle: startRotation }
 		gsap.to(proxy, {
 			angle: totalRotation, duration, ease: 'power4.out',
-			onUpdate() { spinner.arrow.setAttribute('transform', `rotate(${proxy.angle})`) },
+			onUpdate() { spinner.arrow.style.transform = `rotate(${proxy.angle}deg)` },
 			onComplete() { spinner._rotation = totalRotation; resolve() }
 		})
 	})

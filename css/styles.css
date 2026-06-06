@@ -633,11 +633,14 @@ body {
 	width: 100%;
 	height: auto;
 	display: block;
-	filter: var(--glow);
 }
 
 .disc-container {
-	transition: opacity 0.3s;
+	will-change: opacity;
+}
+
+.spinner-arrow {
+	will-change: transform;
 }
 
 /* ---------- Controls ---------- */
