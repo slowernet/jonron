@@ -56,8 +56,8 @@ function baseballMarkup() {
 	// two seam curves framing the centre panel: left reads ")", right reads "("
 	// (each seam's concave side faces the outer edge of the ball)
 	const seams = [
-		{ x: [30, 46, 46, 30], y: [13, 35, 65, 87] },
-		{ x: [70, 54, 54, 70], y: [13, 35, 65, 87] }
+		{ x: [26, 42, 42, 26], y: [13, 35, 65, 87] },
+		{ x: [74, 58, 58, 74], y: [13, 35, 65, 87] }
 	]
 	let stitches = ''
 	for (const s of seams) {
@@ -87,8 +87,8 @@ function baseballMarkup() {
 		<circle cx="50" cy="50" r="45" fill="url(#jrBall)" stroke="var(--navy)" stroke-width="2"/>
 		<path d="M50 95 A45 45 0 0 0 93 64 A60 60 0 0 1 50 95 Z" fill="#15233f" opacity="0.07"/>
 		<g transform="rotate(11 50 50)">
-			<path d="M30 13 C46 35 46 65 30 87" fill="none" stroke="#c4382c" stroke-width="0.9" opacity="0.45"/>
-			<path d="M70 13 C54 35 54 65 70 87" fill="none" stroke="#c4382c" stroke-width="0.9" opacity="0.45"/>
+			<path d="M26 13 C42 35 42 65 26 87" fill="none" stroke="#c4382c" stroke-width="0.9" opacity="0.45"/>
+			<path d="M74 13 C58 35 58 65 74 87" fill="none" stroke="#c4382c" stroke-width="0.9" opacity="0.45"/>
 			<g fill="none" stroke="#cc3a2d" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${stitches}</g>
 		</g>
 	</svg>`
