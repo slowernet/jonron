@@ -63,52 +63,59 @@ Add `?debug_mode=true` to the site URL (requires a one-line code change to forwa
 
 Then go to **Admin > DebugView** to see the event stream.
 
-## Step 5: Build Explorations
+## Step 5: Build Exploration — Result distribution
 
 Data takes 24-48 hours to appear in Explorations after dimensions are registered. Once available:
 
-1. Go to **Explore** in the left sidebar
-2. Click **Blank** to create a new exploration
-
-### Result distribution
-
 Shows how often each batting outcome fires (sanity check for disc balance).
 
-1. Add **Result Type** as a dimension
-2. Add **Event count** as a metric
-3. Drag Result Type to **Rows**
-4. Drag Event count to **Values**
-5. Add a filter: **Event name** exactly matches `bat:spin`
+1. Go to **Explore** in the left sidebar
+2. Click **Blank** to create a new exploration
+3. Name it "Result distribution"
+4. Add **Result Type** as a dimension
+5. Add **Event count** as a metric
+6. Drag Result Type to **Rows**
+7. Drag Event count to **Values**
+8. Add a filter: **Event name** exactly matches `bat:spin`
 
-### Strategy usage
+## Step 6: Build Exploration — Strategy usage
 
 Shows which strategy plays people actually use.
 
-1. Add **Play Type** as a dimension
-2. Add **Event count** as a metric
-3. Drag Play Type to **Rows**
-4. Drag Event count to **Values**
-5. Add a filter: **Event name** exactly matches `strategy:call`
+1. Go to **Explore** in the left sidebar
+2. Click **Blank** to create a new exploration
+3. Name it "Strategy usage"
+4. Add **Play Type** as a dimension
+5. Add **Event count** as a metric
+6. Drag Play Type to **Rows**
+7. Drag Event count to **Values**
+8. Add a filter: **Event name** exactly matches `strategy:call`
 
-### Draft vs Quickstart
+## Step 7: Build Exploration — Draft vs Quickstart
 
 Shows which game mode is more popular.
 
-1. Add **Game Mode** as a dimension
-2. Add **Event count** as a metric
-3. Drag Game Mode to **Rows**
-4. Drag Event count to **Values**
-5. Add a filter: **Event name** exactly matches `game:start`
+1. Go to **Explore** in the left sidebar
+2. Click **Blank** to create a new exploration
+3. Name it "Draft vs Quickstart"
+4. Add **Game Mode** as a dimension
+5. Add **Event count** as a metric
+6. Drag Game Mode to **Rows**
+7. Drag Event count to **Values**
+8. Add a filter: **Event name** exactly matches `game:start`
 
-### Game completion
+## Step 8: Build Exploration — Game completion
 
 Shows whether people finish games.
 
-1. Create two segments:
+1. Go to **Explore** in the left sidebar
+2. Click **Blank** to create a new exploration
+3. Name it "Game completion"
+4. Create two segments:
    - **Started**: users who triggered `game:start`
    - **Finished**: users who triggered `game:end`
-2. Add **Event count** as a metric
-3. Compare the two segments to see drop-off rate
+5. Add **Event count** as a metric
+6. Compare the two segments to see drop-off rate
 
 ## Event reference
 
