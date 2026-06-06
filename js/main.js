@@ -21,6 +21,13 @@ const POSITION_ABBR = {
 	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
 	shortstop: 'SS', 'third-base': '3B', outfield: 'OF'
 }
+const BATTERY = new Set(['pitcher', 'catcher'])
+const OUTFIELD = new Set(['outfield'])
+function posClass(position) {
+	if (BATTERY.has(position)) return 'pos-battery'
+	if (OUTFIELD.has(position)) return 'pos-outfield'
+	return 'pos-infield'
+}
 
 // ---------- Theme ----------
 // Committed to Night mode.
@@ -187,6 +194,7 @@ function startGame(container, homeLineup, visitorLineup) {
 		layout.setBases(game.bases)
 		layout.setBatting(game.halfInning === 'top' ? 'away' : 'home')
 		layout.nameplate.posEl.textContent = POSITION_ABBR[batter.position] ?? '—'
+		layout.nameplate.posEl.className = `pos ${posClass(batter.position)}`
 		layout.nameplate.nameEl.textContent = batter.name
 		layout.nameplate.teamEl.textContent = batter.team ? `${batter.team} · ${game.halfInning === 'top' ? 'Visitors' : 'Home'}` : ''
 		controls.updateStrategies(getAvailableStrategies(game.bases))

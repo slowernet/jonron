@@ -580,8 +580,6 @@ body {
 	font-family: var(--f-display);
 	font-weight: 800;
 	font-size: 20px;
-	color: var(--accent-ink);
-	background: var(--accent);
 	border-radius: 6px;
 	min-width: 44px;
 	height: 44px;
@@ -594,6 +592,7 @@ body {
 .jr-nameplate .meta {
 	display: flex;
 	flex-direction: column;
+	gap: 2px;
 	flex: 1;
 	min-width: 0;
 }
@@ -617,8 +616,12 @@ body {
 .jr-nameplate .meta .team {
 	font-size: 11px;
 	color: var(--ink-soft);
-	margin-top: 2px;
 }
+
+/* Position badge colors matching disc hub */
+.jr-nameplate .pos.pos-battery { background: var(--hub-battery); color: var(--ink-on-battery); }
+.jr-nameplate .pos.pos-infield { background: var(--hub-infield); color: var(--ink-on-infield); }
+.jr-nameplate .pos.pos-outfield { background: var(--hub-outfield); color: var(--ink-on-outfield); }
 
 .jr-spinner-wrap {
 	width: 100%;
