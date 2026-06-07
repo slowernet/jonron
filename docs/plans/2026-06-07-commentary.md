@@ -36,11 +36,15 @@ Exports:
 - `commentBatterUp(batter)` — returns text for next batter
 - `commentImmediate(type, result, batter)` — returns text for HR/3B/2B/BB/K
 - `commentKoSetup(type)` — returns suspense text ("Fly ball...")
-- `commentKoResult(type, outcome, batter, bases)` — returns dynamic K-O narration
-- `commentStrategySetup(playType, batter, bases)` — returns play-specific lead-in
-- `commentStrategyResult(result, batter, bases)` — returns strategy outcome text
+- `commentKoResult(type, outcome, batter, bases, nameOf)` — returns complete standalone narration line (replaces setup line entirely via `replace: true`)
+- `commentStrategySetup(playType, batter, bases, nameOf)` — returns play-specific lead-in
+- `commentStrategyResult(result, batter, bases, nameOf)` — returns strategy outcome text (describes outcome only, not the action — setup already covered that)
+
+`bases` is always the **pre-play** base state, used to resolve runner names via `nameOf(bases.first)` etc. The outcome objects from `resolveKoDial`/`resolveStrategy` have `from`/`to` base numbers but no player IDs.
 
 All functions return `{ text, highlight }` so the caller just does `narrate(el, c.text, { highlight: c.highlight })`.
+
+**Note**: Singles are exclusively K-O narrated — no single templates in `commentImmediate()`. Singles always go through the K-O dial per Cadaco rules.
 
 ### Weighted decay picker
 
@@ -69,53 +73,46 @@ for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, p.name)
 const nameOf = (id) => playerNames.get(id) ?? 'the runner'
 ```
 
-Pass `nameOf` to commentary functions that need runner names.
+Pass `nameOf` to commentary functions that need runner names. Inside commentary functions, resolve runner names from the pre-play `bases` object: `nameOf(bases.first)`, `nameOf(bases.second)`, `nameOf(bases.third)`. The outcome objects only have base numbers (`from`/`to`), not player IDs.
 
 ## Template pools
 
-### Batter up (6 variants)
+### Batter up (4 variants)
 ```
 "${name} steps in."
 "${name} digs in."
 "${name} steps to the plate."
 "${name} comes up to bat."
-"Now batting, ${name}."
-"${name} is up."
 ```
 
-### Home run (6 variants, all highlight: true)
+### Home run (4 variants, all highlight: true)
 ```
 "Jonrón! ${name} goes deep.${runs}"
 "${name} sends it out! Home run!${runs}"
 "${name} launches one! Jonrón!${runs}"
 "Gone! ${name} goes yard!${runs}"
-"${name} crushes it! Home run!${runs}"
-"Way back... gone! Jonrón for ${name}!${runs}"
 ```
 
 Grand slam special (when runsScored >= 4):
 ```
 "Grand slam! ${name} clears the bases!"
-"${name} empties the bases! Grand slam!"
 ```
 
-### Triple (4 variants, highlight: true)
+### Triple (3 variants, highlight: true)
 ```
 "Triple! ${name} slides into third.${runs}"
 "${name} legs out a triple!${runs}"
 "${name} rips one into the gap! Triple!${runs}"
-"Three-bagger for ${name}!${runs}"
 ```
 
-### Double (4 variants, highlight: true)
+### Double (3 variants, highlight: true)
 ```
 "Double! ${name} pulls into second.${runs}"
 "${name} lines one into the gap! Double!${runs}"
-"${name} rips a double!${runs}"
 "${name} drives one to the wall! Double!${runs}"
 ```
 
-### Single (only appears via K-O L/M/N — handle in K-O narration)
+### Single (exclusively K-O narrated — no templates here)
 
 ### Walk (3 variants)
 ```
@@ -124,13 +121,12 @@ Grand slam special (when runsScored >= 4):
 "${name} works a walk.${runs}"
 ```
 
-### Strikeout (5 variants)
+### Strikeout (4 variants)
 ```
 "${name} goes down swinging."
 "Struck him out."
 "${name} strikes out looking."
 "${name} whiffs. Strike three."
-"Punch him out! ${name} strikes out."
 ```
 
 ### Runs scored text
@@ -209,13 +205,19 @@ const BASE_NAMES = { 1: 'first', 2: 'second', 3: 'third' }
 
 ### Result text (replaces `result.description`)
 
-Generate dynamically from the result object, same approach as K-O narration. The result has `batter.result`, `runners[]`, `runsScored`. Examples:
+Generate dynamically from the result object, same approach as K-O narration. The result has `batter.result`, `runners[]`, `runsScored`.
 
-- Steal safe: `"${runner} is in there! Safe at second."`
-- Steal caught: `"${runner} is out! Caught stealing."`
-- Sac bunt: `"${batter} bunts it. ${runner} advances to third."`
-- Hit and run single: `"${batter} singles! ${runner} motors to third."`
-- Squeeze scores: `"The squeeze is on! ${runner} scores!"`
+**Important**: Result text describes the *outcome*, not the action. The setup already covered what's happening — the result tells the audience how it turned out. Avoid re-stating the play type.
+
+Examples:
+
+- Steal safe: `"Safe! He beats the throw."` (not "Henderson steals second" — setup already said he took off)
+- Steal caught: `"Out! Caught stealing."` / `"They nab him at second."`
+- Sac bunt runner advances: `"${runner} moves to third."` / `"${runner} advances."`
+- Hit and run single: `"${batter} lines a single! ${runner} motors to third."`
+- Squeeze scores: `"${runner} scores! Safe at the plate."`
+- Batter grounds out, runners advance: `"${batter} grounds out. ${runner} advances to second."`
+- DP: `"Double play! ${runner} is caught off the bag."`
 
 ## Implementation tasks
 
@@ -285,7 +287,12 @@ Generate dynamically from the result object, same approach as K-O narration. The
 
 ### Task 6: Review and polish
 
-1. Play multiple full games, check for awkward phrasings
-2. Verify no phantom runner references (#10)
-3. Verify template variety feels natural
-4. Check highlight flags are correct on all paths
+Play 2-3 full games and check for:
+
+1. **Phantom runners** (#10): K-O and strategy text should never mention bases that are empty
+2. **Awkward concatenation**: Runs-scored suffix reads naturally after every template variant
+3. **Setup/result redundancy**: Strategy result text doesn't re-state what the setup said
+4. **Repeat phrases**: Same template shouldn't appear twice in a single half-inning
+5. **Grammatical issues**: Plural/singular agreement in runs-scored text, name possessives
+6. **Highlight flags**: Hits and big plays highlighted, routine outs not
+7. **Edge cases**: Grand slam, bases-loaded walk, DP with no runners, error with empty bases
