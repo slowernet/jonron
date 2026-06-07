@@ -16,7 +16,8 @@ export function resolveKoDial(letter, resultType, bases) {
 		runsScored: 0,
 		description: rule.description,
 		isHit,
-		isError
+		isError,
+		isTagPlay: resultType === 'fly-ball'
 	}
 
 	const occupied = []

@@ -287,6 +287,38 @@ describe('resolveKoDial', () => {
 		})
 	})
 
+	describe('isTagPlay flag', () => {
+		it('fly-ball L with runner on 3B sets isTagPlay true', () => {
+			const result = resolveKoDial('L', 'fly-ball', { first: null, second: null, third: 'p3' })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('fly-ball M sets isTagPlay true', () => {
+			const result = resolveKoDial('M', 'fly-ball', { first: null, second: 'p2', third: 'p3' })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('fly-ball N sets isTagPlay true', () => {
+			const result = resolveKoDial('N', 'fly-ball', empty)
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('ground-ball L does not set isTagPlay', () => {
+			const result = resolveKoDial('L', 'ground-ball', { first: 'p1', second: null, third: null })
+			expect(result.isTagPlay).toBeFalsy()
+		})
+
+		it('ground-ball N does not set isTagPlay', () => {
+			const result = resolveKoDial('N', 'ground-ball', { first: 'p1', second: null, third: null })
+			expect(result.isTagPlay).toBeFalsy()
+		})
+
+		it('single K does not set isTagPlay', () => {
+			const result = resolveKoDial('K', 'single', { first: null, second: 'p2', third: null })
+			expect(result.isTagPlay).toBeFalsy()
+		})
+	})
+
 	it('throws on invalid letter', () => {
 		expect(() => resolveKoDial('X', 'fly-ball', empty)).toThrow()
 	})
