@@ -14,11 +14,8 @@ import { createControls } from './ui/controls.js'
 import { startDraft, createQuickDraft } from './ui/lineup.js'
 import { track } from './analytics.js'
 import { POSITION_ABBREV, BATTERY, OUTFIELD } from './constants.js'
+import { commentBatterUp, commentImmediate, commentKoSetup, commentKoResult, commentStrategySetup, commentStrategyResult } from './ui/commentary.js'
 
-const RESULT_LABELS = {
-	'home-run': 'Home Run', triple: 'Triple', double: 'Double', single: 'Single',
-	walk: 'Walk', strikeout: 'Strikeout', 'fly-ball': 'Fly ball', 'ground-ball': 'Ground ball'
-}
 const RESULT_ABBREV = {
 	'home-run': 'HR', triple: '3B', double: '2B', single: '1B',
 	walk: 'BB', strikeout: 'K', 'fly-ball': 'FB', 'ground-ball': 'GB'
@@ -141,6 +138,10 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 	const game = createGame(homeLineup, visitorLineup)
 	track('game:start', { mode })
 
+	const playerNames = new Map()
+	for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, p.name)
+	const nameOf = (id) => playerNames.get(id) ?? 'the runner'
+
 	const layout = createLayout(container)
 
 	const scoreboard = createScoreboard(layout.scoreboardHost)
@@ -253,7 +254,8 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 			controls.disable()
 			setTimeout(() => {
 				placeBatterDisc()
-				narrate(narratorEl, `${getCurrentBatter(game).name} steps in.`)
+				const bu = commentBatterUp(getCurrentBatter(game))
+				narrate(narratorEl, bu.text, { highlight: bu.highlight })
 				refreshUI()
 				controls.setPhase('batting')
 				controls.enable()
@@ -261,24 +263,11 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 			return
 		}
 		placeBatterDisc()
-		narrate(narratorEl, `${getCurrentBatter(game).name} steps in.`)
+		const bu2 = commentBatterUp(getCurrentBatter(game))
+		narrate(narratorEl, bu2.text, { highlight: bu2.highlight })
 		refreshUI()
 		controls.setPhase('batting')
 		controls.enable()
-	}
-
-	function narrateResult(resultType, result, batter) {
-		const runs = result.runsScored || 0
-		const label = RESULT_LABELS[resultType] || resultType
-		const isHit = ['home-run', 'triple', 'double', 'single'].includes(resultType)
-		const runsText = runs > 0 ? ` ${runs} run${runs !== 1 ? 's' : ''} score${runs === 1 ? 's' : ''}.` : ''
-		if (resultType === 'home-run') narrate(narratorEl, `Jonrón! ${batter.name} circles the bases.${runsText}`, { highlight: true })
-		else if (resultType === 'triple') narrate(narratorEl, `${label}! ${batter.name} slides into third.${runsText}`, { highlight: isHit })
-		else if (resultType === 'double') narrate(narratorEl, `${label}! ${batter.name} pulls into second.${runsText}`, { highlight: isHit })
-		else if (resultType === 'walk') narrate(narratorEl, `${label}. ${batter.name} takes first.${runsText}`)
-		else if (resultType === 'strikeout') narrate(narratorEl, `Strikeout! ${batter.name} goes down swinging.`)
-		else if (result.description) narrate(narratorEl, `${result.description}`)
-		else narrate(narratorEl, `${label}. ${result.outs} out${result.outs !== 1 ? 's' : ''}.`)
 	}
 
 	async function handleSpin() {
@@ -291,9 +280,9 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 		await spinTo(spinner, targetAngle)
 		const batting = resolveBatting(sectorNumber)
 		track('bat:spin', { inning: game.inning, half: game.halfInning, result_type: batting.type })
-		const label = RESULT_LABELS[batting.type] || batting.type
 		if (batting.needsKoDial) {
-			narrate(narratorEl, `${label}...`)
+			const setup = commentKoSetup(batting.type)
+			narrate(narratorEl, setup.text, { highlight: setup.highlight })
 			const discContainer = spinner.element.querySelector('.disc-container')
 			if (discContainer) discContainer.style.opacity = '0.25'
 			spinner.showKoRing()
@@ -305,10 +294,9 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 			if (discContainer) discContainer.style.opacity = ''
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
-			const hasRunners = game.bases.first || game.bases.second || game.bases.third
 			const result = resolveKoDial(letter, batting.type, game.bases)
-			const desc = hasRunners ? result.description : result.description.replace(/,\s.+/, '')
-			narrate(narratorEl, `${label}... ${desc}`, { replace: true })
+			const c = commentKoResult(batting.type, result, batter, game.bases, nameOf)
+			narrate(narratorEl, c.text, { replace: true, highlight: c.highlight })
 			recordGameLine(game, batter.id, RESULT_ABBREV[batting.type] ?? 'FB')
 			recordResult(game, result)
 			spinner.hideKoRing()
@@ -317,7 +305,8 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 			const previousHalf = game.halfInning
 			const previousInning = game.inning
 			const result = resolveImmediate(batting.type, game.bases, batter.id)
-			narrateResult(batting.type, result, batter)
+			const c = commentImmediate(batting.type, result, batter, nameOf)
+			narrate(narratorEl, c.text, { highlight: c.highlight })
 			recordGameLine(game, batter.id, RESULT_ABBREV[batting.type] ?? batting.type)
 			recordResult(game, result)
 			afterResult(previousHalf, previousInning)
@@ -329,17 +318,19 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 		track('strategy:call', { play_type: playType })
 		setPhase(game, 'strategy')
 		const ring = STRATEGY_DISC[playType]
+		const batter = getCurrentBatter(game)
 		spinner.setDisc(createStrategyDiscSVG(0, 0, 120, ring))
 		spinner.hideKoRing()
 		const targetAngle = Math.random() * 360
-		narrate(narratorEl, `Strategy in motion...`)
+		const setup = commentStrategySetup(playType, batter, game.bases, nameOf)
+		narrate(narratorEl, setup.text, { highlight: setup.highlight })
 		await spinTo(spinner, targetAngle)
 		const letter = getStrategyLetter(targetAngle, ring)
 		const previousHalf = game.halfInning
 		const previousInning = game.inning
-		const batter = getCurrentBatter(game)
 		const result = resolveStrategy(playType, letter, game.bases)
-		narrate(narratorEl, result.description)
+		const c = commentStrategyResult(result, batter, game.bases, nameOf)
+		narrate(narratorEl, c.text, { highlight: c.highlight })
 		if (!result.batterStays) {
 			recordGameLine(game, batter.id, STRATEGY_ABBREV[result.batter.result] ?? 'GB')
 		}
@@ -369,7 +360,8 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 
 	placeBatterDisc()
 	narrate(narratorEl, 'Play ball!')
-	narrate(narratorEl, `${getCurrentBatter(game).name} steps in.`)
+	const bu0 = commentBatterUp(getCurrentBatter(game))
+	narrate(narratorEl, bu0.text, { highlight: bu0.highlight })
 	refreshUI()
 	controls.setPhase('batting')
 	controls.enable()
