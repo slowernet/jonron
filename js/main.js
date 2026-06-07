@@ -286,6 +286,7 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 			const discContainer = spinner.element.querySelector('.disc-container')
 			if (discContainer) discContainer.style.opacity = '0.25'
 			spinner.showKoRing()
+			await new Promise(r => setTimeout(r, 300))
 			const koAngle = Math.random() * 360
 			const letter = getKoLetter(koAngle)
 			track('bat:ko', { ko_letter: letter })
