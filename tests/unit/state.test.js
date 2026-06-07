@@ -12,7 +12,8 @@ import {
 
 const makeLineup = (prefix) => Array.from({ length: 9 }, (_, i) => ({
 	id: `${prefix}-${i}`,
-	name: `${prefix} ${i}`,
+	nameFirst: prefix,
+	nameLast: `${i}`,
 	sectors: [{ number: 10, size: 360 }]
 }))
 
@@ -71,7 +72,8 @@ describe('getCurrentBatter', () => {
 		const game = createGame(makeLineup('home'), visitors)
 		const batter = getCurrentBatter(game)
 		expect(batter.id).toBe('visitor-0')
-		expect(batter.name).toBe('visitor 0')
+		expect(batter.nameFirst).toBe('visitor')
+		expect(batter.nameLast).toBe('0')
 	})
 })
 

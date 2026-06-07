@@ -1,4 +1,4 @@
-import { loadPlayers } from './data/players.js'
+import { loadPlayers, fullName } from './data/players.js'
 import { createGame, getCurrentBatter, getScore, isGameOver, setPhase, recordResult, recordGameLine, getGameLine } from './game/state.js'
 import { resolveBatting, spin } from './game/batting.js'
 import { resolveImmediate } from './game/baserunning.js'
@@ -139,7 +139,7 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 	track('game:start', { mode })
 
 	const playerNames = new Map()
-	for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, p.name)
+	for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, fullName(p))
 	const nameOf = (id) => playerNames.get(id) ?? 'the runner'
 
 	const layout = createLayout(container)
@@ -182,7 +182,7 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 		layout.setBases(game.bases)
 		layout.nameplate.posEl.textContent = POSITION_ABBREV[batter.position] ?? '—'
 		layout.nameplate.posEl.className = `pos ${posClass(batter.position)}`
-		layout.nameplate.nameEl.textContent = batter.name
+		layout.nameplate.nameEl.textContent = fullName(batter)
 		const line = getGameLine(game, batter.id)
 		if (line) {
 			layout.nameplate.labEl.innerHTML = `Now Batting <span class="game-line">${line}</span>`
@@ -352,7 +352,7 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 		const previousHalf = game.halfInning
 		const previousInning = game.inning
 		const result = resolveImmediate('walk', game.bases, batter.id)
-		narrate(narratorEl, `Intentional walk to ${batter.name}.`)
+		narrate(narratorEl, `Intentional walk to ${fullName(batter)}.`)
 		recordGameLine(game, batter.id, 'BB')
 		recordResult(game, result)
 		afterResult(previousHalf, previousInning)

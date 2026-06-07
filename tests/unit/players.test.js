@@ -1,10 +1,11 @@
 import { describe, it, expect, vi } from 'vitest'
-import { validateDisc, getDiscColor, loadPlayers } from '../../js/data/players.js'
+import { validateDisc, getDiscColor, loadPlayers, fullName } from '../../js/data/players.js'
 
 function makeValidDisc(overrides = {}) {
 	return {
 		id: 'p1',
-		name: 'Test Player',
+		nameFirst: 'Test',
+		nameLast: 'Player',
 		position: 'pitcher',
 		sectors: [
 			{ number: 1, size: 30 },
@@ -45,11 +46,18 @@ describe('validateDisc', () => {
 		expect(result.errors.some(e => e.includes('sum to 360'))).toBe(true)
 	})
 
-	it('missing name → invalid', () => {
-		const disc = makeValidDisc({ name: '' })
+	it('missing nameFirst → invalid', () => {
+		const disc = makeValidDisc({ nameFirst: '' })
 		const result = validateDisc(disc)
 		expect(result.valid).toBe(false)
-		expect(result.errors.some(e => e.includes('name'))).toBe(true)
+		expect(result.errors.some(e => e.includes('nameFirst'))).toBe(true)
+	})
+
+	it('missing nameLast → invalid', () => {
+		const disc = makeValidDisc({ nameLast: '' })
+		const result = validateDisc(disc)
+		expect(result.valid).toBe(false)
+		expect(result.errors.some(e => e.includes('nameLast'))).toBe(true)
 	})
 
 	it('invalid position → invalid', () => {
@@ -205,9 +213,15 @@ describe('getDiscColor', () => {
 	})
 })
 
+describe('fullName', () => {
+	it('combines first and last name', () => {
+		expect(fullName({ nameFirst: 'Willie', nameLast: 'Mays' })).toBe('Willie Mays')
+	})
+})
+
 describe('loadPlayers', () => {
 	const validPlayer = {
-		id: 'p1', name: 'Test', position: 'pitcher',
+		id: 'p1', nameFirst: 'Test', nameLast: 'Player', position: 'pitcher',
 		sectors: [
 			{ number: 1, size: 30 }, { number: 2, size: 30 },
 			{ number: 3, size: 25 }, { number: 4, size: 25 },
@@ -246,7 +260,7 @@ describe('loadPlayers', () => {
 	})
 
 	it('skips invalid discs and returns only valid ones', async () => {
-		const invalid = { ...validPlayer, id: 'p2', name: '', position: 'pitcher' }
+		const invalid = { ...validPlayer, id: 'p2', nameFirst: '', position: 'pitcher' }
 		globalThis.fetch = vi.fn(() => Promise.resolve({
 			ok: true,
 			json: () => Promise.resolve([validPlayer, invalid])

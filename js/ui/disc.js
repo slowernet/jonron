@@ -24,7 +24,7 @@ const SECTOR_LABELS = {
 const HIT_SECTORS = new Set([1, 5, 7, 11, 13])
 
 export function createDiscSVG(disc, cx, cy, radius) {
-	const g = svgEl('g', { 'data-disc-id': disc.id ?? disc.name })
+	const g = svgEl('g', { 'data-disc-id': disc.id ?? disc.nameLast })
 	const ink = inkVar(disc.position)
 	const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
 	const centerRadius = radius * 0.5
@@ -91,10 +91,8 @@ export function createDiscSVG(disc, cx, cy, radius) {
 		stroke: ink
 	}))
 
-	// player name (wraps to two lines if needed)
-	const parts = String(disc.name).split(' ')
-	const line1 = parts.length > 1 ? parts.slice(0, -1).join(' ') : parts[0]
-	const line2 = parts.length > 1 ? parts[parts.length - 1] : ''
+	const line1 = disc.nameFirst
+	const line2 = disc.nameLast
 	const nameFs = Math.max(11, Math.min(16, centerRadius * 0.34))
 
 	const n1 = svgEl('text', {

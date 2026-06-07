@@ -1,5 +1,6 @@
 import { track } from '../analytics.js'
 import { POSITION_ABBREV } from '../constants.js'
+import { fullName } from '../data/players.js'
 
 const POSITION_LABELS = {
 	pitcher: 'Pitchers', catcher: 'Catchers', 'first-base': '1st Base',
@@ -58,7 +59,7 @@ function createPlayerCard(player, onClick) {
 			el('span', { className: 'jr-card-team', textContent: player.team ?? '' })
 		]),
 		el('div', { className: 'jr-card-body' }, [
-			el('div', { className: 'jr-card-name', textContent: player.name }),
+			el('div', { className: 'jr-card-name', textContent: fullName(player) }),
 			el('div', { className: 'jr-card-stats' }, [
 				el('div', { className: 'jr-stat', html: `<span class="k">On Base</span><span class="v">${getHitSectors(player)}%</span>` }),
 				el('div', { className: 'jr-stat', html: `<span class="k">Power</span><span class="v">${getBiggestSector(player)}</span>` })
@@ -83,7 +84,7 @@ function updateRosterPanel(team, players) {
 	for (const p of players) {
 		list.appendChild(el('div', { className: 'jr-roster-item' }, [
 			el('span', { className: 'jr-roster-pos', textContent: POSITION_ABBREV[p.position] }),
-			el('span', { textContent: p.name })
+			el('span', { textContent: fullName(p) })
 		]))
 	}
 }
@@ -209,7 +210,7 @@ function showBattingOrder(overlay, homeRoster, visitorRoster, onComplete) {
 				className: `jr-lineup-row${isPitcher ? ' pitcher' : ''}${isSel ? ' sel' : ''}`
 			}, [
 				el('span', { className: 'jr-lineup-num', textContent: `${i + 1}` }),
-				el('span', { className: 'jr-lineup-name', textContent: player.name }),
+				el('span', { className: 'jr-lineup-name', textContent: fullName(player) }),
 				el('span', { className: 'jr-lineup-pos', textContent: POSITION_ABBREV[player.position] })
 			])
 			row.addEventListener('click', () => {

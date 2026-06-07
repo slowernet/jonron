@@ -1,3 +1,5 @@
+import { fullName } from '../data/players.js'
+
 const BASE_NAMES = { 1: 'first', 2: 'second', 3: 'third' }
 
 // ---- Weighted decay picker ----
@@ -75,10 +77,11 @@ function narrateRunners(runners, bases, nameOf, { skipOuts = false } = {}) {
 // ---- Public API ----
 
 export function commentBatterUp(batter) {
-	const name = batter.name
+	const name = fullName(batter)
+	const last = batter.nameLast
 	const text = pick('batter-up', [
 		`${name} steps in.`,
-		`${name} digs in.`,
+		`${last} digs in.`,
 		`${name} steps to the plate.`,
 		`${name} comes up to bat.`,
 	])
@@ -86,7 +89,8 @@ export function commentBatterUp(batter) {
 }
 
 export function commentImmediate(type, result, batter, nameOf) {
-	const name = batter.name
+	const name = fullName(batter)
+	const last = batter.nameLast
 
 	// Collect scorer names (exclude batter for HR — template covers it)
 	const scorerNames = (result.events ?? [])
@@ -128,7 +132,7 @@ export function commentImmediate(type, result, batter, nameOf) {
 	if (type === 'walk') {
 		const text = pick('walk', [
 			`${name} draws a walk.${runs}`,
-			`Ball four. ${name} takes first.${runs}`,
+			`Ball four. ${last} takes first.${runs}`,
 			`${name} works a walk.${runs}`,
 		])
 		return { text, highlight: false }
@@ -138,8 +142,8 @@ export function commentImmediate(type, result, batter, nameOf) {
 		const text = pick('strikeout', [
 			`${name} goes down swinging.`,
 			`Struck him out.`,
-			`${name} strikes out looking.`,
-			`${name} whiffs. Strike three.`,
+			`${last} strikes out looking.`,
+			`${last} whiffs. Strike three.`,
 		])
 		return { text, highlight: false }
 	}
@@ -161,7 +165,8 @@ export function commentKoSetup(type) {
 }
 
 export function commentKoResult(type, outcome, batter, bases, nameOf) {
-	const name = batter.name
+	const name = fullName(batter)
+	const last = batter.nameLast
 	let text = ''
 	let highlight = false
 
@@ -190,9 +195,9 @@ export function commentKoResult(type, outcome, batter, bases, nameOf) {
 			text = `${name} flies out.`
 		} else {
 			text = pick('ko-fly-out', [
-				`${name} flies out.`,
+				`${last} flies out.`,
 				`${name} lifts a fly ball. Out.`,
-				`${name} flies out to the outfield.`,
+				`${last} flies out to the outfield.`,
 			])
 		}
 	} else if (type === 'ground-ball') {
@@ -203,9 +208,9 @@ export function commentKoResult(type, outcome, batter, bases, nameOf) {
 			])
 		} else {
 			text = pick('ko-ground-out', [
-				`${name} grounds out.`,
+				`${last} grounds out.`,
 				`${name} grounds to short. Out at first.`,
-				`${name} bounces one to the infield. Out.`,
+				`${last} bounces one to the infield. Out.`,
 			])
 		}
 	}
@@ -237,8 +242,8 @@ export function commentStrategySetup(playType, batter, bases, nameOf) {
 		'double-steal-1b-2b': 'Double steal! The runners are moving...',
 		'hit-and-run': 'The hit and run is on...',
 		'squeeze': 'Squeeze play!',
-		'sac-bunt-1b': `${batter.name} squares to bunt...`,
-		'sac-bunt-2b': `${batter.name} squares to bunt...`,
+		'sac-bunt-1b': `${batter.nameLast} squares to bunt...`,
+		'sac-bunt-2b': `${batter.nameLast} squares to bunt...`,
 	}[playType] ?? 'Strategy in motion...'
 
 	return { text, highlight: false }
@@ -276,10 +281,10 @@ export function commentStrategyResult(result, batter, bases, nameOf) {
 	} else if (result.batter.out && result.outs >= 2) {
 		// Double play
 		switch (batterCode) {
-			case 'grounds-out': parts.push(`${batter.name} grounds into a double play.`); break
-			case 'pops-out': parts.push(`${batter.name} pops out. Double play!`); break
-			case 'lines-out': parts.push(`${batter.name} lines out. Double play!`); break
-			case 'flies-out': parts.push(`${batter.name} flies out. Double play!`); break
+			case 'grounds-out': parts.push(`${fullName(batter)} grounds into a double play.`); break
+			case 'pops-out': parts.push(`${batter.nameLast} pops out. Double play!`); break
+			case 'lines-out': parts.push(`${batter.nameLast} lines out. Double play!`); break
+			case 'flies-out': parts.push(`${batter.nameLast} flies out. Double play!`); break
 		}
 		// Narrate non-out runners (some DPs have a runner who advances safely)
 		for (const r of result.runners) {
@@ -295,10 +300,10 @@ export function commentStrategyResult(result, batter, bases, nameOf) {
 	} else if (result.batter.out) {
 		// Regular out
 		switch (batterCode) {
-			case 'grounds-out': parts.push(`${batter.name} grounds out.`); break
-			case 'flies-out': parts.push(`${batter.name} flies out.`); break
-			case 'pops-out': parts.push(`${batter.name} pops it up. Out.`); break
-			case 'lines-out': parts.push(`${batter.name} lines out.`); break
+			case 'grounds-out': parts.push(`${batter.nameLast} grounds out.`); break
+			case 'flies-out': parts.push(`${batter.nameLast} flies out.`); break
+			case 'pops-out': parts.push(`${batter.nameLast} pops it up. Out.`); break
+			case 'lines-out': parts.push(`${batter.nameLast} lines out.`); break
 		}
 		for (const r of result.runners) {
 			const rName = resolveRunnerName(r.from, bases, nameOf)
@@ -317,15 +322,15 @@ export function commentStrategyResult(result, batter, bases, nameOf) {
 		// Batter safe (singles, beats-out-bunt, safe-at-1b)
 		switch (batterCode) {
 			case 'singles':
-				parts.push(`${batter.name} lines a single!`)
+				parts.push(`${fullName(batter)} lines a single!`)
 				highlight = true
 				break
 			case 'beats-out-bunt':
-				parts.push(`${batter.name} beats it out!`)
+				parts.push(`${batter.nameLast} beats it out!`)
 				highlight = true
 				break
 			case 'safe-at-1b':
-				parts.push(`${batter.name} reaches.`)
+				parts.push(`${batter.nameLast} reaches.`)
 				break
 		}
 		for (const r of result.runners) {

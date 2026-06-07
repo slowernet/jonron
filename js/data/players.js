@@ -3,6 +3,10 @@ const VALID_POSITIONS = [
 	'shortstop', 'third-base', 'outfield'
 ]
 
+export function fullName(player) {
+	return `${player.nameFirst} ${player.nameLast}`
+}
+
 export function validateDisc(disc) {
 	const errors = []
 
@@ -10,8 +14,11 @@ export function validateDisc(disc) {
 		errors.push('id must be a non-empty string')
 	}
 
-	if (typeof disc.name !== 'string' || disc.name.length === 0) {
-		errors.push('name must be a non-empty string')
+	if (typeof disc.nameFirst !== 'string' || disc.nameFirst.length === 0) {
+		errors.push('nameFirst must be a non-empty string')
+	}
+	if (typeof disc.nameLast !== 'string' || disc.nameLast.length === 0) {
+		errors.push('nameLast must be a non-empty string')
 	}
 
 	if (!VALID_POSITIONS.includes(disc.position)) {
@@ -61,7 +68,7 @@ export async function loadPlayers(url) {
 		if (result.valid) {
 			valid.push(disc)
 		} else {
-			console.warn(`Skipping invalid disc "${disc.name || disc.id || '?'}": ${result.errors.join(', ')}`)
+			console.warn(`Skipping invalid disc "${disc.nameFirst ?? disc.id ?? '?'} ${disc.nameLast ?? ''}": ${result.errors.join(', ')}`)
 		}
 	}
 

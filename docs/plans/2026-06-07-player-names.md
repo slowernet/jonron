@@ -11,7 +11,7 @@
 - **Full-name helper**: Add a `fullName(player)` utility rather than a getter (game state must be serializable, no class instances). Used by all UI/commentary code that needs the full string.
 - **Commentary name usage**: Each commentary function gets the batter object directly, so it can choose first, last, or full name per template. The `nameOf` callback returns full names for runners (last-name-only would be confusing for runners since there's less context).
 - **Disc rendering**: `disc.js` already splits `name` on spaces to wrap across two lines. With `nameFirst`/`nameLast` this becomes trivial — line 1 is first name, line 2 is last name.
-- **No `nameGiven`**: We don't need the formal given name yet. Easy to add later if Lahman integration needs it.
+- **`nameGiven`**: Include for fun / Lahman parity. The formal birth name (e.g. "George Herman" for Babe Ruth, "Lawrence Peter" for Yogi Berra). Not used in commentary yet but available for future flavor text or trivia.
 
 ## Changes by file
 

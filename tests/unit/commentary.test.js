@@ -73,11 +73,11 @@ describe('pick', () => {
 // ---- commentBatterUp() ----
 
 describe('commentBatterUp', () => {
-	const batter = { id: 'p1', name: 'Mike Trout' }
+	const batter = { id: 'p1', nameFirst: 'Mike', nameLast: 'Trout' }
 
 	it('returns text containing the batter name', () => {
 		const { text } = commentBatterUp(batter)
-		expect(text).toContain('Mike Trout')
+		expect(text).toContain('Trout')
 	})
 
 	it('returns highlight: false', () => {
@@ -95,7 +95,7 @@ describe('commentBatterUp', () => {
 // ---- commentImmediate() ----
 
 describe('commentImmediate', () => {
-	const batter = { id: 'p1', name: 'Babe Ruth' }
+	const batter = { id: 'p1', nameFirst: 'Babe', nameLast: 'Ruth' }
 	const nameOf = (id) => ({ r1: 'Lou Gehrig', r2: 'Joe DiMaggio' }[id] ?? 'unknown')
 	const baseResult = { events: [] }
 
@@ -211,7 +211,7 @@ describe('commentKoSetup', () => {
 // ---- commentKoResult() ----
 
 describe('commentKoResult', () => {
-	const batter = { id: 'b1', name: 'Willie Mays' }
+	const batter = { id: 'b1', nameFirst: 'Willie', nameLast: 'Mays' }
 	const nameOf = (id) => ({ r1: 'Hank Aaron', r2: 'Ernie Banks' }[id] ?? 'unknown')
 
 	it('mentions error for isError outcome', () => {
@@ -302,7 +302,7 @@ describe('commentKoResult', () => {
 // ---- commentStrategySetup() ----
 
 describe('commentStrategySetup', () => {
-	const batter = { id: 'b1', name: 'Rod Carew' }
+	const batter = { id: 'b1', nameFirst: 'Rod', nameLast: 'Carew' }
 	const nameOf = (id) => ({ r1: 'Rickey Henderson', r2: 'Tim Raines' }[id] ?? 'unknown')
 
 	it('uses runner name for steal-1b', () => {
@@ -336,7 +336,7 @@ describe('commentStrategySetup', () => {
 
 	it('uses batter name for sac bunt', () => {
 		const { text } = commentStrategySetup('sac-bunt-1b', batter, {}, nameOf)
-		expect(text).toContain('Rod Carew')
+		expect(text).toContain('Carew')
 		expect(text).toMatch(/bunt/i)
 	})
 
@@ -354,7 +354,7 @@ describe('commentStrategySetup', () => {
 // ---- commentStrategyResult() ----
 
 describe('commentStrategyResult', () => {
-	const batter = { id: 'b1', name: 'Pete Rose' }
+	const batter = { id: 'b1', nameFirst: 'Pete', nameLast: 'Rose' }
 	const nameOf = (id) => ({ r1: 'Joe Morgan', r2: 'Johnny Bench' }[id] ?? 'unknown')
 	const bases = { first: 'r1', second: 'r2' }
 
@@ -481,7 +481,7 @@ describe('commentStrategyResult', () => {
 				outs: 0,
 			}
 			const { text } = commentStrategyResult(result, batter, bases, nameOf)
-			expect(text).toContain('Pete Rose')
+			expect(text).toContain('Rose')
 		})
 
 		it('narrates runner thrown out at base', () => {
