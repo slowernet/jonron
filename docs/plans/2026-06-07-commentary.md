@@ -69,7 +69,7 @@ Going with **Option A** — simpler signature, and main.js already has both line
 In main.js, build once at game start:
 ```js
 const playerNames = new Map()
-for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, p.name)
+for (const p of [...homeLineup, ...visitorLineup]) playerNames.set(p.id, fullName(p))
 const nameOf = (id) => playerNames.get(id) ?? 'the runner'
 ```
 

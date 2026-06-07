@@ -24,7 +24,7 @@ const SECTOR_LABELS = {
 const HIT_SECTORS = new Set([1, 5, 7, 11, 13])
 
 export function createDiscSVG(disc, cx, cy, radius) {
-	const g = svgEl('g', { 'data-disc-id': disc.id ?? disc.nameLast })
+	const g = svgEl('g', { 'data-disc-id': disc.id ?? `${disc.nameFirst} ${disc.nameLast}` })
 	const ink = inkVar(disc.position)
 	const totalSize = disc.sectors.reduce((sum, s) => sum + s.size, 0)
 	const centerRadius = radius * 0.5

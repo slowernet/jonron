@@ -129,7 +129,9 @@ Cadaco discs interleave hit and out sectors around the disc. Follow the canonica
   "players": [
     {
       "id": "trammell-alan-1990",
-      "name": "Alan Trammell",
+      "nameFirst": "Alan",
+      "nameLast": "Trammell",
+      "nameGiven": "Alan Stuart",
       "position": "shortstop",
       "team": "Tigers",
       "year": 1990,

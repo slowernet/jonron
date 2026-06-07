@@ -60,6 +60,20 @@ describe('validateDisc', () => {
 		expect(result.errors.some(e => e.includes('nameLast'))).toBe(true)
 	})
 
+	it('empty nameGiven → invalid', () => {
+		const disc = makeValidDisc({ nameGiven: '' })
+		const result = validateDisc(disc)
+		expect(result.valid).toBe(false)
+		expect(result.errors.some(e => e.includes('nameGiven'))).toBe(true)
+	})
+
+	it('missing nameGiven → valid (field is optional)', () => {
+		const disc = makeValidDisc()
+		delete disc.nameGiven
+		const result = validateDisc(disc)
+		expect(result.valid).toBe(true)
+	})
+
 	it('invalid position → invalid', () => {
 		const disc = makeValidDisc({ position: 'goalkeeper' })
 		const result = validateDisc(disc)

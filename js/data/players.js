@@ -20,6 +20,9 @@ export function validateDisc(disc) {
 	if (typeof disc.nameLast !== 'string' || disc.nameLast.length === 0) {
 		errors.push('nameLast must be a non-empty string')
 	}
+	if (disc.nameGiven !== undefined && (typeof disc.nameGiven !== 'string' || disc.nameGiven.length === 0)) {
+		errors.push('nameGiven must be a non-empty string if provided')
+	}
 
 	if (!VALID_POSITIONS.includes(disc.position)) {
 		errors.push(`position must be one of: ${VALID_POSITIONS.join(', ')}`)
