@@ -182,6 +182,7 @@ export function resolveStrategy(playType, letter, bases) {
 			throw new Error(`Unknown runner outcome code: ${runnerCode}`)
 	}
 
+	const isGroundOut = batterCode === 'grounds-out'
 	return {
 		batter: { result: batterCode, base: batterBase, out: batterOut },
 		outs,
@@ -190,6 +191,7 @@ export function resolveStrategy(playType, letter, bases) {
 		description: entry.description,
 		isHit: BATTER_HIT.has(batterCode),
 		isError: false,
+		isTagPlay: !isGroundOut && !BATTER_STAYS.has(batterCode),
 		batterStays: BATTER_STAYS.has(batterCode)
 	}
 }

@@ -141,6 +141,38 @@ describe('resolveStrategy', () => {
 		})
 	})
 
+	describe('isTagPlay flag', () => {
+		it('grounds-out is not a tag play (force out)', () => {
+			const result = resolveStrategy('squeeze', 'A', { first: null, second: null, third: 'p3' })
+			expect(result.isTagPlay).toBe(false)
+		})
+
+		it('flies-out is a tag play', () => {
+			const result = resolveStrategy('steal-1b', 'E', { first: 'p1', second: null, third: null })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('pops-out is a tag play', () => {
+			const result = resolveStrategy('squeeze', 'E', { first: null, second: null, third: 'p3' })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('lines-out is a tag play', () => {
+			const result = resolveStrategy('steal-2b', 'J', { first: null, second: 'p2', third: null })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('singles is a tag play (no force)', () => {
+			const result = resolveStrategy('hit-and-run', 'A', { first: 'p1', second: null, third: null })
+			expect(result.isTagPlay).toBe(true)
+		})
+
+		it('batter stays results have no isTagPlay (undefined/falsy is fine)', () => {
+			const result = resolveStrategy('steal-1b', 'A', { first: 'p1', second: null, third: null })
+			expect(result.isTagPlay).toBeFalsy()
+		})
+	})
+
 	describe('batterStays flag', () => {
 		it('takes-pitch → batter stays', () => {
 			const result = resolveStrategy('steal-1b', 'A', { first: 'p1', second: null, third: null })

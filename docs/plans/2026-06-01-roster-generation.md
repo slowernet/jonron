@@ -85,24 +85,15 @@ Original Cadaco discs split singles into two sectors on opposite sides of the di
 
 ### Splitting outs into GB and FB
 
-This is the hardest part. Three tiers of data quality:
-
-**Tier 1 — 2002+ (BIS batted ball data available)**
-If we integrate FanGraphs data (future enhancement), use actual GB% and FB%.
-
-**Tier 2 — any era (GIDP-based estimation)**
-Use GIDP rate as a ground-ball proxy:
+Use SLG-normalized estimation. SLG correlates with fly-ball tendency (power hitters elevate the ball) and is available for all eras, unlike GIDP which is situational (requires runner on 1B, < 2 outs).
 
 ```
-league_avg_gb_rate = 0.43
-gidp_factor = player_gidp_rate / league_avg_gidp_rate
-adjusted_gb_rate = league_avg_gb_rate * gidp_factor
+slg_ratio = player_SLG / league_avg_SLG
+adjusted_gb_pct = 0.43 / slg_ratio    # clamped to [0.30, 0.60]
+fb_pct = 1.0 - adjusted_gb_pct
 ```
 
-Clamp to [0.30, 0.60] to avoid extreme values. Remaining outs are fly balls.
-
-**Tier 3 — fallback**
-If GIDP data is missing (very early eras), use a flat 43/57 GB/FB split.
+Baseline is 43% GB / 57% FB (historical MLB average). High-SLG hitters skew toward fly balls, low-SLG hitters skew toward ground balls. Clamp to [0.30, 0.60] to prevent extreme distributions.
 
 ### Distributing out sectors
 

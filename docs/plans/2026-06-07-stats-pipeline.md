@@ -67,16 +67,15 @@ Sector 7 gets 60% of single degrees, sector 13 gets 40%.
 
 ### GB/FB split for outs
 
-Use GIDP rate as ground-ball proxy:
+Use SLG-normalized estimation. SLG correlates with fly-ball tendency (power hitters elevate the ball) and is available for all eras, unlike GIDP which is situational (requires runner on 1B, < 2 outs).
 
 ```
-league_avg_gidp_rate = player's league-year average GIDP rate
-gidp_factor = player_gidp_rate / league_avg_gidp_rate
-adjusted_gb_pct = 0.43 * gidp_factor    # clamp to [0.30, 0.60]
+slg_ratio = player_SLG / league_avg_SLG
+adjusted_gb_pct = 0.43 / slg_ratio    # clamped to [0.30, 0.60]
 fb_pct = 1.0 - adjusted_gb_pct
 ```
 
-If GIDP data is missing (pre-1933), use flat 43/57 split.
+Baseline is 43% GB / 57% FB (historical MLB average). High-SLG hitters skew toward fly balls, low-SLG hitters skew toward ground balls. Clamp to [0.30, 0.60] to prevent extreme distributions.
 
 Distribute GB degrees across sectors 2, 6, 12 (as evenly as possible).
 Distribute FB degrees across sectors 3, 4, 8, 14 (as evenly as possible).
@@ -220,11 +219,10 @@ New:
 2. Write test: minimum floor of 2 degrees applied
 3. Write test: total always equals 360 after normalization
 4. Write test: singles split 60/40 across sectors 7 and 13
-5. Write test: GB/FB split with GIDP estimation
+5. Write test: GB/FB split with SLG-normalized estimation
 6. Write test: zero triples omits sector 5
-7. Write test: GB/FB fallback when no GIDP data
-8. Implement `computeSectors(stats, leagueAvgGidpRate)`
-9. Tests green
+7. Implement `computeSectors(stats, leagueAvgSlg)`
+8. Tests green
 
 #### Task 4: Player qualification logic (TDD)
 **Files**: `scripts/lib/qualify.js`, `tests/unit/qualify.test.js`

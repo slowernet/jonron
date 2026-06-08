@@ -1384,6 +1384,98 @@ body {
 	}
 }
 
+/* ---- Roster picker ---- */
+.jr-roster-picker {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.jr-team-grid {
+	width: 100%;
+	margin: 12px 0 24px;
+}
+
+.jr-team-group {
+	margin-bottom: 16px;
+}
+
+.jr-team-decade {
+	font-family: var(--f-display);
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--ink-soft);
+	padding: 4px 0 8px;
+	border-bottom: 1px solid var(--ink-faint);
+	margin-bottom: 8px;
+}
+
+.jr-team-card {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	width: 100%;
+	padding: 12px 16px;
+	border: 2px solid var(--ink-faint);
+	border-radius: 8px;
+	background: var(--panel);
+	color: var(--ink);
+	font-family: var(--f-body);
+	font-size: 15px;
+	cursor: pointer;
+	margin-bottom: 6px;
+	transition: border-color 0.12s, background 0.12s;
+	text-align: left;
+}
+
+.jr-team-card:hover {
+	border-color: var(--accent);
+}
+
+.jr-team-card .yr {
+	font-family: var(--f-mono);
+	font-weight: 700;
+	font-size: 14px;
+	color: var(--ink-soft);
+	min-width: 40px;
+}
+
+.jr-team-card .nm {
+	font-weight: 600;
+}
+
+.jr-team-card.picked-visitor {
+	border-color: var(--red);
+	background: var(--red);
+	color: #fff;
+}
+
+.jr-team-card.picked-visitor .yr {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.jr-team-card.picked-home {
+	border-color: var(--navy);
+	background: var(--navy);
+	color: var(--cream);
+}
+
+.jr-team-card.picked-home .yr {
+	color: rgba(244, 234, 208, 0.7);
+}
+
+.jr-cta:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+	transform: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	* {
 		animation-duration: 0.01ms !important;

@@ -1,0 +1,1365 @@
+{
+	"team": "NYN",
+	"teamName": "New York Mets",
+	"year": 1986,
+	"league": "NL",
+	"players": [
+		{
+			"id": "hernake01-1986",
+			"nameFirst": "Keith",
+			"nameLast": "Hernandez",
+			"nameGiven": "Keith",
+			"position": "first-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 652,
+				"AB": 551,
+				"H": 171,
+				"2B": 34,
+				"3B": 1,
+				"HR": 13,
+				"BB": 94,
+				"SO": 69,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "cartega01-1986",
+			"nameFirst": "Gary",
+			"nameLast": "Carter",
+			"nameGiven": "Gary Edmund",
+			"position": "catcher",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 573,
+				"AB": 490,
+				"H": 125,
+				"2B": 14,
+				"3B": 2,
+				"HR": 24,
+				"BB": 62,
+				"SO": 63,
+				"HBP": 6,
+				"SF": 15,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 4,
+					"size": 31
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 25
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 8,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 31
+				}
+			]
+		},
+		{
+			"id": "strawda01-1986",
+			"nameFirst": "Darryl",
+			"nameLast": "Strawberry",
+			"nameGiven": "Darryl Eugene",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 562,
+				"AB": 475,
+				"H": 123,
+				"2B": 27,
+				"3B": 5,
+				"HR": 27,
+				"BB": 72,
+				"SO": 141,
+				"HBP": 6,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 16
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 15
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 15
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 24
+				}
+			]
+		},
+		{
+			"id": "knighra01-1986",
+			"nameFirst": "Ray",
+			"nameLast": "Knight",
+			"nameGiven": "Charles Ray",
+			"position": "third-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 541,
+				"AB": 486,
+				"H": 145,
+				"2B": 24,
+				"3B": 2,
+				"HR": 11,
+				"BB": 40,
+				"SO": 63,
+				"HBP": 4,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 30
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 25
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "dykstle01-1986",
+			"nameFirst": "Lenny",
+			"nameLast": "Dykstra",
+			"nameGiven": "Leonard Kyle",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 498,
+				"AB": 431,
+				"H": 127,
+				"2B": 27,
+				"3B": 7,
+				"HR": 8,
+				"BB": 58,
+				"SO": 55,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 7,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 30
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "backmwa01-1986",
+			"nameFirst": "Wally",
+			"nameLast": "Backman",
+			"nameGiven": "Walter Wayne",
+			"position": "second-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 440,
+				"AB": 387,
+				"H": 124,
+				"2B": 18,
+				"3B": 2,
+				"HR": 1,
+				"BB": 36,
+				"SO": 32,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 14,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "santara01-1986",
+			"nameFirst": "Rafael",
+			"nameLast": "Santana",
+			"nameGiven": "Rafael Francisco",
+			"position": "shortstop",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 436,
+				"AB": 394,
+				"H": 86,
+				"2B": 11,
+				"3B": 0,
+				"HR": 1,
+				"BB": 36,
+				"SO": 43,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 6,
+					"size": 44
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "wilsomo01-1986",
+			"nameFirst": "Mookie",
+			"nameLast": "Wilson",
+			"nameGiven": "William Hayward",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 415,
+				"AB": 381,
+				"H": 110,
+				"2B": 17,
+				"3B": 5,
+				"HR": 9,
+				"BB": 32,
+				"SO": 72,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "mitchke01-1986",
+			"nameFirst": "Kevin",
+			"nameLast": "Mitchell",
+			"nameGiven": "Kevin Darnell",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 364,
+				"AB": 328,
+				"H": 91,
+				"2B": 22,
+				"3B": 2,
+				"HR": 12,
+				"BB": 33,
+				"SO": 61,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "teufeti01-1986",
+			"nameFirst": "Tim",
+			"nameLast": "Teufel",
+			"nameGiven": "Timothy Shawn",
+			"position": "second-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 318,
+				"AB": 279,
+				"H": 69,
+				"2B": 20,
+				"3B": 1,
+				"HR": 4,
+				"BB": 32,
+				"SO": 42,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "fostege01-1986",
+			"nameFirst": "George",
+			"nameLast": "Foster",
+			"nameGiven": "George Arthur",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 256,
+				"AB": 233,
+				"H": 53,
+				"2B": 6,
+				"3B": 1,
+				"HR": 13,
+				"BB": 21,
+				"SO": 53,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "johnsho01-1986",
+			"nameFirst": "Howard",
+			"nameLast": "Johnson",
+			"nameGiven": "Howard Michael",
+			"position": "third-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 253,
+				"AB": 220,
+				"H": 54,
+				"2B": 14,
+				"3B": 0,
+				"HR": 10,
+				"BB": 31,
+				"SO": 64,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
+					"size": 18
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 91
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "heepda01-1986",
+			"nameFirst": "Danny",
+			"nameLast": "Heep",
+			"nameGiven": "Daniel William",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 227,
+				"AB": 195,
+				"H": 55,
+				"2B": 8,
+				"3B": 2,
+				"HR": 5,
+				"BB": 30,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "goodedw01-1986",
+			"nameFirst": "Dwight",
+			"nameLast": "Gooden",
+			"nameGiven": "Dwight Eugene",
+			"position": "pitcher",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 97,
+				"AB": 81,
+				"H": 7,
+				"2B": 0,
+				"3B": 1,
+				"HR": 0,
+				"BB": 2,
+				"SO": 16,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 13,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 53
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 53
+				},
+				{
+					"number": 7,
+					"size": 13
+				},
+				{
+					"number": 8,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 11
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 0
+				},
+				{
+					"number": 12,
+					"size": 52
+				},
+				{
+					"number": 13,
+					"size": 9
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "darliro01-1986",
+			"nameFirst": "Ron",
+			"nameLast": "Darling",
+			"nameGiven": "Ronald Maurice",
+			"position": "pitcher",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 94,
+				"AB": 81,
+				"H": 8,
+				"2B": 2,
+				"3B": 0,
+				"HR": 0,
+				"BB": 3,
+				"SO": 29,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 10,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 21
+				},
+				{
+					"number": 6,
+					"size": 41
+				},
+				{
+					"number": 7,
+					"size": 14
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 11
+				},
+				{
+					"number": 10,
+					"size": 111
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 9
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		},
+		{
+			"id": "ojedabo01-1986",
+			"nameFirst": "Bob",
+			"nameLast": "Ojeda",
+			"nameGiven": "Robert Michael",
+			"position": "pitcher",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 80,
+				"AB": 71,
+				"H": 8,
+				"2B": 0,
+				"3B": 0,
+				"HR": 0,
+				"BB": 1,
+				"SO": 30,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 19
+				},
+				{
+					"number": 4,
+					"size": 19
+				},
+				{
+					"number": 6,
+					"size": 37
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 8,
+					"size": 18
+				},
+				{
+					"number": 9,
+					"size": 5
+				},
+				{
+					"number": 10,
+					"size": 135
+				},
+				{
+					"number": 11,
+					"size": 0
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 18
+				}
+			]
+		},
+		{
+			"id": "fernasi01-1986",
+			"nameFirst": "Sid",
+			"nameLast": "Fernandez",
+			"nameGiven": "Charles Sidney",
+			"position": "pitcher",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 77,
+				"AB": 68,
+				"H": 11,
+				"2B": 3,
+				"3B": 0,
+				"HR": 0,
+				"BB": 3,
+				"SO": 23,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 19
+				},
+				{
+					"number": 4,
+					"size": 19
+				},
+				{
+					"number": 6,
+					"size": 37
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 8,
+					"size": 19
+				},
+				{
+					"number": 9,
+					"size": 14
+				},
+				{
+					"number": 10,
+					"size": 108
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 18
+				}
+			]
+		}
+	]
+}

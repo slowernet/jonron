@@ -349,6 +349,75 @@ describe('isGameOver', () => {
 		expect(game.phase).toBe('batting')
 	})
 
+	describe('3rd-out run suppression', () => {
+		it('no run scores on 3rd-out ground ball force play', () => {
+			const game = createGame(makeLineup('home'), makeLineup('visitor'))
+			game.outs = 2
+			game.bases = { first: null, second: null, third: 'r3' }
+			recordResult(game, {
+				batter: { base: null, out: true },
+				outs: 1,
+				runners: [{ from: 3, to: 4, out: false, scored: true, playerId: 'r3' }],
+				runsScored: 1,
+				description: 'Grounds out',
+				isHit: false,
+				isError: false
+			})
+			expect(game.score.visitor[0]).toBe(0)
+		})
+
+		it('run DOES score on 3rd-out fly ball tag play', () => {
+			const game = createGame(makeLineup('home'), makeLineup('visitor'))
+			game.outs = 2
+			game.bases = { first: null, second: null, third: 'r3' }
+			recordResult(game, {
+				batter: { base: null, out: true },
+				outs: 1,
+				runners: [{ from: 3, to: 4, out: false, scored: true, playerId: 'r3' }],
+				runsScored: 1,
+				description: 'Flies out, runner scores',
+				isHit: false,
+				isError: false,
+				isTagPlay: true
+			})
+			expect(game.score.visitor[0]).toBe(1)
+		})
+
+		it('run scores normally when fewer than 3 outs on ground ball', () => {
+			const game = createGame(makeLineup('home'), makeLineup('visitor'))
+			game.outs = 1
+			game.bases = { first: null, second: null, third: 'r3' }
+			recordResult(game, {
+				batter: { base: null, out: true },
+				outs: 1,
+				runners: [{ from: 3, to: 4, out: false, scored: true, playerId: 'r3' }],
+				runsScored: 1,
+				description: 'Grounds out',
+				isHit: false,
+				isError: false
+			})
+			expect(game.score.visitor[0]).toBe(1)
+		})
+
+		it('suppresses runner scored flags on 3rd-out force play', () => {
+			const game = createGame(makeLineup('home'), makeLineup('visitor'))
+			game.outs = 2
+			game.bases = { first: null, second: null, third: 'r3' }
+			const result = {
+				batter: { base: null, out: true },
+				outs: 1,
+				runners: [{ from: 3, to: 4, out: false, scored: true, playerId: 'r3' }],
+				runsScored: 1,
+				description: 'Grounds out',
+				isHit: false,
+				isError: false
+			}
+			recordResult(game, result)
+			expect(result.runners[0].scored).toBe(false)
+			expect(result.runsScored).toBe(0)
+		})
+	})
+
 	it('recordResult resets phase to batting', () => {
 		const game = createGame(makeLineup('home'), makeLineup('visitor'))
 		setPhase(game, 'strategy')

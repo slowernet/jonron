@@ -1,6 +1,7 @@
 export const POSITION_ABBREV = {
 	pitcher: 'P', catcher: 'C', 'first-base': '1B', 'second-base': '2B',
 	'third-base': '3B', shortstop: 'SS', outfield: 'OF',
+	'designated-hitter': 'DH',
 	'left-field': 'LF', 'center-field': 'CF', 'right-field': 'RF'
 }
 

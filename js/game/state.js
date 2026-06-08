@@ -91,7 +91,26 @@ export function recordResult(game, result) {
 	// or: outs, runsScored, runners, batter (from resolveKoDial / resolveStrategy)
 
 	// Add outs
+	const prevOuts = game.outs
 	game.outs += result.outs
+
+	// Baseball rule: no run scores on a play where the 3rd out is a force out.
+	// Force outs occur on ground balls (batter thrown out at 1B, lead runner forced).
+	// Tag plays (fly ball sac flies) DO allow the run even on the 3rd out.
+	let runsToScore = result.runsScored || 0
+	if (game.outs >= 3 && runsToScore > 0 && !result.isTagPlay) {
+		runsToScore = 0
+		// Also update runner data so commentary doesn't say "scores"
+		if (result.runners) {
+			for (const r of result.runners) {
+				if (r.scored) { r.scored = false; r.to = r.from }
+			}
+		}
+		if (result.events) {
+			result.events = result.events.filter(e => e.type !== 'score')
+		}
+		result.runsScored = 0
+	}
 
 	// Add runs to current inning score
 	const inningIndex = game.inning - 1
@@ -102,7 +121,7 @@ export function recordResult(game, result) {
 		game.score[side].push(0)
 	}
 
-	game.score[side][inningIndex] += (result.runsScored || 0)
+	game.score[side][inningIndex] += runsToScore
 
 	const fieldingSide = side === 'visitor' ? 'home' : 'visitor'
 	if (result.isHit) game.stats[side].hits++

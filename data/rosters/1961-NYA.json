@@ -1,0 +1,1284 @@
+{
+	"team": "NYA",
+	"teamName": "New York Yankees",
+	"year": 1961,
+	"league": "AL",
+	"players": [
+		{
+			"id": "richabo01-1961",
+			"nameFirst": "Bobby",
+			"nameLast": "Richardson",
+			"nameGiven": "Robert Clinton",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 706,
+				"AB": 662,
+				"H": 173,
+				"2B": 17,
+				"3B": 5,
+				"HR": 3,
+				"BB": 30,
+				"SO": 23,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 10,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 44
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 12
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "marisro01-1961",
+			"nameFirst": "Roger",
+			"nameLast": "Maris",
+			"nameGiven": "Roger Eugene",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 698,
+				"AB": 590,
+				"H": 159,
+				"2B": 16,
+				"3B": 4,
+				"HR": 61,
+				"BB": 94,
+				"SO": 67,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 31
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 34
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 19
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 8,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 33
+				}
+			]
+		},
+		{
+			"id": "kubekto01-1961",
+			"nameFirst": "Tony",
+			"nameLast": "Kubek",
+			"nameGiven": "Anthony Christopher",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 658,
+				"AB": 617,
+				"H": 170,
+				"2B": 38,
+				"3B": 6,
+				"HR": 8,
+				"BB": 27,
+				"SO": 60,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 10,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 32
+				},
+				{
+					"number": 4,
+					"size": 31
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 31
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 8,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 31
+				}
+			]
+		},
+		{
+			"id": "mantlmi01-1961",
+			"nameFirst": "Mickey",
+			"nameLast": "Mantle",
+			"nameGiven": "Mickey Charles",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 646,
+				"AB": 514,
+				"H": 163,
+				"2B": 16,
+				"3B": 6,
+				"HR": 54,
+				"BB": 126,
+				"SO": 112,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 30
+				},
+				{
+					"number": 2,
+					"size": 14
+				},
+				{
+					"number": 3,
+					"size": 25
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 14
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 70
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 13
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 24
+				}
+			]
+		},
+		{
+			"id": "skowrbi01-1961",
+			"nameFirst": "Bill",
+			"nameLast": "Skowron",
+			"nameGiven": "William Joseph",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 607,
+				"AB": 561,
+				"H": 150,
+				"2B": 23,
+				"3B": 4,
+				"HR": 28,
+				"BB": 35,
+				"SO": 108,
+				"HBP": 8,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "boyercl02-1961",
+			"nameFirst": "Clete",
+			"nameLast": "Boyer",
+			"nameGiven": "Cletis Leroy",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 578,
+				"AB": 504,
+				"H": 113,
+				"2B": 19,
+				"3B": 5,
+				"HR": 11,
+				"BB": 63,
+				"SO": 83,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 25
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 32
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 25
+				}
+			]
+		},
+		{
+			"id": "howarel01-1961",
+			"nameFirst": "Elston",
+			"nameLast": "Howard",
+			"nameGiven": "Elston Gene",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 482,
+				"AB": 446,
+				"H": 155,
+				"2B": 17,
+				"3B": 5,
+				"HR": 21,
+				"BB": 28,
+				"SO": 65,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 30
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 18
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "berrayo01-1961",
+			"nameFirst": "Yogi",
+			"nameLast": "Berra",
+			"nameGiven": "Lawrence Peter",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 437,
+				"AB": 395,
+				"H": 107,
+				"2B": 11,
+				"3B": 0,
+				"HR": 22,
+				"BB": 35,
+				"SO": 28,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 35
+				},
+				{
+					"number": 4,
+					"size": 35
+				},
+				{
+					"number": 6,
+					"size": 27
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 23
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 34
+				}
+			]
+		},
+		{
+			"id": "blancjo01-1961",
+			"nameFirst": "Johnny",
+			"nameLast": "Blanchard",
+			"nameGiven": "John Edwin",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 275,
+				"AB": 243,
+				"H": 74,
+				"2B": 10,
+				"3B": 1,
+				"HR": 21,
+				"BB": 27,
+				"SO": 28,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 33
+				},
+				{
+					"number": 4,
+					"size": 32
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 19
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 8,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 32
+				}
+			]
+		},
+		{
+			"id": "lopezhe01-1961",
+			"nameFirst": "Hector",
+			"nameLast": "Lopez",
+			"nameGiven": "Hector Headley",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 273,
+				"AB": 243,
+				"H": 54,
+				"2B": 7,
+				"3B": 2,
+				"HR": 3,
+				"BB": 24,
+				"SO": 38,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 38
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "cervbo01-1961",
+			"nameFirst": "Bob",
+			"nameLast": "Cerv",
+			"nameGiven": "Robert Henry",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 131,
+				"AB": 118,
+				"H": 32,
+				"2B": 5,
+				"3B": 1,
+				"HR": 6,
+				"BB": 12,
+				"SO": 17,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 4,
+					"size": 31
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 8,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 30
+				}
+			]
+		},
+		{
+			"id": "fordwh01-1961",
+			"nameFirst": "Whitey",
+			"nameLast": "Ford",
+			"nameGiven": "Edward Charles",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 114,
+				"AB": 96,
+				"H": 17,
+				"2B": 1,
+				"3B": 0,
+				"HR": 0,
+				"BB": 12,
+				"SO": 17,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 6,
+					"size": 43
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 3
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "gardnbi02-1961",
+			"nameFirst": "Billy",
+			"nameLast": "Gardner",
+			"nameGiven": "William Frederick",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 109,
+				"AB": 99,
+				"H": 21,
+				"2B": 5,
+				"3B": 0,
+				"HR": 1,
+				"BB": 6,
+				"SO": 18,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 21
+				},
+				{
+					"number": 6,
+					"size": 39
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "fordwh01-1961",
+			"nameFirst": "Whitey",
+			"nameLast": "Ford",
+			"nameGiven": "Edward Charles",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 114,
+				"AB": 96,
+				"H": 17,
+				"2B": 1,
+				"3B": 0,
+				"HR": 0,
+				"BB": 12,
+				"SO": 17,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 6,
+					"size": 43
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 3
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "staffbi01-1961",
+			"nameFirst": "Bill",
+			"nameLast": "Stafford",
+			"nameGiven": "William Charles",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 74,
+				"AB": 67,
+				"H": 12,
+				"2B": 2,
+				"3B": 1,
+				"HR": 0,
+				"BB": 4,
+				"SO": 11,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 46
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "terryra01-1961",
+			"nameFirst": "Ralph",
+			"nameLast": "Terry",
+			"nameGiven": "Ralph Willard",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 73,
+				"AB": 66,
+				"H": 15,
+				"2B": 2,
+				"3B": 0,
+				"HR": 0,
+				"BB": 1,
+				"SO": 16,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 40
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 20
+				},
+				{
+					"number": 9,
+					"size": 5
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		}
+	]
+}
