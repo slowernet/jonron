@@ -70,6 +70,9 @@ const MIN_BY_POSITION = {
   shortstop: 1, outfield: 4, 'designated-hitter': 1
 }
 
+const hasDH = (league, year) =>
+  (league === 'AL' && year >= 1973) || (league === 'NL' && year >= 2022)
+
 const qualifyPlayers = (battingRows, appearancesRows, pitchingRows, teamGames, league, year) => {
   // --- Position players ---
   const battingByPlayer = new Map()
@@ -106,8 +109,11 @@ const qualifyPlayers = (battingRows, appearancesRows, pitchingRows, teamGames, l
     }
   }
 
+  const positionMins = { ...MIN_BY_POSITION }
+  if (!hasDH(league, year)) delete positionMins['designated-hitter']
+
   // Fill position minimums from remaining players (by PA)
-  for (const [pos, need] of Object.entries(MIN_BY_POSITION)) {
+  for (const [pos, need] of Object.entries(positionMins)) {
     const have = posCounts[pos] || 0
     if (have < need) {
       const candidates = playerEntries.filter(e => e.position === pos && !selected.has(e.playerID))

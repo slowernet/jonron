@@ -304,6 +304,25 @@ describe('qualifyPlayers', () => {
       expect(outfielders.length).toBeGreaterThanOrEqual(4)
     })
 
+    it('does not require DH for pre-DH era NL teams', () => {
+      const batting = []
+      const appearances = []
+      // 13 qualified players, none at DH
+      const positions = ['G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss',
+        'G_lf', 'G_cf', 'G_rf', 'G_rf', 'G_1b', 'G_2b', 'G_3b', 'G_ss']
+      for (let i = 0; i < 13; i++) {
+        const id = `batter${String(i + 1).padStart(2, '0')}`
+        batting.push(bat({ playerID: id, AB: '500' }))
+        appearances.push(app({ playerID: id, [positions[i]]: '100' }))
+      }
+
+      const result = qualifyPlayers(batting, appearances, [], 162, 'NL', 1970)
+      // Should not pull in a non-existent DH player
+      expect(result.positionPlayers.length).toBe(13)
+      const dhPlayers = result.positionPlayers.filter(p => p.position === 'designated-hitter')
+      expect(dhPlayers).toHaveLength(0)
+    })
+
     it('returns all players if fewer than 13 exist', () => {
       const batting = []
       const appearances = []

@@ -120,6 +120,7 @@ export function startDraft(players, onComplete) {
 
 	const grouped = {}
 	for (const pos of POSITION_ORDER) grouped[pos] = players.filter(p => p.position === pos)
+	const activePositions = POSITION_ORDER.filter(pos => grouped[pos].length > 0)
 
 	const getCurrentTeam = () => {
 		const pos = POSITION_ORDER[currentPosition]
@@ -137,15 +138,15 @@ export function startDraft(players, onComplete) {
 		const need = ROSTER_NEEDS[pos]
 		return counts(homeRoster)[pos] >= need && counts(visitorRoster)[pos] >= need
 	}
-	const allPositionsDone = () => POSITION_ORDER.every(isPositionDone)
+	const allPositionsDone = () => activePositions.every(isPositionDone)
 
 	function renderPositionGroup() {
 		main.textContent = ''
-		if (currentPosition >= POSITION_ORDER.length) {
+		if (currentPosition >= activePositions.length) {
 			if (allPositionsDone()) showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
 			return
 		}
-		const pos = POSITION_ORDER[currentPosition]
+		const pos = activePositions[currentPosition]
 		if (isPositionDone(pos)) { currentPosition++; renderPositionGroup(); return }
 
 		const team = getCurrentTeam()
@@ -251,7 +252,7 @@ export function createQuickDraft(players, onComplete) {
 		}
 		return arr
 	}
-	for (const pos of POSITION_ORDER) {
+	for (const pos of POSITION_ORDER.filter(p => grouped[p].length > 0)) {
 		const pool = shuffle(grouped[pos])
 		const need = ROSTER_NEEDS[pos]
 		for (let i = 0; i < need && i < pool.length; i++) homeRoster.push(pool[i])

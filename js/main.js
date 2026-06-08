@@ -110,6 +110,7 @@ function showStartScreen(container) {
 		allStarsBtn.disabled = true
 		try {
 			const players = await loadPlayers('data/players.json')
+			if (players.length < 18) throw new Error(`Need at least 18 players, got ${players.length}`)
 			overlay.remove()
 			startDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup, 'draft'))
 		} catch (err) {
@@ -139,6 +140,7 @@ function showStartScreen(container) {
 		quickBtn.disabled = true
 		try {
 			const players = await loadPlayers('data/players.json')
+			if (players.length < 18) throw new Error(`Need at least 18 players, got ${players.length}`)
 			overlay.remove()
 			createQuickDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup, 'quickstart'))
 		} catch (err) {
@@ -215,11 +217,29 @@ function showRosterPicker(overlay, container, rosterIndex) {
 
 	function pickTeam(team) {
 		const status = document.getElementById('picker-status')
+		if (homeChoice && team.id === homeChoice.id) {
+			document.querySelector(`[data-roster-id="${team.id}"]`)?.classList.remove('picked-home')
+			homeChoice = null
+			playBtn.disabled = true
+			if (status) status.textContent = `Visitors: ${visitorChoice.label} — now choose the home team`
+			return
+		}
+		if (visitorChoice && team.id === visitorChoice.id) {
+			document.querySelector(`[data-roster-id="${team.id}"]`)?.classList.remove('picked-visitor')
+			if (homeChoice) {
+				document.querySelector(`[data-roster-id="${homeChoice.id}"]`)?.classList.remove('picked-home')
+				homeChoice = null
+				playBtn.disabled = true
+			}
+			visitorChoice = null
+			if (status) status.textContent = 'Choose the visiting team'
+			return
+		}
 		if (!visitorChoice) {
 			visitorChoice = team
 			document.querySelector(`[data-roster-id="${team.id}"]`)?.classList.add('picked-visitor')
 			if (status) status.textContent = `Visitors: ${team.label} — now choose the home team`
-		} else if (!homeChoice && team.id !== visitorChoice.id) {
+		} else if (!homeChoice) {
 			homeChoice = team
 			document.querySelector(`[data-roster-id="${team.id}"]`)?.classList.add('picked-home')
 			if (status) status.textContent = `${visitorChoice.label} vs ${homeChoice.label}`
@@ -229,16 +249,29 @@ function showRosterPicker(overlay, container, rosterIndex) {
 }
 
 async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
-	const [visitorRoster, homeRoster] = await Promise.all([
-		loadRoster(visitorEntry.id),
-		loadRoster(homeEntry.id)
-	])
-	const visitorPlayers = await loadPlayers(null, visitorRoster.players)
-	const homePlayers = await loadPlayers(null, homeRoster.players)
-	overlay.remove()
-	startTeamDraft(homePlayers, visitorPlayers, ({ homeLineup, visitorLineup }) =>
-		startGame(container, homeLineup, visitorLineup, 'classic')
-	)
+	try {
+		const [visitorRoster, homeRoster] = await Promise.all([
+			loadRoster(visitorEntry.id),
+			loadRoster(homeEntry.id)
+		])
+		const visitorPlayers = await loadPlayers(null, visitorRoster.players)
+		const homePlayers = await loadPlayers(null, homeRoster.players)
+
+		if (visitorPlayers.length < 9 || homePlayers.length < 9) {
+			throw new Error('Roster has fewer than 9 valid players')
+		}
+
+		overlay.remove()
+		startTeamDraft(homePlayers, visitorPlayers, ({ homeLineup, visitorLineup }) =>
+			startGame(container, homeLineup, visitorLineup, 'classic')
+		)
+	} catch (err) {
+		console.error('Failed to load rosters:', err)
+		const status = document.getElementById('picker-status')
+		if (status) status.textContent = 'Failed to load rosters. Please try again.'
+		const playBtn = overlay.querySelector('.jr-cta-primary')
+		if (playBtn) playBtn.disabled = false
+	}
 }
 
 function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {

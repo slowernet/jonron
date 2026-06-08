@@ -118,6 +118,20 @@ describe('computeSectors', () => {
     }
   })
 
+  it('handles zero at-bats (pitcher with only walks)', () => {
+    const noAB = {
+      AB: 0, H: 0, '2B': 0, '3B': 0, HR: 0,
+      BB: 5, SO: 0, HBP: 2, SF: 0, SH: 3
+    }
+    const sectors = computeSectors(noAB, leagueAvgSlg)
+    const total = sectors.reduce((sum, s) => sum + s.size, 0)
+    expect(total).toBe(360)
+    for (const sector of sectors) {
+      expect(Number.isFinite(sector.size)).toBe(true)
+      expect(sector.size).toBeGreaterThan(0)
+    }
+  })
+
   it('handles a player with high triples and low power', () => {
     const speedster = {
       AB: 600, H: 180, '2B': 20, '3B': 15, HR: 3,

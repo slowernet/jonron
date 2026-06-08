@@ -3,23 +3,6 @@
  * Each sector maps to a game outcome; sizes are proportional to real stat rates.
  */
 
-const SECTOR_OUTCOMES = {
-  1: 'home-run',
-  2: 'ground-ball',
-  3: 'fly-ball',
-  4: 'fly-ball',
-  5: 'triple',
-  6: 'ground-ball',
-  7: 'single',
-  8: 'fly-ball',
-  9: 'walk',
-  10: 'strikeout',
-  11: 'double',
-  12: 'ground-ball',
-  13: 'single',
-  14: 'fly-ball'
-}
-
 const MIN_DEGREES = 2
 const TOTAL_DEGREES = 360
 
@@ -69,8 +52,10 @@ const computeSectors = (stats, leagueAvgSlg) => {
   const sector13 = rounded['1b'] - sector7
 
   // Step 5: GB/FB split for outs
-  const playerSlg = (singles + 2 * stats['2B'] + 3 * stats['3B'] + 4 * stats.HR) / stats.AB
-  const slgRatio = playerSlg / leagueAvgSlg
+  const playerSlg = stats.AB > 0
+    ? (singles + 2 * stats['2B'] + 3 * stats['3B'] + 4 * stats.HR) / stats.AB
+    : 0
+  const slgRatio = playerSlg > 0 ? playerSlg / leagueAvgSlg : 1
   const adjustedGbPct = Math.min(0.60, Math.max(0.30, 0.43 / slgRatio))
   const fbPct = 1.0 - adjustedGbPct
 
@@ -110,12 +95,10 @@ const computeSectors = (stats, leagueAvgSlg) => {
     13: sector13
   }
 
-  // Omit sector 5 if zero triples
   const result = []
   for (const [numStr, size] of Object.entries(sectorSizes)) {
-    const num = Number(numStr)
-    if (num === 5 && stats['3B'] === 0) continue
-    result.push({ number: num, size })
+    if (size <= 0) continue
+    result.push({ number: Number(numStr), size })
   }
 
   return result.sort((a, b) => a.number - b.number)
