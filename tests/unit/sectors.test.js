@@ -63,32 +63,33 @@ describe('computeSectors', () => {
     expect(sectorMap[7] + sectorMap[13]).toBe(totalSingles)
   })
 
-  it('distributes GB/FB outs using SLG-normalized estimation', () => {
+  it('distributes GB outs across 2 sectors and FB outs across 2 sectors', () => {
     const sectors = computeSectors(ortiz2007, leagueAvgSlg)
     const sectorMap = Object.fromEntries(sectors.map(s => [s.number, s.size]))
 
-    const gbSectors = [2, 6, 12]
-    const fbSectors = [3, 4, 8, 14]
+    const gbSectors = [2, 12]
+    const fbSectors = [3, 14]
 
-    const gbTotal = gbSectors.reduce((sum, n) => sum + sectorMap[n], 0)
-    const fbTotal = fbSectors.reduce((sum, n) => sum + sectorMap[n], 0)
+    const gbTotal = gbSectors.reduce((sum, n) => sum + (sectorMap[n] || 0), 0)
+    const fbTotal = fbSectors.reduce((sum, n) => sum + (sectorMap[n] || 0), 0)
 
-    // player_slg = (83 + 2*52 + 3*1 + 4*35) / 497 ≈ 0.621
-    // slg_ratio = 0.621 / 0.423 ≈ 1.468
-    // adjusted_gb_pct = 0.43 / 1.468 ≈ 0.293 → clamped to 0.30
-    // fb_pct = 0.70
-    // So FB should be more than GB for a power hitter like Ortiz
+    // Power hitter: FB should exceed GB
     expect(fbTotal).toBeGreaterThan(gbTotal)
 
-    // GB sectors should be roughly even
-    const gbSizes = gbSectors.map(n => sectorMap[n])
+    // GB pair should be roughly even
+    const gbSizes = gbSectors.map(n => sectorMap[n] || 0)
     const gbDiff = Math.max(...gbSizes) - Math.min(...gbSizes)
     expect(gbDiff).toBeLessThanOrEqual(1)
 
-    // FB sectors should be roughly even
-    const fbSizes = fbSectors.map(n => sectorMap[n])
+    // FB pair should be roughly even
+    const fbSizes = fbSectors.map(n => sectorMap[n] || 0)
     const fbDiff = Math.max(...fbSizes) - Math.min(...fbSizes)
     expect(fbDiff).toBeLessThanOrEqual(1)
+
+    // Should NOT have sectors 4, 6, or 8
+    expect(sectorMap[4]).toBeUndefined()
+    expect(sectorMap[6]).toBeUndefined()
+    expect(sectorMap[8]).toBeUndefined()
   })
 
   it('omits sector 5 when player has zero triples', () => {

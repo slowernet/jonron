@@ -62,25 +62,15 @@ const computeSectors = (stats, leagueAvgSlg) => {
   const gbDegrees = Math.round(rounded.out * adjustedGbPct)
   const fbDegrees = rounded.out - gbDegrees
 
-  // Distribute GB evenly across sectors 2, 6, 12
-  const gbSectors = [2, 6, 12]
-  const gbBase = Math.floor(gbDegrees / gbSectors.length)
-  let gbRemainder = gbDegrees - gbBase * gbSectors.length
-  const gbAlloc = {}
-  for (const n of gbSectors) {
-    gbAlloc[n] = gbBase + (gbRemainder > 0 ? 1 : 0)
-    if (gbRemainder > 0) gbRemainder--
-  }
+  // Distribute GB evenly across sectors 2, 12
+  const gbSectors = [2, 12]
+  const gbHalf = Math.floor(gbDegrees / 2)
+  const gbAlloc = { 2: gbHalf, 12: gbDegrees - gbHalf }
 
-  // Distribute FB evenly across sectors 3, 4, 8, 14
-  const fbSectorNums = [3, 4, 8, 14]
-  const fbBase = Math.floor(fbDegrees / fbSectorNums.length)
-  let fbRemainder = fbDegrees - fbBase * fbSectorNums.length
-  const fbAlloc = {}
-  for (const n of fbSectorNums) {
-    fbAlloc[n] = fbBase + (fbRemainder > 0 ? 1 : 0)
-    if (fbRemainder > 0) fbRemainder--
-  }
+  // Distribute FB evenly across sectors 3, 14
+  const fbSectorNums = [3, 14]
+  const fbHalf = Math.floor(fbDegrees / 2)
+  const fbAlloc = { 3: fbHalf, 14: fbDegrees - fbHalf }
 
   // Step 6: build final sector array
   const sectorSizes = {

@@ -53,18 +53,6 @@
 			"label": "2001 Seattle Mariners",
 			"year": 2001,
 			"team": "SEA"
-		},
-		{
-			"id": "2007-BOS",
-			"label": "2007 Boston Red Sox",
-			"year": 2007,
-			"team": "BOS"
-		},
-		{
-			"id": "2021-LAN",
-			"label": "2021 Los Angeles Dodgers",
-			"year": 2021,
-			"team": "LAN"
 		}
 	]
 }
