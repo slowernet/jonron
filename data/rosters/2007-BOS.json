@@ -732,6 +732,330 @@
 					"size": 20
 				}
 			]
+		},
+		{
+			"id": "coraal01-2007",
+			"nameFirst": "Alex",
+			"nameLast": "Cora",
+			"nameGiven": "Jose Alexander",
+			"position": "second-base",
+			"team": "Boston Red Sox",
+			"year": 2007,
+			"stats": {
+				"PA": 232,
+				"AB": 207,
+				"H": 51,
+				"2B": 10,
+				"3B": 5,
+				"HR": 3,
+				"BB": 7,
+				"SO": 23,
+				"HBP": 9,
+				"SF": 2,
+				"SH": 7,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 6,
+					"size": 34
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "hinsker01-2007",
+			"nameFirst": "Eric",
+			"nameLast": "Hinske",
+			"nameGiven": "Eric Scott",
+			"position": "first-base",
+			"team": "Boston Red Sox",
+			"year": 2007,
+			"stats": {
+				"PA": 218,
+				"AB": 186,
+				"H": 38,
+				"2B": 12,
+				"3B": 3,
+				"HR": 6,
+				"BB": 28,
+				"SO": 54,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 21
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 24
+				},
+				{
+					"number": 7,
+					"size": 17
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 89
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 11
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "penawi01-2007",
+			"nameFirst": "Wily Mo",
+			"nameLast": "Pena",
+			"nameGiven": "Wily Modesto",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2007,
+			"stats": {
+				"PA": 172,
+				"AB": 156,
+				"H": 34,
+				"2B": 9,
+				"3B": 1,
+				"HR": 5,
+				"BB": 14,
+				"SO": 58,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 18
+				},
+				{
+					"number": 4,
+					"size": 18
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 8,
+					"size": 18
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 121
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 17
+				}
+			]
+		},
+		{
+			"id": "ellsbja01-2007",
+			"nameFirst": "Jacoby",
+			"nameLast": "Ellsbury",
+			"nameGiven": "Jacoby McCabe",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2007,
+			"stats": {
+				"PA": 127,
+				"AB": 116,
+				"H": 41,
+				"2B": 7,
+				"3B": 1,
+				"HR": 3,
+				"BB": 8,
+				"SO": 15,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
 		}
 	]
 }

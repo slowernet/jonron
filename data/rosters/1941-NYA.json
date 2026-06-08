@@ -734,6 +734,322 @@
 			]
 		},
 		{
+			"id": "selkige01-1941",
+			"nameFirst": "George",
+			"nameLast": "Selkirk",
+			"nameGiven": "George Alexander",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 195,
+				"AB": 164,
+				"H": 36,
+				"2B": 5,
+				"3B": 0,
+				"HR": 6,
+				"BB": 28,
+				"SO": 30,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 25
+				},
+				{
+					"number": 4,
+					"size": 25
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 24
+				}
+			]
+		},
+		{
+			"id": "priddje01-1941",
+			"nameFirst": "Jerry",
+			"nameLast": "Priddy",
+			"nameGiven": "Gerald Edward",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 194,
+				"AB": 174,
+				"H": 37,
+				"2B": 7,
+				"3B": 0,
+				"HR": 1,
+				"BB": 18,
+				"SO": 16,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
+					"size": 45
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 8,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "crosefr01-1941",
+			"nameFirst": "Frankie",
+			"nameLast": "Crosetti",
+			"nameGiven": "Frank Peter Joseph",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 169,
+				"AB": 148,
+				"H": 33,
+				"2B": 2,
+				"3B": 2,
+				"HR": 1,
+				"BB": 18,
+				"SO": 14,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 42
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 8,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 4
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "ruffire01-1941",
+			"nameFirst": "Red",
+			"nameLast": "Ruffing",
+			"nameGiven": "Charles Herbert",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 94,
+				"AB": 89,
+				"H": 27,
+				"2B": 8,
+				"3B": 1,
+				"HR": 2,
+				"BB": 4,
+				"SO": 12,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 32
+				},
+				{
+					"number": 4,
+					"size": 32
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 31
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 31
+				}
+			]
+		},
+		{
 			"id": "russoma01-1941",
 			"nameFirst": "Marius",
 			"nameLast": "Russo",

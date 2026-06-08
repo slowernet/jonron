@@ -734,6 +734,322 @@
 			]
 		},
 		{
+			"id": "zimmedo01-1955",
+			"nameFirst": "Don",
+			"nameLast": "Zimmer",
+			"nameGiven": "Donald William",
+			"position": "second-base",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 309,
+				"AB": 280,
+				"H": 67,
+				"2B": 10,
+				"3B": 1,
+				"HR": 15,
+				"BB": 19,
+				"SO": 66,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 24
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 77
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "newcodo01-1955",
+			"nameFirst": "Don",
+			"nameLast": "Newcombe",
+			"nameGiven": "Donald",
+			"position": "pitcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 125,
+				"AB": 117,
+				"H": 42,
+				"2B": 9,
+				"3B": 1,
+				"HR": 7,
+				"BB": 6,
+				"SO": 18,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 17
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 16
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "walkeru01-1955",
+			"nameFirst": "Rube",
+			"nameLast": "Walker",
+			"nameGiven": "Albert Bluford",
+			"position": "catcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 120,
+				"AB": 103,
+				"H": 26,
+				"2B": 5,
+				"3B": 0,
+				"HR": 2,
+				"BB": 15,
+				"SO": 11,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 6,
+					"size": 33
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "shubage01-1955",
+			"nameFirst": "George",
+			"nameLast": "Shuba",
+			"nameGiven": "George Thomas",
+			"position": "outfield",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 64,
+				"AB": 51,
+				"H": 14,
+				"2B": 2,
+				"3B": 0,
+				"HR": 1,
+				"BB": 11,
+				"SO": 10,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 24
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 20
+				},
+				{
+					"number": 9,
+					"size": 73
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		},
+		{
 			"id": "newcodo01-1955",
 			"nameFirst": "Don",
 			"nameLast": "Newcombe",

@@ -724,6 +724,330 @@
 					"size": 22
 				}
 			]
+		},
+		{
+			"id": "strawda01-1998",
+			"nameFirst": "Darryl",
+			"nameLast": "Strawberry",
+			"nameGiven": "Darryl Eugene",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 345,
+				"AB": 295,
+				"H": 73,
+				"2B": 11,
+				"3B": 2,
+				"HR": 24,
+				"BB": 46,
+				"SO": 90,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 16
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 16
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 94
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 16
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "girarjo01-1998",
+			"nameFirst": "Joe",
+			"nameLast": "Girardi",
+			"nameGiven": "Joseph Elliott",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 279,
+				"AB": 254,
+				"H": 70,
+				"2B": 11,
+				"3B": 4,
+				"HR": 3,
+				"BB": 14,
+				"SO": 38,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 8,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 32
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "sojolu01-1998",
+			"nameFirst": "Luis",
+			"nameLast": "Sojo",
+			"nameGiven": "Luis Beltran",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 153,
+				"AB": 147,
+				"H": 34,
+				"2B": 3,
+				"3B": 1,
+				"HR": 0,
+				"BB": 4,
+				"SO": 15,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 48
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 47
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 9
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 7
+				},
+				{
+					"number": 12,
+					"size": 47
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "ledeeri01-1998",
+			"nameFirst": "Ricky",
+			"nameLast": "Ledee",
+			"nameGiven": "Ricardo Alberto",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 87,
+				"AB": 79,
+				"H": 19,
+				"2B": 5,
+				"3B": 2,
+				"HR": 1,
+				"BB": 7,
+				"SO": 29,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 18
+				},
+				{
+					"number": 4,
+					"size": 18
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 17
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 120
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 17
+				}
+			]
 		}
 	]
 }

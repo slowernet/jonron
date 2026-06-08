@@ -730,6 +730,318 @@
 			]
 		},
 		{
+			"id": "beatyma01-2021",
+			"nameFirst": "Matt",
+			"nameLast": "Beaty",
+			"nameGiven": "Matthew Thomas",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2021,
+			"stats": {
+				"PA": 234,
+				"AB": 204,
+				"H": 55,
+				"2B": 4,
+				"3B": 1,
+				"HR": 7,
+				"BB": 20,
+				"SO": 44,
+				"HBP": 10,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "turnetr01-2021",
+			"nameFirst": "Trea",
+			"nameLast": "Turner",
+			"nameGiven": "Trea Vance",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2021,
+			"stats": {
+				"PA": 226,
+				"AB": 207,
+				"H": 70,
+				"2B": 17,
+				"3B": 0,
+				"HR": 10,
+				"BB": 15,
+				"SO": 33,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 6,
+					"size": 17
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "barneau01-2021",
+			"nameFirst": "Austin",
+			"nameLast": "Barnes",
+			"nameGiven": "Austin Scott",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 2021,
+			"stats": {
+				"PA": 225,
+				"AB": 200,
+				"H": 43,
+				"2B": 8,
+				"3B": 0,
+				"HR": 6,
+				"BB": 20,
+				"SO": 56,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 20
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 28
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 20
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		},
+		{
+			"id": "pujolal01-2021",
+			"nameFirst": "Albert",
+			"nameLast": "Pujols",
+			"nameGiven": "Jose Alberto",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2021,
+			"stats": {
+				"PA": 204,
+				"AB": 189,
+				"H": 48,
+				"2B": 3,
+				"3B": 0,
+				"HR": 12,
+				"BB": 11,
+				"SO": 32,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 4,
+					"size": 31
+				},
+				{
+					"number": 6,
+					"size": 25
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 8,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 5
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 30
+				}
+			]
+		},
+		{
 			"id": "buehlwa01-2021",
 			"nameFirst": "Walker",
 			"nameLast": "Buehler",

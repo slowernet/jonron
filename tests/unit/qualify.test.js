@@ -57,13 +57,20 @@ describe('qualifyPlayers', () => {
     })
 
     it('excludes players below the PA threshold when enough qualify', () => {
-      // Make 9 qualified + 1 unqualified
-      const { batting, appearances } = makeQualifiedBatters(9)
-      // Add an unqualified player: PA = 100 + 10 + 1 + 1 + 0 = 112
+      const positions = ['G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_dh',
+        'G_lf', 'G_cf', 'G_rf', 'G_rf', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_dh']
+      const batting = []
+      const appearances = []
+      for (let i = 0; i < 15; i++) {
+        const id = `batter${String(i + 1).padStart(2, '0')}`
+        batting.push(bat({ playerID: id, AB: String(520 - i * 5) }))
+        appearances.push(app({ playerID: id, [positions[i]]: '100' }))
+      }
+      // Unqualified player at a position already filled
       batting.push(bat({
         playerID: 'below01', AB: '100', BB: '10', HBP: '1', SF: '1', SH: '0'
       }))
-      appearances.push(app({ playerID: 'below01', G_ss: '50' }))
+      appearances.push(app({ playerID: 'below01', G_1b: '50' }))
 
       const result = qualifyPlayers(batting, appearances, [], 162, 'AL', 1980)
       expect(result.positionPlayers.map(p => p.playerID)).not.toContain('below01')
@@ -243,24 +250,61 @@ describe('qualifyPlayers', () => {
     })
   })
 
-  describe('fallback when fewer than 9 position players qualify', () => {
-    it('lowers threshold to include top 9 by PA', () => {
-      // Only 5 meet the real threshold, but we have 12 total
+  describe('fallback ensures at least 13 position players with position minimums', () => {
+    it('fills to 13 from top PA players when few qualify by threshold', () => {
       const batting = []
       const appearances = []
-      for (let i = 0; i < 12; i++) {
+      for (let i = 0; i < 18; i++) {
         const id = `batter${String(i + 1).padStart(2, '0')}`
-        // First 5 have PA=562 (qualifies), rest have decreasing PA
-        const ab = i < 5 ? '500' : String(300 - i * 20)
+        const ab = i < 5 ? '500' : String(400 - i * 10)
         batting.push(bat({ playerID: id, AB: ab }))
         appearances.push(app({ playerID: id, G_1b: '100' }))
       }
 
       const result = qualifyPlayers(batting, appearances, [], 162, 'AL', 1980)
-      expect(result.positionPlayers.length).toBeGreaterThanOrEqual(9)
+      expect(result.positionPlayers.length).toBeGreaterThanOrEqual(13)
     })
 
-    it('returns all players if fewer than 9 exist', () => {
+    it('fills position minimums even if player is below threshold', () => {
+      const batting = []
+      const appearances = []
+      // 12 qualified first basemen
+      for (let i = 0; i < 12; i++) {
+        const id = `batter${String(i + 1).padStart(2, '0')}`
+        batting.push(bat({ playerID: id, AB: '500' }))
+        appearances.push(app({ playerID: id, G_1b: '100' }))
+      }
+      // 1 catcher with low PA
+      batting.push(bat({ playerID: 'catcher01', AB: '200', BB: '10', HBP: '1', SF: '1', SH: '0' }))
+      appearances.push(app({ playerID: 'catcher01', G_c: '80' }))
+
+      const result = qualifyPlayers(batting, appearances, [], 162, 'AL', 1980)
+      const catchers = result.positionPlayers.filter(p => p.position === 'catcher')
+      expect(catchers.length).toBeGreaterThanOrEqual(1)
+    })
+
+    it('ensures at least 4 outfielders', () => {
+      const batting = []
+      const appearances = []
+      // 9 qualified infielders
+      for (let i = 0; i < 9; i++) {
+        const id = `inf${String(i + 1).padStart(2, '0')}`
+        batting.push(bat({ playerID: id, AB: '500' }))
+        appearances.push(app({ playerID: id, G_ss: '100' }))
+      }
+      // 5 outfielders with lower PA
+      for (let i = 0; i < 5; i++) {
+        const id = `of${String(i + 1).padStart(2, '0')}`
+        batting.push(bat({ playerID: id, AB: String(300 - i * 20), BB: '10', HBP: '1', SF: '1', SH: '0' }))
+        appearances.push(app({ playerID: id, G_cf: '100' }))
+      }
+
+      const result = qualifyPlayers(batting, appearances, [], 162, 'AL', 1980)
+      const outfielders = result.positionPlayers.filter(p => p.position === 'outfield')
+      expect(outfielders.length).toBeGreaterThanOrEqual(4)
+    })
+
+    it('returns all players if fewer than 13 exist', () => {
       const batting = []
       const appearances = []
       for (let i = 0; i < 6; i++) {

@@ -64,9 +64,14 @@ const buildPlayerObj = (playerID, position, stats) => ({
  * @param {number} year - Season year
  * @returns {{ positionPlayers: Object[], pitchers: Object[] }}
  */
+const MIN_POSITION_PLAYERS = 13
+const MIN_BY_POSITION = {
+  catcher: 1, 'first-base': 1, 'second-base': 1, 'third-base': 1,
+  shortstop: 1, outfield: 4, 'designated-hitter': 1
+}
+
 const qualifyPlayers = (battingRows, appearancesRows, pitchingRows, teamGames, league, year) => {
   // --- Position players ---
-  // Group batting rows by playerID and aggregate
   const battingByPlayer = new Map()
   for (const row of battingRows) {
     const id = row.playerID
@@ -74,36 +79,56 @@ const qualifyPlayers = (battingRows, appearancesRows, pitchingRows, teamGames, l
     battingByPlayer.get(id).push(row)
   }
 
-  // Build appearances lookup
   const appearancesMap = new Map()
   for (const row of appearancesRows) {
     appearancesMap.set(row.playerID, row)
   }
 
-  // Aggregate and compute PA for each player
   const playerEntries = []
   for (const [playerID, rows] of battingByPlayer) {
     const stats = aggregateStats(rows)
     const pa = computePA(stats)
-    playerEntries.push({ playerID, stats, pa })
+    const position = assignPosition(appearancesMap.get(playerID))
+    playerEntries.push({ playerID, stats, pa, position })
   }
 
-  // Sort by PA descending
   playerEntries.sort((a, b) => b.pa - a.pa)
 
-  // Apply threshold
+  // Start with PA-qualified players
   const paThreshold = 3.1 * teamGames
-  let qualified = playerEntries.filter(e => e.pa >= paThreshold)
+  const selected = new Set()
+  const posCounts = {}
 
-  // Fallback: ensure at least 9 if possible
-  if (qualified.length < 9) {
-    qualified = playerEntries.slice(0, Math.min(9, playerEntries.length))
+  for (const e of playerEntries) {
+    if (e.pa >= paThreshold) {
+      selected.add(e.playerID)
+      posCounts[e.position] = (posCounts[e.position] || 0) + 1
+    }
   }
 
-  const positionPlayers = qualified.map(({ playerID, stats }) => {
-    const position = assignPosition(appearancesMap.get(playerID))
-    return buildPlayerObj(playerID, position, stats)
-  })
+  // Fill position minimums from remaining players (by PA)
+  for (const [pos, need] of Object.entries(MIN_BY_POSITION)) {
+    const have = posCounts[pos] || 0
+    if (have < need) {
+      const candidates = playerEntries.filter(e => e.position === pos && !selected.has(e.playerID))
+      for (let i = 0; i < need - have && i < candidates.length; i++) {
+        selected.add(candidates[i].playerID)
+        posCounts[pos] = (posCounts[pos] || 0) + 1
+      }
+    }
+  }
+
+  // Fill to minimum roster size from remaining players by PA
+  if (selected.size < MIN_POSITION_PLAYERS) {
+    for (const e of playerEntries) {
+      if (selected.size >= MIN_POSITION_PLAYERS) break
+      if (!selected.has(e.playerID)) selected.add(e.playerID)
+    }
+  }
+
+  const positionPlayers = playerEntries
+    .filter(e => selected.has(e.playerID))
+    .map(({ playerID, stats, position }) => buildPlayerObj(playerID, position, stats))
 
   // --- Pitchers ---
   let pitchers = []

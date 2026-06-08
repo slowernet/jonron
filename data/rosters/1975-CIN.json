@@ -734,6 +734,318 @@
 			]
 		},
 		{
+			"id": "retteme01-1975",
+			"nameFirst": "Merv",
+			"nameLast": "Rettenmund",
+			"nameGiven": "Mervin Weldon",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1975,
+			"stats": {
+				"PA": 226,
+				"AB": 188,
+				"H": 45,
+				"2B": 6,
+				"3B": 1,
+				"HR": 2,
+				"BB": 35,
+				"SO": 22,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 25
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 33
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 24
+				}
+			]
+		},
+		{
+			"id": "plummbi01-1975",
+			"nameFirst": "Bill",
+			"nameLast": "Plummer",
+			"nameGiven": "William Francis",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 1975,
+			"stats": {
+				"PA": 189,
+				"AB": 159,
+				"H": 29,
+				"2B": 7,
+				"3B": 0,
+				"HR": 1,
+				"BB": 24,
+				"SO": 28,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 40
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 8,
+					"size": 20
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		},
+		{
+			"id": "chaneda01-1975",
+			"nameFirst": "Darrel",
+			"nameLast": "Chaney",
+			"nameGiven": "Darrel Lee",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 1975,
+			"stats": {
+				"PA": 175,
+				"AB": 160,
+				"H": 35,
+				"2B": 6,
+				"3B": 0,
+				"HR": 2,
+				"BB": 14,
+				"SO": 38,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 21
+				},
+				{
+					"number": 6,
+					"size": 33
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 20
+				}
+			]
+		},
+		{
+			"id": "flynndo01-1975",
+			"nameFirst": "Doug",
+			"nameLast": "Flynn",
+			"nameGiven": "Robert Douglas",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 1975,
+			"stats": {
+				"PA": 143,
+				"AB": 127,
+				"H": 34,
+				"2B": 7,
+				"3B": 0,
+				"HR": 1,
+				"BB": 11,
+				"SO": 13,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 6,
+					"size": 33
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
 			"id": "nolanga01-1975",
 			"nameFirst": "Gary",
 			"nameLast": "Nolan",

@@ -730,6 +730,326 @@
 			]
 		},
 		{
+			"id": "teufeti01-1986",
+			"nameFirst": "Tim",
+			"nameLast": "Teufel",
+			"nameGiven": "Timothy Shawn",
+			"position": "second-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 318,
+				"AB": 279,
+				"H": 69,
+				"2B": 20,
+				"3B": 1,
+				"HR": 4,
+				"BB": 32,
+				"SO": 42,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "fostege01-1986",
+			"nameFirst": "George",
+			"nameLast": "Foster",
+			"nameGiven": "George Arthur",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 256,
+				"AB": 233,
+				"H": 53,
+				"2B": 6,
+				"3B": 1,
+				"HR": 13,
+				"BB": 21,
+				"SO": 53,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "johnsho01-1986",
+			"nameFirst": "Howard",
+			"nameLast": "Johnson",
+			"nameGiven": "Howard Michael",
+			"position": "third-base",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 253,
+				"AB": 220,
+				"H": 54,
+				"2B": 14,
+				"3B": 0,
+				"HR": 10,
+				"BB": 31,
+				"SO": 64,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
+					"size": 18
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 91
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "heepda01-1986",
+			"nameFirst": "Danny",
+			"nameLast": "Heep",
+			"nameGiven": "Daniel William",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1986,
+			"stats": {
+				"PA": 227,
+				"AB": 195,
+				"H": 55,
+				"2B": 8,
+				"3B": 2,
+				"HR": 5,
+				"BB": 30,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
 			"id": "goodedw01-1986",
 			"nameFirst": "Dwight",
 			"nameLast": "Gooden",

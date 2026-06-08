@@ -728,6 +728,322 @@
 					"size": 25
 				}
 			]
+		},
+		{
+			"id": "martial03-2001",
+			"nameFirst": "Al",
+			"nameLast": "Martin",
+			"nameGiven": "Albert Lee",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 324,
+				"AB": 283,
+				"H": 68,
+				"2B": 15,
+				"3B": 2,
+				"HR": 7,
+				"BB": 37,
+				"SO": 59,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 28
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		},
+		{
+			"id": "javiest01-2001",
+			"nameFirst": "Stan",
+			"nameLast": "Javier",
+			"nameGiven": "Stanley Julian Antonio",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 323,
+				"AB": 281,
+				"H": 82,
+				"2B": 14,
+				"3B": 1,
+				"HR": 4,
+				"BB": 36,
+				"SO": 47,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 27
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "lampkto01-2001",
+			"nameFirst": "Tom",
+			"nameLast": "Lampkin",
+			"nameGiven": "Thomas Michael",
+			"position": "catcher",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 231,
+				"AB": 204,
+				"H": 46,
+				"2B": 10,
+				"3B": 0,
+				"HR": 5,
+				"BB": 18,
+				"SO": 41,
+				"HBP": 7,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 6,
+					"size": 33
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "spraged02-2001",
+			"nameFirst": "Ed",
+			"nameLast": "Sprague",
+			"nameGiven": "Edward Nelson",
+			"position": "first-base",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 107,
+				"AB": 94,
+				"H": 28,
+				"2B": 7,
+				"3B": 0,
+				"HR": 2,
+				"BB": 11,
+				"SO": 18,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 6,
+					"size": 23
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
 		}
 	]
 }

@@ -734,6 +734,330 @@
 			]
 		},
 		{
+			"id": "delanbi02-1934",
+			"nameFirst": "Bill",
+			"nameLast": "DeLancey",
+			"nameGiven": "William Pinkney",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 295,
+				"AB": 253,
+				"H": 80,
+				"2B": 18,
+				"3B": 3,
+				"HR": 13,
+				"BB": 41,
+				"SO": 37,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 17
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 16
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "fullich01-1934",
+			"nameFirst": "Chick",
+			"nameLast": "Fullis",
+			"nameGiven": "Charles Philip",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 216,
+				"AB": 199,
+				"H": 52,
+				"2B": 9,
+				"3B": 1,
+				"HR": 0,
+				"BB": 14,
+				"SO": 11,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 41
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "deandi01-1934",
+			"nameFirst": "Dizzy",
+			"nameLast": "Dean",
+			"nameGiven": "Jay Hanna",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 126,
+				"AB": 118,
+				"H": 29,
+				"2B": 3,
+				"3B": 1,
+				"HR": 2,
+				"BB": 1,
+				"SO": 15,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 38
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 3
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "carlete01-1934",
+			"nameFirst": "Tex",
+			"nameLast": "Carleton",
+			"nameGiven": "James Otto",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 96,
+				"AB": 88,
+				"H": 17,
+				"2B": 2,
+				"3B": 1,
+				"HR": 1,
+				"BB": 5,
+				"SO": 27,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 18
+				},
+				{
+					"number": 4,
+					"size": 18
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 35
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 17
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 101
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 17
+				}
+			]
+		},
+		{
 			"id": "deandi01-1934",
 			"nameFirst": "Dizzy",
 			"nameLast": "Dean",

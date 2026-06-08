@@ -734,6 +734,330 @@
 			]
 		},
 		{
+			"id": "grabojo01-1927",
+			"nameFirst": "Johnny",
+			"nameLast": "Grabowski",
+			"nameGiven": "John Patrick",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1927,
+			"stats": {
+				"PA": 223,
+				"AB": 195,
+				"H": 54,
+				"2B": 2,
+				"3B": 4,
+				"HR": 0,
+				"BB": 20,
+				"SO": 15,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 6,
+					"size": 37
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 8,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 3
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 25
+				}
+			]
+		},
+		{
+			"id": "gazelmi01-1927",
+			"nameFirst": "Mike",
+			"nameLast": "Gazella",
+			"nameGiven": "Michael",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1927,
+			"stats": {
+				"PA": 148,
+				"AB": 115,
+				"H": 32,
+				"2B": 8,
+				"3B": 4,
+				"HR": 0,
+				"BB": 23,
+				"SO": 16,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 9,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 6,
+					"size": 25
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "durstce01-1927",
+			"nameFirst": "Cedric",
+			"nameLast": "Durst",
+			"nameGiven": "Cedric Montgomery",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1927,
+			"stats": {
+				"PA": 142,
+				"AB": 129,
+				"H": 32,
+				"2B": 4,
+				"3B": 3,
+				"HR": 0,
+				"BB": 6,
+				"SO": 7,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 6,
+					"size": 43
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "hoytwa01-1927",
+			"nameFirst": "Waite",
+			"nameLast": "Hoyt",
+			"nameGiven": "Waite Charles",
+			"position": "pitcher",
+			"team": "New York Yankees",
+			"year": 1927,
+			"stats": {
+				"PA": 111,
+				"AB": 99,
+				"H": 22,
+				"2B": 2,
+				"3B": 1,
+				"HR": 0,
+				"BB": 3,
+				"SO": 8,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 9,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 51
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 25
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 10
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 25
+				}
+			]
+		},
+		{
 			"id": "hoytwa01-1927",
 			"nameFirst": "Waite",
 			"nameLast": "Hoyt",
