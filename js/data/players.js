@@ -1,6 +1,6 @@
 const VALID_POSITIONS = [
 	'pitcher', 'catcher', 'first-base', 'second-base',
-	'shortstop', 'third-base', 'outfield'
+	'shortstop', 'third-base', 'outfield', 'designated-hitter'
 ]
 
 export function fullName(player) {
@@ -56,13 +56,15 @@ export function validateDisc(disc) {
 	return { valid: errors.length === 0, errors }
 }
 
-export async function loadPlayers(url) {
-	const response = await fetch(url)
-	if (!response.ok) {
-		throw new Error(`Failed to fetch players: ${response.status}`)
+export async function loadPlayers(url, data = null) {
+	if (!data) {
+		const response = await fetch(url)
+		if (!response.ok) {
+			throw new Error(`Failed to fetch players: ${response.status}`)
+		}
+		data = await response.json()
 	}
 
-	const data = await response.json()
 	const discs = Array.isArray(data) ? data : data.players
 	const valid = []
 

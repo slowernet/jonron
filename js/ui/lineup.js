@@ -5,9 +5,9 @@ import { fullName } from '../data/players.js'
 const POSITION_LABELS = {
 	pitcher: 'Pitchers', catcher: 'Catchers', 'first-base': '1st Base',
 	'second-base': '2nd Base', shortstop: 'Shortstop', 'third-base': '3rd Base',
-	outfield: 'Outfield'
+	outfield: 'Outfield', 'designated-hitter': 'Designated Hitter'
 }
-const POSITION_ORDER = ['catcher', 'pitcher', 'first-base', 'second-base', 'shortstop', 'third-base', 'outfield']
+const POSITION_ORDER = ['catcher', 'pitcher', 'first-base', 'second-base', 'shortstop', 'third-base', 'outfield', 'designated-hitter']
 const DRAFT_ORDER = {
 	catcher: ['H', 'V', 'V', 'H'],
 	pitcher: ['V', 'H', 'H', 'V', 'H', 'V', 'H', 'V'],
@@ -15,11 +15,12 @@ const DRAFT_ORDER = {
 	'second-base': ['V', 'H', 'H', 'V'],
 	shortstop: ['H', 'V', 'V', 'H'],
 	'third-base': ['V', 'H', 'H', 'V'],
-	outfield: ['H', 'V', 'V', 'H', 'H', 'V', 'V', 'H', 'H', 'V', 'V', 'H']
+	outfield: ['H', 'V', 'V', 'H', 'H', 'V', 'V', 'H', 'H', 'V', 'V', 'H'],
+	'designated-hitter': ['H', 'V', 'V', 'H']
 }
 const ROSTER_NEEDS = {
 	pitcher: 1, catcher: 1, 'first-base': 1, 'second-base': 1,
-	shortstop: 1, 'third-base': 1, outfield: 4
+	shortstop: 1, 'third-base': 1, outfield: 4, 'designated-hitter': 1
 }
 
 function el(tag, attrs = {}, children = []) {
@@ -259,4 +260,71 @@ export function createQuickDraft(players, onComplete) {
 	shuffle(homeRoster)
 	shuffle(visitorRoster)
 	showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
+}
+
+export function startTeamDraft(homePlayers, visitorPlayers, onComplete) {
+	const overlay = createOverlay()
+	const homeRoster = []
+	const visitorRoster = []
+
+	const header = el('div', { className: 'jr-ov-head' }, [
+		el('h1', { textContent: 'Build Your Lineups' }),
+		el('div', { className: 'jr-turn', id: 'team-draft-turn' })
+	])
+	const main = el('div', { className: 'jr-ov-main' })
+	const rosterArea = el('div', { className: 'jr-rosters' }, [
+		createRosterPanel('Visitors', 'visitor'),
+		createRosterPanel('Home', 'home')
+	])
+	overlay.append(header, main, rosterArea)
+
+	let pickingTeam = 'visitor'
+	const LINEUP_SIZE = 9
+
+	function currentPool() {
+		const roster = pickingTeam === 'home' ? homeRoster : visitorRoster
+		const pool = pickingTeam === 'home' ? homePlayers : visitorPlayers
+		const picked = new Set(roster.map(p => p.id))
+		return pool.filter(p => !picked.has(p.id))
+	}
+
+	function renderPick() {
+		main.textContent = ''
+		const roster = pickingTeam === 'home' ? homeRoster : visitorRoster
+
+		if (roster.length >= LINEUP_SIZE) {
+			if (pickingTeam === 'visitor') {
+				pickingTeam = 'home'
+				renderPick()
+				return
+			}
+			showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
+			return
+		}
+
+		const turnEl = document.getElementById('team-draft-turn')
+		if (turnEl) {
+			const label = pickingTeam === 'home' ? 'Home' : 'Visitors'
+			turnEl.textContent = `${label} — pick ${roster.length + 1} of ${LINEUP_SIZE}`
+			turnEl.className = `jr-turn ${pickingTeam === 'home' ? 'jr-turn-home' : 'jr-turn-visitor'}`
+		}
+
+		const grid = el('div', { className: 'jr-draft-grid' })
+		for (const player of currentPool()) {
+			const card = createPlayerCard(player, (p, cardEl) => {
+				roster.push(p)
+				track('draft:pick', { round: roster.length, player_id: p.id })
+				cardEl.classList.add('jr-card-picked')
+				updateRosterPanel('home', homeRoster)
+				updateRosterPanel('visitor', visitorRoster)
+				setTimeout(renderPick, 180)
+			})
+			grid.appendChild(card)
+		}
+		main.appendChild(grid)
+	}
+
+	updateRosterPanel('home', homeRoster)
+	updateRosterPanel('visitor', visitorRoster)
+	renderPick()
 }
