@@ -1,0 +1,1053 @@
+{
+	"team": "SLN",
+	"teamName": "St. Louis Cardinals",
+	"year": 1934,
+	"league": "NL",
+	"players": [
+		{
+			"id": "rothrja01-1934",
+			"nameFirst": "Jack",
+			"nameLast": "Rothrock",
+			"nameGiven": "Jack Houston",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 708,
+				"AB": 647,
+				"H": 184,
+				"2B": 35,
+				"3B": 3,
+				"HR": 11,
+				"BB": 49,
+				"SO": 56,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 11,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 4,
+					"size": 31
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 30
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 30
+				}
+			]
+		},
+		{
+			"id": "colliri02-1934",
+			"nameFirst": "Ripper",
+			"nameLast": "Collins",
+			"nameGiven": "James Anthony",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 662,
+				"AB": 600,
+				"H": 200,
+				"2B": 40,
+				"3B": 12,
+				"HR": 35,
+				"BB": 57,
+				"SO": 50,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 34
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 6,
+					"size": 19
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 33
+				}
+			]
+		},
+		{
+			"id": "medwijo01-1934",
+			"nameFirst": "Joe",
+			"nameLast": "Medwick",
+			"nameGiven": "Joseph Michael",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 646,
+				"AB": 620,
+				"H": 198,
+				"2B": 40,
+				"3B": 18,
+				"HR": 18,
+				"BB": 21,
+				"SO": 83,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 33
+				},
+				{
+					"number": 4,
+					"size": 33
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 6,
+					"size": 20
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 12
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 32
+				}
+			]
+		},
+		{
+			"id": "friscfr01-1934",
+			"nameFirst": "Frankie",
+			"nameLast": "Frisch",
+			"nameGiven": "Frank Francis",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 606,
+				"AB": 550,
+				"H": 168,
+				"2B": 30,
+				"3B": 6,
+				"HR": 3,
+				"BB": 45,
+				"SO": 10,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 10,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 33
+				},
+				{
+					"number": 4,
+					"size": 33
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 32
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 8,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 6
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 32
+				}
+			]
+		},
+		{
+			"id": "durocle01-1934",
+			"nameFirst": "Leo",
+			"nameLast": "Durocher",
+			"nameGiven": "Leo Ernest",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 541,
+				"AB": 500,
+				"H": 130,
+				"2B": 26,
+				"3B": 5,
+				"HR": 3,
+				"BB": 33,
+				"SO": 40,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 36
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "martipe01-1934",
+			"nameFirst": "Pepper",
+			"nameLast": "Martin",
+			"nameGiven": "Johnny Leonard Roosevelt",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 488,
+				"AB": 454,
+				"H": 131,
+				"2B": 25,
+				"3B": 11,
+				"HR": 5,
+				"BB": 32,
+				"SO": 41,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 32
+				},
+				{
+					"number": 4,
+					"size": 32
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 6,
+					"size": 28
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 31
+				}
+			]
+		},
+		{
+			"id": "davissp01-1934",
+			"nameFirst": "Spud",
+			"nameLast": "Davis",
+			"nameGiven": "Virgil Lawrence",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 384,
+				"AB": 347,
+				"H": 104,
+				"2B": 22,
+				"3B": 4,
+				"HR": 9,
+				"BB": 34,
+				"SO": 27,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 33
+				},
+				{
+					"number": 4,
+					"size": 32
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 25
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 8,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 32
+				}
+			]
+		},
+		{
+			"id": "orsater01-1934",
+			"nameFirst": "Ernie",
+			"nameLast": "Orsatti",
+			"nameGiven": "Ernest Ralph",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 366,
+				"AB": 337,
+				"H": 101,
+				"2B": 14,
+				"3B": 4,
+				"HR": 0,
+				"BB": 27,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 31
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "whitebu01-1934",
+			"nameFirst": "Burgess",
+			"nameLast": "Whitehead",
+			"nameGiven": "Burgess Urquhart",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 357,
+				"AB": 332,
+				"H": 92,
+				"2B": 13,
+				"3B": 5,
+				"HR": 1,
+				"BB": 12,
+				"SO": 19,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 9,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 4,
+					"size": 30
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 37
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 8,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 30
+				}
+			]
+		},
+		{
+			"id": "deandi01-1934",
+			"nameFirst": "Dizzy",
+			"nameLast": "Dean",
+			"nameGiven": "Jay Hanna",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 126,
+				"AB": 118,
+				"H": 29,
+				"2B": 3,
+				"3B": 1,
+				"HR": 2,
+				"BB": 1,
+				"SO": 15,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 38
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 3
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "carlete01-1934",
+			"nameFirst": "Tex",
+			"nameLast": "Carleton",
+			"nameGiven": "James Otto",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 96,
+				"AB": 88,
+				"H": 17,
+				"2B": 2,
+				"3B": 1,
+				"HR": 1,
+				"BB": 5,
+				"SO": 27,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 18
+				},
+				{
+					"number": 4,
+					"size": 18
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 35
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 17
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 101
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 17
+				}
+			]
+		},
+		{
+			"id": "deanpa01-1934",
+			"nameFirst": "Paul",
+			"nameLast": "Dean",
+			"nameGiven": "Paul Dee",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 87,
+				"AB": 83,
+				"H": 20,
+				"2B": 4,
+				"3B": 0,
+				"HR": 0,
+				"BB": 1,
+				"SO": 12,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 23
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
+					"size": 44
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 4
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "hallabi01-1934",
+			"nameFirst": "Bill",
+			"nameLast": "Hallahan",
+			"nameGiven": "William Anthony",
+			"position": "pitcher",
+			"team": "St. Louis Cardinals",
+			"year": 1934,
+			"stats": {
+				"PA": 61,
+				"AB": 55,
+				"H": 10,
+				"2B": 1,
+				"3B": 0,
+				"HR": 0,
+				"BB": 2,
+				"SO": 16,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 20
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 39
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 8,
+					"size": 19
+				},
+				{
+					"number": 9,
+					"size": 12
+				},
+				{
+					"number": 10,
+					"size": 94
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 19
+				}
+			]
+		}
+	]
+}

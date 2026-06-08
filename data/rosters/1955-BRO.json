@@ -1,0 +1,972 @@
+{
+	"team": "BRO",
+	"teamName": "Brooklyn Dodgers",
+	"year": 1955,
+	"league": "NL",
+	"players": [
+		{
+			"id": "snidedu01-1955",
+			"nameFirst": "Duke",
+			"nameLast": "Snider",
+			"nameGiven": "Edwin Donald",
+			"position": "outfield",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 653,
+				"AB": 538,
+				"H": 166,
+				"2B": 34,
+				"3B": 6,
+				"HR": 42,
+				"BB": 104,
+				"SO": 87,
+				"HBP": 1,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 16
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 16
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "reesepe01-1955",
+			"nameFirst": "Pee Wee",
+			"nameLast": "Reese",
+			"nameGiven": "Harold Henry",
+			"position": "shortstop",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 652,
+				"AB": 553,
+				"H": 156,
+				"2B": 29,
+				"3B": 4,
+				"HR": 10,
+				"BB": 78,
+				"SO": 60,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 13,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 28
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "hodgegi01-1955",
+			"nameFirst": "Gil",
+			"nameLast": "Hodges",
+			"nameGiven": "Gilbert Ray",
+			"position": "first-base",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 642,
+				"AB": 546,
+				"H": 158,
+				"2B": 24,
+				"3B": 5,
+				"HR": 27,
+				"BB": 80,
+				"SO": 91,
+				"HBP": 3,
+				"SF": 10,
+				"SH": 3,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 20
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "gilliji01-1955",
+			"nameFirst": "Jim",
+			"nameLast": "Gilliam",
+			"nameGiven": "James William",
+			"position": "second-base",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 627,
+				"AB": 538,
+				"H": 134,
+				"2B": 20,
+				"3B": 8,
+				"HR": 7,
+				"BB": 70,
+				"SO": 37,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 11,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 6,
+					"size": 36
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "furilca01-1955",
+			"nameFirst": "Carl",
+			"nameLast": "Furillo",
+			"nameGiven": "Carl Anthony",
+			"position": "outfield",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 578,
+				"AB": 523,
+				"H": 164,
+				"2B": 24,
+				"3B": 3,
+				"HR": 26,
+				"BB": 43,
+				"SO": 43,
+				"HBP": 7,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 33
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 33
+				}
+			]
+		},
+		{
+			"id": "camparo01-1955",
+			"nameFirst": "Roy",
+			"nameLast": "Campanella",
+			"nameGiven": "Roy",
+			"position": "catcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 522,
+				"AB": 446,
+				"H": 142,
+				"2B": 20,
+				"3B": 1,
+				"HR": 32,
+				"BB": 56,
+				"SO": 41,
+				"HBP": 6,
+				"SF": 9,
+				"SH": 5,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 33
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 19
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 33
+				}
+			]
+		},
+		{
+			"id": "amorosa01-1955",
+			"nameFirst": "Sandy",
+			"nameLast": "Amoros",
+			"nameGiven": "Edmundo",
+			"position": "outfield",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 455,
+				"AB": 388,
+				"H": 96,
+				"2B": 16,
+				"3B": 7,
+				"HR": 10,
+				"BB": 55,
+				"SO": 45,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "robinja02-1955",
+			"nameFirst": "Jackie",
+			"nameLast": "Robinson",
+			"nameGiven": "Jack Roosevelt",
+			"position": "third-base",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 390,
+				"AB": 317,
+				"H": 81,
+				"2B": 6,
+				"3B": 2,
+				"HR": 8,
+				"BB": 61,
+				"SO": 18,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 6,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 34
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "hoakdo01-1955",
+			"nameFirst": "Don",
+			"nameLast": "Hoak",
+			"nameGiven": "Donald Albert",
+			"position": "third-base",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 332,
+				"AB": 279,
+				"H": 67,
+				"2B": 13,
+				"3B": 3,
+				"HR": 5,
+				"BB": 46,
+				"SO": 50,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 29
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "newcodo01-1955",
+			"nameFirst": "Don",
+			"nameLast": "Newcombe",
+			"nameGiven": "Donald",
+			"position": "pitcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 125,
+				"AB": 117,
+				"H": 42,
+				"2B": 9,
+				"3B": 1,
+				"HR": 7,
+				"BB": 6,
+				"SO": 18,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 17
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 16
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 29
+				}
+			]
+		},
+		{
+			"id": "erskica01-1955",
+			"nameFirst": "Carl",
+			"nameLast": "Erskine",
+			"nameGiven": "Carl Daniel",
+			"position": "pitcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 76,
+				"AB": 74,
+				"H": 15,
+				"2B": 3,
+				"3B": 0,
+				"HR": 1,
+				"BB": 0,
+				"SO": 12,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 47
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
+					"size": 46
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 0
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "podrejo01-1955",
+			"nameFirst": "Johnny",
+			"nameLast": "Podres",
+			"nameGiven": "John Joseph",
+			"position": "pitcher",
+			"team": "Brooklyn Dodgers",
+			"year": 1955,
+			"stats": {
+				"PA": 68,
+				"AB": 60,
+				"H": 11,
+				"2B": 2,
+				"3B": 0,
+				"HR": 0,
+				"BB": 4,
+				"SO": 5,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 0
+				},
+				{
+					"number": 2,
+					"size": 51
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 6,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 25
+				}
+			]
+		}
+	]
+}

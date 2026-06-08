@@ -1,0 +1,729 @@
+{
+	"team": "NYA",
+	"teamName": "New York Yankees",
+	"year": 1998,
+	"league": "AL",
+	"players": [
+		{
+			"id": "knoblch01-1998",
+			"nameFirst": "Chuck",
+			"nameLast": "Knoblauch",
+			"nameGiven": "Edward Charles",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 706,
+				"AB": 603,
+				"H": 160,
+				"2B": 25,
+				"3B": 4,
+				"HR": 17,
+				"BB": 76,
+				"SO": 70,
+				"HBP": 18,
+				"SF": 7,
+				"SH": 2,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 30
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 8,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "jeterde01-1998",
+			"nameFirst": "Derek",
+			"nameLast": "Jeter",
+			"nameGiven": "Derek Sanderson",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 694,
+				"AB": 626,
+				"H": 203,
+				"2B": 25,
+				"3B": 8,
+				"HR": 19,
+				"BB": 57,
+				"SO": 119,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 25
+				},
+				{
+					"number": 4,
+					"size": 25
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 8,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 24
+				}
+			]
+		},
+		{
+			"id": "oneilpa01-1998",
+			"nameFirst": "Paul",
+			"nameLast": "O'Neill",
+			"nameGiven": "Paul Andrew",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 672,
+				"AB": 602,
+				"H": 191,
+				"2B": 40,
+				"3B": 2,
+				"HR": 24,
+				"BB": 57,
+				"SO": 103,
+				"HBP": 2,
+				"SF": 11,
+				"SH": 0,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 21
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 27
+				}
+			]
+		},
+		{
+			"id": "martiti02-1998",
+			"nameFirst": "Tino",
+			"nameLast": "Martinez",
+			"nameGiven": "Constantino",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 608,
+				"AB": 531,
+				"H": 149,
+				"2B": 33,
+				"3B": 1,
+				"HR": 28,
+				"BB": 61,
+				"SO": 83,
+				"HBP": 6,
+				"SF": 10,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "brosisc01-1998",
+			"nameFirst": "Scott",
+			"nameLast": "Brosius",
+			"nameGiven": "Scott David",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 603,
+				"AB": 530,
+				"H": 159,
+				"2B": 34,
+				"3B": 0,
+				"HR": 19,
+				"BB": 52,
+				"SO": 97,
+				"HBP": 10,
+				"SF": 3,
+				"SH": 8,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 6,
+					"size": 22
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 8,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "willibe02-1998",
+			"nameFirst": "Bernie",
+			"nameLast": "Williams",
+			"nameGiven": "Bernabe",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 578,
+				"AB": 499,
+				"H": 169,
+				"2B": 30,
+				"3B": 5,
+				"HR": 26,
+				"BB": 74,
+				"SO": 81,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 6,
+					"size": 17
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 8,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 26
+				}
+			]
+		},
+		{
+			"id": "curtich01-1998",
+			"nameFirst": "Chad",
+			"nameLast": "Curtis",
+			"nameGiven": "Chad David",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 545,
+				"AB": 456,
+				"H": 111,
+				"2B": 21,
+				"3B": 1,
+				"HR": 10,
+				"BB": 75,
+				"SO": 80,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 31
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 21
+				}
+			]
+		},
+		{
+			"id": "posadjo01-1998",
+			"nameFirst": "Jorge",
+			"nameLast": "Posada",
+			"nameGiven": "Jorge Rafael",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 409,
+				"AB": 358,
+				"H": 96,
+				"2B": 23,
+				"3B": 0,
+				"HR": 17,
+				"BB": 47,
+				"SO": 92,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
+				},
+				{
+					"number": 6,
+					"size": 20
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 23
+				}
+			]
+		},
+		{
+			"id": "raineti01-1998",
+			"nameFirst": "Tim",
+			"nameLast": "Raines",
+			"nameGiven": "Timothy",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 382,
+				"AB": 321,
+				"H": 93,
+				"2B": 13,
+				"3B": 1,
+				"HR": 5,
+				"BB": 55,
+				"SO": 49,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 22
+				},
+				{
+					"number": 4,
+					"size": 22
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 6,
+					"size": 27
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 8,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 22
+				}
+			]
+		}
+	]
+}

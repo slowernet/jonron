@@ -6,7 +6,9 @@
     "dev": "python3 -m http.server 8080",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "fetch-lahman": "node scripts/fetch-lahman.js",
+    "generate-roster": "node scripts/generate-roster.js"
   },
   "devDependencies": {
     "vitest": "^4.1.7"
