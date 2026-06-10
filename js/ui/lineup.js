@@ -263,6 +263,11 @@ export function createQuickDraft(players, onComplete) {
 	showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
 }
 
+export function editLineups(homeRoster, visitorRoster, onComplete) {
+	const overlay = createOverlay()
+	showBattingOrder(overlay, homeRoster, visitorRoster, onComplete)
+}
+
 export function startTeamDraft(homePlayers, visitorPlayers, onComplete) {
 	const overlay = createOverlay()
 	const homeRoster = []

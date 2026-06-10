@@ -12,7 +12,7 @@ import { createSpinner, spinTo, getKoLetter, getStrategyLetter } from './ui/spin
 import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
-import { startDraft, createQuickDraft } from './ui/lineup.js'
+import { startDraft, createQuickDraft, editLineups } from './ui/lineup.js'
 import { track } from './analytics.js'
 import { POSITION_ABBREV, BATTERY, OUTFIELD } from './constants.js'
 import { commentBatterUp, commentImmediate, commentKoSetup, commentKoResult, commentStrategySetup, commentStrategyResult } from './ui/commentary.js'
@@ -301,7 +301,9 @@ async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
 		}
 
 		overlay.remove()
-		startGame(container, homeLineup, visitorLineup, 'classic', labels)
+		editLineups(homeLineup, visitorLineup, ({ homeLineup: h, visitorLineup: v }) =>
+			startGame(container, h, v, 'classic', labels)
+		)
 	} catch (err) {
 		console.error('Failed to load rosters:', err)
 		const status = document.getElementById('picker-status')
