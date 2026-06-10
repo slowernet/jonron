@@ -51,7 +51,7 @@ const computeLeagueAvgSlg = (batting, league, year) => {
 const findTeamInfo = (teams, teamID, year) => {
 	const row = teams.find(r => r.teamID === teamID && r.yearID === String(year))
 	if (!row) return null
-	return { name: row.name, league: row.lgID, games: +row.G }
+	return { name: row.name, abbr: row.teamIDBR || teamID, league: row.lgID, games: +row.G }
 }
 
 const lookupPerson = (people, playerID) => {
@@ -120,6 +120,7 @@ const generateRoster = (data, teamID, year) => {
 
 	return {
 		team: teamID,
+		teamAbbr: teamInfo.abbr,
 		teamName: teamInfo.name,
 		year,
 		league: teamInfo.league,
@@ -149,7 +150,8 @@ const writeIndex = (rosters) => {
 			id: `${r.year}-${r.team}`,
 			label: `${r.year} ${r.teamName}`,
 			year: r.year,
-			team: r.team
+			team: r.team,
+			abbr: r.teamAbbr
 		}))
 	}
 	const path = join(ROSTERS_DIR, 'index.json')

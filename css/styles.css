@@ -357,6 +357,14 @@ body {
 	text-transform: uppercase;
 	padding-right: 8px;
 	width: 64px;
+	line-height: 1.1;
+}
+
+.jr-linescore .team .yr {
+	display: block;
+	font-size: 9px;
+	font-weight: 400;
+	opacity: 0.6;
 }
 
 .jr-linescore tbody td {
@@ -1461,8 +1469,8 @@ body {
 }
 
 .jr-team-card.picked-home {
-	border-color: var(--navy);
-	background: var(--navy);
+	border-color: #2d6a4f;
+	background: #2d6a4f;
 	color: var(--cream);
 }
 

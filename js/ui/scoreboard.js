@@ -1,4 +1,4 @@
-export function createScoreboard(container) {
+export function createScoreboard(container, { visitorLabel = 'AWAY', homeLabel = 'HOME' } = {}) {
 	const el = document.createElement('div')
 	el.className = 'jr-scoreboard'
 
@@ -10,8 +10,8 @@ export function createScoreboard(container) {
 	for (let i = 1; i <= maxInnings; i++) head += `<th data-h="${i}">${i}</th>`
 	head += '<th class="rhe first">R</th><th class="rhe">H</th><th class="rhe">E</th></tr></thead>'
 
-	function bodyRow(team, label) {
-		let r = `<tr data-team="${team}"><td class="team">${label}</td>`
+	function bodyRow(team, labelHtml) {
+		let r = `<tr data-team="${team}"><td class="team">${labelHtml}</td>`
 		for (let i = 1; i <= maxInnings; i++) r += `<td data-inning="${i}">·</td>`
 		r += `<td class="rhe first" data-total="${team}">0</td>`
 		r += `<td class="rhe" data-hits="${team}">0</td>`
@@ -20,7 +20,7 @@ export function createScoreboard(container) {
 	}
 
 	table.innerHTML = head + '<tbody>' +
-		bodyRow('visitor', 'AWAY') + bodyRow('home', 'HOME') + '</tbody>'
+		bodyRow('visitor', visitorLabel) + bodyRow('home', homeLabel) + '</tbody>'
 	el.appendChild(table)
 	container.appendChild(el)
 	return el

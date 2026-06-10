@@ -1,5 +1,6 @@
 {
 	"team": "BRO",
+	"teamAbbr": "BRO",
 	"teamName": "Brooklyn Dodgers",
 	"year": 1955,
 	"league": "NL",
@@ -33,18 +34,30 @@
 				},
 				{
 					"number": 2,
-					"size": 24
+					"size": 17
 				},
 				{
 					"number": 3,
-					"size": 57
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 29
 				},
 				{
 					"number": 5,
 					"size": 3
 				},
 				{
+					"number": 6,
+					"size": 16
+				},
+				{
 					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 8,
 					"size": 28
 				},
 				{
@@ -61,7 +74,7 @@
 				},
 				{
 					"number": 12,
-					"size": 25
+					"size": 16
 				},
 				{
 					"number": 13,
@@ -69,7 +82,7 @@
 				},
 				{
 					"number": 14,
-					"size": 57
+					"size": 28
 				}
 			]
 		},
@@ -102,19 +115,31 @@
 				},
 				{
 					"number": 2,
-					"size": 42
+					"size": 29
 				},
 				{
 					"number": 3,
-					"size": 55
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
 				},
 				{
 					"number": 5,
 					"size": 2
 				},
 				{
+					"number": 6,
+					"size": 28
+				},
+				{
 					"number": 7,
 					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 28
 				},
 				{
 					"number": 9,
@@ -130,7 +155,7 @@
 				},
 				{
 					"number": 12,
-					"size": 43
+					"size": 28
 				},
 				{
 					"number": 13,
@@ -138,7 +163,7 @@
 				},
 				{
 					"number": 14,
-					"size": 56
+					"size": 27
 				}
 			]
 		},
@@ -171,19 +196,31 @@
 				},
 				{
 					"number": 2,
-					"size": 30
+					"size": 21
 				},
 				{
 					"number": 3,
-					"size": 56
+					"size": 29
+				},
+				{
+					"number": 4,
+					"size": 28
 				},
 				{
 					"number": 5,
 					"size": 3
 				},
 				{
+					"number": 6,
+					"size": 20
+				},
+				{
 					"number": 7,
 					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 28
 				},
 				{
 					"number": 9,
@@ -199,7 +236,7 @@
 				},
 				{
 					"number": 12,
-					"size": 31
+					"size": 20
 				},
 				{
 					"number": 13,
@@ -207,7 +244,7 @@
 				},
 				{
 					"number": 14,
-					"size": 57
+					"size": 28
 				}
 			]
 		},
@@ -240,19 +277,31 @@
 				},
 				{
 					"number": 2,
-					"size": 53
+					"size": 36
 				},
 				{
 					"number": 3,
-					"size": 55
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
 				},
 				{
 					"number": 5,
 					"size": 5
 				},
 				{
+					"number": 6,
+					"size": 36
+				},
+				{
 					"number": 7,
 					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 28
 				},
 				{
 					"number": 9,
@@ -268,7 +317,7 @@
 				},
 				{
 					"number": 12,
-					"size": 54
+					"size": 35
 				},
 				{
 					"number": 13,
@@ -276,7 +325,7 @@
 				},
 				{
 					"number": 14,
-					"size": 56
+					"size": 27
 				}
 			]
 		},
@@ -309,19 +358,31 @@
 				},
 				{
 					"number": 2,
-					"size": 33
+					"size": 23
 				},
 				{
 					"number": 3,
-					"size": 66
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 33
 				},
 				{
 					"number": 5,
 					"size": 2
 				},
 				{
+					"number": 6,
+					"size": 22
+				},
+				{
 					"number": 7,
 					"size": 41
+				},
+				{
+					"number": 8,
+					"size": 33
 				},
 				{
 					"number": 9,
@@ -337,7 +398,7 @@
 				},
 				{
 					"number": 12,
-					"size": 34
+					"size": 22
 				},
 				{
 					"number": 13,
@@ -345,7 +406,7 @@
 				},
 				{
 					"number": 14,
-					"size": 67
+					"size": 33
 				}
 			]
 		},
@@ -378,19 +439,31 @@
 				},
 				{
 					"number": 2,
-					"size": 28
+					"size": 19
 				},
 				{
 					"number": 3,
-					"size": 66
+					"size": 34
+				},
+				{
+					"number": 4,
+					"size": 33
 				},
 				{
 					"number": 5,
 					"size": 2
 				},
 				{
+					"number": 6,
+					"size": 19
+				},
+				{
 					"number": 7,
 					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 33
 				},
 				{
 					"number": 9,
@@ -406,7 +479,7 @@
 				},
 				{
 					"number": 12,
-					"size": 29
+					"size": 19
 				},
 				{
 					"number": 13,
@@ -414,7 +487,7 @@
 				},
 				{
 					"number": 14,
-					"size": 67
+					"size": 33
 				}
 			]
 		},
@@ -447,19 +520,31 @@
 				},
 				{
 					"number": 2,
-					"size": 43
+					"size": 29
 				},
 				{
 					"number": 3,
-					"size": 56
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 28
 				},
 				{
 					"number": 5,
 					"size": 6
 				},
 				{
+					"number": 6,
+					"size": 29
+				},
+				{
 					"number": 7,
 					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 28
 				},
 				{
 					"number": 9,
@@ -475,7 +560,7 @@
 				},
 				{
 					"number": 12,
-					"size": 44
+					"size": 29
 				},
 				{
 					"number": 13,
@@ -483,7 +568,7 @@
 				},
 				{
 					"number": 14,
-					"size": 56
+					"size": 28
 				}
 			]
 		},
@@ -516,19 +601,31 @@
 				},
 				{
 					"number": 2,
-					"size": 50
+					"size": 34
 				},
 				{
 					"number": 3,
-					"size": 54
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 27
 				},
 				{
 					"number": 5,
 					"size": 2
 				},
 				{
+					"number": 6,
+					"size": 34
+				},
+				{
 					"number": 7,
 					"size": 36
+				},
+				{
+					"number": 8,
+					"size": 27
 				},
 				{
 					"number": 9,
@@ -544,7 +641,7 @@
 				},
 				{
 					"number": 12,
-					"size": 51
+					"size": 33
 				},
 				{
 					"number": 13,
@@ -552,7 +649,7 @@
 				},
 				{
 					"number": 14,
-					"size": 54
+					"size": 27
 				}
 			]
 		},
@@ -585,19 +682,31 @@
 				},
 				{
 					"number": 2,
-					"size": 44
+					"size": 30
 				},
 				{
 					"number": 3,
-					"size": 47
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 24
 				},
 				{
 					"number": 5,
 					"size": 3
 				},
 				{
+					"number": 6,
+					"size": 29
+				},
+				{
 					"number": 7,
 					"size": 30
+				},
+				{
+					"number": 8,
+					"size": 24
 				},
 				{
 					"number": 9,
@@ -613,7 +722,7 @@
 				},
 				{
 					"number": 12,
-					"size": 44
+					"size": 29
 				},
 				{
 					"number": 13,
@@ -621,7 +730,7 @@
 				},
 				{
 					"number": 14,
-					"size": 48
+					"size": 23
 				}
 			]
 		},
@@ -654,19 +763,31 @@
 				},
 				{
 					"number": 2,
-					"size": 35
+					"size": 24
 				},
 				{
 					"number": 3,
-					"size": 54
+					"size": 28
+				},
+				{
+					"number": 4,
+					"size": 27
 				},
 				{
 					"number": 5,
 					"size": 2
 				},
 				{
+					"number": 6,
+					"size": 24
+				},
+				{
 					"number": 7,
 					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 27
 				},
 				{
 					"number": 9,
@@ -682,7 +803,7 @@
 				},
 				{
 					"number": 12,
-					"size": 36
+					"size": 23
 				},
 				{
 					"number": 13,
@@ -690,7 +811,7 @@
 				},
 				{
 					"number": 14,
-					"size": 55
+					"size": 27
 				}
 			]
 		},
@@ -723,19 +844,31 @@
 				},
 				{
 					"number": 2,
-					"size": 25
+					"size": 17
 				},
 				{
 					"number": 3,
-					"size": 58
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 29
 				},
 				{
 					"number": 5,
 					"size": 3
 				},
 				{
+					"number": 6,
+					"size": 17
+				},
+				{
 					"number": 7,
 					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 29
 				},
 				{
 					"number": 9,
@@ -751,7 +884,7 @@
 				},
 				{
 					"number": 12,
-					"size": 25
+					"size": 16
 				},
 				{
 					"number": 13,
@@ -759,7 +892,7 @@
 				},
 				{
 					"number": 14,
-					"size": 59
+					"size": 29
 				}
 			]
 		},
@@ -792,15 +925,27 @@
 				},
 				{
 					"number": 2,
-					"size": 49
+					"size": 33
 				},
 				{
 					"number": 3,
-					"size": 52
+					"size": 27
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 6,
+					"size": 33
 				},
 				{
 					"number": 7,
 					"size": 34
+				},
+				{
+					"number": 8,
+					"size": 26
 				},
 				{
 					"number": 9,
@@ -816,7 +961,7 @@
 				},
 				{
 					"number": 12,
-					"size": 50
+					"size": 33
 				},
 				{
 					"number": 13,
@@ -824,7 +969,7 @@
 				},
 				{
 					"number": 14,
-					"size": 53
+					"size": 26
 				}
 			]
 		},
@@ -857,15 +1002,27 @@
 				},
 				{
 					"number": 2,
-					"size": 35
+					"size": 24
 				},
 				{
 					"number": 3,
-					"size": 40
+					"size": 21
+				},
+				{
+					"number": 4,
+					"size": 20
+				},
+				{
+					"number": 6,
+					"size": 24
 				},
 				{
 					"number": 7,
 					"size": 37
+				},
+				{
+					"number": 8,
+					"size": 20
 				},
 				{
 					"number": 9,
@@ -881,7 +1038,7 @@
 				},
 				{
 					"number": 12,
-					"size": 36
+					"size": 23
 				},
 				{
 					"number": 13,
@@ -889,7 +1046,7 @@
 				},
 				{
 					"number": 14,
-					"size": 41
+					"size": 20
 				}
 			]
 		},
@@ -922,19 +1079,31 @@
 				},
 				{
 					"number": 2,
-					"size": 25
+					"size": 17
 				},
 				{
 					"number": 3,
-					"size": 58
+					"size": 30
+				},
+				{
+					"number": 4,
+					"size": 29
 				},
 				{
 					"number": 5,
 					"size": 3
 				},
 				{
+					"number": 6,
+					"size": 17
+				},
+				{
 					"number": 7,
 					"size": 43
+				},
+				{
+					"number": 8,
+					"size": 29
 				},
 				{
 					"number": 9,
@@ -950,7 +1119,7 @@
 				},
 				{
 					"number": 12,
-					"size": 25
+					"size": 16
 				},
 				{
 					"number": 13,
@@ -958,7 +1127,7 @@
 				},
 				{
 					"number": 14,
-					"size": 59
+					"size": 29
 				}
 			]
 		},
@@ -991,15 +1160,27 @@
 				},
 				{
 					"number": 2,
-					"size": 69
+					"size": 47
 				},
 				{
 					"number": 3,
+					"size": 24
+				},
+				{
+					"number": 4,
+					"size": 23
+				},
+				{
+					"number": 6,
 					"size": 46
 				},
 				{
 					"number": 7,
 					"size": 31
+				},
+				{
+					"number": 8,
+					"size": 23
 				},
 				{
 					"number": 10,
@@ -1011,7 +1192,7 @@
 				},
 				{
 					"number": 12,
-					"size": 70
+					"size": 46
 				},
 				{
 					"number": 13,
@@ -1019,7 +1200,7 @@
 				},
 				{
 					"number": 14,
-					"size": 47
+					"size": 23
 				}
 			]
 		},
@@ -1048,15 +1229,27 @@
 			"sectors": [
 				{
 					"number": 2,
-					"size": 76
+					"size": 51
 				},
 				{
 					"number": 3,
+					"size": 26
+				},
+				{
+					"number": 4,
+					"size": 26
+				},
+				{
+					"number": 6,
 					"size": 51
 				},
 				{
 					"number": 7,
 					"size": 29
+				},
+				{
+					"number": 8,
+					"size": 25
 				},
 				{
 					"number": 9,
@@ -1072,7 +1265,7 @@
 				},
 				{
 					"number": 12,
-					"size": 76
+					"size": 50
 				},
 				{
 					"number": 13,
@@ -1080,7 +1273,7 @@
 				},
 				{
 					"number": 14,
-					"size": 51
+					"size": 25
 				}
 			]
 		}

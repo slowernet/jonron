@@ -12,7 +12,7 @@ import { createSpinner, spinTo, getKoLetter, getStrategyLetter } from './ui/spin
 import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
-import { startDraft, createQuickDraft, startTeamDraft } from './ui/lineup.js'
+import { startDraft, createQuickDraft } from './ui/lineup.js'
 import { track } from './analytics.js'
 import { POSITION_ABBREV, BATTERY, OUTFIELD } from './constants.js'
 import { commentBatterUp, commentImmediate, commentKoSetup, commentKoResult, commentStrategySetup, commentStrategyResult } from './ui/commentary.js'
@@ -207,7 +207,7 @@ function showRosterPicker(overlay, container, rosterIndex) {
 	})
 	const playBtn = document.createElement('button')
 	playBtn.className = 'jr-cta jr-cta-primary'
-	playBtn.textContent = 'Draft Lineups'
+	playBtn.textContent = 'Play Ball'
 	playBtn.disabled = true
 	playBtn.addEventListener('click', () => startClassicGame(overlay, container, visitorChoice, homeChoice))
 	actions.append(backBtn, playBtn)
@@ -248,6 +248,36 @@ function showRosterPicker(overlay, container, rosterIndex) {
 	}
 }
 
+function buildLineup(players) {
+	const NEEDS = {
+		catcher: 1, 'first-base': 1, 'second-base': 1, 'third-base': 1,
+		shortstop: 1, outfield: 3, 'designated-hitter': 1, pitcher: 1
+	}
+	const obp = (p) => {
+		const s = p.sectors ?? []
+		const hitNums = new Set([1, 5, 7, 9, 11, 13])
+		return s.filter(sec => hitNums.has(sec.number)).reduce((sum, sec) => sum + sec.size, 0)
+	}
+	const sorted = [...players].sort((a, b) => obp(b) - obp(a))
+	const lineup = []
+	const filled = {}
+
+	for (const p of sorted) {
+		const need = NEEDS[p.position] ?? 0
+		const have = filled[p.position] ?? 0
+		if (have < need) {
+			lineup.push(p)
+			filled[p.position] = have + 1
+		}
+	}
+	for (const p of sorted) {
+		if (lineup.length >= 9) break
+		if (!lineup.includes(p)) lineup.push(p)
+	}
+	lineup.sort((a, b) => obp(b) - obp(a))
+	return lineup
+}
+
 async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
 	try {
 		const [visitorRoster, homeRoster] = await Promise.all([
@@ -261,10 +291,17 @@ async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
 			throw new Error('Roster has fewer than 9 valid players')
 		}
 
+		const visitorLineup = buildLineup(visitorPlayers)
+		const homeLineup = buildLineup(homePlayers)
+		const vAbbr = visitorRoster.teamAbbr ?? visitorEntry.abbr ?? 'AWAY'
+		const hAbbr = homeRoster.teamAbbr ?? homeEntry.abbr ?? 'HOME'
+		const labels = {
+			visitor: `<span class="yr">${visitorRoster.year}</span>${vAbbr}`,
+			home: `<span class="yr">${homeRoster.year}</span>${hAbbr}`
+		}
+
 		overlay.remove()
-		startTeamDraft(homePlayers, visitorPlayers, ({ homeLineup, visitorLineup }) =>
-			startGame(container, homeLineup, visitorLineup, 'classic')
-		)
+		startGame(container, homeLineup, visitorLineup, 'classic', labels)
 	} catch (err) {
 		console.error('Failed to load rosters:', err)
 		const status = document.getElementById('picker-status')
@@ -274,7 +311,7 @@ async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
 	}
 }
 
-function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
+function startGame(container, homeLineup, visitorLineup, mode = 'quickstart', labels = {}) {
 	const game = createGame(homeLineup, visitorLineup)
 	track('game:start', { mode })
 
@@ -284,7 +321,10 @@ function startGame(container, homeLineup, visitorLineup, mode = 'quickstart') {
 
 	const layout = createLayout(container)
 
-	const scoreboard = createScoreboard(layout.scoreboardHost)
+	const scoreboard = createScoreboard(layout.scoreboardHost, {
+		visitorLabel: labels.visitor ?? 'AWAY',
+		homeLabel: labels.home ?? 'HOME'
+	})
 	const { cx: scx, cy: scy, r: sr } = layout.spinnerCenter
 	const spinner = createSpinner(layout.spinnerSvg, scx, scy, sr, 'AT BAT')
 	const narratorEl = createNarrator(layout.narratorHost)

@@ -1,479 +1,1084 @@
 {
-  "players": [
-    {
-      "id": "nolan-ryan",
-      "nameFirst": "Nolan",
-      "nameLast": "Ryan",
-      "nameGiven": "Lynn Nolan",
-      "position": "pitcher",
-      "team": "Angels",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 3 },
-        { "number": 2, "size": 40 },
-        { "number": 3, "size": 20 },
-        { "number": 6, "size": 35 },
-        { "number": 7, "size": 12 },
-        { "number": 8, "size": 15 },
-        { "number": 9, "size": 45 },
-        { "number": 10, "size": 120 },
-        { "number": 12, "size": 40 },
-        { "number": 13, "size": 10 },
-        { "number": 14, "size": 20 }
-      ]
-    },
-    {
-      "id": "sandy-koufax",
-      "nameFirst": "Sandy",
-      "nameLast": "Koufax",
-      "nameGiven": "Sanford",
-      "position": "pitcher",
-      "team": "Dodgers",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 4 },
-        { "number": 2, "size": 38 },
-        { "number": 3, "size": 22 },
-        { "number": 6, "size": 40 },
-        { "number": 7, "size": 15 },
-        { "number": 8, "size": 18 },
-        { "number": 9, "size": 35 },
-        { "number": 10, "size": 100 },
-        { "number": 12, "size": 42 },
-        { "number": 13, "size": 12 },
-        { "number": 14, "size": 34 }
-      ]
-    },
-    {
-      "id": "johnny-bench",
-      "nameFirst": "Johnny",
-      "nameLast": "Bench",
-      "nameGiven": "Johnny Lee",
-      "position": "catcher",
-      "team": "Reds",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 25 },
-        { "number": 2, "size": 35 },
-        { "number": 3, "size": 30 },
-        { "number": 5, "size": 5 },
-        { "number": 6, "size": 30 },
-        { "number": 7, "size": 30 },
-        { "number": 8, "size": 25 },
-        { "number": 9, "size": 25 },
-        { "number": 10, "size": 55 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 25 },
-        { "number": 14, "size": 25 }
-      ]
-    },
-    {
-      "id": "yogi-berra",
-      "nameFirst": "Yogi",
-      "nameLast": "Berra",
-      "nameGiven": "Lawrence Peter",
-      "position": "catcher",
-      "team": "Yankees",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 22 },
-        { "number": 2, "size": 32 },
-        { "number": 3, "size": 28 },
-        { "number": 5, "size": 5 },
-        { "number": 6, "size": 28 },
-        { "number": 7, "size": 40 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 20 },
-        { "number": 10, "size": 35 },
-        { "number": 11, "size": 28 },
-        { "number": 12, "size": 30 },
-        { "number": 13, "size": 38 },
-        { "number": 14, "size": 32 }
-      ]
-    },
-    {
-      "id": "lou-gehrig",
-      "nameFirst": "Lou",
-      "nameLast": "Gehrig",
-      "nameGiven": "Henry Louis",
-      "position": "first-base",
-      "team": "Yankees",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 35 },
-        { "number": 2, "size": 28 },
-        { "number": 3, "size": 22 },
-        { "number": 5, "size": 8 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 38 },
-        { "number": 8, "size": 18 },
-        { "number": 9, "size": 35 },
-        { "number": 10, "size": 40 },
-        { "number": 11, "size": 32 },
-        { "number": 12, "size": 20 },
-        { "number": 13, "size": 35 },
-        { "number": 14, "size": 24 }
-      ]
-    },
-    {
-      "id": "willie-mccovey",
-      "nameFirst": "Willie",
-      "nameLast": "McCovey",
-      "nameGiven": "Willie Lee",
-      "position": "first-base",
-      "team": "Giants",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 32 },
-        { "number": 2, "size": 30 },
-        { "number": 3, "size": 25 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 22 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 38 },
-        { "number": 10, "size": 65 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 22 },
-        { "number": 13, "size": 20 },
-        { "number": 14, "size": 34 }
-      ]
-    },
-    {
-      "id": "rod-carew",
-      "nameFirst": "Rod",
-      "nameLast": "Carew",
-      "nameGiven": "Rodney Cline",
-      "position": "second-base",
-      "team": "Twins",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 8 },
-        { "number": 2, "size": 32 },
-        { "number": 3, "size": 25 },
-        { "number": 5, "size": 8 },
-        { "number": 6, "size": 28 },
-        { "number": 7, "size": 55 },
-        { "number": 8, "size": 20 },
-        { "number": 9, "size": 22 },
-        { "number": 10, "size": 28 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 52 },
-        { "number": 14, "size": 32 }
-      ]
-    },
-    {
-      "id": "joe-morgan",
-      "nameFirst": "Joe",
-      "nameLast": "Morgan",
-      "nameGiven": "Joe Leonard",
-      "position": "second-base",
-      "team": "Reds",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 20 },
-        { "number": 2, "size": 30 },
-        { "number": 3, "size": 25 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 32 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 42 },
-        { "number": 10, "size": 48 },
-        { "number": 11, "size": 22 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 30 },
-        { "number": 14, "size": 33 }
-      ]
-    },
-    {
-      "id": "ernie-banks",
-      "nameFirst": "Ernie",
-      "nameLast": "Banks",
-      "nameGiven": "Ernest",
-      "position": "shortstop",
-      "team": "Cubs",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 28 },
-        { "number": 2, "size": 32 },
-        { "number": 3, "size": 28 },
-        { "number": 5, "size": 5 },
-        { "number": 6, "size": 28 },
-        { "number": 7, "size": 30 },
-        { "number": 8, "size": 25 },
-        { "number": 9, "size": 22 },
-        { "number": 10, "size": 52 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 28 },
-        { "number": 14, "size": 32 }
-      ]
-    },
-    {
-      "id": "ozzie-smith",
-      "nameFirst": "Ozzie",
-      "nameLast": "Smith",
-      "nameGiven": "Osborne Earl",
-      "position": "shortstop",
-      "team": "Cardinals",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 4 },
-        { "number": 2, "size": 38 },
-        { "number": 3, "size": 30 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 32 },
-        { "number": 7, "size": 48 },
-        { "number": 8, "size": 25 },
-        { "number": 9, "size": 28 },
-        { "number": 10, "size": 32 },
-        { "number": 11, "size": 15 },
-        { "number": 12, "size": 30 },
-        { "number": 13, "size": 42 },
-        { "number": 14, "size": 30 }
-      ]
-    },
-    {
-      "id": "mike-schmidt",
-      "nameFirst": "Mike",
-      "nameLast": "Schmidt",
-      "nameGiven": "Michael Jack",
-      "position": "third-base",
-      "team": "Phillies",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 30 },
-        { "number": 2, "size": 28 },
-        { "number": 3, "size": 25 },
-        { "number": 5, "size": 5 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 25 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 38 },
-        { "number": 10, "size": 62 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 22 },
-        { "number": 13, "size": 22 },
-        { "number": 14, "size": 31 }
-      ]
-    },
-    {
-      "id": "brooks-robinson",
-      "nameFirst": "Brooks",
-      "nameLast": "Robinson",
-      "nameGiven": "Brooks Calbert",
-      "position": "third-base",
-      "team": "Orioles",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 15 },
-        { "number": 2, "size": 35 },
-        { "number": 3, "size": 30 },
-        { "number": 5, "size": 5 },
-        { "number": 6, "size": 30 },
-        { "number": 7, "size": 38 },
-        { "number": 8, "size": 25 },
-        { "number": 9, "size": 20 },
-        { "number": 10, "size": 38 },
-        { "number": 11, "size": 22 },
-        { "number": 12, "size": 30 },
-        { "number": 13, "size": 35 },
-        { "number": 14, "size": 37 }
-      ]
-    },
-    {
-      "id": "babe-ruth",
-      "nameFirst": "Babe",
-      "nameLast": "Ruth",
-      "nameGiven": "George Herman",
-      "position": "outfield",
-      "team": "Yankees",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 40 },
-        { "number": 2, "size": 22 },
-        { "number": 3, "size": 20 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 18 },
-        { "number": 7, "size": 28 },
-        { "number": 8, "size": 18 },
-        { "number": 9, "size": 35 },
-        { "number": 10, "size": 60 },
-        { "number": 11, "size": 30 },
-        { "number": 12, "size": 20 },
-        { "number": 13, "size": 28 },
-        { "number": 14, "size": 35 }
-      ]
-    },
-    {
-      "id": "hank-aaron",
-      "nameFirst": "Hank",
-      "nameLast": "Aaron",
-      "nameGiven": "Henry Louis",
-      "position": "outfield",
-      "team": "Braves",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 30 },
-        { "number": 2, "size": 28 },
-        { "number": 3, "size": 25 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 35 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 25 },
-        { "number": 10, "size": 45 },
-        { "number": 11, "size": 28 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 35 },
-        { "number": 14, "size": 31 }
-      ]
-    },
-    {
-      "id": "willie-mays",
-      "nameFirst": "Willie",
-      "nameLast": "Mays",
-      "nameGiven": "Willie Howard",
-      "position": "outfield",
-      "team": "Giants",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 28 },
-        { "number": 2, "size": 28 },
-        { "number": 3, "size": 25 },
-        { "number": 5, "size": 8 },
-        { "number": 6, "size": 25 },
-        { "number": 7, "size": 32 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 28 },
-        { "number": 10, "size": 48 },
-        { "number": 11, "size": 28 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 30 },
-        { "number": 14, "size": 33 }
-      ]
-    },
-    {
-      "id": "ted-williams",
-      "nameFirst": "Ted",
-      "nameLast": "Williams",
-      "nameGiven": "Theodore Samuel",
-      "position": "outfield",
-      "team": "Red Sox",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 35 },
-        { "number": 2, "size": 22 },
-        { "number": 3, "size": 20 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 20 },
-        { "number": 7, "size": 38 },
-        { "number": 8, "size": 18 },
-        { "number": 9, "size": 50 },
-        { "number": 10, "size": 35 },
-        { "number": 11, "size": 30 },
-        { "number": 12, "size": 20 },
-        { "number": 13, "size": 38 },
-        { "number": 14, "size": 28 }
-      ]
-    },
-    {
-      "id": "roberto-clemente",
-      "nameFirst": "Roberto",
-      "nameLast": "Clemente",
-      "nameGiven": "Roberto",
-      "position": "outfield",
-      "team": "Pirates",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 15 },
-        { "number": 2, "size": 32 },
-        { "number": 3, "size": 28 },
-        { "number": 5, "size": 8 },
-        { "number": 6, "size": 28 },
-        { "number": 7, "size": 48 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 18 },
-        { "number": 10, "size": 28 },
-        { "number": 11, "size": 28 },
-        { "number": 12, "size": 28 },
-        { "number": 13, "size": 45 },
-        { "number": 14, "size": 32 }
-      ]
-    },
-    {
-      "id": "mickey-mantle",
-      "nameFirst": "Mickey",
-      "nameLast": "Mantle",
-      "nameGiven": "Mickey Charles",
-      "position": "outfield",
-      "team": "Yankees",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 32 },
-        { "number": 2, "size": 25 },
-        { "number": 3, "size": 22 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 22 },
-        { "number": 7, "size": 28 },
-        { "number": 8, "size": 20 },
-        { "number": 9, "size": 38 },
-        { "number": 10, "size": 58 },
-        { "number": 11, "size": 25 },
-        { "number": 12, "size": 22 },
-        { "number": 13, "size": 28 },
-        { "number": 14, "size": 34 }
-      ]
-    },
-    {
-      "id": "tony-gwynn",
-      "nameFirst": "Tony",
-      "nameLast": "Gwynn",
-      "nameGiven": "Anthony Keith",
-      "position": "outfield",
-      "team": "Padres",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 10 },
-        { "number": 2, "size": 32 },
-        { "number": 3, "size": 28 },
-        { "number": 5, "size": 6 },
-        { "number": 6, "size": 30 },
-        { "number": 7, "size": 55 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 18 },
-        { "number": 10, "size": 22 },
-        { "number": 11, "size": 22 },
-        { "number": 12, "size": 28 },
-        { "number": 13, "size": 52 },
-        { "number": 14, "size": 35 }
-      ]
-    },
-    {
-      "id": "rickey-henderson",
-      "nameFirst": "Rickey",
-      "nameLast": "Henderson",
-      "nameGiven": "Rickey Henley",
-      "position": "outfield",
-      "team": "Athletics",
-      "era": "all-time",
-      "sectors": [
-        { "number": 1, "size": 15 },
-        { "number": 2, "size": 30 },
-        { "number": 3, "size": 28 },
-        { "number": 5, "size": 12 },
-        { "number": 6, "size": 28 },
-        { "number": 7, "size": 35 },
-        { "number": 8, "size": 22 },
-        { "number": 9, "size": 40 },
-        { "number": 10, "size": 42 },
-        { "number": 11, "size": 20 },
-        { "number": 12, "size": 25 },
-        { "number": 13, "size": 32 },
-        { "number": 14, "size": 31 }
-      ]
-    }
-  ]
+	"players": [
+		{
+			"id": "nolan-ryan",
+			"nameFirst": "Nolan",
+			"nameLast": "Ryan",
+			"nameGiven": "Lynn Nolan",
+			"position": "pitcher",
+			"team": "Angels",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 57
+				},
+				{
+					"number": 3,
+					"size": 27
+				},
+				{
+					"number": 7,
+					"size": 12
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 120
+				},
+				{
+					"number": 12,
+					"size": 58
+				},
+				{
+					"number": 13,
+					"size": 10
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "sandy-koufax",
+			"nameFirst": "Sandy",
+			"nameLast": "Koufax",
+			"nameGiven": "Sanford",
+			"position": "pitcher",
+			"team": "Dodgers",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 60
+				},
+				{
+					"number": 3,
+					"size": 37
+				},
+				{
+					"number": 7,
+					"size": 15
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 100
+				},
+				{
+					"number": 12,
+					"size": 60
+				},
+				{
+					"number": 13,
+					"size": 12
+				},
+				{
+					"number": 14,
+					"size": 37
+				}
+			]
+		},
+		{
+			"id": "johnny-bench",
+			"nameFirst": "Johnny",
+			"nameLast": "Bench",
+			"nameGiven": "Johnny Lee",
+			"position": "catcher",
+			"team": "Reds",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 40
+				}
+			]
+		},
+		{
+			"id": "yogi-berra",
+			"nameFirst": "Yogi",
+			"nameLast": "Berra",
+			"nameGiven": "Lawrence Peter",
+			"position": "catcher",
+			"team": "Yankees",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 41
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 38
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "lou-gehrig",
+			"nameFirst": "Lou",
+			"nameLast": "Gehrig",
+			"nameGiven": "Henry Louis",
+			"position": "first-base",
+			"team": "Yankees",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 35
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 32
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 32
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 35
+				},
+				{
+					"number": 14,
+					"size": 32
+				}
+			]
+		},
+		{
+			"id": "willie-mccovey",
+			"nameFirst": "Willie",
+			"nameLast": "McCovey",
+			"nameGiven": "Willie Lee",
+			"position": "first-base",
+			"team": "Giants",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 32
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "rod-carew",
+			"nameFirst": "Rod",
+			"nameLast": "Carew",
+			"nameGiven": "Rodney Cline",
+			"position": "second-base",
+			"team": "Twins",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 55
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 52
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "joe-morgan",
+			"nameFirst": "Joe",
+			"nameLast": "Morgan",
+			"nameGiven": "Joe Leonard",
+			"position": "second-base",
+			"team": "Reds",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 40
+				}
+			]
+		},
+		{
+			"id": "ernie-banks",
+			"nameFirst": "Ernie",
+			"nameLast": "Banks",
+			"nameGiven": "Ernest",
+			"position": "shortstop",
+			"team": "Cubs",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 28
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "ozzie-smith",
+			"nameFirst": "Ozzie",
+			"nameLast": "Smith",
+			"nameGiven": "Osborne Earl",
+			"position": "shortstop",
+			"team": "Cardinals",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 50
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 42
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "mike-schmidt",
+			"nameFirst": "Mike",
+			"nameLast": "Schmidt",
+			"nameGiven": "Michael Jack",
+			"position": "third-base",
+			"team": "Phillies",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 30
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 39
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "brooks-robinson",
+			"nameFirst": "Brooks",
+			"nameLast": "Robinson",
+			"nameGiven": "Brooks Calbert",
+			"position": "third-base",
+			"team": "Orioles",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 47
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 48
+				},
+				{
+					"number": 13,
+					"size": 35
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "babe-ruth",
+			"nameFirst": "Babe",
+			"nameLast": "Ruth",
+			"nameGiven": "George Herman",
+			"position": "outfield",
+			"team": "Yankees",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 40
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 36
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 30
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 37
+				}
+			]
+		},
+		{
+			"id": "hank-aaron",
+			"nameFirst": "Hank",
+			"nameLast": "Aaron",
+			"nameGiven": "Henry Louis",
+			"position": "outfield",
+			"team": "Braves",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 30
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 39
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 35
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "willie-mays",
+			"nameFirst": "Willie",
+			"nameLast": "Mays",
+			"nameGiven": "Willie Howard",
+			"position": "outfield",
+			"team": "Giants",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 28
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 40
+				}
+			]
+		},
+		{
+			"id": "ted-williams",
+			"nameFirst": "Ted",
+			"nameLast": "Williams",
+			"nameGiven": "Theodore Samuel",
+			"position": "outfield",
+			"team": "Red Sox",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 35
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 33
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 30
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 38
+				},
+				{
+					"number": 14,
+					"size": 33
+				}
+			]
+		},
+		{
+			"id": "roberto-clemente",
+			"nameFirst": "Roberto",
+			"nameLast": "Clemente",
+			"nameGiven": "Roberto",
+			"position": "outfield",
+			"team": "Pirates",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 41
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 45
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "mickey-mantle",
+			"nameFirst": "Mickey",
+			"nameLast": "Mantle",
+			"nameGiven": "Mickey Charles",
+			"position": "outfield",
+			"team": "Yankees",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 32
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 38
+				}
+			]
+		},
+		{
+			"id": "tony-gwynn",
+			"nameFirst": "Tony",
+			"nameLast": "Gwynn",
+			"nameGiven": "Anthony Keith",
+			"position": "outfield",
+			"team": "Padres",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 55
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 52
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "rickey-henderson",
+			"nameFirst": "Rickey",
+			"nameLast": "Henderson",
+			"nameGiven": "Rickey Henley",
+			"position": "outfield",
+			"team": "Athletics",
+			"era": "all-time",
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 12
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		}
+	]
 }
