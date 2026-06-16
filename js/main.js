@@ -12,7 +12,7 @@ import { createSpinner, spinTo, getKoLetter, getStrategyLetter } from './ui/spin
 import { createScoreboard, updateScoreboard } from './ui/scoreboard.js'
 import { createNarrator, narrate } from './ui/narrator.js'
 import { createControls } from './ui/controls.js'
-import { startDraft, createQuickDraft, editLineups } from './ui/lineup.js'
+import { createQuickDraft, editLineups } from './ui/lineup.js'
 import { track } from './analytics.js'
 import { POSITION_ABBREV, BATTERY, OUTFIELD } from './constants.js'
 import { commentBatterUp, commentImmediate, commentKoSetup, commentKoResult, commentStrategySetup, commentStrategyResult } from './ui/commentary.js'
@@ -103,32 +103,16 @@ function showStartScreen(container) {
 		<div class="jr-title-actions"></div>`
 	const actions = title.querySelector('.jr-title-actions')
 
-	const allStarsBtn = document.createElement('button')
-	allStarsBtn.className = 'jr-cta jr-cta-primary'
-	allStarsBtn.textContent = 'All-Stars'
-	allStarsBtn.addEventListener('click', async () => {
-		allStarsBtn.disabled = true
-		try {
-			const players = await loadPlayers('data/players.json')
-			if (players.length < 18) throw new Error(`Need at least 18 players, got ${players.length}`)
-			overlay.remove()
-			startDraft(players, ({ homeLineup, visitorLineup }) => startGame(container, homeLineup, visitorLineup, 'draft'))
-		} catch (err) {
-			allStarsBtn.disabled = false
-			console.error(err)
-		}
-	})
-
-	const classicBtn = document.createElement('button')
-	classicBtn.className = 'jr-cta jr-cta-primary'
-	classicBtn.textContent = 'Classic Teams'
-	classicBtn.addEventListener('click', async () => {
-		classicBtn.disabled = true
+	const teamsBtn = document.createElement('button')
+	teamsBtn.className = 'jr-cta jr-cta-primary'
+	teamsBtn.textContent = 'Pick Teams'
+	teamsBtn.addEventListener('click', async () => {
+		teamsBtn.disabled = true
 		try {
 			const index = await loadRosterIndex()
 			showRosterPicker(overlay, container, index)
 		} catch (err) {
-			classicBtn.disabled = false
+			teamsBtn.disabled = false
 			console.error(err)
 		}
 	})
@@ -149,7 +133,7 @@ function showStartScreen(container) {
 		}
 	})
 
-	actions.append(allStarsBtn, classicBtn, quickBtn)
+	actions.append(teamsBtn, quickBtn)
 	overlay.appendChild(title)
 	document.body.appendChild(overlay)
 }
@@ -172,7 +156,7 @@ function showRosterPicker(overlay, container, rosterIndex) {
 
 	const decades = new Map()
 	for (const r of rosterIndex) {
-		const decade = r.year ? `${Math.floor(r.year / 10) * 10}s` : 'Special'
+		const decade = r.decade ?? 'Other'
 		if (!decades.has(decade)) decades.set(decade, [])
 		decades.get(decade).push(r)
 	}
@@ -189,7 +173,7 @@ function showRosterPicker(overlay, container, rosterIndex) {
 			const card = document.createElement('button')
 			card.className = 'jr-team-card'
 			card.dataset.rosterId = team.id
-			card.innerHTML = `<span class="yr">${team.year ?? ''}</span><span class="nm">${team.label.replace(/^\d+\s*/, '')}</span>`
+			card.innerHTML = `<span class="nm">${team.label.replace(/^\d+s?\s*/, '')}</span>`
 			card.addEventListener('click', () => pickTeam(team))
 			group.appendChild(card)
 		}
@@ -295,9 +279,11 @@ async function startClassicGame(overlay, container, visitorEntry, homeEntry) {
 		const homeLineup = buildLineup(homePlayers)
 		const vAbbr = visitorRoster.teamAbbr ?? visitorEntry.abbr ?? 'AWAY'
 		const hAbbr = homeRoster.teamAbbr ?? homeEntry.abbr ?? 'HOME'
+		const vLabel = visitorRoster.decade ?? visitorRoster.year
+		const hLabel = homeRoster.decade ?? homeRoster.year
 		const labels = {
-			visitor: `<span class="yr">${visitorRoster.year}</span>${vAbbr}`,
-			home: `<span class="yr">${homeRoster.year}</span>${hAbbr}`
+			visitor: `<span class="yr">${vLabel}</span>${vAbbr}`,
+			home: `<span class="yr">${hLabel}</span>${hAbbr}`
 		}
 
 		overlay.remove()

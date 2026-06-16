@@ -346,29 +346,21 @@ try {
 		}
 	}
 
-	// Update index.json: merge decade all-stars with existing classic rosters
+	// Write index.json
 	const indexPath = join(ROSTERS_DIR, 'index.json')
-	let existingIndex = { rosters: [] }
-	if (existsSync(indexPath)) {
-		existingIndex = JSON.parse(readFileSync(indexPath, 'utf-8'))
+	const index = {
+		rosters: rosters.map(r => ({
+			id: `${r.decade}-${r.team}`,
+			label: `${r.decade} ${r.teamName}`,
+			year: r.year,
+			team: r.team,
+			abbr: r.teamAbbr,
+			decade: r.decade
+		}))
 	}
-
-	// Keep non-decade entries (classic rosters), replace all decade entries
-	const classicEntries = existingIndex.rosters.filter(r => !r.decade)
-	const decadeEntries = rosters.map(r => ({
-		id: `${r.decade}-${r.team}`,
-		label: `${r.decade} ${r.teamName}`,
-		year: r.year,
-		team: r.team,
-		abbr: r.teamAbbr,
-		decade: r.decade
-	}))
-
-	const mergedIndex = { rosters: [...classicEntries, ...decadeEntries] }
-	writeFileSync(indexPath, JSON.stringify(mergedIndex, null, '\t'))
+	writeFileSync(indexPath, JSON.stringify(index, null, '\t'))
 
 	console.log(`\nGenerated ${rosters.length} decade all-star rosters (${skipped} skipped — insufficient qualified players)`)
-	console.log(`Index updated: ${classicEntries.length} classic + ${decadeEntries.length} decade = ${mergedIndex.rosters.length} total`)
 
 	if (process.argv.includes('--verbose')) {
 		for (const r of rosters) printRoster(r)

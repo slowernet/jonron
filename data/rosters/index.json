@@ -1,69 +1,6 @@
 {
 	"rosters": [
 		{
-			"id": "1927-NYA",
-			"label": "1927 New York Yankees",
-			"year": 1927,
-			"team": "NYA",
-			"abbr": "NYY"
-		},
-		{
-			"id": "1934-SLN",
-			"label": "1934 St. Louis Cardinals",
-			"year": 1934,
-			"team": "SLN",
-			"abbr": "STL"
-		},
-		{
-			"id": "1941-NYA",
-			"label": "1941 New York Yankees",
-			"year": 1941,
-			"team": "NYA",
-			"abbr": "NYY"
-		},
-		{
-			"id": "1955-BRO",
-			"label": "1955 Brooklyn Dodgers",
-			"year": 1955,
-			"team": "BRO",
-			"abbr": "BRO"
-		},
-		{
-			"id": "1961-NYA",
-			"label": "1961 New York Yankees",
-			"year": 1961,
-			"team": "NYA",
-			"abbr": "NYY"
-		},
-		{
-			"id": "1975-CIN",
-			"label": "1975 Cincinnati Reds",
-			"year": 1975,
-			"team": "CIN",
-			"abbr": "CIN"
-		},
-		{
-			"id": "1986-NYN",
-			"label": "1986 New York Mets",
-			"year": 1986,
-			"team": "NYN",
-			"abbr": "NYM"
-		},
-		{
-			"id": "1998-NYA",
-			"label": "1998 New York Yankees",
-			"year": 1998,
-			"team": "NYA",
-			"abbr": "NYY"
-		},
-		{
-			"id": "2001-SEA",
-			"label": "2001 Seattle Mariners",
-			"year": 2001,
-			"team": "SEA",
-			"abbr": "SEA"
-		},
-		{
 			"id": "1940s-BSN",
 			"label": "1940s Boston Bees",
 			"year": 1940,
