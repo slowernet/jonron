@@ -55,6 +55,7 @@ const parseLine = (text, start) => {
 
 export const parseCSV = (text) => {
   if (!text || !text.trim()) return []
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1)
 
   // parse header row
   const { fields: headers, next } = parseLine(text, 0)

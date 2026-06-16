@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = join(__dirname, '..', 'data', 'lahman')
+// Primary source: https://sabr.org/lahman-database/
+// Fallback: GitHub mirror (may lag behind SABR releases)
 const BASE_URL = 'https://raw.githubusercontent.com/cbwinslow/baseballdatabank/master/core'
 
 const FILES = [
