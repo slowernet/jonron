@@ -1,0 +1,627 @@
+{
+	"team": "LAN",
+	"teamAbbr": "LAD",
+	"teamName": "Los Angeles Dodgers",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "lopesda01-1979",
+			"nameFirst": "Davey",
+			"nameLast": "Lopes",
+			"nameGiven": "David Earl",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1979,
+			"stats": {
+				"PA": 692,
+				"AB": 582,
+				"H": 154,
+				"2B": 20,
+				"3B": 6,
+				"HR": 28,
+				"BB": 97,
+				"SO": 88,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 6,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "russebi01-1972",
+			"nameFirst": "Bill",
+			"nameLast": "Russell",
+			"nameGiven": "William Ellis",
+			"position": "shortstop",
+			"team": "Los Angeles Dodgers",
+			"year": 1972,
+			"stats": {
+				"PA": 477,
+				"AB": 434,
+				"H": 118,
+				"2B": 19,
+				"3B": 5,
+				"HR": 4,
+				"BB": 34,
+				"SO": 64,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "fergujo01-1979",
+			"nameFirst": "Joe",
+			"nameLast": "Ferguson",
+			"nameGiven": "Joseph Vance",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 1979,
+			"stats": {
+				"PA": 442,
+				"AB": 363,
+				"H": 95,
+				"2B": 14,
+				"3B": 0,
+				"HR": 20,
+				"BB": 70,
+				"SO": 68,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "ceyro01-1979",
+			"nameFirst": "Ron",
+			"nameLast": "Cey",
+			"nameGiven": "Ronald Charles",
+			"position": "third-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1979,
+			"stats": {
+				"PA": 579,
+				"AB": 487,
+				"H": 137,
+				"2B": 20,
+				"3B": 1,
+				"HR": 28,
+				"BB": 86,
+				"SO": 85,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "garvest01-1978",
+			"nameFirst": "Steve",
+			"nameLast": "Garvey",
+			"nameGiven": "Steven Patrick",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1978,
+			"stats": {
+				"PA": 689,
+				"AB": 639,
+				"H": 202,
+				"2B": 36,
+				"3B": 9,
+				"HR": 21,
+				"BB": 40,
+				"SO": 70,
+				"HBP": 1,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "smithre06-1977",
+			"nameFirst": "Reggie",
+			"nameLast": "Smith",
+			"nameGiven": "Carl Reginald",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1977,
+			"stats": {
+				"PA": 603,
+				"AB": 488,
+				"H": 150,
+				"2B": 27,
+				"3B": 4,
+				"HR": 32,
+				"BB": 104,
+				"SO": 76,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 64
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "bakerdu01-1977",
+			"nameFirst": "Dusty",
+			"nameLast": "Baker",
+			"nameGiven": "Johnnie B.",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1977,
+			"stats": {
+				"PA": 604,
+				"AB": 533,
+				"H": 155,
+				"2B": 26,
+				"3B": 1,
+				"HR": 30,
+				"BB": 58,
+				"SO": 89,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "crawfwi01-1973",
+			"nameFirst": "Willie",
+			"nameLast": "Crawford",
+			"nameGiven": "Willie Murphy",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1973,
+			"stats": {
+				"PA": 543,
+				"AB": 457,
+				"H": 135,
+				"2B": 26,
+				"3B": 2,
+				"HR": 14,
+				"BB": 78,
+				"SO": 91,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "parkewe01-1970",
+			"nameFirst": "Wes",
+			"nameLast": "Parker",
+			"nameGiven": "Maurice Wesley",
+			"position": "designated-hitter",
+			"team": "Los Angeles Dodgers",
+			"year": 1970,
+			"stats": {
+				"PA": 705,
+				"AB": 614,
+				"H": 196,
+				"2B": 47,
+				"3B": 4,
+				"HR": 10,
+				"BB": 79,
+				"SO": 70,
+				"HBP": 0,
+				"SF": 8,
+				"SH": 4,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

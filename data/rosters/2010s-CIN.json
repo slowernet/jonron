@@ -1,0 +1,627 @@
+{
+	"team": "CIN",
+	"teamAbbr": "CIN",
+	"teamName": "Cincinnati Reds",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "barnhtu01-2017",
+			"nameFirst": "Tucker",
+			"nameLast": "Barnhart",
+			"nameGiven": "Tucker Jackson",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 2017,
+			"stats": {
+				"PA": 423,
+				"AB": 370,
+				"H": 100,
+				"2B": 24,
+				"3B": 2,
+				"HR": 7,
+				"BB": 42,
+				"SO": 68,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 5,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "vottojo01-2012",
+			"nameFirst": "Joey",
+			"nameLast": "Votto",
+			"nameGiven": "Joseph Daniel",
+			"position": "first-base",
+			"team": "Cincinnati Reds",
+			"year": 2012,
+			"stats": {
+				"PA": 475,
+				"AB": 374,
+				"H": 126,
+				"2B": 44,
+				"3B": 0,
+				"HR": 14,
+				"BB": 94,
+				"SO": 85,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 75
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 33
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "phillbr01-2011",
+			"nameFirst": "Brandon",
+			"nameLast": "Phillips",
+			"nameGiven": "Brandon Emil",
+			"position": "second-base",
+			"team": "Cincinnati Reds",
+			"year": 2011,
+			"stats": {
+				"PA": 674,
+				"AB": 610,
+				"H": 183,
+				"2B": 38,
+				"3B": 2,
+				"HR": 18,
+				"BB": 44,
+				"SO": 85,
+				"HBP": 9,
+				"SF": 6,
+				"SH": 5,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "suareeu01-2019",
+			"nameFirst": "Eugenio",
+			"nameLast": "Suarez",
+			"nameGiven": "Eugenio Alejandro",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 2019,
+			"stats": {
+				"PA": 662,
+				"AB": 575,
+				"H": 156,
+				"2B": 22,
+				"3B": 2,
+				"HR": 49,
+				"BB": 70,
+				"SO": 189,
+				"HBP": 11,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 103
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "cozarza01-2017",
+			"nameFirst": "Zack",
+			"nameLast": "Cozart",
+			"nameGiven": "Zachary Warren",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 2017,
+			"stats": {
+				"PA": 507,
+				"AB": 438,
+				"H": 130,
+				"2B": 24,
+				"3B": 7,
+				"HR": 24,
+				"BB": 62,
+				"SO": 78,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "bruceja01-2016",
+			"nameFirst": "Jay",
+			"nameLast": "Bruce",
+			"nameGiven": "Jay Allen",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2016,
+			"stats": {
+				"PA": 402,
+				"AB": 370,
+				"H": 98,
+				"2B": 22,
+				"3B": 6,
+				"HR": 25,
+				"BB": 27,
+				"SO": 83,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "duvalad01-2016",
+			"nameFirst": "Adam",
+			"nameLast": "Duvall",
+			"nameGiven": "Adam Lynn",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2016,
+			"stats": {
+				"PA": 607,
+				"AB": 552,
+				"H": 133,
+				"2B": 31,
+				"3B": 6,
+				"HR": 33,
+				"BB": 41,
+				"SO": 164,
+				"HBP": 6,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 97
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "stubbdr01-2010",
+			"nameFirst": "Drew",
+			"nameLast": "Stubbs",
+			"nameGiven": "Robert Andrew",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2010,
+			"stats": {
+				"PA": 583,
+				"AB": 514,
+				"H": 131,
+				"2B": 19,
+				"3B": 6,
+				"HR": 22,
+				"BB": 55,
+				"SO": 168,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 104
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "frazito01-2012",
+			"nameFirst": "Todd",
+			"nameLast": "Frazier",
+			"nameGiven": "Todd Brian",
+			"position": "designated-hitter",
+			"team": "Cincinnati Reds",
+			"year": 2012,
+			"stats": {
+				"PA": 465,
+				"AB": 422,
+				"H": 115,
+				"2B": 26,
+				"3B": 6,
+				"HR": 19,
+				"BB": 36,
+				"SO": 103,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

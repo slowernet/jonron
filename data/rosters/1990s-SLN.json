@@ -1,0 +1,627 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "oquenjo01-1990",
+			"nameFirst": "Jose",
+			"nameLast": "Oquendo",
+			"nameGiven": "Jose Manuel",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1990,
+			"stats": {
+				"PA": 553,
+				"AB": 469,
+				"H": 118,
+				"2B": 17,
+				"3B": 5,
+				"HR": 1,
+				"BB": 74,
+				"SO": 46,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 53
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 53
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "zeileto01-1994",
+			"nameFirst": "Todd",
+			"nameLast": "Zeile",
+			"nameGiven": "Todd Edward",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1994,
+			"stats": {
+				"PA": 477,
+				"AB": 415,
+				"H": 111,
+				"2B": 25,
+				"3B": 1,
+				"HR": 19,
+				"BB": 52,
+				"SO": 56,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "pagnoto01-1994",
+			"nameFirst": "Tom",
+			"nameLast": "Pagnozzi",
+			"nameGiven": "Thomas Alan",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1994,
+			"stats": {
+				"PA": 266,
+				"AB": 243,
+				"H": 66,
+				"2B": 12,
+				"3B": 1,
+				"HR": 7,
+				"BB": 21,
+				"SO": 39,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mcgwima01-1998",
+			"nameFirst": "Mark",
+			"nameLast": "McGwire",
+			"nameGiven": "Mark David",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1998,
+			"stats": {
+				"PA": 681,
+				"AB": 509,
+				"H": 152,
+				"2B": 21,
+				"3B": 0,
+				"HR": 70,
+				"BB": 162,
+				"SO": 155,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 37
+				},
+				{
+					"number": 2,
+					"size": 16
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 7,
+					"size": 19
+				},
+				{
+					"number": 9,
+					"size": 89
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 13
+				},
+				{
+					"number": 14,
+					"size": 38
+				}
+			]
+		},
+		{
+			"id": "smithoz01-1991",
+			"nameFirst": "Ozzie",
+			"nameLast": "Smith",
+			"nameGiven": "Osborne Earl",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1991,
+			"stats": {
+				"PA": 641,
+				"AB": 550,
+				"H": 157,
+				"2B": 30,
+				"3B": 3,
+				"HR": 3,
+				"BB": 83,
+				"SO": 36,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 6,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "lankfra01-1997",
+			"nameFirst": "Ray",
+			"nameLast": "Lankford",
+			"nameGiven": "Raymond Lewis",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1997,
+			"stats": {
+				"PA": 565,
+				"AB": 465,
+				"H": 137,
+				"2B": 36,
+				"3B": 3,
+				"HR": 31,
+				"BB": 95,
+				"SO": 125,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "jordabr01-1998",
+			"nameFirst": "Brian",
+			"nameLast": "Jordan",
+			"nameGiven": "Brian O'Neal",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1998,
+			"stats": {
+				"PA": 617,
+				"AB": 564,
+				"H": 178,
+				"2B": 34,
+				"3B": 7,
+				"HR": 25,
+				"BB": 40,
+				"SO": 66,
+				"HBP": 9,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "gantro01-1996",
+			"nameFirst": "Ron",
+			"nameLast": "Gant",
+			"nameGiven": "Ronald Edwin",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1996,
+			"stats": {
+				"PA": 500,
+				"AB": 419,
+				"H": 103,
+				"2B": 14,
+				"3B": 2,
+				"HR": 30,
+				"BB": 73,
+				"SO": 98,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "gilkebe01-1993",
+			"nameFirst": "Bernard",
+			"nameLast": "Gilkey",
+			"nameGiven": "Otis Bernard",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 1993,
+			"stats": {
+				"PA": 622,
+				"AB": 557,
+				"H": 170,
+				"2B": 40,
+				"3B": 5,
+				"HR": 16,
+				"BB": 56,
+				"SO": 66,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		}
+	]
+}

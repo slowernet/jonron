@@ -1,0 +1,631 @@
+{
+	"team": "KCA",
+	"teamAbbr": "KCR",
+	"teamName": "Kansas City Royals",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "maybejo01-1975",
+			"nameFirst": "John",
+			"nameLast": "Mayberry",
+			"nameGiven": "John Claiborn",
+			"position": "first-base",
+			"team": "Kansas City Royals",
+			"year": 1975,
+			"stats": {
+				"PA": 683,
+				"AB": 554,
+				"H": 161,
+				"2B": 38,
+				"3B": 1,
+				"HR": 34,
+				"BB": 119,
+				"SO": 73,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 65
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "porteda02-1979",
+			"nameFirst": "Darrell",
+			"nameLast": "Porter",
+			"nameGiven": "Darrell Ray",
+			"position": "catcher",
+			"team": "Kansas City Royals",
+			"year": 1979,
+			"stats": {
+				"PA": 679,
+				"AB": 533,
+				"H": 155,
+				"2B": 23,
+				"3B": 10,
+				"HR": 20,
+				"BB": 121,
+				"SO": 65,
+				"HBP": 8,
+				"SF": 13,
+				"SH": 4,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 68
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "rojasco01-1971",
+			"nameFirst": "Cookie",
+			"nameLast": "Rojas",
+			"nameGiven": "Octavio Victor",
+			"position": "second-base",
+			"team": "Kansas City Royals",
+			"year": 1971,
+			"stats": {
+				"PA": 463,
+				"AB": 414,
+				"H": 124,
+				"2B": 22,
+				"3B": 2,
+				"HR": 6,
+				"BB": 39,
+				"SO": 35,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "brettge01-1979",
+			"nameFirst": "George",
+			"nameLast": "Brett",
+			"nameGiven": "George Howard",
+			"position": "third-base",
+			"team": "Kansas City Royals",
+			"year": 1979,
+			"stats": {
+				"PA": 701,
+				"AB": 645,
+				"H": 212,
+				"2B": 42,
+				"3B": 20,
+				"HR": 23,
+				"BB": 51,
+				"SO": 36,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 71
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 71
+				}
+			]
+		},
+		{
+			"id": "whitefr01-1978",
+			"nameFirst": "Frank",
+			"nameLast": "White",
+			"nameGiven": "Frank",
+			"position": "shortstop",
+			"team": "Kansas City Royals",
+			"year": 1978,
+			"stats": {
+				"PA": 501,
+				"AB": 461,
+				"H": 127,
+				"2B": 24,
+				"3B": 6,
+				"HR": 7,
+				"BB": 26,
+				"SO": 59,
+				"HBP": 3,
+				"SF": 2,
+				"SH": 9,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "otisam01-1978",
+			"nameFirst": "Amos",
+			"nameLast": "Otis",
+			"nameGiven": "Amos Joseph",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 1978,
+			"stats": {
+				"PA": 567,
+				"AB": 486,
+				"H": 145,
+				"2B": 30,
+				"3B": 7,
+				"HR": 22,
+				"BB": 66,
+				"SO": 54,
+				"HBP": 4,
+				"SF": 10,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "cowenal01-1977",
+			"nameFirst": "Al",
+			"nameLast": "Cowens",
+			"nameGiven": "Alfred Edward",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 1977,
+			"stats": {
+				"PA": 661,
+				"AB": 606,
+				"H": 189,
+				"2B": 32,
+				"3B": 14,
+				"HR": 23,
+				"BB": 41,
+				"SO": 64,
+				"HBP": 8,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "mcraeha01-1977",
+			"nameFirst": "Hal",
+			"nameLast": "McRae",
+			"nameGiven": "Harold Abraham",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 1977,
+			"stats": {
+				"PA": 720,
+				"AB": 641,
+				"H": 191,
+				"2B": 54,
+				"3B": 11,
+				"HR": 21,
+				"BB": 59,
+				"SO": 43,
+				"HBP": 13,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "schaapa01-1971",
+			"nameFirst": "Paul",
+			"nameLast": "Schaal",
+			"nameGiven": "Paul",
+			"position": "designated-hitter",
+			"team": "Kansas City Royals",
+			"year": 1971,
+			"stats": {
+				"PA": 659,
+				"AB": 548,
+				"H": 150,
+				"2B": 31,
+				"3B": 6,
+				"HR": 11,
+				"BB": 103,
+				"SO": 51,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 57
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

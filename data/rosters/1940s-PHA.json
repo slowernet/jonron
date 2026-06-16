@@ -1,0 +1,631 @@
+{
+	"team": "PHA",
+	"teamAbbr": "PHA",
+	"teamName": "Philadelphia Athletics",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "hayesfr01-1940",
+			"nameFirst": "Frankie",
+			"nameLast": "Hayes",
+			"nameGiven": "Franklin Witman",
+			"position": "catcher",
+			"team": "Philadelphia Athletics",
+			"year": 1940,
+			"stats": {
+				"PA": 529,
+				"AB": 465,
+				"H": 143,
+				"2B": 23,
+				"3B": 4,
+				"HR": 16,
+				"BB": 61,
+				"SO": 59,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "siebedi01-1941",
+			"nameFirst": "Dick",
+			"nameLast": "Siebert",
+			"nameGiven": "Richard Walther",
+			"position": "first-base",
+			"team": "Philadelphia Athletics",
+			"year": 1941,
+			"stats": {
+				"PA": 513,
+				"AB": 467,
+				"H": 156,
+				"2B": 28,
+				"3B": 8,
+				"HR": 5,
+				"BB": 37,
+				"SO": 22,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "suderpe01-1949",
+			"nameFirst": "Pete",
+			"nameLast": "Suder",
+			"nameGiven": "Peter",
+			"position": "second-base",
+			"team": "Philadelphia Athletics",
+			"year": 1949,
+			"stats": {
+				"PA": 477,
+				"AB": 445,
+				"H": 119,
+				"2B": 24,
+				"3B": 6,
+				"HR": 10,
+				"BB": 23,
+				"SO": 35,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "majesha01-1948",
+			"nameFirst": "Hank",
+			"nameLast": "Majeski",
+			"nameGiven": "Henry",
+			"position": "third-base",
+			"team": "Philadelphia Athletics",
+			"year": 1948,
+			"stats": {
+				"PA": 646,
+				"AB": 590,
+				"H": 183,
+				"2B": 41,
+				"3B": 4,
+				"HR": 12,
+				"BB": 48,
+				"SO": 43,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "joosted01-1949",
+			"nameFirst": "Eddie",
+			"nameLast": "Joost",
+			"nameGiven": "Edwin David",
+			"position": "shortstop",
+			"team": "Philadelphia Athletics",
+			"year": 1949,
+			"stats": {
+				"PA": 682,
+				"AB": 525,
+				"H": 138,
+				"2B": 25,
+				"3B": 3,
+				"HR": 23,
+				"BB": 149,
+				"SO": 80,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 81
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "chapmsa01-1941",
+			"nameFirst": "Sam",
+			"nameLast": "Chapman",
+			"nameGiven": "Samuel Blake",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1941,
+			"stats": {
+				"PA": 602,
+				"AB": 552,
+				"H": 178,
+				"2B": 29,
+				"3B": 9,
+				"HR": 25,
+				"BB": 47,
+				"SO": 49,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 29
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "johnsbo01-1940",
+			"nameFirst": "Bob",
+			"nameLast": "Johnson",
+			"nameGiven": "Robert Lee",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1940,
+			"stats": {
+				"PA": 600,
+				"AB": 512,
+				"H": 137,
+				"2B": 25,
+				"3B": 4,
+				"HR": 31,
+				"BB": 83,
+				"SO": 64,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "mccosba01-1946",
+			"nameFirst": "Barney",
+			"nameLast": "McCosky",
+			"nameGiven": "William Barney",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1946,
+			"stats": {
+				"PA": 362,
+				"AB": 308,
+				"H": 109,
+				"2B": 17,
+				"3B": 4,
+				"HR": 1,
+				"BB": 43,
+				"SO": 13,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 11,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 52
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 13
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 35
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "estalbo01-1945",
+			"nameFirst": "Bobby",
+			"nameLast": "Estalella",
+			"nameGiven": "Roberto",
+			"position": "designated-hitter",
+			"team": "Philadelphia Athletics",
+			"year": 1945,
+			"stats": {
+				"PA": 527,
+				"AB": 451,
+				"H": 135,
+				"2B": 25,
+				"3B": 6,
+				"HR": 8,
+				"BB": 74,
+				"SO": 46,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		}
+	]
+}

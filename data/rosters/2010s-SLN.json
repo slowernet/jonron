@@ -1,0 +1,615 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "molinya01-2012",
+			"nameFirst": "Yadier",
+			"nameLast": "Molina",
+			"nameGiven": "Yadier Benjamin",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 2012,
+			"stats": {
+				"PA": 563,
+				"AB": 505,
+				"H": 159,
+				"2B": 28,
+				"3B": 0,
+				"HR": 22,
+				"BB": 45,
+				"SO": 55,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "adamsma01-2013",
+			"nameFirst": "Matt",
+			"nameLast": "Adams",
+			"nameGiven": "Matthew James",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 2013,
+			"stats": {
+				"PA": 319,
+				"AB": 296,
+				"H": 84,
+				"2B": 14,
+				"3B": 0,
+				"HR": 17,
+				"BB": 23,
+				"SO": 80,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "wongko01-2017",
+			"nameFirst": "Kolten",
+			"nameLast": "Wong",
+			"nameGiven": "Kolten Kaha",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 2017,
+			"stats": {
+				"PA": 411,
+				"AB": 354,
+				"H": 101,
+				"2B": 27,
+				"3B": 3,
+				"HR": 4,
+				"BB": 41,
+				"SO": 60,
+				"HBP": 12,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "carpema01-2018",
+			"nameFirst": "Matt",
+			"nameLast": "Carpenter",
+			"nameGiven": "Matthew Martin",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 2018,
+			"stats": {
+				"PA": 676,
+				"AB": 564,
+				"H": 145,
+				"2B": 42,
+				"3B": 0,
+				"HR": 36,
+				"BB": 102,
+				"SO": 158,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 84
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "dejonpa01-2017",
+			"nameFirst": "Paul",
+			"nameLast": "DeJong",
+			"nameGiven": "Paul Sterling",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 2017,
+			"stats": {
+				"PA": 443,
+				"AB": 417,
+				"H": 119,
+				"2B": 26,
+				"3B": 1,
+				"HR": 25,
+				"BB": 21,
+				"SO": 124,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 101
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "hollima01-2010",
+			"nameFirst": "Matt",
+			"nameLast": "Holliday",
+			"nameGiven": "Matthew Thomas",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 2010,
+			"stats": {
+				"PA": 675,
+				"AB": 596,
+				"H": 186,
+				"2B": 45,
+				"3B": 1,
+				"HR": 28,
+				"BB": 69,
+				"SO": 93,
+				"HBP": 8,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "craigal01-2011",
+			"nameFirst": "Allen",
+			"nameLast": "Craig",
+			"nameGiven": "Allen Thomas",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 2011,
+			"stats": {
+				"PA": 219,
+				"AB": 200,
+				"H": 63,
+				"2B": 15,
+				"3B": 0,
+				"HR": 11,
+				"BB": 15,
+				"SO": 40,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "jayjo02-2010",
+			"nameFirst": "Jon",
+			"nameLast": "Jay",
+			"nameGiven": "Jonathan Henry",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 2010,
+			"stats": {
+				"PA": 323,
+				"AB": 287,
+				"H": 86,
+				"2B": 19,
+				"3B": 2,
+				"HR": 4,
+				"BB": 24,
+				"SO": 50,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 8,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "freesda01-2012",
+			"nameFirst": "David",
+			"nameLast": "Freese",
+			"nameGiven": "David Richard",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 2012,
+			"stats": {
+				"PA": 567,
+				"AB": 501,
+				"H": 147,
+				"2B": 25,
+				"3B": 1,
+				"HR": 20,
+				"BB": 57,
+				"SO": 122,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 77
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		}
+	]
+}

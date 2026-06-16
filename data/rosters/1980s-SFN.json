@@ -1,0 +1,627 @@
+{
+	"team": "SFN",
+	"teamAbbr": "SFG",
+	"teamName": "San Francisco Giants",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "brenlbo01-1984",
+			"nameFirst": "Bob",
+			"nameLast": "Brenly",
+			"nameGiven": "Robert Earl",
+			"position": "catcher",
+			"team": "San Francisco Giants",
+			"year": 1984,
+			"stats": {
+				"PA": 567,
+				"AB": 506,
+				"H": 147,
+				"2B": 28,
+				"3B": 0,
+				"HR": 20,
+				"BB": 48,
+				"SO": 52,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "youngjo02-1983",
+			"nameFirst": "Joel",
+			"nameLast": "Youngblood",
+			"nameGiven": "Joel Randolph",
+			"position": "second-base",
+			"team": "San Francisco Giants",
+			"year": 1983,
+			"stats": {
+				"PA": 415,
+				"AB": 373,
+				"H": 109,
+				"2B": 20,
+				"3B": 3,
+				"HR": 17,
+				"BB": 33,
+				"SO": 59,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "uribejo01-1987",
+			"nameFirst": "Jose",
+			"nameLast": "Uribe",
+			"nameGiven": "Jose Altagracia",
+			"position": "shortstop",
+			"team": "San Francisco Giants",
+			"year": 1987,
+			"stats": {
+				"PA": 340,
+				"AB": 309,
+				"H": 90,
+				"2B": 16,
+				"3B": 5,
+				"HR": 5,
+				"BB": 24,
+				"SO": 35,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "clarkwi02-1989",
+			"nameFirst": "Will",
+			"nameLast": "Clark",
+			"nameGiven": "William Nuschler",
+			"position": "first-base",
+			"team": "San Francisco Giants",
+			"year": 1989,
+			"stats": {
+				"PA": 675,
+				"AB": 588,
+				"H": 196,
+				"2B": 38,
+				"3B": 9,
+				"HR": 23,
+				"BB": 74,
+				"SO": 103,
+				"HBP": 5,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "mitchke01-1989",
+			"nameFirst": "Kevin",
+			"nameLast": "Mitchell",
+			"nameGiven": "Kevin Darnell",
+			"position": "third-base",
+			"team": "San Francisco Giants",
+			"year": 1989,
+			"stats": {
+				"PA": 640,
+				"AB": 543,
+				"H": 158,
+				"2B": 34,
+				"3B": 6,
+				"HR": 47,
+				"BB": 87,
+				"SO": 115,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "clarkja01-1984",
+			"nameFirst": "Jack",
+			"nameLast": "Clark",
+			"nameGiven": "Jack Anthony",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1984,
+			"stats": {
+				"PA": 249,
+				"AB": 203,
+				"H": 65,
+				"2B": 9,
+				"3B": 1,
+				"HR": 11,
+				"BB": 43,
+				"SO": 29,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "davisch01-1984",
+			"nameFirst": "Chili",
+			"nameLast": "Davis",
+			"nameGiven": "Charles Theodore",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1984,
+			"stats": {
+				"PA": 546,
+				"AB": 499,
+				"H": 157,
+				"2B": 21,
+				"3B": 6,
+				"HR": 21,
+				"BB": 42,
+				"SO": 74,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "maldoca01-1987",
+			"nameFirst": "Candy",
+			"nameLast": "Maldonado",
+			"nameGiven": "Candido",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1987,
+			"stats": {
+				"PA": 489,
+				"AB": 442,
+				"H": 129,
+				"2B": 28,
+				"3B": 4,
+				"HR": 20,
+				"BB": 34,
+				"SO": 78,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "evansda01-1983",
+			"nameFirst": "Darrell",
+			"nameLast": "Evans",
+			"nameGiven": "Darrell Wayne",
+			"position": "designated-hitter",
+			"team": "San Francisco Giants",
+			"year": 1983,
+			"stats": {
+				"PA": 611,
+				"AB": 523,
+				"H": 145,
+				"2B": 29,
+				"3B": 3,
+				"HR": 30,
+				"BB": 84,
+				"SO": 81,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

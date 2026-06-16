@@ -1,0 +1,627 @@
+{
+	"team": "CHA",
+	"teamAbbr": "CHW",
+	"teamName": "Chicago White Sox",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "pierzaj01-2012",
+			"nameFirst": "A. J.",
+			"nameLast": "Pierzynski",
+			"nameGiven": "Anthony John",
+			"position": "catcher",
+			"team": "Chicago White Sox",
+			"year": 2012,
+			"stats": {
+				"PA": 520,
+				"AB": 479,
+				"H": 133,
+				"2B": 18,
+				"3B": 4,
+				"HR": 27,
+				"BB": 28,
+				"SO": 78,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "sanchca01-2017",
+			"nameFirst": "Carlos",
+			"nameLast": "Sanchez",
+			"nameGiven": "Yolmer Carlos",
+			"position": "second-base",
+			"team": "Chicago White Sox",
+			"year": 2017,
+			"stats": {
+				"PA": 534,
+				"AB": 484,
+				"H": 129,
+				"2B": 19,
+				"3B": 8,
+				"HR": 12,
+				"BB": 35,
+				"SO": 111,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 7,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "beckhgo01-2013",
+			"nameFirst": "Gordon",
+			"nameLast": "Beckham",
+			"nameGiven": "James Gordon",
+			"position": "third-base",
+			"team": "Chicago White Sox",
+			"year": 2013,
+			"stats": {
+				"PA": 408,
+				"AB": 371,
+				"H": 99,
+				"2B": 22,
+				"3B": 1,
+				"HR": 5,
+				"BB": 28,
+				"SO": 56,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "anderti01-2019",
+			"nameFirst": "Tim",
+			"nameLast": "Anderson",
+			"nameGiven": "Timothy Devon",
+			"position": "shortstop",
+			"team": "Chicago White Sox",
+			"year": 2019,
+			"stats": {
+				"PA": 518,
+				"AB": 498,
+				"H": 167,
+				"2B": 32,
+				"3B": 0,
+				"HR": 18,
+				"BB": 15,
+				"SO": 109,
+				"HBP": 3,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 13
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "konerpa01-2010",
+			"nameFirst": "Paul",
+			"nameLast": "Konerko",
+			"nameGiven": "Paul Henry",
+			"position": "first-base",
+			"team": "Chicago White Sox",
+			"year": 2010,
+			"stats": {
+				"PA": 631,
+				"AB": 548,
+				"H": 171,
+				"2B": 30,
+				"3B": 1,
+				"HR": 39,
+				"BB": 72,
+				"SO": 110,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "garciav01-2017",
+			"nameFirst": "Avisail",
+			"nameLast": "Garcia",
+			"nameGiven": "Avisail Antonio",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2017,
+			"stats": {
+				"PA": 561,
+				"AB": 518,
+				"H": 171,
+				"2B": 27,
+				"3B": 5,
+				"HR": 18,
+				"BB": 33,
+				"SO": 111,
+				"HBP": 9,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "riosal01-2012",
+			"nameFirst": "Alex",
+			"nameLast": "Rios",
+			"nameGiven": "Alexis Israel",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2012,
+			"stats": {
+				"PA": 640,
+				"AB": 605,
+				"H": 184,
+				"2B": 37,
+				"3B": 8,
+				"HR": 25,
+				"BB": 26,
+				"SO": 92,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "cabreme01-2016",
+			"nameFirst": "Melky",
+			"nameLast": "Cabrera",
+			"nameGiven": "Melky",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2016,
+			"stats": {
+				"PA": 646,
+				"AB": 591,
+				"H": 175,
+				"2B": 42,
+				"3B": 5,
+				"HR": 14,
+				"BB": 47,
+				"SO": 69,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "abreujo02-2014",
+			"nameFirst": "Jose",
+			"nameLast": "Abreu",
+			"nameGiven": "Jose Dariel",
+			"position": "designated-hitter",
+			"team": "Chicago White Sox",
+			"year": 2014,
+			"stats": {
+				"PA": 622,
+				"AB": 556,
+				"H": 176,
+				"2B": 35,
+				"3B": 2,
+				"HR": 36,
+				"BB": 51,
+				"SO": 131,
+				"HBP": 11,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

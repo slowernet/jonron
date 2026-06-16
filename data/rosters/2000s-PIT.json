@@ -1,0 +1,627 @@
+{
+	"team": "PIT",
+	"teamAbbr": "PIT",
+	"teamName": "Pittsburgh Pirates",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "kendaja01-2000",
+			"nameFirst": "Jason",
+			"nameLast": "Kendall",
+			"nameGiven": "Jason Daniel",
+			"position": "catcher",
+			"team": "Pittsburgh Pirates",
+			"year": 2000,
+			"stats": {
+				"PA": 678,
+				"AB": 579,
+				"H": 185,
+				"2B": 33,
+				"3B": 6,
+				"HR": 14,
+				"BB": 79,
+				"SO": 79,
+				"HBP": 15,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "wilsoja02-2004",
+			"nameFirst": "Jack",
+			"nameLast": "Wilson",
+			"nameGiven": "Jack Eugene",
+			"position": "shortstop",
+			"team": "Pittsburgh Pirates",
+			"year": 2004,
+			"stats": {
+				"PA": 693,
+				"AB": 652,
+				"H": 201,
+				"2B": 41,
+				"3B": 12,
+				"HR": 11,
+				"BB": 26,
+				"SO": 71,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 7,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "wilsocr03-2003",
+			"nameFirst": "Craig",
+			"nameLast": "Wilson",
+			"nameGiven": "Craig Alan",
+			"position": "first-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2003,
+			"stats": {
+				"PA": 358,
+				"AB": 309,
+				"H": 81,
+				"2B": 15,
+				"3B": 4,
+				"HR": 18,
+				"BB": 35,
+				"SO": 89,
+				"HBP": 13,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 89
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "sanchfr01-2006",
+			"nameFirst": "Freddy",
+			"nameLast": "Sanchez",
+			"nameGiven": "Frederick Philip",
+			"position": "second-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2006,
+			"stats": {
+				"PA": 632,
+				"AB": 582,
+				"H": 200,
+				"2B": 53,
+				"3B": 2,
+				"HR": 6,
+				"BB": 31,
+				"SO": 52,
+				"HBP": 7,
+				"SF": 9,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 30
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "ramirar01-2001",
+			"nameFirst": "Aramis",
+			"nameLast": "Ramirez",
+			"nameGiven": "Aramis",
+			"position": "third-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2001,
+			"stats": {
+				"PA": 655,
+				"AB": 603,
+				"H": 181,
+				"2B": 40,
+				"3B": 0,
+				"HR": 34,
+				"BB": 40,
+				"SO": 100,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "gilesbr02-2002",
+			"nameFirst": "Brian",
+			"nameLast": "Giles",
+			"nameGiven": "Brian Stephen",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2002,
+			"stats": {
+				"PA": 644,
+				"AB": 497,
+				"H": 148,
+				"2B": 37,
+				"3B": 5,
+				"HR": 38,
+				"BB": 135,
+				"SO": 74,
+				"HBP": 7,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 79
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "bayja01-2005",
+			"nameFirst": "Jason",
+			"nameLast": "Bay",
+			"nameGiven": "Jason Raymond",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2005,
+			"stats": {
+				"PA": 707,
+				"AB": 599,
+				"H": 183,
+				"2B": 44,
+				"3B": 6,
+				"HR": 32,
+				"BB": 95,
+				"SO": 142,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "mclouna01-2008",
+			"nameFirst": "Nate",
+			"nameLast": "McLouth",
+			"nameGiven": "Nathan Richard",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2008,
+			"stats": {
+				"PA": 685,
+				"AB": 597,
+				"H": 165,
+				"2B": 46,
+				"3B": 4,
+				"HR": 26,
+				"BB": 65,
+				"SO": 93,
+				"HBP": 12,
+				"SF": 6,
+				"SH": 5,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "larocad01-2008",
+			"nameFirst": "Adam",
+			"nameLast": "LaRoche",
+			"nameGiven": "David Adam",
+			"position": "designated-hitter",
+			"team": "Pittsburgh Pirates",
+			"year": 2008,
+			"stats": {
+				"PA": 554,
+				"AB": 492,
+				"H": 133,
+				"2B": 32,
+				"3B": 3,
+				"HR": 25,
+				"BB": 54,
+				"SO": 122,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

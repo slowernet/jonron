@@ -1,0 +1,623 @@
+{
+	"team": "SEA",
+	"teamAbbr": "SEA",
+	"teamName": "Seattle Mariners",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "wilsoda01-1996",
+			"nameFirst": "Dan",
+			"nameLast": "Wilson",
+			"nameGiven": "Daniel Allen",
+			"position": "catcher",
+			"team": "Seattle Mariners",
+			"year": 1996,
+			"stats": {
+				"PA": 540,
+				"AB": 491,
+				"H": 140,
+				"2B": 24,
+				"3B": 0,
+				"HR": 18,
+				"BB": 32,
+				"SO": 88,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 9,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "rodrial01-1996",
+			"nameFirst": "Alex",
+			"nameLast": "Rodriguez",
+			"nameGiven": "Alexander Enmanuel",
+			"position": "shortstop",
+			"team": "Seattle Mariners",
+			"year": 1996,
+			"stats": {
+				"PA": 677,
+				"AB": 601,
+				"H": 215,
+				"2B": 54,
+				"3B": 1,
+				"HR": 36,
+				"BB": 59,
+				"SO": 104,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 6,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "martiti02-1995",
+			"nameFirst": "Tino",
+			"nameLast": "Martinez",
+			"nameGiven": "Constantino",
+			"position": "first-base",
+			"team": "Seattle Mariners",
+			"year": 1995,
+			"stats": {
+				"PA": 593,
+				"AB": 519,
+				"H": 152,
+				"2B": 35,
+				"3B": 3,
+				"HR": 31,
+				"BB": 62,
+				"SO": 91,
+				"HBP": 4,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "corajo01-1997",
+			"nameFirst": "Joey",
+			"nameLast": "Cora",
+			"nameGiven": "Jose Manuel",
+			"position": "second-base",
+			"team": "Seattle Mariners",
+			"year": 1997,
+			"stats": {
+				"PA": 649,
+				"AB": 574,
+				"H": 172,
+				"2B": 40,
+				"3B": 4,
+				"HR": 11,
+				"BB": 53,
+				"SO": 49,
+				"HBP": 5,
+				"SF": 9,
+				"SH": 8,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "martied01-1995",
+			"nameFirst": "Edgar",
+			"nameLast": "Martinez",
+			"nameGiven": "Edgar",
+			"position": "third-base",
+			"team": "Seattle Mariners",
+			"year": 1995,
+			"stats": {
+				"PA": 639,
+				"AB": 511,
+				"H": 182,
+				"2B": 52,
+				"3B": 0,
+				"HR": 29,
+				"BB": 116,
+				"SO": 87,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 70
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "griffke02-1994",
+			"nameFirst": "Ken",
+			"nameLast": "Griffey",
+			"nameGiven": "George Kenneth",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 1994,
+			"stats": {
+				"PA": 493,
+				"AB": 433,
+				"H": 140,
+				"2B": 24,
+				"3B": 4,
+				"HR": 40,
+				"BB": 56,
+				"SO": 73,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 29
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "buhneja01-1994",
+			"nameFirst": "Jay",
+			"nameLast": "Buhner",
+			"nameGiven": "Jay Campbell",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 1994,
+			"stats": {
+				"PA": 436,
+				"AB": 358,
+				"H": 100,
+				"2B": 23,
+				"3B": 4,
+				"HR": 21,
+				"BB": 66,
+				"SO": 63,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "amarari01-1996",
+			"nameFirst": "Rich",
+			"nameLast": "Amaral",
+			"nameGiven": "Richard Louis",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 1996,
+			"stats": {
+				"PA": 369,
+				"AB": 312,
+				"H": 91,
+				"2B": 11,
+				"3B": 3,
+				"HR": 1,
+				"BB": 47,
+				"SO": 55,
+				"HBP": 5,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 38
+				}
+			]
+		},
+		{
+			"id": "blowemi01-1993",
+			"nameFirst": "Mike",
+			"nameLast": "Blowers",
+			"nameGiven": "Michael Roy",
+			"position": "designated-hitter",
+			"team": "Seattle Mariners",
+			"year": 1993,
+			"stats": {
+				"PA": 429,
+				"AB": 379,
+				"H": 106,
+				"2B": 23,
+				"3B": 3,
+				"HR": 15,
+				"BB": 44,
+				"SO": 98,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		}
+	]
+}

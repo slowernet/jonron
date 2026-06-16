@@ -1,0 +1,631 @@
+{
+	"team": "SFN",
+	"teamAbbr": "SFG",
+	"teamName": "San Francisco Giants",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "halleto01-1962",
+			"nameFirst": "Tom",
+			"nameLast": "Haller",
+			"nameGiven": "Thomas Frank",
+			"position": "catcher",
+			"team": "San Francisco Giants",
+			"year": 1962,
+			"stats": {
+				"PA": 331,
+				"AB": 272,
+				"H": 71,
+				"2B": 13,
+				"3B": 1,
+				"HR": 18,
+				"BB": 51,
+				"SO": 59,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "mccovwi01-1969",
+			"nameFirst": "Willie",
+			"nameLast": "McCovey",
+			"nameGiven": "Willie Lee",
+			"position": "first-base",
+			"team": "San Francisco Giants",
+			"year": 1969,
+			"stats": {
+				"PA": 623,
+				"AB": 491,
+				"H": 157,
+				"2B": 26,
+				"3B": 2,
+				"HR": 45,
+				"BB": 121,
+				"SO": 66,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 72
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "davenji01-1962",
+			"nameFirst": "Jim",
+			"nameLast": "Davenport",
+			"nameGiven": "James Houston",
+			"position": "second-base",
+			"team": "San Francisco Giants",
+			"year": 1962,
+			"stats": {
+				"PA": 543,
+				"AB": 485,
+				"H": 144,
+				"2B": 25,
+				"3B": 5,
+				"HR": 14,
+				"BB": 45,
+				"SO": 76,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 8,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "hartji01-1967",
+			"nameFirst": "Jim Ray",
+			"nameLast": "Hart",
+			"nameGiven": "James Ray",
+			"position": "third-base",
+			"team": "San Francisco Giants",
+			"year": 1967,
+			"stats": {
+				"PA": 665,
+				"AB": 578,
+				"H": 167,
+				"2B": 26,
+				"3B": 7,
+				"HR": 29,
+				"BB": 77,
+				"SO": 100,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "paganjo01-1962",
+			"nameFirst": "Jose",
+			"nameLast": "Pagan",
+			"nameGiven": "Jose Antonio",
+			"position": "shortstop",
+			"team": "San Francisco Giants",
+			"year": 1962,
+			"stats": {
+				"PA": 644,
+				"AB": 580,
+				"H": 150,
+				"2B": 25,
+				"3B": 6,
+				"HR": 7,
+				"BB": 47,
+				"SO": 77,
+				"HBP": 1,
+				"SF": 6,
+				"SH": 10,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 48
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 49
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mayswi01-1965",
+			"nameFirst": "Willie",
+			"nameLast": "Mays",
+			"nameGiven": "Willie Howard",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1965,
+			"stats": {
+				"PA": 638,
+				"AB": 558,
+				"H": 177,
+				"2B": 21,
+				"3B": 3,
+				"HR": 52,
+				"BB": 76,
+				"SO": 71,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 29
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "cepedor01-1961",
+			"nameFirst": "Orlando",
+			"nameLast": "Cepeda",
+			"nameGiven": "Orlando Manuel",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1961,
+			"stats": {
+				"PA": 636,
+				"AB": 585,
+				"H": 182,
+				"2B": 28,
+				"3B": 4,
+				"HR": 46,
+				"BB": 39,
+				"SO": 91,
+				"HBP": 9,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "aloufe01-1962",
+			"nameFirst": "Felipe",
+			"nameLast": "Alou",
+			"nameGiven": "Felipe Rojas",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1962,
+			"stats": {
+				"PA": 606,
+				"AB": 561,
+				"H": 177,
+				"2B": 30,
+				"3B": 3,
+				"HR": 25,
+				"BB": 33,
+				"SO": 66,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "kuennha01-1962",
+			"nameFirst": "Harvey",
+			"nameLast": "Kuenn",
+			"nameGiven": "Harvey Edward",
+			"position": "designated-hitter",
+			"team": "San Francisco Giants",
+			"year": 1962,
+			"stats": {
+				"PA": 548,
+				"AB": 487,
+				"H": 148,
+				"2B": 23,
+				"3B": 5,
+				"HR": 10,
+				"BB": 49,
+				"SO": 37,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 6,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		}
+	]
+}

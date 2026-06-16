@@ -1,0 +1,631 @@
+{
+	"team": "CIN",
+	"teamAbbr": "CIN",
+	"teamName": "Cincinnati Reds",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "baileed01-1956",
+			"nameFirst": "Ed",
+			"nameLast": "Bailey",
+			"nameGiven": "Lonas Edgar",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 1956,
+			"stats": {
+				"PA": 446,
+				"AB": 383,
+				"H": 115,
+				"2B": 8,
+				"3B": 2,
+				"HR": 28,
+				"BB": 52,
+				"SO": 50,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "mcmilro01-1959",
+			"nameFirst": "Roy",
+			"nameLast": "McMillan",
+			"nameGiven": "Roy David",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 1959,
+			"stats": {
+				"PA": 280,
+				"AB": 246,
+				"H": 65,
+				"2B": 14,
+				"3B": 2,
+				"HR": 9,
+				"BB": 27,
+				"SO": 27,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "kluszte01-1954",
+			"nameFirst": "Ted",
+			"nameLast": "Kluszewski",
+			"nameGiven": "Theodore Bernard",
+			"position": "first-base",
+			"team": "Cincinnati Reds",
+			"year": 1954,
+			"stats": {
+				"PA": 659,
+				"AB": 573,
+				"H": 187,
+				"2B": 28,
+				"3B": 3,
+				"HR": 49,
+				"BB": 78,
+				"SO": 35,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "adamsbo03-1950",
+			"nameFirst": "Bobby",
+			"nameLast": "Adams",
+			"nameGiven": "Robert Henry",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 1950,
+			"stats": {
+				"PA": 394,
+				"AB": 348,
+				"H": 98,
+				"2B": 21,
+				"3B": 8,
+				"HR": 3,
+				"BB": 43,
+				"SO": 29,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "templjo01-1959",
+			"nameFirst": "Johnny",
+			"nameLast": "Temple",
+			"nameGiven": "John Ellis",
+			"position": "second-base",
+			"team": "Cincinnati Reds",
+			"year": 1959,
+			"stats": {
+				"PA": 696,
+				"AB": 598,
+				"H": 186,
+				"2B": 35,
+				"3B": 6,
+				"HR": 8,
+				"BB": 72,
+				"SO": 40,
+				"HBP": 2,
+				"SF": 13,
+				"SH": 11,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "robinfr02-1959",
+			"nameFirst": "Frank",
+			"nameLast": "Robinson",
+			"nameGiven": "Frank",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1959,
+			"stats": {
+				"PA": 626,
+				"AB": 540,
+				"H": 168,
+				"2B": 31,
+				"3B": 4,
+				"HR": 36,
+				"BB": 69,
+				"SO": 93,
+				"HBP": 8,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "postwa01-1955",
+			"nameFirst": "Wally",
+			"nameLast": "Post",
+			"nameGiven": "Walter Charles",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1955,
+			"stats": {
+				"PA": 668,
+				"AB": 601,
+				"H": 186,
+				"2B": 33,
+				"3B": 3,
+				"HR": 40,
+				"BB": 60,
+				"SO": 102,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "bellgu01-1953",
+			"nameFirst": "Gus",
+			"nameLast": "Bell",
+			"nameGiven": "David Russell",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1953,
+			"stats": {
+				"PA": 665,
+				"AB": 610,
+				"H": 183,
+				"2B": 37,
+				"3B": 5,
+				"HR": 30,
+				"BB": 48,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "hattogr01-1950",
+			"nameFirst": "Grady",
+			"nameLast": "Hatton",
+			"nameGiven": "Grady Edgebert",
+			"position": "designated-hitter",
+			"team": "Cincinnati Reds",
+			"year": 1950,
+			"stats": {
+				"PA": 514,
+				"AB": 438,
+				"H": 114,
+				"2B": 17,
+				"3B": 1,
+				"HR": 11,
+				"BB": 70,
+				"SO": 39,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		}
+	]
+}

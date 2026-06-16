@@ -1,0 +1,631 @@
+{
+	"team": "MIL",
+	"teamAbbr": "MIL",
+	"teamName": "Milwaukee Brewers",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "lucrojo01-2012",
+			"nameFirst": "Jonathan",
+			"nameLast": "Lucroy",
+			"nameGiven": "Jonathan Charles",
+			"position": "catcher",
+			"team": "Milwaukee Brewers",
+			"year": 2012,
+			"stats": {
+				"PA": 346,
+				"AB": 316,
+				"H": 101,
+				"2B": 17,
+				"3B": 4,
+				"HR": 12,
+				"BB": 22,
+				"SO": 44,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "hartco01-2010",
+			"nameFirst": "Corey",
+			"nameLast": "Hart",
+			"nameGiven": "Jon Corey",
+			"position": "first-base",
+			"team": "Milwaukee Brewers",
+			"year": 2010,
+			"stats": {
+				"PA": 614,
+				"AB": 558,
+				"H": 158,
+				"2B": 34,
+				"3B": 4,
+				"HR": 31,
+				"BB": 45,
+				"SO": 140,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ramirar01-2012",
+			"nameFirst": "Aramis",
+			"nameLast": "Ramirez",
+			"nameGiven": "Aramis",
+			"position": "third-base",
+			"team": "Milwaukee Brewers",
+			"year": 2012,
+			"stats": {
+				"PA": 630,
+				"AB": 570,
+				"H": 171,
+				"2B": 50,
+				"3B": 3,
+				"HR": 27,
+				"BB": 44,
+				"SO": 82,
+				"HBP": 12,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "weeksri01-2010",
+			"nameFirst": "Rickie",
+			"nameLast": "Weeks",
+			"nameGiven": "Rickie Darnell",
+			"position": "second-base",
+			"team": "Milwaukee Brewers",
+			"year": 2010,
+			"stats": {
+				"PA": 754,
+				"AB": 651,
+				"H": 175,
+				"2B": 32,
+				"3B": 4,
+				"HR": 29,
+				"BB": 76,
+				"SO": 184,
+				"HBP": 25,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 88
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "segurje01-2013",
+			"nameFirst": "Jean",
+			"nameLast": "Segura",
+			"nameGiven": "Jean Carlos Enrique",
+			"position": "shortstop",
+			"team": "Milwaukee Brewers",
+			"year": 2013,
+			"stats": {
+				"PA": 623,
+				"AB": 588,
+				"H": 173,
+				"2B": 20,
+				"3B": 10,
+				"HR": 12,
+				"BB": 25,
+				"SO": 84,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "braunry02-2011",
+			"nameFirst": "Ryan",
+			"nameLast": "Braun",
+			"nameGiven": "Ryan Joseph",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 2011,
+			"stats": {
+				"PA": 629,
+				"AB": 563,
+				"H": 187,
+				"2B": 38,
+				"3B": 6,
+				"HR": 33,
+				"BB": 58,
+				"SO": 93,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "gomezca01-2013",
+			"nameFirst": "Carlos",
+			"nameLast": "Gomez",
+			"nameGiven": "Carlos Argelis",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 2013,
+			"stats": {
+				"PA": 590,
+				"AB": 536,
+				"H": 152,
+				"2B": 27,
+				"3B": 10,
+				"HR": 24,
+				"BB": 37,
+				"SO": 146,
+				"HBP": 10,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 89
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "perezhe01-2016",
+			"nameFirst": "Hernan",
+			"nameLast": "Perez",
+			"nameGiven": "Hernan Alejandro",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 2016,
+			"stats": {
+				"PA": 430,
+				"AB": 404,
+				"H": 110,
+				"2B": 18,
+				"3B": 3,
+				"HR": 13,
+				"BB": 18,
+				"SO": 94,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "gennesc01-2013",
+			"nameFirst": "Scooter",
+			"nameLast": "Gennett",
+			"nameGiven": "Ryan Joseph",
+			"position": "designated-hitter",
+			"team": "Milwaukee Brewers",
+			"year": 2013,
+			"stats": {
+				"PA": 230,
+				"AB": 213,
+				"H": 69,
+				"2B": 11,
+				"3B": 2,
+				"HR": 6,
+				"BB": 10,
+				"SO": 42,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		}
+	]
+}

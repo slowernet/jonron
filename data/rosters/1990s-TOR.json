@@ -1,0 +1,623 @@
+{
+	"team": "TOR",
+	"teamAbbr": "TOR",
+	"teamName": "Toronto Blue Jays",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "bordepa01-1990",
+			"nameFirst": "Pat",
+			"nameLast": "Borders",
+			"nameGiven": "Patrick Lance",
+			"position": "catcher",
+			"team": "Toronto Blue Jays",
+			"year": 1990,
+			"stats": {
+				"PA": 368,
+				"AB": 346,
+				"H": 99,
+				"2B": 24,
+				"3B": 2,
+				"HR": 15,
+				"BB": 18,
+				"SO": 57,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "alomaro01-1993",
+			"nameFirst": "Roberto",
+			"nameLast": "Alomar",
+			"nameGiven": "Roberto",
+			"position": "second-base",
+			"team": "Toronto Blue Jays",
+			"year": 1993,
+			"stats": {
+				"PA": 683,
+				"AB": 589,
+				"H": 192,
+				"2B": 35,
+				"3B": 6,
+				"HR": 17,
+				"BB": 80,
+				"SO": 67,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 4,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "fernato01-1999",
+			"nameFirst": "Tony",
+			"nameLast": "Fernandez",
+			"nameGiven": "Octavio Antonio",
+			"position": "shortstop",
+			"team": "Toronto Blue Jays",
+			"year": 1999,
+			"stats": {
+				"PA": 576,
+				"AB": 485,
+				"H": 159,
+				"2B": 41,
+				"3B": 0,
+				"HR": 6,
+				"BB": 77,
+				"SO": 62,
+				"HBP": 10,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "olerujo01-1993",
+			"nameFirst": "John",
+			"nameLast": "Olerud",
+			"nameGiven": "John Garrett",
+			"position": "first-base",
+			"team": "Toronto Blue Jays",
+			"year": 1993,
+			"stats": {
+				"PA": 679,
+				"AB": 551,
+				"H": 200,
+				"2B": 54,
+				"3B": 2,
+				"HR": 24,
+				"BB": 114,
+				"SO": 65,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 64
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "grubeke01-1990",
+			"nameFirst": "Kelly",
+			"nameLast": "Gruber",
+			"nameGiven": "Kelly Wayne",
+			"position": "third-base",
+			"team": "Toronto Blue Jays",
+			"year": 1990,
+			"stats": {
+				"PA": 662,
+				"AB": 592,
+				"H": 162,
+				"2B": 36,
+				"3B": 6,
+				"HR": 31,
+				"BB": 48,
+				"SO": 94,
+				"HBP": 8,
+				"SF": 13,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "delgaca01-1998",
+			"nameFirst": "Carlos",
+			"nameLast": "Delgado",
+			"nameGiven": "Carlos Juan",
+			"position": "outfield",
+			"team": "Toronto Blue Jays",
+			"year": 1998,
+			"stats": {
+				"PA": 620,
+				"AB": 530,
+				"H": 155,
+				"2B": 43,
+				"3B": 1,
+				"HR": 38,
+				"BB": 73,
+				"SO": 139,
+				"HBP": 11,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "greensh01-1999",
+			"nameFirst": "Shawn",
+			"nameLast": "Green",
+			"nameGiven": "Shawn David",
+			"position": "outfield",
+			"team": "Toronto Blue Jays",
+			"year": 1999,
+			"stats": {
+				"PA": 696,
+				"AB": 614,
+				"H": 190,
+				"2B": 45,
+				"3B": 0,
+				"HR": 42,
+				"BB": 66,
+				"SO": 117,
+				"HBP": 11,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "molitpa01-1994",
+			"nameFirst": "Paul",
+			"nameLast": "Molitor",
+			"nameGiven": "Paul Leo",
+			"position": "outfield",
+			"team": "Toronto Blue Jays",
+			"year": 1994,
+			"stats": {
+				"PA": 515,
+				"AB": 454,
+				"H": 155,
+				"2B": 30,
+				"3B": 4,
+				"HR": 14,
+				"BB": 55,
+				"SO": 48,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "cartejo01-1994",
+			"nameFirst": "Joe",
+			"nameLast": "Carter",
+			"nameGiven": "Joseph Chris",
+			"position": "designated-hitter",
+			"team": "Toronto Blue Jays",
+			"year": 1994,
+			"stats": {
+				"PA": 483,
+				"AB": 435,
+				"H": 118,
+				"2B": 25,
+				"3B": 2,
+				"HR": 27,
+				"BB": 33,
+				"SO": 64,
+				"HBP": 2,
+				"SF": 13,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,627 @@
+{
+	"team": "ML4",
+	"teamAbbr": "MIL",
+	"teamName": "Milwaukee Brewers",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "yountro01-1978",
+			"nameFirst": "Robin",
+			"nameLast": "Yount",
+			"nameGiven": "Robin R.",
+			"position": "shortstop",
+			"team": "Milwaukee Brewers",
+			"year": 1978,
+			"stats": {
+				"PA": 545,
+				"AB": 502,
+				"H": 147,
+				"2B": 23,
+				"3B": 9,
+				"HR": 9,
+				"BB": 24,
+				"SO": 43,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 13,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "porteda02-1973",
+			"nameFirst": "Darrell",
+			"nameLast": "Porter",
+			"nameGiven": "Darrell Ray",
+			"position": "catcher",
+			"team": "Milwaukee Brewers",
+			"year": 1973,
+			"stats": {
+				"PA": 416,
+				"AB": 350,
+				"H": 89,
+				"2B": 19,
+				"3B": 2,
+				"HR": 16,
+				"BB": 57,
+				"SO": 85,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "moneydo01-1977",
+			"nameFirst": "Don",
+			"nameLast": "Money",
+			"nameGiven": "Donald Wayne",
+			"position": "second-base",
+			"team": "Milwaukee Brewers",
+			"year": 1977,
+			"stats": {
+				"PA": 644,
+				"AB": 570,
+				"H": 159,
+				"2B": 28,
+				"3B": 3,
+				"HR": 25,
+				"BB": 57,
+				"SO": 70,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "bandosa01-1978",
+			"nameFirst": "Sal",
+			"nameLast": "Bando",
+			"nameGiven": "Salvatore Leonard",
+			"position": "third-base",
+			"team": "Milwaukee Brewers",
+			"year": 1978,
+			"stats": {
+				"PA": 629,
+				"AB": 540,
+				"H": 154,
+				"2B": 20,
+				"3B": 6,
+				"HR": 17,
+				"BB": 72,
+				"SO": 52,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 4,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "coopece01-1979",
+			"nameFirst": "Cecil",
+			"nameLast": "Cooper",
+			"nameGiven": "Cecil Celester",
+			"position": "first-base",
+			"team": "Milwaukee Brewers",
+			"year": 1979,
+			"stats": {
+				"PA": 660,
+				"AB": 590,
+				"H": 182,
+				"2B": 44,
+				"3B": 1,
+				"HR": 24,
+				"BB": 56,
+				"SO": 77,
+				"HBP": 0,
+				"SF": 8,
+				"SH": 6,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "lezcasi01-1979",
+			"nameFirst": "Sixto",
+			"nameLast": "Lezcano",
+			"nameGiven": "Sixto Joaquin",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 1979,
+			"stats": {
+				"PA": 566,
+				"AB": 473,
+				"H": 152,
+				"2B": 29,
+				"3B": 3,
+				"HR": 28,
+				"BB": 77,
+				"SO": 74,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 6,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "thomago01-1979",
+			"nameFirst": "Gorman",
+			"nameLast": "Thomas",
+			"nameGiven": "James Gorman",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 1979,
+			"stats": {
+				"PA": 668,
+				"AB": 557,
+				"H": 136,
+				"2B": 29,
+				"3B": 0,
+				"HR": 45,
+				"BB": 98,
+				"SO": 175,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 5,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 7,
+					"size": 20
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 94
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 13
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "briggjo02-1971",
+			"nameFirst": "John",
+			"nameLast": "Briggs",
+			"nameGiven": "John Edward",
+			"position": "outfield",
+			"team": "Milwaukee Brewers",
+			"year": 1971,
+			"stats": {
+				"PA": 454,
+				"AB": 375,
+				"H": 99,
+				"2B": 11,
+				"3B": 1,
+				"HR": 21,
+				"BB": 71,
+				"SO": 79,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 57
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "scottge02-1973",
+			"nameFirst": "George",
+			"nameLast": "Scott",
+			"nameGiven": "George Charles",
+			"position": "designated-hitter",
+			"team": "Milwaukee Brewers",
+			"year": 1973,
+			"stats": {
+				"PA": 673,
+				"AB": 604,
+				"H": 185,
+				"2B": 30,
+				"3B": 4,
+				"HR": 24,
+				"BB": 61,
+				"SO": 94,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		}
+	]
+}

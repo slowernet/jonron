@@ -1,0 +1,623 @@
+{
+	"team": "NYN",
+	"teamAbbr": "NYM",
+	"teamName": "New York Mets",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "garrewa01-1970",
+			"nameFirst": "Wayne",
+			"nameLast": "Garrett",
+			"nameGiven": "Ronald Wayne",
+			"position": "third-base",
+			"team": "New York Mets",
+			"year": 1970,
+			"stats": {
+				"PA": 454,
+				"AB": 366,
+				"H": 93,
+				"2B": 17,
+				"3B": 4,
+				"HR": 12,
+				"BB": 81,
+				"SO": 60,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 66
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "harrebu01-1973",
+			"nameFirst": "Bud",
+			"nameLast": "Harrelson",
+			"nameGiven": "Derrel McKinley",
+			"position": "shortstop",
+			"team": "New York Mets",
+			"year": 1973,
+			"stats": {
+				"PA": 408,
+				"AB": 356,
+				"H": 92,
+				"2B": 12,
+				"3B": 3,
+				"HR": 0,
+				"BB": 48,
+				"SO": 49,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 2,
+					"size": 50
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "stearjo01-1978",
+			"nameFirst": "John",
+			"nameLast": "Stearns",
+			"nameGiven": "John Hardin",
+			"position": "catcher",
+			"team": "New York Mets",
+			"year": 1978,
+			"stats": {
+				"PA": 563,
+				"AB": 477,
+				"H": 126,
+				"2B": 24,
+				"3B": 1,
+				"HR": 15,
+				"BB": 70,
+				"SO": 57,
+				"HBP": 8,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "milnejo01-1976",
+			"nameFirst": "John",
+			"nameLast": "Milner",
+			"nameGiven": "John David",
+			"position": "first-base",
+			"team": "New York Mets",
+			"year": 1976,
+			"stats": {
+				"PA": 511,
+				"AB": 443,
+				"H": 120,
+				"2B": 25,
+				"3B": 4,
+				"HR": 15,
+				"BB": 65,
+				"SO": 53,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "bosweke01-1971",
+			"nameFirst": "Ken",
+			"nameLast": "Boswell",
+			"nameGiven": "Kenneth George",
+			"position": "second-base",
+			"team": "New York Mets",
+			"year": 1971,
+			"stats": {
+				"PA": 436,
+				"AB": 392,
+				"H": 107,
+				"2B": 20,
+				"3B": 1,
+				"HR": 5,
+				"BB": 36,
+				"SO": 31,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "jonescl01-1971",
+			"nameFirst": "Cleon",
+			"nameLast": "Jones",
+			"nameGiven": "Cleon Joseph",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1971,
+			"stats": {
+				"PA": 568,
+				"AB": 505,
+				"H": 161,
+				"2B": 24,
+				"3B": 6,
+				"HR": 14,
+				"BB": 53,
+				"SO": 87,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "mazzile01-1979",
+			"nameFirst": "Lee",
+			"nameLast": "Mazzilli",
+			"nameGiven": "Lee Louis",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1979,
+			"stats": {
+				"PA": 693,
+				"AB": 597,
+				"H": 181,
+				"2B": 34,
+				"3B": 4,
+				"HR": 15,
+				"BB": 93,
+				"SO": 74,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "staubru01-1972",
+			"nameFirst": "Rusty",
+			"nameLast": "Staub",
+			"nameGiven": "Daniel Joseph",
+			"position": "outfield",
+			"team": "New York Mets",
+			"year": 1972,
+			"stats": {
+				"PA": 278,
+				"AB": 239,
+				"H": 70,
+				"2B": 11,
+				"3B": 0,
+				"HR": 9,
+				"BB": 31,
+				"SO": 13,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "ageeto01-1970",
+			"nameFirst": "Tommie",
+			"nameLast": "Agee",
+			"nameGiven": "Tommie Lee",
+			"position": "designated-hitter",
+			"team": "New York Mets",
+			"year": 1970,
+			"stats": {
+				"PA": 696,
+				"AB": 636,
+				"H": 182,
+				"2B": 30,
+				"3B": 7,
+				"HR": 24,
+				"BB": 55,
+				"SO": 156,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,623 @@
+{
+	"team": "OAK",
+	"teamAbbr": "OAK",
+	"teamName": "Oakland Athletics",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "hernara02-2003",
+			"nameFirst": "Ramon",
+			"nameLast": "Hernandez",
+			"nameGiven": "Ramon Jose",
+			"position": "catcher",
+			"team": "Oakland Athletics",
+			"year": 2003,
+			"stats": {
+				"PA": 536,
+				"AB": 483,
+				"H": 132,
+				"2B": 24,
+				"3B": 1,
+				"HR": 21,
+				"BB": 33,
+				"SO": 79,
+				"HBP": 12,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "ellisma01-2005",
+			"nameFirst": "Mark",
+			"nameLast": "Ellis",
+			"nameGiven": "Mark William",
+			"position": "second-base",
+			"team": "Oakland Athletics",
+			"year": 2005,
+			"stats": {
+				"PA": 486,
+				"AB": 434,
+				"H": 137,
+				"2B": 21,
+				"3B": 5,
+				"HR": 13,
+				"BB": 44,
+				"SO": 51,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "chaveer01-2004",
+			"nameFirst": "Eric",
+			"nameLast": "Chavez",
+			"nameGiven": "Eric Cesar",
+			"position": "third-base",
+			"team": "Oakland Athletics",
+			"year": 2004,
+			"stats": {
+				"PA": 577,
+				"AB": 475,
+				"H": 131,
+				"2B": 20,
+				"3B": 0,
+				"HR": 29,
+				"BB": 95,
+				"SO": 99,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "tejadmi01-2002",
+			"nameFirst": "Miguel",
+			"nameLast": "Tejada",
+			"nameGiven": "Miguel Odalis",
+			"position": "shortstop",
+			"team": "Oakland Athletics",
+			"year": 2002,
+			"stats": {
+				"PA": 715,
+				"AB": 662,
+				"H": 204,
+				"2B": 30,
+				"3B": 0,
+				"HR": 34,
+				"BB": 38,
+				"SO": 84,
+				"HBP": 11,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "giambja01-2001",
+			"nameFirst": "Jason",
+			"nameLast": "Giambi",
+			"nameGiven": "Jason Gilbert",
+			"position": "first-base",
+			"team": "Oakland Athletics",
+			"year": 2001,
+			"stats": {
+				"PA": 671,
+				"AB": 520,
+				"H": 178,
+				"2B": 47,
+				"3B": 2,
+				"HR": 38,
+				"BB": 129,
+				"SO": 83,
+				"HBP": 13,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 76
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "dyeje01-2001",
+			"nameFirst": "Jermaine",
+			"nameLast": "Dye",
+			"nameGiven": "Jermaine Terrell",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2001,
+			"stats": {
+				"PA": 265,
+				"AB": 232,
+				"H": 69,
+				"2B": 17,
+				"3B": 1,
+				"HR": 13,
+				"BB": 27,
+				"SO": 44,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "custja01-2007",
+			"nameFirst": "Jack",
+			"nameLast": "Cust",
+			"nameGiven": "John Joseph",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2007,
+			"stats": {
+				"PA": 507,
+				"AB": 395,
+				"H": 101,
+				"2B": 18,
+				"3B": 1,
+				"HR": 26,
+				"BB": 105,
+				"SO": 164,
+				"HBP": 1,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 31
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 75
+				},
+				{
+					"number": 10,
+					"size": 115
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 31
+				}
+			]
+		},
+		{
+			"id": "swishni01-2006",
+			"nameFirst": "Nick",
+			"nameLast": "Swisher",
+			"nameGiven": "Nicholas Thomas",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2006,
+			"stats": {
+				"PA": 672,
+				"AB": 556,
+				"H": 141,
+				"2B": 24,
+				"3B": 2,
+				"HR": 35,
+				"BB": 97,
+				"SO": 152,
+				"HBP": 11,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "kotsama01-2004",
+			"nameFirst": "Mark",
+			"nameLast": "Kotsay",
+			"nameGiven": "Mark Steven",
+			"position": "designated-hitter",
+			"team": "Oakland Athletics",
+			"year": 2004,
+			"stats": {
+				"PA": 673,
+				"AB": 606,
+				"H": 190,
+				"2B": 37,
+				"3B": 3,
+				"HR": 15,
+				"BB": 55,
+				"SO": 70,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 5,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,631 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "torrejo01-1971",
+			"nameFirst": "Joe",
+			"nameLast": "Torre",
+			"nameGiven": "Joseph Paul",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1971,
+			"stats": {
+				"PA": 707,
+				"AB": 634,
+				"H": 230,
+				"2B": 34,
+				"3B": 8,
+				"HR": 24,
+				"BB": 63,
+				"SO": 70,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "tysonmi01-1976",
+			"nameFirst": "Mike",
+			"nameLast": "Tyson",
+			"nameGiven": "Michael Ray",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1976,
+			"stats": {
+				"PA": 264,
+				"AB": 245,
+				"H": 70,
+				"2B": 12,
+				"3B": 9,
+				"HR": 3,
+				"BB": 16,
+				"SO": 34,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 12
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "reitzke01-1977",
+			"nameFirst": "Ken",
+			"nameLast": "Reitz",
+			"nameGiven": "Kenneth John",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1977,
+			"stats": {
+				"PA": 620,
+				"AB": 587,
+				"H": 153,
+				"2B": 36,
+				"3B": 1,
+				"HR": 17,
+				"BB": 19,
+				"SO": 74,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "templga01-1979",
+			"nameFirst": "Garry",
+			"nameLast": "Templeton",
+			"nameGiven": "Garry Lewis",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1979,
+			"stats": {
+				"PA": 696,
+				"AB": 672,
+				"H": 211,
+				"2B": 32,
+				"3B": 19,
+				"HR": 9,
+				"BB": 18,
+				"SO": 91,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 10
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "hernake01-1979",
+			"nameFirst": "Keith",
+			"nameLast": "Hernandez",
+			"nameGiven": "Keith",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1979,
+			"stats": {
+				"PA": 698,
+				"AB": 610,
+				"H": 210,
+				"2B": 48,
+				"3B": 11,
+				"HR": 11,
+				"BB": 80,
+				"SO": 78,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "mcbriba01-1976",
+			"nameFirst": "Bake",
+			"nameLast": "McBride",
+			"nameGiven": "Arnold Ray",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1976,
+			"stats": {
+				"PA": 299,
+				"AB": 272,
+				"H": 91,
+				"2B": 13,
+				"3B": 4,
+				"HR": 3,
+				"BB": 18,
+				"SO": 28,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "brocklo01-1971",
+			"nameFirst": "Lou",
+			"nameLast": "Brock",
+			"nameGiven": "Louis Clark",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1971,
+			"stats": {
+				"PA": 720,
+				"AB": 640,
+				"H": 200,
+				"2B": 37,
+				"3B": 7,
+				"HR": 7,
+				"BB": 76,
+				"SO": 107,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "mumphje01-1977",
+			"nameFirst": "Jerry",
+			"nameLast": "Mumphrey",
+			"nameGiven": "Jerry Wayne",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1977,
+			"stats": {
+				"PA": 512,
+				"AB": 463,
+				"H": 133,
+				"2B": 20,
+				"3B": 10,
+				"HR": 2,
+				"BB": 47,
+				"SO": 70,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "simmote01-1977",
+			"nameFirst": "Ted",
+			"nameLast": "Simmons",
+			"nameGiven": "Ted Lyle",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 1977,
+			"stats": {
+				"PA": 601,
+				"AB": 516,
+				"H": 164,
+				"2B": 25,
+				"3B": 3,
+				"HR": 21,
+				"BB": 79,
+				"SO": 37,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,627 @@
+{
+	"team": "SFN",
+	"teamAbbr": "SFG",
+	"teamName": "San Francisco Giants",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "raderda01-1975",
+			"nameFirst": "Dave",
+			"nameLast": "Rader",
+			"nameGiven": "David Martin",
+			"position": "catcher",
+			"team": "San Francisco Giants",
+			"year": 1975,
+			"stats": {
+				"PA": 328,
+				"AB": 292,
+				"H": 85,
+				"2B": 15,
+				"3B": 0,
+				"HR": 5,
+				"BB": 32,
+				"SO": 30,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "fuentti01-1972",
+			"nameFirst": "Tito",
+			"nameLast": "Fuentes",
+			"nameGiven": "Rigoberto",
+			"position": "second-base",
+			"team": "San Francisco Giants",
+			"year": 1972,
+			"stats": {
+				"PA": 634,
+				"AB": 572,
+				"H": 151,
+				"2B": 33,
+				"3B": 6,
+				"HR": 7,
+				"BB": 39,
+				"SO": 56,
+				"HBP": 3,
+				"SF": 8,
+				"SH": 12,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "evansda01-1977",
+			"nameFirst": "Darrell",
+			"nameLast": "Evans",
+			"nameGiven": "Darrell Wayne",
+			"position": "third-base",
+			"team": "San Francisco Giants",
+			"year": 1977,
+			"stats": {
+				"PA": 539,
+				"AB": 461,
+				"H": 117,
+				"2B": 18,
+				"3B": 3,
+				"HR": 17,
+				"BB": 69,
+				"SO": 50,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "speiech01-1975",
+			"nameFirst": "Chris",
+			"nameLast": "Speier",
+			"nameGiven": "Chris Edward",
+			"position": "shortstop",
+			"team": "San Francisco Giants",
+			"year": 1975,
+			"stats": {
+				"PA": 564,
+				"AB": 487,
+				"H": 132,
+				"2B": 30,
+				"3B": 5,
+				"HR": 10,
+				"BB": 70,
+				"SO": 50,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "mccovwi01-1970",
+			"nameFirst": "Willie",
+			"nameLast": "McCovey",
+			"nameGiven": "Willie Lee",
+			"position": "first-base",
+			"team": "San Francisco Giants",
+			"year": 1970,
+			"stats": {
+				"PA": 638,
+				"AB": 495,
+				"H": 143,
+				"2B": 39,
+				"3B": 2,
+				"HR": 39,
+				"BB": 137,
+				"SO": 75,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 79
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "bondsbo01-1973",
+			"nameFirst": "Bobby",
+			"nameLast": "Bonds",
+			"nameGiven": "Bobby Lee",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1973,
+			"stats": {
+				"PA": 738,
+				"AB": 643,
+				"H": 182,
+				"2B": 34,
+				"3B": 4,
+				"HR": 39,
+				"BB": 87,
+				"SO": 148,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "clarkja01-1978",
+			"nameFirst": "Jack",
+			"nameLast": "Clark",
+			"nameGiven": "Jack Anthony",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1978,
+			"stats": {
+				"PA": 657,
+				"AB": 592,
+				"H": 181,
+				"2B": 46,
+				"3B": 8,
+				"HR": 25,
+				"BB": 50,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 9,
+				"SH": 3,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "hendeke01-1970",
+			"nameFirst": "Ken",
+			"nameLast": "Henderson",
+			"nameGiven": "Kenneth Joseph",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1970,
+			"stats": {
+				"PA": 649,
+				"AB": 554,
+				"H": 163,
+				"2B": 35,
+				"3B": 3,
+				"HR": 17,
+				"BB": 87,
+				"SO": 78,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "matthga01-1973",
+			"nameFirst": "Gary",
+			"nameLast": "Matthews",
+			"nameGiven": "Gary Nathaniel",
+			"position": "designated-hitter",
+			"team": "San Francisco Giants",
+			"year": 1973,
+			"stats": {
+				"PA": 605,
+				"AB": 540,
+				"H": 162,
+				"2B": 22,
+				"3B": 10,
+				"HR": 12,
+				"BB": 58,
+				"SO": 83,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

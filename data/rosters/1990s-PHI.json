@@ -1,0 +1,631 @@
+{
+	"team": "PHI",
+	"teamAbbr": "PHI",
+	"teamName": "Philadelphia Phillies",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "daultda01-1994",
+			"nameFirst": "Darren",
+			"nameLast": "Daulton",
+			"nameGiven": "Darren Arthur",
+			"position": "catcher",
+			"team": "Philadelphia Phillies",
+			"year": 1994,
+			"stats": {
+				"PA": 292,
+				"AB": 257,
+				"H": 77,
+				"2B": 17,
+				"3B": 1,
+				"HR": 15,
+				"BB": 33,
+				"SO": 43,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "moranmi01-1994",
+			"nameFirst": "Mickey",
+			"nameLast": "Morandini",
+			"nameGiven": "Michael Robert",
+			"position": "second-base",
+			"team": "Philadelphia Phillies",
+			"year": 1994,
+			"stats": {
+				"PA": 316,
+				"AB": 274,
+				"H": 80,
+				"2B": 16,
+				"3B": 5,
+				"HR": 2,
+				"BB": 34,
+				"SO": 33,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "stockke01-1993",
+			"nameFirst": "Kevin",
+			"nameLast": "Stocker",
+			"nameGiven": "Kevin Douglas",
+			"position": "shortstop",
+			"team": "Philadelphia Phillies",
+			"year": 1993,
+			"stats": {
+				"PA": 302,
+				"AB": 259,
+				"H": 84,
+				"2B": 12,
+				"3B": 3,
+				"HR": 2,
+				"BB": 30,
+				"SO": 43,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "rolensc01-1998",
+			"nameFirst": "Scott",
+			"nameLast": "Rolen",
+			"nameGiven": "Scott Bruce",
+			"position": "third-base",
+			"team": "Philadelphia Phillies",
+			"year": 1998,
+			"stats": {
+				"PA": 711,
+				"AB": 601,
+				"H": 174,
+				"2B": 45,
+				"3B": 4,
+				"HR": 31,
+				"BB": 93,
+				"SO": 141,
+				"HBP": 11,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "krukjo01-1993",
+			"nameFirst": "John",
+			"nameLast": "Kruk",
+			"nameGiven": "John Martin",
+			"position": "first-base",
+			"team": "Philadelphia Phillies",
+			"year": 1993,
+			"stats": {
+				"PA": 651,
+				"AB": 535,
+				"H": 169,
+				"2B": 33,
+				"3B": 5,
+				"HR": 14,
+				"BB": 111,
+				"SO": 87,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "dykstle01-1993",
+			"nameFirst": "Lenny",
+			"nameLast": "Dykstra",
+			"nameGiven": "Leonard Kyle",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1993,
+			"stats": {
+				"PA": 773,
+				"AB": 637,
+				"H": 194,
+				"2B": 44,
+				"3B": 6,
+				"HR": 19,
+				"BB": 129,
+				"SO": 64,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "eisenji01-1996",
+			"nameFirst": "Jim",
+			"nameLast": "Eisenreich",
+			"nameGiven": "James Michael",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1996,
+			"stats": {
+				"PA": 373,
+				"AB": 338,
+				"H": 122,
+				"2B": 24,
+				"3B": 3,
+				"HR": 3,
+				"BB": 31,
+				"SO": 32,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 53
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "jeffegr01-1995",
+			"nameFirst": "Gregg",
+			"nameLast": "Jefferies",
+			"nameGiven": "Gregory Scott",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1995,
+			"stats": {
+				"PA": 521,
+				"AB": 480,
+				"H": 147,
+				"2B": 31,
+				"3B": 2,
+				"HR": 11,
+				"BB": 35,
+				"SO": 26,
+				"HBP": 0,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "liebemi01-1999",
+			"nameFirst": "Mike",
+			"nameLast": "Lieberthal",
+			"nameGiven": "Michael Scott",
+			"position": "designated-hitter",
+			"team": "Philadelphia Phillies",
+			"year": 1999,
+			"stats": {
+				"PA": 574,
+				"AB": 510,
+				"H": 153,
+				"2B": 33,
+				"3B": 1,
+				"HR": 31,
+				"BB": 44,
+				"SO": 86,
+				"HBP": 11,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

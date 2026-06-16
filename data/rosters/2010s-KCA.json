@@ -1,0 +1,623 @@
+{
+	"team": "KCA",
+	"teamAbbr": "KCR",
+	"teamName": "Kansas City Royals",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "perezsa02-2012",
+			"nameFirst": "Salvador",
+			"nameLast": "Perez",
+			"nameGiven": "Salvador Johan",
+			"position": "catcher",
+			"team": "Kansas City Royals",
+			"year": 2012,
+			"stats": {
+				"PA": 305,
+				"AB": 289,
+				"H": 87,
+				"2B": 16,
+				"3B": 0,
+				"HR": 11,
+				"BB": 12,
+				"SO": 27,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "merriwh01-2019",
+			"nameFirst": "Whit",
+			"nameLast": "Merrifield",
+			"nameGiven": "Whitley David",
+			"position": "second-base",
+			"team": "Kansas City Royals",
+			"year": 2019,
+			"stats": {
+				"PA": 735,
+				"AB": 681,
+				"H": 206,
+				"2B": 41,
+				"3B": 10,
+				"HR": 16,
+				"BB": 45,
+				"SO": 126,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "moustmi01-2017",
+			"nameFirst": "Mike",
+			"nameLast": "Moustakas",
+			"nameGiven": "Michael Christopher",
+			"position": "third-base",
+			"team": "Kansas City Royals",
+			"year": 2017,
+			"stats": {
+				"PA": 598,
+				"AB": 555,
+				"H": 151,
+				"2B": 24,
+				"3B": 0,
+				"HR": 38,
+				"BB": 34,
+				"SO": 94,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "escobal02-2012",
+			"nameFirst": "Alcides",
+			"nameLast": "Escobar",
+			"nameGiven": "Alcides",
+			"position": "shortstop",
+			"team": "Kansas City Royals",
+			"year": 2012,
+			"stats": {
+				"PA": 648,
+				"AB": 605,
+				"H": 177,
+				"2B": 30,
+				"3B": 7,
+				"HR": 5,
+				"BB": 27,
+				"SO": 100,
+				"HBP": 8,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "butlebi03-2012",
+			"nameFirst": "Billy",
+			"nameLast": "Butler",
+			"nameGiven": "Billy Ray",
+			"position": "first-base",
+			"team": "Kansas City Royals",
+			"year": 2012,
+			"stats": {
+				"PA": 679,
+				"AB": 614,
+				"H": 192,
+				"2B": 32,
+				"3B": 1,
+				"HR": 29,
+				"BB": 54,
+				"SO": 111,
+				"HBP": 7,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "gordoal01-2011",
+			"nameFirst": "Alex",
+			"nameLast": "Gordon",
+			"nameGiven": "Alex Jonathan",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 2011,
+			"stats": {
+				"PA": 688,
+				"AB": 611,
+				"H": 185,
+				"2B": 45,
+				"3B": 4,
+				"HR": 23,
+				"BB": 67,
+				"SO": 139,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 73
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "cainlo01-2015",
+			"nameFirst": "Lorenzo",
+			"nameLast": "Cain",
+			"nameGiven": "Lorenzo Lamar",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 2015,
+			"stats": {
+				"PA": 604,
+				"AB": 551,
+				"H": 169,
+				"2B": 34,
+				"3B": 6,
+				"HR": 16,
+				"BB": 37,
+				"SO": 98,
+				"HBP": 12,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "dysonja01-2016",
+			"nameFirst": "Jarrod",
+			"nameLast": "Dyson",
+			"nameGiven": "Jarrod Martel",
+			"position": "outfield",
+			"team": "Kansas City Royals",
+			"year": 2016,
+			"stats": {
+				"PA": 337,
+				"AB": 299,
+				"H": 83,
+				"2B": 14,
+				"3B": 8,
+				"HR": 1,
+				"BB": 26,
+				"SO": 39,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 8,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 9
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "hosmeer01-2017",
+			"nameFirst": "Eric",
+			"nameLast": "Hosmer",
+			"nameGiven": "Eric John",
+			"position": "designated-hitter",
+			"team": "Kansas City Royals",
+			"year": 2017,
+			"stats": {
+				"PA": 671,
+				"AB": 603,
+				"H": 192,
+				"2B": 31,
+				"3B": 1,
+				"HR": 25,
+				"BB": 66,
+				"SO": 104,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

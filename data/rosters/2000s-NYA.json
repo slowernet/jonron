@@ -1,0 +1,623 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "posadjo01-2007",
+			"nameFirst": "Jorge",
+			"nameLast": "Posada",
+			"nameGiven": "Jorge Rafael",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 2007,
+			"stats": {
+				"PA": 589,
+				"AB": 506,
+				"H": 171,
+				"2B": 42,
+				"3B": 1,
+				"HR": 20,
+				"BB": 74,
+				"SO": 98,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "rodrial01-2007",
+			"nameFirst": "Alex",
+			"nameLast": "Rodriguez",
+			"nameGiven": "Alexander Enmanuel",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 2007,
+			"stats": {
+				"PA": 708,
+				"AB": 583,
+				"H": 183,
+				"2B": 31,
+				"3B": 0,
+				"HR": 54,
+				"BB": 95,
+				"SO": 120,
+				"HBP": 21,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "jeterde01-2006",
+			"nameFirst": "Derek",
+			"nameLast": "Jeter",
+			"nameGiven": "Derek Sanderson",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 2006,
+			"stats": {
+				"PA": 715,
+				"AB": 623,
+				"H": 214,
+				"2B": 39,
+				"3B": 3,
+				"HR": 14,
+				"BB": 69,
+				"SO": 102,
+				"HBP": 12,
+				"SF": 4,
+				"SH": 7,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "giambja01-2002",
+			"nameFirst": "Jason",
+			"nameLast": "Giambi",
+			"nameGiven": "Jason Gilbert",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 2002,
+			"stats": {
+				"PA": 689,
+				"AB": 560,
+				"H": 176,
+				"2B": 34,
+				"3B": 1,
+				"HR": 41,
+				"BB": 109,
+				"SO": 112,
+				"HBP": 15,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 65
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "canoro01-2006",
+			"nameFirst": "Robinson",
+			"nameLast": "Cano",
+			"nameGiven": "Robinson Jose",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 2006,
+			"stats": {
+				"PA": 508,
+				"AB": 482,
+				"H": 165,
+				"2B": 41,
+				"3B": 1,
+				"HR": 15,
+				"BB": 18,
+				"SO": 54,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 14
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "willibe02-2000",
+			"nameFirst": "Bernie",
+			"nameLast": "Williams",
+			"nameGiven": "Bernabe",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 2000,
+			"stats": {
+				"PA": 616,
+				"AB": 537,
+				"H": 165,
+				"2B": 37,
+				"3B": 6,
+				"HR": 30,
+				"BB": 71,
+				"SO": 84,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "sheffga01-2004",
+			"nameFirst": "Gary",
+			"nameLast": "Sheffield",
+			"nameGiven": "Gary Antonian",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 2004,
+			"stats": {
+				"PA": 684,
+				"AB": 573,
+				"H": 166,
+				"2B": 30,
+				"3B": 1,
+				"HR": 36,
+				"BB": 92,
+				"SO": 83,
+				"HBP": 11,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "abreubo01-2006",
+			"nameFirst": "Bobby",
+			"nameLast": "Abreu",
+			"nameGiven": "Bob Kelly",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 2006,
+			"stats": {
+				"PA": 248,
+				"AB": 209,
+				"H": 69,
+				"2B": 16,
+				"3B": 0,
+				"HR": 7,
+				"BB": 33,
+				"SO": 52,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "matsuhi01-2004",
+			"nameFirst": "Hideki",
+			"nameLast": "Matsui",
+			"nameGiven": "Hideki",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 2004,
+			"stats": {
+				"PA": 680,
+				"AB": 584,
+				"H": 174,
+				"2B": 34,
+				"3B": 2,
+				"HR": 31,
+				"BB": 88,
+				"SO": 103,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,619 @@
+{
+	"team": "WAS",
+	"teamAbbr": "WSN",
+	"teamName": "Washington Nationals",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "ramoswi01-2016",
+			"nameFirst": "Wilson",
+			"nameLast": "Ramos",
+			"nameGiven": "Wilson Abraham",
+			"position": "catcher",
+			"team": "Washington Nationals",
+			"year": 2016,
+			"stats": {
+				"PA": 523,
+				"AB": 482,
+				"H": 148,
+				"2B": 25,
+				"3B": 0,
+				"HR": 22,
+				"BB": 35,
+				"SO": 79,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "larocad01-2012",
+			"nameFirst": "Adam",
+			"nameLast": "LaRoche",
+			"nameGiven": "David Adam",
+			"position": "first-base",
+			"team": "Washington Nationals",
+			"year": 2012,
+			"stats": {
+				"PA": 647,
+				"AB": 571,
+				"H": 155,
+				"2B": 35,
+				"3B": 1,
+				"HR": 33,
+				"BB": 67,
+				"SO": 138,
+				"HBP": 0,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 77
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "espinda01-2011",
+			"nameFirst": "Danny",
+			"nameLast": "Espinosa",
+			"nameGiven": "Daniel Richard",
+			"position": "second-base",
+			"team": "Washington Nationals",
+			"year": 2011,
+			"stats": {
+				"PA": 658,
+				"AB": 573,
+				"H": 135,
+				"2B": 29,
+				"3B": 5,
+				"HR": 21,
+				"BB": 57,
+				"SO": 166,
+				"HBP": 19,
+				"SF": 4,
+				"SH": 5,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 91
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "rendoan01-2019",
+			"nameFirst": "Anthony",
+			"nameLast": "Rendon",
+			"nameGiven": "Anthony Michael",
+			"position": "third-base",
+			"team": "Washington Nationals",
+			"year": 2019,
+			"stats": {
+				"PA": 646,
+				"AB": 545,
+				"H": 174,
+				"2B": 44,
+				"3B": 3,
+				"HR": 34,
+				"BB": 80,
+				"SO": 86,
+				"HBP": 12,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "turnetr01-2016",
+			"nameFirst": "Trea",
+			"nameLast": "Turner",
+			"nameGiven": "Trea Vance",
+			"position": "shortstop",
+			"team": "Washington Nationals",
+			"year": 2016,
+			"stats": {
+				"PA": 324,
+				"AB": 307,
+				"H": 105,
+				"2B": 14,
+				"3B": 8,
+				"HR": 13,
+				"BB": 14,
+				"SO": 59,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 9
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "harpebr03-2015",
+			"nameFirst": "Bryce",
+			"nameLast": "Harper",
+			"nameGiven": "Bryce Aron Max",
+			"position": "outfield",
+			"team": "Washington Nationals",
+			"year": 2015,
+			"stats": {
+				"PA": 654,
+				"AB": 521,
+				"H": 172,
+				"2B": 38,
+				"3B": 1,
+				"HR": 42,
+				"BB": 124,
+				"SO": 131,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 71
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 43
+				}
+			]
+		},
+		{
+			"id": "werthja01-2013",
+			"nameFirst": "Jayson",
+			"nameLast": "Werth",
+			"nameGiven": "Jayson Richard Gowan",
+			"position": "outfield",
+			"team": "Washington Nationals",
+			"year": 2013,
+			"stats": {
+				"PA": 532,
+				"AB": 462,
+				"H": 147,
+				"2B": 24,
+				"3B": 0,
+				"HR": 25,
+				"BB": 60,
+				"SO": 101,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "taylomi02-2017",
+			"nameFirst": "Michael",
+			"nameLast": "Taylor",
+			"nameGiven": "Michael Anthony",
+			"position": "outfield",
+			"team": "Washington Nationals",
+			"year": 2017,
+			"stats": {
+				"PA": 432,
+				"AB": 399,
+				"H": 108,
+				"2B": 23,
+				"3B": 3,
+				"HR": 19,
+				"BB": 29,
+				"SO": 137,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 114
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "zimmery01-2017",
+			"nameFirst": "Ryan",
+			"nameLast": "Zimmerman",
+			"nameGiven": "Ryan Wallace",
+			"position": "designated-hitter",
+			"team": "Washington Nationals",
+			"year": 2017,
+			"stats": {
+				"PA": 576,
+				"AB": 524,
+				"H": 159,
+				"2B": 33,
+				"3B": 0,
+				"HR": 36,
+				"BB": 44,
+				"SO": 126,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

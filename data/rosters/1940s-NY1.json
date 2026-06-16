@@ -1,0 +1,631 @@
+{
+	"team": "NY1",
+	"teamAbbr": "NYG",
+	"teamName": "New York Giants",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "lombaer01-1945",
+			"nameFirst": "Ernie",
+			"nameLast": "Lombardi",
+			"nameGiven": "Ernesto Natali",
+			"position": "catcher",
+			"team": "New York Giants",
+			"year": 1945,
+			"stats": {
+				"PA": 417,
+				"AB": 368,
+				"H": 113,
+				"2B": 7,
+				"3B": 1,
+				"HR": 19,
+				"BB": 43,
+				"SO": 11,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 72
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 9
+				},
+				{
+					"number": 11,
+					"size": 6
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 72
+				}
+			]
+		},
+		{
+			"id": "mizejo01-1946",
+			"nameFirst": "Johnny",
+			"nameLast": "Mize",
+			"nameGiven": "John Robert",
+			"position": "first-base",
+			"team": "New York Giants",
+			"year": 1946,
+			"stats": {
+				"PA": 445,
+				"AB": 377,
+				"H": 127,
+				"2B": 18,
+				"3B": 3,
+				"HR": 22,
+				"BB": 62,
+				"SO": 26,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "rignebi01-1949",
+			"nameFirst": "Bill",
+			"nameLast": "Rigney",
+			"nameGiven": "William Joseph",
+			"position": "second-base",
+			"team": "New York Giants",
+			"year": 1949,
+			"stats": {
+				"PA": 441,
+				"AB": 389,
+				"H": 108,
+				"2B": 19,
+				"3B": 6,
+				"HR": 6,
+				"BB": 47,
+				"SO": 38,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "gordosi01-1948",
+			"nameFirst": "Sid",
+			"nameLast": "Gordon",
+			"nameGiven": "Sidney",
+			"position": "third-base",
+			"team": "New York Giants",
+			"year": 1948,
+			"stats": {
+				"PA": 605,
+				"AB": 521,
+				"H": 156,
+				"2B": 26,
+				"3B": 4,
+				"HR": 30,
+				"BB": 74,
+				"SO": 39,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 69
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 23
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "jurgebi01-1945",
+			"nameFirst": "Billy",
+			"nameLast": "Jurges",
+			"nameGiven": "William Frederick",
+			"position": "shortstop",
+			"team": "New York Giants",
+			"year": 1945,
+			"stats": {
+				"PA": 201,
+				"AB": 176,
+				"H": 57,
+				"2B": 3,
+				"3B": 1,
+				"HR": 3,
+				"BB": 24,
+				"SO": 11,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 54
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 5
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "ottme01-1944",
+			"nameFirst": "Mel",
+			"nameLast": "Ott",
+			"nameGiven": "Melvin Thomas",
+			"position": "outfield",
+			"team": "New York Giants",
+			"year": 1944,
+			"stats": {
+				"PA": 494,
+				"AB": 399,
+				"H": 115,
+				"2B": 16,
+				"3B": 4,
+				"HR": 26,
+				"BB": 90,
+				"SO": 47,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 68
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "marshwi01-1947",
+			"nameFirst": "Willard",
+			"nameLast": "Marshall",
+			"nameGiven": "Willard Warren",
+			"position": "outfield",
+			"team": "New York Giants",
+			"year": 1947,
+			"stats": {
+				"PA": 656,
+				"AB": 587,
+				"H": 171,
+				"2B": 19,
+				"3B": 6,
+				"HR": 36,
+				"BB": 67,
+				"SO": 30,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 72
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 16
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 73
+				}
+			]
+		},
+		{
+			"id": "thomsbo01-1949",
+			"nameFirst": "Bobby",
+			"nameLast": "Thomson",
+			"nameGiven": "Robert Brown",
+			"position": "outfield",
+			"team": "New York Giants",
+			"year": 1949,
+			"stats": {
+				"PA": 689,
+				"AB": 641,
+				"H": 198,
+				"2B": 35,
+				"3B": 9,
+				"HR": 27,
+				"BB": 44,
+				"SO": 45,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 70
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 71
+				}
+			]
+		},
+		{
+			"id": "youngba01-1942",
+			"nameFirst": "Babe",
+			"nameLast": "Young",
+			"nameGiven": "Norman Robert",
+			"position": "designated-hitter",
+			"team": "New York Giants",
+			"year": 1942,
+			"stats": {
+				"PA": 328,
+				"AB": 287,
+				"H": 80,
+				"2B": 17,
+				"3B": 1,
+				"HR": 11,
+				"BB": 34,
+				"SO": 22,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 69
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 70
+				}
+			]
+		}
+	]
+}

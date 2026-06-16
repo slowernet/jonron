@@ -1,0 +1,623 @@
+{
+	"team": "BOS",
+	"teamAbbr": "BOS",
+	"teamName": "Boston Red Sox",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "fiskca01-1974",
+			"nameFirst": "Carlton",
+			"nameLast": "Fisk",
+			"nameGiven": "Carlton Ernest",
+			"position": "catcher",
+			"team": "Boston Red Sox",
+			"year": 1974,
+			"stats": {
+				"PA": 216,
+				"AB": 187,
+				"H": 56,
+				"2B": 12,
+				"3B": 1,
+				"HR": 11,
+				"BB": 24,
+				"SO": 23,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 2,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "griffdo01-1974",
+			"nameFirst": "Doug",
+			"nameLast": "Griffin",
+			"nameGiven": "Douglas Lee",
+			"position": "second-base",
+			"team": "Boston Red Sox",
+			"year": 1974,
+			"stats": {
+				"PA": 349,
+				"AB": 312,
+				"H": 83,
+				"2B": 12,
+				"3B": 4,
+				"HR": 0,
+				"BB": 28,
+				"SO": 21,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 6,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 2,
+					"size": 53
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 54
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "yastrca01-1970",
+			"nameFirst": "Carl",
+			"nameLast": "Yastrzemski",
+			"nameGiven": "Carl Michael",
+			"position": "first-base",
+			"team": "Boston Red Sox",
+			"year": 1970,
+			"stats": {
+				"PA": 697,
+				"AB": 566,
+				"H": 186,
+				"2B": 29,
+				"3B": 0,
+				"HR": 40,
+				"BB": 128,
+				"SO": 66,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 67
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "scottge02-1977",
+			"nameFirst": "George",
+			"nameLast": "Scott",
+			"nameGiven": "George Charles",
+			"position": "third-base",
+			"team": "Boston Red Sox",
+			"year": 1977,
+			"stats": {
+				"PA": 653,
+				"AB": 584,
+				"H": 157,
+				"2B": 26,
+				"3B": 5,
+				"HR": 33,
+				"BB": 57,
+				"SO": 112,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 24
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "petrori01-1971",
+			"nameFirst": "Rico",
+			"nameLast": "Petrocelli",
+			"nameGiven": "Americo Peter",
+			"position": "shortstop",
+			"team": "Boston Red Sox",
+			"year": 1971,
+			"stats": {
+				"PA": 661,
+				"AB": 553,
+				"H": 139,
+				"2B": 24,
+				"3B": 4,
+				"HR": 28,
+				"BB": 91,
+				"SO": 108,
+				"HBP": 2,
+				"SF": 9,
+				"SH": 6,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "lynnfr01-1979",
+			"nameFirst": "Fred",
+			"nameLast": "Lynn",
+			"nameGiven": "Fredric Michael",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1979,
+			"stats": {
+				"PA": 622,
+				"AB": 531,
+				"H": 177,
+				"2B": 42,
+				"3B": 1,
+				"HR": 39,
+				"BB": 82,
+				"SO": 79,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "riceji01-1979",
+			"nameFirst": "Jim",
+			"nameLast": "Rice",
+			"nameGiven": "James Edward",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1979,
+			"stats": {
+				"PA": 688,
+				"AB": 619,
+				"H": 201,
+				"2B": 39,
+				"3B": 6,
+				"HR": 39,
+				"BB": 57,
+				"SO": 97,
+				"HBP": 4,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "smithre06-1973",
+			"nameFirst": "Reggie",
+			"nameLast": "Smith",
+			"nameGiven": "Carl Reginald",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1973,
+			"stats": {
+				"PA": 495,
+				"AB": 423,
+				"H": 128,
+				"2B": 23,
+				"3B": 2,
+				"HR": 21,
+				"BB": 68,
+				"SO": 49,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "evansdw01-1977",
+			"nameFirst": "Dwight",
+			"nameLast": "Evans",
+			"nameGiven": "Dwight Michael",
+			"position": "designated-hitter",
+			"team": "Boston Red Sox",
+			"year": 1977,
+			"stats": {
+				"PA": 265,
+				"AB": 230,
+				"H": 66,
+				"2B": 9,
+				"3B": 2,
+				"HR": 14,
+				"BB": 28,
+				"SO": 58,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 6,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

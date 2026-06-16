@@ -1,0 +1,631 @@
+{
+	"team": "DET",
+	"teamAbbr": "DET",
+	"teamName": "Detroit Tigers",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "boonera01-1953",
+			"nameFirst": "Ray",
+			"nameLast": "Boone",
+			"nameGiven": "Raymond Otis",
+			"position": "first-base",
+			"team": "Detroit Tigers",
+			"year": 1953,
+			"stats": {
+				"PA": 443,
+				"AB": 385,
+				"H": 120,
+				"2B": 16,
+				"3B": 6,
+				"HR": 22,
+				"BB": 48,
+				"SO": 47,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "kuennha01-1959",
+			"nameFirst": "Harvey",
+			"nameLast": "Kuenn",
+			"nameGiven": "Harvey Edward",
+			"position": "shortstop",
+			"team": "Detroit Tigers",
+			"year": 1959,
+			"stats": {
+				"PA": 617,
+				"AB": 561,
+				"H": 198,
+				"2B": 42,
+				"3B": 7,
+				"HR": 9,
+				"BB": 48,
+				"SO": 37,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "wilsore01-1956",
+			"nameFirst": "Red",
+			"nameLast": "Wilson",
+			"nameGiven": "Robert James",
+			"position": "catcher",
+			"team": "Detroit Tigers",
+			"year": 1956,
+			"stats": {
+				"PA": 278,
+				"AB": 228,
+				"H": 66,
+				"2B": 12,
+				"3B": 2,
+				"HR": 7,
+				"BB": 42,
+				"SO": 18,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 23
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "priddje01-1952",
+			"nameFirst": "Jerry",
+			"nameLast": "Priddy",
+			"nameGiven": "Gerald Edward",
+			"position": "second-base",
+			"team": "Detroit Tigers",
+			"year": 1952,
+			"stats": {
+				"PA": 323,
+				"AB": 279,
+				"H": 79,
+				"2B": 23,
+				"3B": 3,
+				"HR": 4,
+				"BB": 42,
+				"SO": 29,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "kellge01-1950",
+			"nameFirst": "George",
+			"nameLast": "Kell",
+			"nameGiven": "George Clyde",
+			"position": "third-base",
+			"team": "Detroit Tigers",
+			"year": 1950,
+			"stats": {
+				"PA": 724,
+				"AB": 641,
+				"H": 218,
+				"2B": 56,
+				"3B": 6,
+				"HR": 8,
+				"BB": 66,
+				"SO": 18,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 16,
+				"GIDP": 23
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 9
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "kalinal01-1955",
+			"nameFirst": "Al",
+			"nameLast": "Kaline",
+			"nameGiven": "Albert William",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 1955,
+			"stats": {
+				"PA": 681,
+				"AB": 588,
+				"H": 200,
+				"2B": 24,
+				"3B": 8,
+				"HR": 27,
+				"BB": 82,
+				"SO": 57,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "maxwech01-1956",
+			"nameFirst": "Charlie",
+			"nameLast": "Maxwell",
+			"nameGiven": "Charles Richard",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 1956,
+			"stats": {
+				"PA": 592,
+				"AB": 500,
+				"H": 163,
+				"2B": 14,
+				"3B": 3,
+				"HR": 28,
+				"BB": 79,
+				"SO": 74,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "wertzvi01-1950",
+			"nameFirst": "Vic",
+			"nameLast": "Wertz",
+			"nameGiven": "Victor Woodrow",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 1950,
+			"stats": {
+				"PA": 657,
+				"AB": 559,
+				"H": 172,
+				"2B": 37,
+				"3B": 4,
+				"HR": 27,
+				"BB": 91,
+				"SO": 55,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "grothjo01-1950",
+			"nameFirst": "Johnny",
+			"nameLast": "Groth",
+			"nameGiven": "John Thomas",
+			"position": "designated-hitter",
+			"team": "Detroit Tigers",
+			"year": 1950,
+			"stats": {
+				"PA": 670,
+				"AB": 566,
+				"H": 173,
+				"2B": 30,
+				"3B": 8,
+				"HR": 12,
+				"BB": 95,
+				"SO": 27,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

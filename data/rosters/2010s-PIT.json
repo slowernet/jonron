@@ -1,0 +1,631 @@
+{
+	"team": "PIT",
+	"teamAbbr": "PIT",
+	"teamName": "Pittsburgh Pirates",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "cervefr01-2018",
+			"nameFirst": "Francisco",
+			"nameLast": "Cervelli",
+			"nameGiven": "Francisco",
+			"position": "catcher",
+			"team": "Pittsburgh Pirates",
+			"year": 2018,
+			"stats": {
+				"PA": 404,
+				"AB": 332,
+				"H": 86,
+				"2B": 15,
+				"3B": 3,
+				"HR": 12,
+				"BB": 51,
+				"SO": 84,
+				"HBP": 15,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "mercejo03-2013",
+			"nameFirst": "Jordy",
+			"nameLast": "Mercer",
+			"nameGiven": "Jordy Joe",
+			"position": "shortstop",
+			"team": "Pittsburgh Pirates",
+			"year": 2013,
+			"stats": {
+				"PA": 365,
+				"AB": 333,
+				"H": 95,
+				"2B": 22,
+				"3B": 2,
+				"HR": 8,
+				"BB": 22,
+				"SO": 62,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "harrijo05-2014",
+			"nameFirst": "Josh",
+			"nameLast": "Harrison",
+			"nameGiven": "Joshua Isaiah",
+			"position": "third-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2014,
+			"stats": {
+				"PA": 550,
+				"AB": 520,
+				"H": 164,
+				"2B": 38,
+				"3B": 7,
+				"HR": 13,
+				"BB": 22,
+				"SO": 81,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "belljo02-2019",
+			"nameFirst": "Josh",
+			"nameLast": "Bell",
+			"nameGiven": "Joshua Evan",
+			"position": "first-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2019,
+			"stats": {
+				"PA": 613,
+				"AB": 527,
+				"H": 146,
+				"2B": 37,
+				"3B": 3,
+				"HR": 37,
+				"BB": 74,
+				"SO": 118,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "walkene01-2010",
+			"nameFirst": "Neil",
+			"nameLast": "Walker",
+			"nameGiven": "Neil Martin",
+			"position": "second-base",
+			"team": "Pittsburgh Pirates",
+			"year": 2010,
+			"stats": {
+				"PA": 469,
+				"AB": 426,
+				"H": 126,
+				"2B": 29,
+				"3B": 3,
+				"HR": 12,
+				"BB": 34,
+				"SO": 83,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "mccutan01-2012",
+			"nameFirst": "Andrew",
+			"nameLast": "McCutchen",
+			"nameGiven": "Andrew Stefan",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2012,
+			"stats": {
+				"PA": 673,
+				"AB": 593,
+				"H": 194,
+				"2B": 29,
+				"3B": 6,
+				"HR": 31,
+				"BB": 70,
+				"SO": 132,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "martest01-2019",
+			"nameFirst": "Starling",
+			"nameLast": "Marte",
+			"nameGiven": "Starling Javier",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2019,
+			"stats": {
+				"PA": 586,
+				"AB": 539,
+				"H": 159,
+				"2B": 31,
+				"3B": 6,
+				"HR": 23,
+				"BB": 25,
+				"SO": 94,
+				"HBP": 16,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "polangr01-2018",
+			"nameFirst": "Gregory",
+			"nameLast": "Polanco",
+			"nameGiven": "Gregory",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 2018,
+			"stats": {
+				"PA": 532,
+				"AB": 461,
+				"H": 117,
+				"2B": 32,
+				"3B": 6,
+				"HR": 23,
+				"BB": 61,
+				"SO": 117,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "jonesga02-2012",
+			"nameFirst": "Garrett",
+			"nameLast": "Jones",
+			"nameGiven": "Garrett Thomas",
+			"position": "designated-hitter",
+			"team": "Pittsburgh Pirates",
+			"year": 2012,
+			"stats": {
+				"PA": 515,
+				"AB": 475,
+				"H": 130,
+				"2B": 28,
+				"3B": 3,
+				"HR": 27,
+				"BB": 33,
+				"SO": 103,
+				"HBP": 0,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

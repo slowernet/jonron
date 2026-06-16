@@ -1,0 +1,631 @@
+{
+	"team": "LAN",
+	"teamAbbr": "LAD",
+	"teamName": "Los Angeles Dodgers",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "sciosmi01-1985",
+			"nameFirst": "Mike",
+			"nameLast": "Scioscia",
+			"nameGiven": "Michael Lorri",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 1985,
+			"stats": {
+				"PA": 525,
+				"AB": 429,
+				"H": 127,
+				"2B": 26,
+				"3B": 3,
+				"HR": 7,
+				"BB": 77,
+				"SO": 21,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 11,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 14
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "saxst01-1986",
+			"nameFirst": "Steve",
+			"nameLast": "Sax",
+			"nameGiven": "Stephen Louis",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1986,
+			"stats": {
+				"PA": 704,
+				"AB": 633,
+				"H": 210,
+				"2B": 43,
+				"3B": 4,
+				"HR": 6,
+				"BB": 59,
+				"SO": 58,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 6,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "russebi01-1982",
+			"nameFirst": "Bill",
+			"nameLast": "Russell",
+			"nameGiven": "William Ellis",
+			"position": "shortstop",
+			"team": "Los Angeles Dodgers",
+			"year": 1982,
+			"stats": {
+				"PA": 576,
+				"AB": 497,
+				"H": 136,
+				"2B": 20,
+				"3B": 2,
+				"HR": 3,
+				"BB": 63,
+				"SO": 30,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 8,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 50
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "guerrpe01-1985",
+			"nameFirst": "Pedro",
+			"nameLast": "Guerrero",
+			"nameGiven": "Pedro",
+			"position": "third-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1985,
+			"stats": {
+				"PA": 581,
+				"AB": 487,
+				"H": 156,
+				"2B": 22,
+				"3B": 2,
+				"HR": 33,
+				"BB": 83,
+				"SO": 68,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "marshmi02-1985",
+			"nameFirst": "Mike",
+			"nameLast": "Marshall",
+			"nameGiven": "Michael Allen",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1985,
+			"stats": {
+				"PA": 564,
+				"AB": 518,
+				"H": 152,
+				"2B": 27,
+				"3B": 2,
+				"HR": 28,
+				"BB": 37,
+				"SO": 137,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 87
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "bakerdu01-1980",
+			"nameFirst": "Dusty",
+			"nameLast": "Baker",
+			"nameGiven": "Johnnie B.",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1980,
+			"stats": {
+				"PA": 638,
+				"AB": 579,
+				"H": 170,
+				"2B": 26,
+				"3B": 4,
+				"HR": 29,
+				"BB": 43,
+				"SO": 66,
+				"HBP": 3,
+				"SF": 12,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "landrke01-1983",
+			"nameFirst": "Ken",
+			"nameLast": "Landreaux",
+			"nameGiven": "Kenneth Francis",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1983,
+			"stats": {
+				"PA": 524,
+				"AB": 481,
+				"H": 135,
+				"2B": 25,
+				"3B": 3,
+				"HR": 17,
+				"BB": 34,
+				"SO": 52,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "stubbfr01-1986",
+			"nameFirst": "Franklin",
+			"nameLast": "Stubbs",
+			"nameGiven": "Franklin Lee",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1986,
+			"stats": {
+				"PA": 465,
+				"AB": 420,
+				"H": 95,
+				"2B": 11,
+				"3B": 1,
+				"HR": 23,
+				"BB": 37,
+				"SO": 107,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 83
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ceyro01-1981",
+			"nameFirst": "Ron",
+			"nameLast": "Cey",
+			"nameGiven": "Ronald Charles",
+			"position": "designated-hitter",
+			"team": "Los Angeles Dodgers",
+			"year": 1981,
+			"stats": {
+				"PA": 359,
+				"AB": 312,
+				"H": 90,
+				"2B": 15,
+				"3B": 2,
+				"HR": 13,
+				"BB": 40,
+				"SO": 55,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

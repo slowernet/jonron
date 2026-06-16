@@ -1,0 +1,631 @@
+{
+	"team": "PHI",
+	"teamAbbr": "PHI",
+	"teamName": "Philadelphia Phillies",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "liebemi01-2003",
+			"nameFirst": "Mike",
+			"nameLast": "Lieberthal",
+			"nameGiven": "Michael Scott",
+			"position": "catcher",
+			"team": "Philadelphia Phillies",
+			"year": 2003,
+			"stats": {
+				"PA": 561,
+				"AB": 508,
+				"H": 159,
+				"2B": 30,
+				"3B": 1,
+				"HR": 13,
+				"BB": 38,
+				"SO": 59,
+				"HBP": 12,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "rolliji01-2007",
+			"nameFirst": "Jimmy",
+			"nameLast": "Rollins",
+			"nameGiven": "James Calvin",
+			"position": "shortstop",
+			"team": "Philadelphia Phillies",
+			"year": 2007,
+			"stats": {
+				"PA": 778,
+				"AB": 716,
+				"H": 212,
+				"2B": 38,
+				"3B": 20,
+				"HR": 30,
+				"BB": 49,
+				"SO": 85,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 9
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "utleych01-2007",
+			"nameFirst": "Chase",
+			"nameLast": "Utley",
+			"nameGiven": "Chase Cameron",
+			"position": "second-base",
+			"team": "Philadelphia Phillies",
+			"year": 2007,
+			"stats": {
+				"PA": 613,
+				"AB": 530,
+				"H": 176,
+				"2B": 48,
+				"3B": 5,
+				"HR": 22,
+				"BB": 50,
+				"SO": 89,
+				"HBP": 25,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "howarry01-2006",
+			"nameFirst": "Ryan",
+			"nameLast": "Howard",
+			"nameGiven": "Ryan James",
+			"position": "first-base",
+			"team": "Philadelphia Phillies",
+			"year": 2006,
+			"stats": {
+				"PA": 704,
+				"AB": 581,
+				"H": 182,
+				"2B": 25,
+				"3B": 1,
+				"HR": 58,
+				"BB": 108,
+				"SO": 181,
+				"HBP": 9,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 30
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 39
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 93
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "rolensc01-2000",
+			"nameFirst": "Scott",
+			"nameLast": "Rolen",
+			"nameGiven": "Scott Bruce",
+			"position": "third-base",
+			"team": "Philadelphia Phillies",
+			"year": 2000,
+			"stats": {
+				"PA": 541,
+				"AB": 483,
+				"H": 144,
+				"2B": 32,
+				"3B": 6,
+				"HR": 26,
+				"BB": 51,
+				"SO": 99,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "abreubo01-2004",
+			"nameFirst": "Bobby",
+			"nameLast": "Abreu",
+			"nameGiven": "Bob Kelly",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 2004,
+			"stats": {
+				"PA": 713,
+				"AB": 574,
+				"H": 173,
+				"2B": 47,
+				"3B": 1,
+				"HR": 30,
+				"BB": 127,
+				"SO": 116,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 67
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "burrepa01-2002",
+			"nameFirst": "Pat",
+			"nameLast": "Burrell",
+			"nameGiven": "Patrick Brian",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 2002,
+			"stats": {
+				"PA": 684,
+				"AB": 586,
+				"H": 165,
+				"2B": 39,
+				"3B": 2,
+				"HR": 37,
+				"BB": 89,
+				"SO": 153,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "victosh01-2009",
+			"nameFirst": "Shane",
+			"nameLast": "Victorino",
+			"nameGiven": "Shane Patrick",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 2009,
+			"stats": {
+				"PA": 694,
+				"AB": 620,
+				"H": 181,
+				"2B": 39,
+				"3B": 13,
+				"HR": 10,
+				"BB": 60,
+				"SO": 71,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "thomeji01-2004",
+			"nameFirst": "Jim",
+			"nameLast": "Thome",
+			"nameGiven": "James Howard",
+			"position": "designated-hitter",
+			"team": "Philadelphia Phillies",
+			"year": 2004,
+			"stats": {
+				"PA": 618,
+				"AB": 508,
+				"H": 139,
+				"2B": 28,
+				"3B": 1,
+				"HR": 42,
+				"BB": 104,
+				"SO": 144,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 84
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		}
+	]
+}

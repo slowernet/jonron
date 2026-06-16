@@ -1,0 +1,631 @@
+{
+	"team": "CIN",
+	"teamAbbr": "CIN",
+	"teamName": "Cincinnati Reds",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "freylo01-1940",
+			"nameFirst": "Lonny",
+			"nameLast": "Frey",
+			"nameGiven": "Linus Reinhard",
+			"position": "second-base",
+			"team": "Cincinnati Reds",
+			"year": 1940,
+			"stats": {
+				"PA": 663,
+				"AB": 563,
+				"H": 150,
+				"2B": 23,
+				"3B": 6,
+				"HR": 8,
+				"BB": 80,
+				"SO": 48,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 17,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "muellra01-1944",
+			"nameFirst": "Ray",
+			"nameLast": "Mueller",
+			"nameGiven": "Ray Coleman",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 1944,
+			"stats": {
+				"PA": 618,
+				"AB": 555,
+				"H": 159,
+				"2B": 24,
+				"3B": 4,
+				"HR": 10,
+				"BB": 53,
+				"SO": 47,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "mccorfr01-1944",
+			"nameFirst": "Frank",
+			"nameLast": "McCormick",
+			"nameGiven": "Frank Andrew",
+			"position": "first-base",
+			"team": "Cincinnati Reds",
+			"year": 1944,
+			"stats": {
+				"PA": 645,
+				"AB": 581,
+				"H": 177,
+				"2B": 37,
+				"3B": 3,
+				"HR": 20,
+				"BB": 57,
+				"SO": 17,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 73
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 9
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 74
+				}
+			]
+		},
+		{
+			"id": "milleed03-1947",
+			"nameFirst": "Eddie",
+			"nameLast": "Miller",
+			"nameGiven": "Edward Robert",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 1947,
+			"stats": {
+				"PA": 602,
+				"AB": 545,
+				"H": 146,
+				"2B": 38,
+				"3B": 4,
+				"HR": 19,
+				"BB": 49,
+				"SO": 40,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "hattogr01-1947",
+			"nameFirst": "Grady",
+			"nameLast": "Hatton",
+			"nameGiven": "Grady Edgebert",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 1947,
+			"stats": {
+				"PA": 610,
+				"AB": 524,
+				"H": 147,
+				"2B": 24,
+				"3B": 8,
+				"HR": 16,
+				"BB": 81,
+				"SO": 50,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "tiptoer01-1943",
+			"nameFirst": "Eric",
+			"nameLast": "Tipton",
+			"nameGiven": "Eric Gordon",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1943,
+			"stats": {
+				"PA": 585,
+				"AB": 493,
+				"H": 142,
+				"2B": 26,
+				"3B": 7,
+				"HR": 9,
+				"BB": 85,
+				"SO": 36,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "haasbe01-1947",
+			"nameFirst": "Bert",
+			"nameLast": "Haas",
+			"nameGiven": "Berthold John",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1947,
+			"stats": {
+				"PA": 530,
+				"AB": 482,
+				"H": 138,
+				"2B": 17,
+				"3B": 7,
+				"HR": 3,
+				"BB": 42,
+				"SO": 27,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 49
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "walkege02-1944",
+			"nameFirst": "Gee",
+			"nameLast": "Walker",
+			"nameGiven": "Gerald Holmes",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1944,
+			"stats": {
+				"PA": 511,
+				"AB": 478,
+				"H": 133,
+				"2B": 21,
+				"3B": 3,
+				"HR": 5,
+				"BB": 23,
+				"SO": 48,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "lamanra01-1942",
+			"nameFirst": "Ray",
+			"nameLast": "Lamanno",
+			"nameGiven": "Raymond Simond",
+			"position": "designated-hitter",
+			"team": "Cincinnati Reds",
+			"year": 1942,
+			"stats": {
+				"PA": 404,
+				"AB": 371,
+				"H": 98,
+				"2B": 12,
+				"3B": 2,
+				"HR": 12,
+				"BB": 31,
+				"SO": 54,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

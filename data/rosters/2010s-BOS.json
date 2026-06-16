@@ -1,0 +1,623 @@
+{
+	"team": "BOS",
+	"teamAbbr": "BOS",
+	"teamName": "Boston Red Sox",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "vazquch01-2019",
+			"nameFirst": "Christian",
+			"nameLast": "Vazquez",
+			"nameGiven": "Christian Rafael",
+			"position": "catcher",
+			"team": "Boston Red Sox",
+			"year": 2019,
+			"stats": {
+				"PA": 521,
+				"AB": 482,
+				"H": 133,
+				"2B": 26,
+				"3B": 1,
+				"HR": 23,
+				"BB": 33,
+				"SO": 101,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ramirha01-2016",
+			"nameFirst": "Hanley",
+			"nameLast": "Ramirez",
+			"nameGiven": "Hanley",
+			"position": "first-base",
+			"team": "Boston Red Sox",
+			"year": 2016,
+			"stats": {
+				"PA": 620,
+				"AB": 549,
+				"H": 157,
+				"2B": 28,
+				"3B": 1,
+				"HR": 30,
+				"BB": 60,
+				"SO": 120,
+				"HBP": 7,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "pedrodu01-2011",
+			"nameFirst": "Dustin",
+			"nameLast": "Pedroia",
+			"nameGiven": "Dustin Luis",
+			"position": "second-base",
+			"team": "Boston Red Sox",
+			"year": 2011,
+			"stats": {
+				"PA": 731,
+				"AB": 635,
+				"H": 195,
+				"2B": 37,
+				"3B": 3,
+				"HR": 21,
+				"BB": 86,
+				"SO": 85,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "bogaexa01-2019",
+			"nameFirst": "Xander",
+			"nameLast": "Bogaerts",
+			"nameGiven": "Xander Jan",
+			"position": "third-base",
+			"team": "Boston Red Sox",
+			"year": 2019,
+			"stats": {
+				"PA": 698,
+				"AB": 614,
+				"H": 190,
+				"2B": 52,
+				"3B": 0,
+				"HR": 33,
+				"BB": 76,
+				"SO": 122,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "holtbr01-2018",
+			"nameFirst": "Brock",
+			"nameLast": "Holt",
+			"nameGiven": "Brock Wyatt",
+			"position": "shortstop",
+			"team": "Boston Red Sox",
+			"year": 2018,
+			"stats": {
+				"PA": 367,
+				"AB": 321,
+				"H": 89,
+				"2B": 18,
+				"3B": 2,
+				"HR": 7,
+				"BB": 37,
+				"SO": 73,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "bettsmo01-2018",
+			"nameFirst": "Mookie",
+			"nameLast": "Betts",
+			"nameGiven": "Markus Lynn",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2018,
+			"stats": {
+				"PA": 614,
+				"AB": 520,
+				"H": 180,
+				"2B": 47,
+				"3B": 5,
+				"HR": 32,
+				"BB": 81,
+				"SO": 91,
+				"HBP": 8,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "ortizda01-2012",
+			"nameFirst": "David",
+			"nameLast": "Ortiz",
+			"nameGiven": "David Americo",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2012,
+			"stats": {
+				"PA": 383,
+				"AB": 324,
+				"H": 103,
+				"2B": 26,
+				"3B": 0,
+				"HR": 23,
+				"BB": 56,
+				"SO": 51,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "ellsbja01-2011",
+			"nameFirst": "Jacoby",
+			"nameLast": "Ellsbury",
+			"nameGiven": "Jacoby McCabe",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2011,
+			"stats": {
+				"PA": 729,
+				"AB": 660,
+				"H": 212,
+				"2B": 46,
+				"3B": 5,
+				"HR": 32,
+				"BB": 52,
+				"SO": 98,
+				"HBP": 9,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "bradlja02-2016",
+			"nameFirst": "Jackie",
+			"nameLast": "Bradley",
+			"nameGiven": "Jackie",
+			"position": "designated-hitter",
+			"team": "Boston Red Sox",
+			"year": 2016,
+			"stats": {
+				"PA": 636,
+				"AB": 558,
+				"H": 149,
+				"2B": 30,
+				"3B": 7,
+				"HR": 26,
+				"BB": 63,
+				"SO": 143,
+				"HBP": 10,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		}
+	]
+}

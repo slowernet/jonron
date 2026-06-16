@@ -1,0 +1,627 @@
+{
+	"team": "ARI",
+	"teamAbbr": "ARI",
+	"teamName": "Arizona Diamondbacks",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "montemi01-2012",
+			"nameFirst": "Miguel",
+			"nameLast": "Montero",
+			"nameGiven": "Miguel Angel",
+			"position": "catcher",
+			"team": "Arizona Diamondbacks",
+			"year": 2012,
+			"stats": {
+				"PA": 573,
+				"AB": 486,
+				"H": 139,
+				"2B": 25,
+				"3B": 2,
+				"HR": 15,
+				"BB": 73,
+				"SO": 130,
+				"HBP": 12,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 41
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "goldspa01-2015",
+			"nameFirst": "Paul",
+			"nameLast": "Goldschmidt",
+			"nameGiven": "Paul Edward",
+			"position": "first-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2015,
+			"stats": {
+				"PA": 694,
+				"AB": 567,
+				"H": 182,
+				"2B": 38,
+				"3B": 2,
+				"HR": 33,
+				"BB": 118,
+				"SO": 151,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "lambja01-2017",
+			"nameFirst": "Jake",
+			"nameLast": "Lamb",
+			"nameGiven": "Jacob Ryan",
+			"position": "third-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2017,
+			"stats": {
+				"PA": 635,
+				"AB": 536,
+				"H": 133,
+				"2B": 30,
+				"3B": 4,
+				"HR": 30,
+				"BB": 87,
+				"SO": 152,
+				"HBP": 7,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 86
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "hillaa01-2012",
+			"nameFirst": "Aaron",
+			"nameLast": "Hill",
+			"nameGiven": "Aaron Walter",
+			"position": "second-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2012,
+			"stats": {
+				"PA": 668,
+				"AB": 609,
+				"H": 184,
+				"2B": 44,
+				"3B": 6,
+				"HR": 26,
+				"BB": 52,
+				"SO": 86,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "ahmedni01-2019",
+			"nameFirst": "Nick",
+			"nameLast": "Ahmed",
+			"nameGiven": "Nicholas Mark",
+			"position": "shortstop",
+			"team": "Arizona Diamondbacks",
+			"year": 2019,
+			"stats": {
+				"PA": 625,
+				"AB": 556,
+				"H": 141,
+				"2B": 33,
+				"3B": 6,
+				"HR": 19,
+				"BB": 52,
+				"SO": 113,
+				"HBP": 4,
+				"SF": 12,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "uptonju01-2011",
+			"nameFirst": "Justin",
+			"nameLast": "Upton",
+			"nameGiven": "Justin Irvin",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2011,
+			"stats": {
+				"PA": 674,
+				"AB": 592,
+				"H": 171,
+				"2B": 39,
+				"3B": 5,
+				"HR": 31,
+				"BB": 59,
+				"SO": 126,
+				"HBP": 19,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "peralda01-2015",
+			"nameFirst": "David",
+			"nameLast": "Peralta",
+			"nameGiven": "Senger David",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2015,
+			"stats": {
+				"PA": 517,
+				"AB": 462,
+				"H": 144,
+				"2B": 26,
+				"3B": 10,
+				"HR": 17,
+				"BB": 44,
+				"SO": 107,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "polloaj01-2015",
+			"nameFirst": "AJ",
+			"nameLast": "Pollock",
+			"nameGiven": "Allen Lorenz",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2015,
+			"stats": {
+				"PA": 673,
+				"AB": 609,
+				"H": 192,
+				"2B": 39,
+				"3B": 6,
+				"HR": 20,
+				"BB": 53,
+				"SO": 89,
+				"HBP": 2,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "youngch04-2010",
+			"nameFirst": "Chris",
+			"nameLast": "Young",
+			"nameGiven": "Christopher Brandon",
+			"position": "designated-hitter",
+			"team": "Arizona Diamondbacks",
+			"year": 2010,
+			"stats": {
+				"PA": 664,
+				"AB": 584,
+				"H": 150,
+				"2B": 33,
+				"3B": 0,
+				"HR": 27,
+				"BB": 74,
+				"SO": 145,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		}
+	]
+}

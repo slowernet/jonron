@@ -1,0 +1,631 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "berrayo01-1950",
+			"nameFirst": "Yogi",
+			"nameLast": "Berra",
+			"nameGiven": "Lawrence Peter",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1950,
+			"stats": {
+				"PA": 656,
+				"AB": 597,
+				"H": 192,
+				"2B": 30,
+				"3B": 6,
+				"HR": 28,
+				"BB": 55,
+				"SO": 12,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 73
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 7
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 73
+				}
+			]
+		},
+		{
+			"id": "skowrbi01-1954",
+			"nameFirst": "Bill",
+			"nameLast": "Skowron",
+			"nameGiven": "William Joseph",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1954,
+			"stats": {
+				"PA": 237,
+				"AB": 215,
+				"H": 73,
+				"2B": 12,
+				"3B": 9,
+				"HR": 7,
+				"BB": 19,
+				"SO": 18,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 14
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "mcdougi01-1951",
+			"nameFirst": "Gil",
+			"nameLast": "McDougald",
+			"nameGiven": "Gilbert James",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1951,
+			"stats": {
+				"PA": 473,
+				"AB": 402,
+				"H": 123,
+				"2B": 23,
+				"3B": 4,
+				"HR": 14,
+				"BB": 56,
+				"SO": 54,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 11,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "careyan01-1958",
+			"nameFirst": "Andy",
+			"nameLast": "Carey",
+			"nameGiven": "Andrew Arthur",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1958,
+			"stats": {
+				"PA": 365,
+				"AB": 315,
+				"H": 90,
+				"2B": 19,
+				"3B": 4,
+				"HR": 12,
+				"BB": 34,
+				"SO": 43,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 7,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "rizzuph01-1950",
+			"nameFirst": "Phil",
+			"nameLast": "Rizzuto",
+			"nameGiven": "Philip Francis",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1950,
+			"stats": {
+				"PA": 735,
+				"AB": 617,
+				"H": 200,
+				"2B": 36,
+				"3B": 7,
+				"HR": 7,
+				"BB": 92,
+				"SO": 39,
+				"HBP": 7,
+				"SF": 0,
+				"SH": 19,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "mantlmi01-1957",
+			"nameFirst": "Mickey",
+			"nameLast": "Mantle",
+			"nameGiven": "Mickey Charles",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1957,
+			"stats": {
+				"PA": 623,
+				"AB": 474,
+				"H": 173,
+				"2B": 28,
+				"3B": 6,
+				"HR": 34,
+				"BB": 146,
+				"SO": 75,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 84
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "woodlge01-1953",
+			"nameFirst": "Gene",
+			"nameLast": "Woodling",
+			"nameGiven": "Eugene Richard",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1953,
+			"stats": {
+				"PA": 482,
+				"AB": 395,
+				"H": 121,
+				"2B": 26,
+				"3B": 4,
+				"HR": 10,
+				"BB": 82,
+				"SO": 29,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 63
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "norenir01-1954",
+			"nameFirst": "Irv",
+			"nameLast": "Noren",
+			"nameGiven": "Irving Arnold",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1954,
+			"stats": {
+				"PA": 480,
+				"AB": 426,
+				"H": 136,
+				"2B": 21,
+				"3B": 6,
+				"HR": 12,
+				"BB": 43,
+				"SO": 38,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 3,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 29
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "collijo01-1952",
+			"nameFirst": "Joe",
+			"nameLast": "Collins",
+			"nameGiven": "Joseph Edward",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1952,
+			"stats": {
+				"PA": 489,
+				"AB": 428,
+				"H": 120,
+				"2B": 16,
+				"3B": 8,
+				"HR": 18,
+				"BB": 55,
+				"SO": 47,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		}
+	]
+}

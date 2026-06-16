@@ -1,0 +1,631 @@
+{
+	"team": "MON",
+	"teamAbbr": "MON",
+	"teamName": "Montreal Expos",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "cartega01-1982",
+			"nameFirst": "Gary",
+			"nameLast": "Carter",
+			"nameGiven": "Gary Edmund",
+			"position": "catcher",
+			"team": "Montreal Expos",
+			"year": 1982,
+			"stats": {
+				"PA": 653,
+				"AB": 557,
+				"H": 163,
+				"2B": 32,
+				"3B": 1,
+				"HR": 29,
+				"BB": 78,
+				"SO": 64,
+				"HBP": 6,
+				"SF": 8,
+				"SH": 4,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "wallati01-1987",
+			"nameFirst": "Tim",
+			"nameLast": "Wallach",
+			"nameGiven": "Timothy Charles",
+			"position": "third-base",
+			"team": "Montreal Expos",
+			"year": 1987,
+			"stats": {
+				"PA": 644,
+				"AB": 593,
+				"H": 177,
+				"2B": 42,
+				"3B": 4,
+				"HR": 26,
+				"BB": 37,
+				"SO": 98,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "raineti01-1987",
+			"nameFirst": "Tim",
+			"nameLast": "Raines",
+			"nameGiven": "Timothy",
+			"position": "second-base",
+			"team": "Montreal Expos",
+			"year": 1987,
+			"stats": {
+				"PA": 627,
+				"AB": 530,
+				"H": 175,
+				"2B": 34,
+				"3B": 8,
+				"HR": 18,
+				"BB": 90,
+				"SO": 52,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "brookhu01-1986",
+			"nameFirst": "Hubie",
+			"nameLast": "Brooks",
+			"nameGiven": "Hubert",
+			"position": "shortstop",
+			"team": "Montreal Expos",
+			"year": 1986,
+			"stats": {
+				"PA": 338,
+				"AB": 306,
+				"H": 104,
+				"2B": 18,
+				"3B": 5,
+				"HR": 14,
+				"BB": 25,
+				"SO": 60,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "galaran01-1988",
+			"nameFirst": "Andres",
+			"nameLast": "Galarraga",
+			"nameGiven": "Andres Jose",
+			"position": "first-base",
+			"team": "Montreal Expos",
+			"year": 1988,
+			"stats": {
+				"PA": 661,
+				"AB": 609,
+				"H": 184,
+				"2B": 42,
+				"3B": 8,
+				"HR": 29,
+				"BB": 39,
+				"SO": 153,
+				"HBP": 10,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 83
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "dawsoan01-1981",
+			"nameFirst": "Andre",
+			"nameLast": "Dawson",
+			"nameGiven": "Andre Nolan",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1981,
+			"stats": {
+				"PA": 441,
+				"AB": 394,
+				"H": 119,
+				"2B": 21,
+				"3B": 3,
+				"HR": 24,
+				"BB": 35,
+				"SO": 50,
+				"HBP": 7,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "webstmi01-1985",
+			"nameFirst": "Mitch",
+			"nameLast": "Webster",
+			"nameGiven": "Mitchell Dean",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1985,
+			"stats": {
+				"PA": 234,
+				"AB": 212,
+				"H": 58,
+				"2B": 8,
+				"3B": 2,
+				"HR": 11,
+				"BB": 20,
+				"SO": 33,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "cromawa01-1981",
+			"nameFirst": "Warren",
+			"nameLast": "Cromartie",
+			"nameGiven": "Warren Livingston",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1981,
+			"stats": {
+				"PA": 400,
+				"AB": 358,
+				"H": 109,
+				"2B": 19,
+				"3B": 2,
+				"HR": 6,
+				"BB": 39,
+				"SO": 27,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "lawva01-1985",
+			"nameFirst": "Vance",
+			"nameLast": "Law",
+			"nameGiven": "Vance Aaron",
+			"position": "designated-hitter",
+			"team": "Montreal Expos",
+			"year": 1985,
+			"stats": {
+				"PA": 621,
+				"AB": 519,
+				"H": 138,
+				"2B": 30,
+				"3B": 6,
+				"HR": 10,
+				"BB": 86,
+				"SO": 96,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 8,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

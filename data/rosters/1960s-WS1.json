@@ -1,0 +1,627 @@
+{
+	"team": "WS1",
+	"teamAbbr": "WSH",
+	"teamName": "Washington Senators",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "batteea01-1961",
+			"nameFirst": "Earl",
+			"nameLast": "Battey",
+			"nameGiven": "Earl Jesse",
+			"position": "catcher",
+			"team": "Washington Senators",
+			"year": 1961,
+			"stats": {
+				"PA": 522,
+				"AB": 460,
+				"H": 139,
+				"2B": 24,
+				"3B": 1,
+				"HR": 17,
+				"BB": 53,
+				"SO": 66,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "versazo01-1965",
+			"nameFirst": "Zoilo",
+			"nameLast": "Versalles",
+			"nameGiven": "Zoilo Casanova",
+			"position": "shortstop",
+			"team": "Washington Senators",
+			"year": 1965,
+			"stats": {
+				"PA": 728,
+				"AB": 666,
+				"H": 182,
+				"2B": 45,
+				"3B": 12,
+				"HR": 19,
+				"BB": 41,
+				"SO": 122,
+				"HBP": 7,
+				"SF": 8,
+				"SH": 6,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "killeha01-1961",
+			"nameFirst": "Harmon",
+			"nameLast": "Killebrew",
+			"nameGiven": "Harmon Clayton",
+			"position": "first-base",
+			"team": "Washington Senators",
+			"year": 1961,
+			"stats": {
+				"PA": 656,
+				"AB": 541,
+				"H": 156,
+				"2B": 20,
+				"3B": 7,
+				"HR": 46,
+				"BB": 107,
+				"SO": 109,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "carewro01-1969",
+			"nameFirst": "Rod",
+			"nameLast": "Carew",
+			"nameGiven": "Rodney Cline",
+			"position": "second-base",
+			"team": "Washington Senators",
+			"year": 1969,
+			"stats": {
+				"PA": 504,
+				"AB": 458,
+				"H": 152,
+				"2B": 30,
+				"3B": 4,
+				"HR": 8,
+				"BB": 37,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "rolliri01-1962",
+			"nameFirst": "Rich",
+			"nameLast": "Rollins",
+			"nameGiven": "Richard John",
+			"position": "third-base",
+			"team": "Washington Senators",
+			"year": 1962,
+			"stats": {
+				"PA": 721,
+				"AB": 624,
+				"H": 186,
+				"2B": 23,
+				"3B": 5,
+				"HR": 16,
+				"BB": 75,
+				"SO": 61,
+				"HBP": 6,
+				"SF": 9,
+				"SH": 7,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "allisbo01-1964",
+			"nameFirst": "Bob",
+			"nameLast": "Allison",
+			"nameGiven": "William Robert",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1964,
+			"stats": {
+				"PA": 594,
+				"AB": 492,
+				"H": 141,
+				"2B": 27,
+				"3B": 4,
+				"HR": 32,
+				"BB": 92,
+				"SO": 99,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "olivato01-1964",
+			"nameFirst": "Tony",
+			"nameLast": "Oliva",
+			"nameGiven": "Tony Pedro",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1964,
+			"stats": {
+				"PA": 718,
+				"AB": 672,
+				"H": 217,
+				"2B": 43,
+				"3B": 9,
+				"HR": 32,
+				"BB": 34,
+				"SO": 68,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "hallji02-1963",
+			"nameFirst": "Jimmie",
+			"nameLast": "Hall",
+			"nameGiven": "Jimmie Randolph",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1963,
+			"stats": {
+				"PA": 571,
+				"AB": 497,
+				"H": 129,
+				"2B": 21,
+				"3B": 5,
+				"HR": 33,
+				"BB": 63,
+				"SO": 101,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 9,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "minchdo01-1963",
+			"nameFirst": "Don",
+			"nameLast": "Mincher",
+			"nameGiven": "Donald Ray",
+			"position": "designated-hitter",
+			"team": "Washington Senators",
+			"year": 1963,
+			"stats": {
+				"PA": 262,
+				"AB": 225,
+				"H": 58,
+				"2B": 8,
+				"3B": 0,
+				"HR": 17,
+				"BB": 30,
+				"SO": 51,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

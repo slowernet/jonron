@@ -1,0 +1,631 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "howarel01-1961",
+			"nameFirst": "Elston",
+			"nameLast": "Howard",
+			"nameGiven": "Elston Gene",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 482,
+				"AB": 446,
+				"H": 155,
+				"2B": 17,
+				"3B": 5,
+				"HR": 21,
+				"BB": 28,
+				"SO": 65,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "richabo01-1962",
+			"nameFirst": "Bobby",
+			"nameLast": "Richardson",
+			"nameGiven": "Robert Clinton",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1962,
+			"stats": {
+				"PA": 754,
+				"AB": 692,
+				"H": 209,
+				"2B": 38,
+				"3B": 5,
+				"HR": 8,
+				"BB": 37,
+				"SO": 24,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 20,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 48
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 11
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 49
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "treshto01-1963",
+			"nameFirst": "Tom",
+			"nameLast": "Tresh",
+			"nameGiven": "Thomas Michael",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1963,
+			"stats": {
+				"PA": 614,
+				"AB": 520,
+				"H": 140,
+				"2B": 28,
+				"3B": 5,
+				"HR": 25,
+				"BB": 83,
+				"SO": 79,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "mantlmi01-1961",
+			"nameFirst": "Mickey",
+			"nameLast": "Mantle",
+			"nameGiven": "Mickey Charles",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 646,
+				"AB": 514,
+				"H": 163,
+				"2B": 16,
+				"3B": 6,
+				"HR": 54,
+				"BB": 126,
+				"SO": 112,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 30
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 70
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "boyercl02-1962",
+			"nameFirst": "Clete",
+			"nameLast": "Boyer",
+			"nameGiven": "Cletis Leroy",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1962,
+			"stats": {
+				"PA": 633,
+				"AB": 566,
+				"H": 154,
+				"2B": 24,
+				"3B": 1,
+				"HR": 18,
+				"BB": 51,
+				"SO": 106,
+				"HBP": 3,
+				"SF": 8,
+				"SH": 5,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "marisro01-1961",
+			"nameFirst": "Roger",
+			"nameLast": "Maris",
+			"nameGiven": "Roger Eugene",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1961,
+			"stats": {
+				"PA": 698,
+				"AB": 590,
+				"H": 159,
+				"2B": 16,
+				"3B": 4,
+				"HR": 61,
+				"BB": 94,
+				"SO": 67,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 31
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "whitero01-1969",
+			"nameFirst": "Roy",
+			"nameLast": "White",
+			"nameGiven": "Roy Hilton",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1969,
+			"stats": {
+				"PA": 543,
+				"AB": 448,
+				"H": 130,
+				"2B": 30,
+				"3B": 5,
+				"HR": 7,
+				"BB": 81,
+				"SO": 51,
+				"HBP": 1,
+				"SF": 11,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "lopezhe01-1960",
+			"nameFirst": "Hector",
+			"nameLast": "Lopez",
+			"nameGiven": "Hector Headley",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1960,
+			"stats": {
+				"PA": 469,
+				"AB": 408,
+				"H": 116,
+				"2B": 14,
+				"3B": 6,
+				"HR": 9,
+				"BB": 46,
+				"SO": 64,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 9,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "skowrbi01-1960",
+			"nameFirst": "Bill",
+			"nameLast": "Skowron",
+			"nameGiven": "William Joseph",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1960,
+			"stats": {
+				"PA": 584,
+				"AB": 538,
+				"H": 166,
+				"2B": 34,
+				"3B": 3,
+				"HR": 26,
+				"BB": 38,
+				"SO": 95,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

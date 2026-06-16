@@ -1,0 +1,619 @@
+{
+	"team": "OAK",
+	"teamAbbr": "OAK",
+	"teamName": "Oakland Athletics",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "steinte01-1996",
+			"nameFirst": "Terry",
+			"nameLast": "Steinbach",
+			"nameGiven": "Terry Lee",
+			"position": "catcher",
+			"team": "Oakland Athletics",
+			"year": 1996,
+			"stats": {
+				"PA": 571,
+				"AB": 514,
+				"H": 140,
+				"2B": 25,
+				"3B": 1,
+				"HR": 35,
+				"BB": 49,
+				"SO": 115,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 73
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "bordimi01-1992",
+			"nameFirst": "Mike",
+			"nameLast": "Bordick",
+			"nameGiven": "Michael Todd",
+			"position": "shortstop",
+			"team": "Oakland Athletics",
+			"year": 1992,
+			"stats": {
+				"PA": 572,
+				"AB": 504,
+				"H": 151,
+				"2B": 19,
+				"3B": 4,
+				"HR": 3,
+				"BB": 40,
+				"SO": 59,
+				"HBP": 9,
+				"SF": 5,
+				"SH": 14,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mcgwima01-1996",
+			"nameFirst": "Mark",
+			"nameLast": "McGwire",
+			"nameGiven": "Mark David",
+			"position": "first-base",
+			"team": "Oakland Athletics",
+			"year": 1996,
+			"stats": {
+				"PA": 548,
+				"AB": 423,
+				"H": 132,
+				"2B": 21,
+				"3B": 0,
+				"HR": 52,
+				"BB": 116,
+				"SO": 112,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 34
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 41
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 81
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "gatesbr01-1993",
+			"nameFirst": "Brent",
+			"nameLast": "Gates",
+			"nameGiven": "Brent Robert",
+			"position": "second-base",
+			"team": "Oakland Athletics",
+			"year": 1993,
+			"stats": {
+				"PA": 609,
+				"AB": 535,
+				"H": 155,
+				"2B": 29,
+				"3B": 2,
+				"HR": 7,
+				"BB": 56,
+				"SO": 75,
+				"HBP": 4,
+				"SF": 8,
+				"SH": 6,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "giambja01-1999",
+			"nameFirst": "Jason",
+			"nameLast": "Giambi",
+			"nameGiven": "Jason Gilbert",
+			"position": "third-base",
+			"team": "Oakland Athletics",
+			"year": 1999,
+			"stats": {
+				"PA": 695,
+				"AB": 575,
+				"H": 181,
+				"2B": 36,
+				"3B": 1,
+				"HR": 33,
+				"BB": 105,
+				"SO": 106,
+				"HBP": 7,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "henderi01-1993",
+			"nameFirst": "Rickey",
+			"nameLast": "Henderson",
+			"nameGiven": "Rickey Nelson Henley",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 1993,
+			"stats": {
+				"PA": 407,
+				"AB": 318,
+				"H": 104,
+				"2B": 19,
+				"3B": 1,
+				"HR": 17,
+				"BB": 85,
+				"SO": 46,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 77
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "stairma01-1997",
+			"nameFirst": "Matt",
+			"nameLast": "Stairs",
+			"nameGiven": "Matthew Wade",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 1997,
+			"stats": {
+				"PA": 410,
+				"AB": 352,
+				"H": 105,
+				"2B": 19,
+				"3B": 0,
+				"HR": 27,
+				"BB": 50,
+				"SO": 60,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "berroge01-1997",
+			"nameFirst": "Geronimo",
+			"nameLast": "Berroa",
+			"nameGiven": "Geronimo Emiliano Letta",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 1997,
+			"stats": {
+				"PA": 299,
+				"AB": 261,
+				"H": 81,
+				"2B": 12,
+				"3B": 0,
+				"HR": 16,
+				"BB": 36,
+				"SO": 58,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "cansejo01-1991",
+			"nameFirst": "Jose",
+			"nameLast": "Canseco",
+			"nameGiven": "Jose",
+			"position": "designated-hitter",
+			"team": "Oakland Athletics",
+			"year": 1991,
+			"stats": {
+				"PA": 665,
+				"AB": 572,
+				"H": 152,
+				"2B": 32,
+				"3B": 1,
+				"HR": 44,
+				"BB": 78,
+				"SO": 152,
+				"HBP": 9,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

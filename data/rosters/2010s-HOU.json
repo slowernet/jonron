@@ -1,0 +1,623 @@
+{
+	"team": "HOU",
+	"teamAbbr": "HOU",
+	"teamName": "Houston Astros",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "castrja01-2013",
+			"nameFirst": "Jason",
+			"nameLast": "Castro",
+			"nameGiven": "Jason Michael",
+			"position": "catcher",
+			"team": "Houston Astros",
+			"year": 2013,
+			"stats": {
+				"PA": 491,
+				"AB": 435,
+				"H": 120,
+				"2B": 35,
+				"3B": 1,
+				"HR": 18,
+				"BB": 50,
+				"SO": 130,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 95
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "altuvjo01-2017",
+			"nameFirst": "Jose",
+			"nameLast": "Altuve",
+			"nameGiven": "Jose Carlos",
+			"position": "second-base",
+			"team": "Houston Astros",
+			"year": 2017,
+			"stats": {
+				"PA": 662,
+				"AB": 590,
+				"H": 204,
+				"2B": 39,
+				"3B": 4,
+				"HR": 24,
+				"BB": 58,
+				"SO": 84,
+				"HBP": 9,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "bregmal01-2019",
+			"nameFirst": "Alex",
+			"nameLast": "Bregman",
+			"nameGiven": "Alexander David",
+			"position": "third-base",
+			"team": "Houston Astros",
+			"year": 2019,
+			"stats": {
+				"PA": 690,
+				"AB": 554,
+				"H": 164,
+				"2B": 37,
+				"3B": 2,
+				"HR": 41,
+				"BB": 119,
+				"SO": 83,
+				"HBP": 9,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 67
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "correca01-2017",
+			"nameFirst": "Carlos",
+			"nameLast": "Correa",
+			"nameGiven": "Carlos Javier",
+			"position": "shortstop",
+			"team": "Houston Astros",
+			"year": 2017,
+			"stats": {
+				"PA": 481,
+				"AB": 422,
+				"H": 133,
+				"2B": 25,
+				"3B": 1,
+				"HR": 24,
+				"BB": 53,
+				"SO": 92,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "gonzama01-2017",
+			"nameFirst": "Marwin",
+			"nameLast": "Gonzalez",
+			"nameGiven": "Marwin Javier",
+			"position": "first-base",
+			"team": "Houston Astros",
+			"year": 2017,
+			"stats": {
+				"PA": 515,
+				"AB": 455,
+				"H": 138,
+				"2B": 34,
+				"3B": 0,
+				"HR": 23,
+				"BB": 49,
+				"SO": 99,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "springe01-2019",
+			"nameFirst": "George",
+			"nameLast": "Springer",
+			"nameGiven": "George Chelston",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2019,
+			"stats": {
+				"PA": 556,
+				"AB": 479,
+				"H": 140,
+				"2B": 20,
+				"3B": 3,
+				"HR": 39,
+				"BB": 67,
+				"SO": 113,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 73
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "reddijo01-2017",
+			"nameFirst": "Josh",
+			"nameLast": "Reddick",
+			"nameGiven": "William Joshua",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2017,
+			"stats": {
+				"PA": 533,
+				"AB": 477,
+				"H": 150,
+				"2B": 34,
+				"3B": 4,
+				"HR": 13,
+				"BB": 43,
+				"SO": 72,
+				"HBP": 0,
+				"SF": 12,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "marisja01-2017",
+			"nameFirst": "Jake",
+			"nameLast": "Marisnick",
+			"nameGiven": "Jacob Shawn",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2017,
+			"stats": {
+				"PA": 259,
+				"AB": 230,
+				"H": 56,
+				"2B": 10,
+				"3B": 0,
+				"HR": 16,
+				"BB": 20,
+				"SO": 90,
+				"HBP": 6,
+				"SF": 1,
+				"SH": 2,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 125
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "gourryu01-2019",
+			"nameFirst": "Yuli",
+			"nameLast": "Gurriel",
+			"nameGiven": "Yulieski",
+			"position": "designated-hitter",
+			"team": "Houston Astros",
+			"year": 2019,
+			"stats": {
+				"PA": 612,
+				"AB": 564,
+				"H": 168,
+				"2B": 40,
+				"3B": 2,
+				"HR": 31,
+				"BB": 37,
+				"SO": 65,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		}
+	]
+}

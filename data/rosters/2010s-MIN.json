@@ -1,0 +1,623 @@
+{
+	"team": "MIN",
+	"teamAbbr": "MIN",
+	"teamName": "Minnesota Twins",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "mauerjo01-2013",
+			"nameFirst": "Joe",
+			"nameLast": "Mauer",
+			"nameGiven": "Joseph Patrick",
+			"position": "catcher",
+			"team": "Minnesota Twins",
+			"year": 2013,
+			"stats": {
+				"PA": 508,
+				"AB": 445,
+				"H": 144,
+				"2B": 35,
+				"3B": 0,
+				"HR": 11,
+				"BB": 61,
+				"SO": 89,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "morneju01-2010",
+			"nameFirst": "Justin",
+			"nameLast": "Morneau",
+			"nameGiven": "Justin Ernest George",
+			"position": "first-base",
+			"team": "Minnesota Twins",
+			"year": 2010,
+			"stats": {
+				"PA": 348,
+				"AB": 296,
+				"H": 102,
+				"2B": 25,
+				"3B": 1,
+				"HR": 18,
+				"BB": 50,
+				"SO": 62,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "doziebr01-2016",
+			"nameFirst": "Brian",
+			"nameLast": "Dozier",
+			"nameGiven": "James Brian",
+			"position": "second-base",
+			"team": "Minnesota Twins",
+			"year": 2016,
+			"stats": {
+				"PA": 691,
+				"AB": 615,
+				"H": 165,
+				"2B": 35,
+				"3B": 5,
+				"HR": 42,
+				"BB": 61,
+				"SO": 138,
+				"HBP": 8,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "sanomi01-2019",
+			"nameFirst": "Miguel",
+			"nameLast": "Sano",
+			"nameGiven": "Miguel Angel",
+			"position": "third-base",
+			"team": "Minnesota Twins",
+			"year": 2019,
+			"stats": {
+				"PA": 439,
+				"AB": 380,
+				"H": 94,
+				"2B": 19,
+				"3B": 2,
+				"HR": 34,
+				"BB": 55,
+				"SO": 159,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 28
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 35
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 19
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 129
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 17
+				},
+				{
+					"number": 13,
+					"size": 13
+				},
+				{
+					"number": 14,
+					"size": 36
+				}
+			]
+		},
+		{
+			"id": "keplema01-2019",
+			"nameFirst": "Max",
+			"nameLast": "Kepler",
+			"nameGiven": "Maximilian",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2019,
+			"stats": {
+				"PA": 596,
+				"AB": 524,
+				"H": 132,
+				"2B": 32,
+				"3B": 0,
+				"HR": 36,
+				"BB": 60,
+				"SO": 99,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "rosared01-2017",
+			"nameFirst": "Eddie",
+			"nameLast": "Rosario",
+			"nameGiven": "Eddie Manuel",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2017,
+			"stats": {
+				"PA": 589,
+				"AB": 542,
+				"H": 157,
+				"2B": 33,
+				"3B": 2,
+				"HR": 27,
+				"BB": 35,
+				"SO": 106,
+				"HBP": 0,
+				"SF": 8,
+				"SH": 4,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "spande01-2012",
+			"nameFirst": "Denard",
+			"nameLast": "Span",
+			"nameGiven": "Keiunta Denard",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2012,
+			"stats": {
+				"PA": 568,
+				"AB": 516,
+				"H": 146,
+				"2B": 38,
+				"3B": 4,
+				"HR": 4,
+				"BB": 47,
+				"SO": 62,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "escobed01-2018",
+			"nameFirst": "Eduardo",
+			"nameLast": "Escobar",
+			"nameGiven": "Eduardo Jose",
+			"position": "shortstop",
+			"team": "Minnesota Twins",
+			"year": 2018,
+			"stats": {
+				"PA": 408,
+				"AB": 368,
+				"H": 101,
+				"2B": 37,
+				"3B": 3,
+				"HR": 15,
+				"BB": 34,
+				"SO": 91,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 33
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "polanjo01-2019",
+			"nameFirst": "Jorge",
+			"nameLast": "Polanco",
+			"nameGiven": "Jorge Luis",
+			"position": "designated-hitter",
+			"team": "Minnesota Twins",
+			"year": 2019,
+			"stats": {
+				"PA": 704,
+				"AB": 631,
+				"H": 186,
+				"2B": 40,
+				"3B": 7,
+				"HR": 22,
+				"BB": 60,
+				"SO": 116,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

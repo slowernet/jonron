@@ -1,0 +1,631 @@
+{
+	"team": "WS2",
+	"teamAbbr": "WSA",
+	"teamName": "Washington Senators",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "sundbji01-1977",
+			"nameFirst": "Jim",
+			"nameLast": "Sundberg",
+			"nameGiven": "James Howard",
+			"position": "catcher",
+			"team": "Washington Senators",
+			"year": 1977,
+			"stats": {
+				"PA": 533,
+				"AB": 453,
+				"H": 132,
+				"2B": 20,
+				"3B": 3,
+				"HR": 6,
+				"BB": 53,
+				"SO": 77,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 20,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "harrato01-1977",
+			"nameFirst": "Toby",
+			"nameLast": "Harrah",
+			"nameGiven": "Colbert Dale",
+			"position": "shortstop",
+			"team": "Washington Senators",
+			"year": 1977,
+			"stats": {
+				"PA": 673,
+				"AB": 539,
+				"H": 142,
+				"2B": 25,
+				"3B": 5,
+				"HR": 27,
+				"BB": 109,
+				"SO": 73,
+				"HBP": 10,
+				"SF": 6,
+				"SH": 9,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 64
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "howarfr01-1970",
+			"nameFirst": "Frank",
+			"nameLast": "Howard",
+			"nameGiven": "Frank Oliver",
+			"position": "first-base",
+			"team": "Washington Senators",
+			"year": 1970,
+			"stats": {
+				"PA": 706,
+				"AB": 566,
+				"H": 160,
+				"2B": 15,
+				"3B": 1,
+				"HR": 44,
+				"BB": 132,
+				"SO": 125,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 23
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 68
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "willsbu01-1977",
+			"nameFirst": "Bump",
+			"nameLast": "Wills",
+			"nameGiven": "Elliott Taylor",
+			"position": "second-base",
+			"team": "Washington Senators",
+			"year": 1977,
+			"stats": {
+				"PA": 617,
+				"AB": 541,
+				"H": 155,
+				"2B": 28,
+				"3B": 6,
+				"HR": 9,
+				"BB": 65,
+				"SO": 96,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 7,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "nelsoda01-1971",
+			"nameFirst": "Dave",
+			"nameLast": "Nelson",
+			"nameGiven": "David Earl",
+			"position": "third-base",
+			"team": "Washington Senators",
+			"year": 1971,
+			"stats": {
+				"PA": 358,
+				"AB": 329,
+				"H": 92,
+				"2B": 11,
+				"3B": 3,
+				"HR": 5,
+				"BB": 23,
+				"SO": 29,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 29
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "burroje01-1974",
+			"nameFirst": "Jeff",
+			"nameLast": "Burroughs",
+			"nameGiven": "Jeffrey Alan",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1974,
+			"stats": {
+				"PA": 662,
+				"AB": 554,
+				"H": 167,
+				"2B": 33,
+				"3B": 2,
+				"HR": 25,
+				"BB": 91,
+				"SO": 104,
+				"HBP": 5,
+				"SF": 12,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "hargrmi01-1977",
+			"nameFirst": "Mike",
+			"nameLast": "Hargrove",
+			"nameGiven": "Dudley Michael",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1977,
+			"stats": {
+				"PA": 648,
+				"AB": 525,
+				"H": 160,
+				"2B": 28,
+				"3B": 4,
+				"HR": 18,
+				"BB": 103,
+				"SO": 59,
+				"HBP": 6,
+				"SF": 6,
+				"SH": 8,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "grievto01-1975",
+			"nameFirst": "Tom",
+			"nameLast": "Grieve",
+			"nameGiven": "Thomas Alan",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1975,
+			"stats": {
+				"PA": 396,
+				"AB": 369,
+				"H": 102,
+				"2B": 17,
+				"3B": 1,
+				"HR": 14,
+				"BB": 22,
+				"SO": 74,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "beniqju01-1977",
+			"nameFirst": "Juan",
+			"nameLast": "Beniquez",
+			"nameGiven": "Juan Jose",
+			"position": "designated-hitter",
+			"team": "Washington Senators",
+			"year": 1977,
+			"stats": {
+				"PA": 478,
+				"AB": 424,
+				"H": 114,
+				"2B": 19,
+				"3B": 6,
+				"HR": 10,
+				"BB": 43,
+				"SO": 43,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 8,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		}
+	]
+}

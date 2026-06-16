@@ -1,0 +1,627 @@
+{
+	"team": "PHA",
+	"teamAbbr": "PHA",
+	"teamName": "Philadelphia Athletics",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "astrojo01-1953",
+			"nameFirst": "Joe",
+			"nameLast": "Astroth",
+			"nameGiven": "Joseph Henry",
+			"position": "catcher",
+			"team": "Philadelphia Athletics",
+			"year": 1953,
+			"stats": {
+				"PA": 289,
+				"AB": 260,
+				"H": 77,
+				"2B": 15,
+				"3B": 2,
+				"HR": 3,
+				"BB": 27,
+				"SO": 12,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "fainfe01-1951",
+			"nameFirst": "Ferris",
+			"nameLast": "Fain",
+			"nameGiven": "Ferris Roy",
+			"position": "first-base",
+			"team": "Philadelphia Athletics",
+			"year": 1951,
+			"stats": {
+				"PA": 511,
+				"AB": 425,
+				"H": 146,
+				"2B": 30,
+				"3B": 3,
+				"HR": 6,
+				"BB": 80,
+				"SO": 20,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 14
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "lopezhe01-1957",
+			"nameFirst": "Hector",
+			"nameLast": "Lopez",
+			"nameGiven": "Hector Headley",
+			"position": "third-base",
+			"team": "Philadelphia Athletics",
+			"year": 1957,
+			"stats": {
+				"PA": 441,
+				"AB": 391,
+				"H": 115,
+				"2B": 19,
+				"3B": 4,
+				"HR": 11,
+				"BB": 41,
+				"SO": 66,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 4,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "powervi01-1955",
+			"nameFirst": "Vic",
+			"nameLast": "Power",
+			"nameGiven": "Victor Pellot",
+			"position": "second-base",
+			"team": "Philadelphia Athletics",
+			"year": 1955,
+			"stats": {
+				"PA": 639,
+				"AB": 596,
+				"H": 190,
+				"2B": 34,
+				"3B": 10,
+				"HR": 19,
+				"BB": 35,
+				"SO": 27,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 73
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 74
+				}
+			]
+		},
+		{
+			"id": "joosted01-1951",
+			"nameFirst": "Eddie",
+			"nameLast": "Joost",
+			"nameGiven": "Edwin David",
+			"position": "shortstop",
+			"team": "Philadelphia Athletics",
+			"year": 1951,
+			"stats": {
+				"PA": 667,
+				"AB": 553,
+				"H": 160,
+				"2B": 28,
+				"3B": 5,
+				"HR": 19,
+				"BB": 106,
+				"SO": 70,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "valoel01-1955",
+			"nameFirst": "Elmer",
+			"nameLast": "Valo",
+			"nameGiven": "Elmer William",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1955,
+			"stats": {
+				"PA": 338,
+				"AB": 283,
+				"H": 103,
+				"2B": 17,
+				"3B": 4,
+				"HR": 3,
+				"BB": 52,
+				"SO": 18,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "zernigu01-1953",
+			"nameFirst": "Gus",
+			"nameLast": "Zernial",
+			"nameGiven": "Gus Edward",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1953,
+			"stats": {
+				"PA": 617,
+				"AB": 556,
+				"H": 158,
+				"2B": 21,
+				"3B": 3,
+				"HR": 42,
+				"BB": 57,
+				"SO": 79,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "phillda01-1953",
+			"nameFirst": "Dave",
+			"nameLast": "Philley",
+			"nameGiven": "David Earl",
+			"position": "outfield",
+			"team": "Philadelphia Athletics",
+			"year": 1953,
+			"stats": {
+				"PA": 677,
+				"AB": 620,
+				"H": 188,
+				"2B": 30,
+				"3B": 9,
+				"HR": 9,
+				"BB": 51,
+				"SO": 35,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "suderpe01-1950",
+			"nameFirst": "Pete",
+			"nameLast": "Suder",
+			"nameGiven": "Peter",
+			"position": "designated-hitter",
+			"team": "Philadelphia Athletics",
+			"year": 1950,
+			"stats": {
+				"PA": 274,
+				"AB": 248,
+				"H": 61,
+				"2B": 10,
+				"3B": 0,
+				"HR": 8,
+				"BB": 23,
+				"SO": 31,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 47
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 47
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

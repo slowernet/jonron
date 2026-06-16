@@ -1,0 +1,619 @@
+{
+	"team": "BAL",
+	"teamAbbr": "BAL",
+	"teamName": "Baltimore Orioles",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "hoilech01-1993",
+			"nameFirst": "Chris",
+			"nameLast": "Hoiles",
+			"nameGiven": "Christopher Allen",
+			"position": "catcher",
+			"team": "Baltimore Orioles",
+			"year": 1993,
+			"stats": {
+				"PA": 503,
+				"AB": 419,
+				"H": 130,
+				"2B": 28,
+				"3B": 0,
+				"HR": 29,
+				"BB": 69,
+				"SO": 94,
+				"HBP": 9,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "alomaro01-1996",
+			"nameFirst": "Roberto",
+			"nameLast": "Alomar",
+			"nameGiven": "Roberto",
+			"position": "second-base",
+			"team": "Baltimore Orioles",
+			"year": 1996,
+			"stats": {
+				"PA": 699,
+				"AB": 588,
+				"H": 193,
+				"2B": 43,
+				"3B": 4,
+				"HR": 22,
+				"BB": 90,
+				"SO": 65,
+				"HBP": 1,
+				"SF": 12,
+				"SH": 8,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "palmera01-1995",
+			"nameFirst": "Rafael",
+			"nameLast": "Palmeiro",
+			"nameGiven": "Rafael",
+			"position": "first-base",
+			"team": "Baltimore Orioles",
+			"year": 1995,
+			"stats": {
+				"PA": 624,
+				"AB": 554,
+				"H": 172,
+				"2B": 30,
+				"3B": 2,
+				"HR": 39,
+				"BB": 62,
+				"SO": 65,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "ripkeca01-1999",
+			"nameFirst": "Cal",
+			"nameLast": "Ripken",
+			"nameGiven": "Calvin Edwin",
+			"position": "shortstop",
+			"team": "Baltimore Orioles",
+			"year": 1999,
+			"stats": {
+				"PA": 354,
+				"AB": 332,
+				"H": 113,
+				"2B": 27,
+				"3B": 0,
+				"HR": 18,
+				"BB": 13,
+				"SO": 31,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "gomezle02-1994",
+			"nameFirst": "Leo",
+			"nameLast": "Gomez",
+			"nameGiven": "Leonardo",
+			"position": "third-base",
+			"team": "Baltimore Orioles",
+			"year": 1994,
+			"stats": {
+				"PA": 333,
+				"AB": 285,
+				"H": 78,
+				"2B": 20,
+				"3B": 0,
+				"HR": 15,
+				"BB": 41,
+				"SO": 55,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "anderbr01-1996",
+			"nameFirst": "Brady",
+			"nameLast": "Anderson",
+			"nameGiven": "Brady Kevin",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 1996,
+			"stats": {
+				"PA": 687,
+				"AB": 579,
+				"H": 172,
+				"2B": 37,
+				"3B": 5,
+				"HR": 50,
+				"BB": 76,
+				"SO": 106,
+				"HBP": 22,
+				"SF": 4,
+				"SH": 6,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "baineha01-1999",
+			"nameFirst": "Harold",
+			"nameLast": "Baines",
+			"nameGiven": "Harold Douglas",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 1999,
+			"stats": {
+				"PA": 390,
+				"AB": 345,
+				"H": 111,
+				"2B": 16,
+				"3B": 1,
+				"HR": 24,
+				"BB": 43,
+				"SO": 38,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "surhobj01-1999",
+			"nameFirst": "B. J.",
+			"nameLast": "Surhoff",
+			"nameGiven": "William James",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 1999,
+			"stats": {
+				"PA": 727,
+				"AB": 673,
+				"H": 207,
+				"2B": 38,
+				"3B": 1,
+				"HR": 28,
+				"BB": 43,
+				"SO": 78,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "millira01-1990",
+			"nameFirst": "Randy",
+			"nameLast": "Milligan",
+			"nameGiven": "Randy Andre",
+			"position": "designated-hitter",
+			"team": "Baltimore Orioles",
+			"year": 1990,
+			"stats": {
+				"PA": 456,
+				"AB": 362,
+				"H": 96,
+				"2B": 20,
+				"3B": 1,
+				"HR": 20,
+				"BB": 88,
+				"SO": 68,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 71
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

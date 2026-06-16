@@ -1,0 +1,627 @@
+{
+	"team": "BSN",
+	"teamAbbr": "BSN",
+	"teamName": "Boston Bees",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "masiph01-1947",
+			"nameFirst": "Phil",
+			"nameLast": "Masi",
+			"nameGiven": "Philip Samuel",
+			"position": "catcher",
+			"team": "Boston Bees",
+			"year": 1947,
+			"stats": {
+				"PA": 470,
+				"AB": 411,
+				"H": 125,
+				"2B": 22,
+				"3B": 4,
+				"HR": 9,
+				"BB": 47,
+				"SO": 27,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 11,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "westma02-1941",
+			"nameFirst": "Max",
+			"nameLast": "West",
+			"nameGiven": "Max Edward",
+			"position": "first-base",
+			"team": "Boston Bees",
+			"year": 1941,
+			"stats": {
+				"PA": 560,
+				"AB": 484,
+				"H": 134,
+				"2B": 28,
+				"3B": 4,
+				"HR": 12,
+				"BB": 72,
+				"SO": 68,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "milleed03-1940",
+			"nameFirst": "Eddie",
+			"nameLast": "Miller",
+			"nameGiven": "Edward Robert",
+			"position": "shortstop",
+			"team": "Boston Bees",
+			"year": 1940,
+			"stats": {
+				"PA": 617,
+				"AB": 569,
+				"H": 157,
+				"2B": 33,
+				"3B": 3,
+				"HR": 14,
+				"BB": 41,
+				"SO": 43,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "ryanco01-1944",
+			"nameFirst": "Connie",
+			"nameLast": "Ryan",
+			"nameGiven": "Cornelius Joseph",
+			"position": "second-base",
+			"team": "Boston Bees",
+			"year": 1944,
+			"stats": {
+				"PA": 381,
+				"AB": 332,
+				"H": 98,
+				"2B": 18,
+				"3B": 5,
+				"HR": 4,
+				"BB": 36,
+				"SO": 40,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 13,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "elliobo01-1947",
+			"nameFirst": "Bob",
+			"nameLast": "Elliott",
+			"nameGiven": "Robert Irving",
+			"position": "third-base",
+			"team": "Boston Bees",
+			"year": 1947,
+			"stats": {
+				"PA": 645,
+				"AB": 555,
+				"H": 176,
+				"2B": 35,
+				"3B": 5,
+				"HR": 22,
+				"BB": 87,
+				"SO": 60,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "holmeto01-1945",
+			"nameFirst": "Tommy",
+			"nameLast": "Holmes",
+			"nameGiven": "Thomas Francis",
+			"position": "outfield",
+			"team": "Boston Bees",
+			"year": 1945,
+			"stats": {
+				"PA": 713,
+				"AB": 636,
+				"H": 224,
+				"2B": 47,
+				"3B": 6,
+				"HR": 28,
+				"BB": 70,
+				"SO": 9,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 71
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 5
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 72
+				}
+			]
+		},
+		{
+			"id": "workmch01-1945",
+			"nameFirst": "Chuck",
+			"nameLast": "Workman",
+			"nameGiven": "Charles Thomas",
+			"position": "outfield",
+			"team": "Boston Bees",
+			"year": 1945,
+			"stats": {
+				"PA": 580,
+				"AB": 514,
+				"H": 141,
+				"2B": 16,
+				"3B": 2,
+				"HR": 25,
+				"BB": 51,
+				"SO": 58,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 9,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "rowelba01-1946",
+			"nameFirst": "Bama",
+			"nameLast": "Rowell",
+			"nameGiven": "Carvel William",
+			"position": "outfield",
+			"team": "Boston Bees",
+			"year": 1946,
+			"stats": {
+				"PA": 329,
+				"AB": 293,
+				"H": 82,
+				"2B": 12,
+				"3B": 6,
+				"HR": 3,
+				"BB": 29,
+				"SO": 15,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 16
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "sistisi01-1949",
+			"nameFirst": "Sibby",
+			"nameLast": "Sisti",
+			"nameGiven": "Sebastian Daniel",
+			"position": "designated-hitter",
+			"team": "Boston Bees",
+			"year": 1949,
+			"stats": {
+				"PA": 311,
+				"AB": 268,
+				"H": 69,
+				"2B": 12,
+				"3B": 0,
+				"HR": 5,
+				"BB": 34,
+				"SO": 42,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

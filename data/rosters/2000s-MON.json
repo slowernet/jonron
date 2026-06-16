@@ -1,0 +1,627 @@
+{
+	"team": "MON",
+	"teamAbbr": "MON",
+	"teamName": "Montreal Expos",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "schnebr01-2002",
+			"nameFirst": "Brian",
+			"nameLast": "Schneider",
+			"nameGiven": "Brian Duncan",
+			"position": "catcher",
+			"team": "Montreal Expos",
+			"year": 2002,
+			"stats": {
+				"PA": 232,
+				"AB": 207,
+				"H": 57,
+				"2B": 19,
+				"3B": 2,
+				"HR": 5,
+				"BB": 21,
+				"SO": 41,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "vidrojo01-2000",
+			"nameFirst": "Jose",
+			"nameLast": "Vidro",
+			"nameGiven": "Jose Angel",
+			"position": "second-base",
+			"team": "Montreal Expos",
+			"year": 2000,
+			"stats": {
+				"PA": 663,
+				"AB": 606,
+				"H": 200,
+				"2B": 51,
+				"3B": 2,
+				"HR": 24,
+				"BB": 49,
+				"SO": 69,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "zimmery01-2009",
+			"nameFirst": "Ryan",
+			"nameLast": "Zimmerman",
+			"nameGiven": "Ryan Wallace",
+			"position": "third-base",
+			"team": "Montreal Expos",
+			"year": 2009,
+			"stats": {
+				"PA": 693,
+				"AB": 610,
+				"H": 178,
+				"2B": 37,
+				"3B": 3,
+				"HR": 33,
+				"BB": 72,
+				"SO": 119,
+				"HBP": 2,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "johnsni01-2006",
+			"nameFirst": "Nick",
+			"nameLast": "Johnson",
+			"nameGiven": "Nicholas Robert",
+			"position": "first-base",
+			"team": "Montreal Expos",
+			"year": 2006,
+			"stats": {
+				"PA": 628,
+				"AB": 500,
+				"H": 145,
+				"2B": 46,
+				"3B": 0,
+				"HR": 23,
+				"BB": 110,
+				"SO": 99,
+				"HBP": 13,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 71
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "cabreor01-2003",
+			"nameFirst": "Orlando",
+			"nameLast": "Cabrera",
+			"nameGiven": "Orlando Luis",
+			"position": "shortstop",
+			"team": "Montreal Expos",
+			"year": 2003,
+			"stats": {
+				"PA": 691,
+				"AB": 626,
+				"H": 186,
+				"2B": 47,
+				"3B": 2,
+				"HR": 17,
+				"BB": 52,
+				"SO": 64,
+				"HBP": 1,
+				"SF": 9,
+				"SH": 3,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "guerrvl01-2000",
+			"nameFirst": "Vladimir",
+			"nameLast": "Guerrero",
+			"nameGiven": "Vladimir",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 2000,
+			"stats": {
+				"PA": 641,
+				"AB": 571,
+				"H": 197,
+				"2B": 28,
+				"3B": 11,
+				"HR": 44,
+				"BB": 58,
+				"SO": 74,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "wilkebr01-2004",
+			"nameFirst": "Brad",
+			"nameLast": "Wilkerson",
+			"nameGiven": "Stephen Bradley",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 2004,
+			"stats": {
+				"PA": 688,
+				"AB": 572,
+				"H": 146,
+				"2B": 39,
+				"3B": 2,
+				"HR": 32,
+				"BB": 106,
+				"SO": 152,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "kearnau01-2006",
+			"nameFirst": "Austin",
+			"nameLast": "Kearns",
+			"nameGiven": "Austin Ryan",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 2006,
+			"stats": {
+				"PA": 261,
+				"AB": 212,
+				"H": 53,
+				"2B": 12,
+				"3B": 1,
+				"HR": 8,
+				"BB": 41,
+				"SO": 50,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 63
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "guzmacr01-2008",
+			"nameFirst": "Cristian",
+			"nameLast": "Guzman",
+			"nameGiven": "Cristian",
+			"position": "designated-hitter",
+			"team": "Montreal Expos",
+			"year": 2008,
+			"stats": {
+				"PA": 612,
+				"AB": 579,
+				"H": 183,
+				"2B": 35,
+				"3B": 5,
+				"HR": 9,
+				"BB": 23,
+				"SO": 57,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		}
+	]
+}

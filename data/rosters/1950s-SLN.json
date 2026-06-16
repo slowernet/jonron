@@ -1,0 +1,631 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "ricede01-1952",
+			"nameFirst": "Del",
+			"nameLast": "Rice",
+			"nameGiven": "Delbert W.",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1952,
+			"stats": {
+				"PA": 537,
+				"AB": 495,
+				"H": 128,
+				"2B": 27,
+				"3B": 2,
+				"HR": 11,
+				"BB": 33,
+				"SO": 38,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "schoere01-1953",
+			"nameFirst": "Red",
+			"nameLast": "Schoendienst",
+			"nameGiven": "Albert Fred",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1953,
+			"stats": {
+				"PA": 627,
+				"AB": 564,
+				"H": 193,
+				"2B": 35,
+				"3B": 5,
+				"HR": 15,
+				"BB": 60,
+				"SO": 23,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 13
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "boyerke01-1959",
+			"nameFirst": "Ken",
+			"nameLast": "Boyer",
+			"nameGiven": "Kenton Lloyd",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1959,
+			"stats": {
+				"PA": 633,
+				"AB": 563,
+				"H": 174,
+				"2B": 18,
+				"3B": 5,
+				"HR": 28,
+				"BB": 67,
+				"SO": 77,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "hemusso01-1954",
+			"nameFirst": "Solly",
+			"nameLast": "Hemus",
+			"nameGiven": "Solomon Joseph",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1954,
+			"stats": {
+				"PA": 276,
+				"AB": 214,
+				"H": 65,
+				"2B": 15,
+				"3B": 3,
+				"HR": 2,
+				"BB": 55,
+				"SO": 27,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 78
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "musiast01-1951",
+			"nameFirst": "Stan",
+			"nameLast": "Musial",
+			"nameGiven": "Stanley Frank",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1951,
+			"stats": {
+				"PA": 678,
+				"AB": 578,
+				"H": 205,
+				"2B": 30,
+				"3B": 12,
+				"HR": 32,
+				"BB": 98,
+				"SO": 40,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "cunnijo01-1958",
+			"nameFirst": "Joe",
+			"nameLast": "Cunningham",
+			"nameGiven": "Joseph Robert",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1958,
+			"stats": {
+				"PA": 424,
+				"AB": 337,
+				"H": 105,
+				"2B": 20,
+				"3B": 3,
+				"HR": 12,
+				"BB": 82,
+				"SO": 23,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 72
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "moonwa01-1957",
+			"nameFirst": "Wally",
+			"nameLast": "Moon",
+			"nameGiven": "Wallace Wade",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1957,
+			"stats": {
+				"PA": 586,
+				"AB": 516,
+				"H": 152,
+				"2B": 28,
+				"3B": 5,
+				"HR": 24,
+				"BB": 62,
+				"SO": 57,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "slaugen01-1953",
+			"nameFirst": "Enos",
+			"nameLast": "Slaughter",
+			"nameGiven": "Enos Bradsher",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1953,
+			"stats": {
+				"PA": 578,
+				"AB": 492,
+				"H": 143,
+				"2B": 34,
+				"3B": 9,
+				"HR": 6,
+				"BB": 80,
+				"SO": 28,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "repulri01-1955",
+			"nameFirst": "Rip",
+			"nameLast": "Repulski",
+			"nameGiven": "Eldon John",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 1955,
+			"stats": {
+				"PA": 576,
+				"AB": 512,
+				"H": 138,
+				"2B": 28,
+				"3B": 2,
+				"HR": 23,
+				"BB": 49,
+				"SO": 66,
+				"HBP": 4,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

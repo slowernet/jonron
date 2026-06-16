@@ -1,0 +1,627 @@
+{
+	"team": "MIN",
+	"teamAbbr": "MIN",
+	"teamName": "Minnesota Twins",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "mauerjo01-2009",
+			"nameFirst": "Joe",
+			"nameLast": "Mauer",
+			"nameGiven": "Joseph Patrick",
+			"position": "catcher",
+			"team": "Minnesota Twins",
+			"year": 2009,
+			"stats": {
+				"PA": 606,
+				"AB": 523,
+				"H": 191,
+				"2B": 30,
+				"3B": 1,
+				"HR": 28,
+				"BB": 76,
+				"SO": 63,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "guzmacr01-2001",
+			"nameFirst": "Cristian",
+			"nameLast": "Guzman",
+			"nameGiven": "Cristian",
+			"position": "shortstop",
+			"team": "Minnesota Twins",
+			"year": 2001,
+			"stats": {
+				"PA": 527,
+				"AB": 493,
+				"H": 149,
+				"2B": 28,
+				"3B": 14,
+				"HR": 10,
+				"BB": 21,
+				"SO": 78,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "morneju01-2006",
+			"nameFirst": "Justin",
+			"nameLast": "Morneau",
+			"nameGiven": "Justin Ernest George",
+			"position": "first-base",
+			"team": "Minnesota Twins",
+			"year": 2006,
+			"stats": {
+				"PA": 661,
+				"AB": 592,
+				"H": 190,
+				"2B": 37,
+				"3B": 1,
+				"HR": 34,
+				"BB": 53,
+				"SO": 93,
+				"HBP": 5,
+				"SF": 11,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "cuddymi01-2006",
+			"nameFirst": "Michael",
+			"nameLast": "Cuddyer",
+			"nameGiven": "Michael Brent",
+			"position": "second-base",
+			"team": "Minnesota Twins",
+			"year": 2006,
+			"stats": {
+				"PA": 635,
+				"AB": 557,
+				"H": 158,
+				"2B": 41,
+				"3B": 5,
+				"HR": 24,
+				"BB": 62,
+				"SO": 130,
+				"HBP": 10,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "koskico01-2001",
+			"nameFirst": "Corey",
+			"nameLast": "Koskie",
+			"nameGiven": "Cordel Leonard",
+			"position": "third-base",
+			"team": "Minnesota Twins",
+			"year": 2001,
+			"stats": {
+				"PA": 649,
+				"AB": 562,
+				"H": 155,
+				"2B": 37,
+				"3B": 2,
+				"HR": 26,
+				"BB": 68,
+				"SO": 118,
+				"HBP": 12,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "kubelja01-2009",
+			"nameFirst": "Jason",
+			"nameLast": "Kubel",
+			"nameGiven": "Jason James",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2009,
+			"stats": {
+				"PA": 578,
+				"AB": 514,
+				"H": 154,
+				"2B": 35,
+				"3B": 2,
+				"HR": 28,
+				"BB": 56,
+				"SO": 106,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "hunteto01-2002",
+			"nameFirst": "Torii",
+			"nameLast": "Hunter",
+			"nameGiven": "Torii Kedar",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2002,
+			"stats": {
+				"PA": 604,
+				"AB": 561,
+				"H": 162,
+				"2B": 37,
+				"3B": 4,
+				"HR": 29,
+				"BB": 35,
+				"SO": 118,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "stewash01-2003",
+			"nameFirst": "Shannon",
+			"nameLast": "Stewart",
+			"nameGiven": "Shannon Harold",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 2003,
+			"stats": {
+				"PA": 304,
+				"AB": 270,
+				"H": 87,
+				"2B": 22,
+				"3B": 0,
+				"HR": 6,
+				"BB": 25,
+				"SO": 36,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mientdo01-2001",
+			"nameFirst": "Doug",
+			"nameLast": "Mientkiewicz",
+			"nameGiven": "Douglas Andrew",
+			"position": "designated-hitter",
+			"team": "Minnesota Twins",
+			"year": 2001,
+			"stats": {
+				"PA": 626,
+				"AB": 543,
+				"H": 166,
+				"2B": 39,
+				"3B": 1,
+				"HR": 15,
+				"BB": 67,
+				"SO": 92,
+				"HBP": 9,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		}
+	]
+}

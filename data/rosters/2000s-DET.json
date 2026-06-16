@@ -1,0 +1,627 @@
+{
+	"team": "DET",
+	"teamAbbr": "DET",
+	"teamName": "Detroit Tigers",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "rodriiv01-2004",
+			"nameFirst": "Ivan",
+			"nameLast": "Rodriguez",
+			"nameGiven": "Ivan",
+			"position": "catcher",
+			"team": "Detroit Tigers",
+			"year": 2004,
+			"stats": {
+				"PA": 575,
+				"AB": 527,
+				"H": 176,
+				"2B": 32,
+				"3B": 2,
+				"HR": 19,
+				"BB": 41,
+				"SO": 91,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "polanpl01-2007",
+			"nameFirst": "Placido",
+			"nameLast": "Polanco",
+			"nameGiven": "Placido Enrique",
+			"position": "second-base",
+			"team": "Detroit Tigers",
+			"year": 2007,
+			"stats": {
+				"PA": 641,
+				"AB": 587,
+				"H": 200,
+				"2B": 36,
+				"3B": 3,
+				"HR": 9,
+				"BB": 37,
+				"SO": 30,
+				"HBP": 11,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "guillca01-2006",
+			"nameFirst": "Carlos",
+			"nameLast": "Guillen",
+			"nameGiven": "Carlos Alfonso",
+			"position": "third-base",
+			"team": "Detroit Tigers",
+			"year": 2006,
+			"stats": {
+				"PA": 622,
+				"AB": 543,
+				"H": 174,
+				"2B": 41,
+				"3B": 5,
+				"HR": 19,
+				"BB": 71,
+				"SO": 87,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "haltesh01-2001",
+			"nameFirst": "Shane",
+			"nameLast": "Halter",
+			"nameGiven": "Shane David",
+			"position": "shortstop",
+			"team": "Detroit Tigers",
+			"year": 2001,
+			"stats": {
+				"PA": 507,
+				"AB": 450,
+				"H": 128,
+				"2B": 32,
+				"3B": 7,
+				"HR": 12,
+				"BB": 37,
+				"SO": 100,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 7,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "youngdm01-2003",
+			"nameFirst": "Dmitri",
+			"nameLast": "Young",
+			"nameGiven": "Dmitri Dell",
+			"position": "first-base",
+			"team": "Detroit Tigers",
+			"year": 2003,
+			"stats": {
+				"PA": 635,
+				"AB": 562,
+				"H": 167,
+				"2B": 34,
+				"3B": 7,
+				"HR": 29,
+				"BB": 58,
+				"SO": 130,
+				"HBP": 11,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "ordonma01-2007",
+			"nameFirst": "Magglio",
+			"nameLast": "Ordonez",
+			"nameGiven": "Magglio",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 2007,
+			"stats": {
+				"PA": 678,
+				"AB": 595,
+				"H": 216,
+				"2B": 54,
+				"3B": 0,
+				"HR": 28,
+				"BB": 76,
+				"SO": 79,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "higgibo02-2000",
+			"nameFirst": "Bobby",
+			"nameLast": "Higginson",
+			"nameGiven": "Robert Leigh",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 2000,
+			"stats": {
+				"PA": 678,
+				"AB": 597,
+				"H": 179,
+				"2B": 44,
+				"3B": 4,
+				"HR": 30,
+				"BB": 74,
+				"SO": 99,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "grandcu01-2007",
+			"nameFirst": "Curtis",
+			"nameLast": "Granderson",
+			"nameGiven": "Curtis",
+			"position": "outfield",
+			"team": "Detroit Tigers",
+			"year": 2007,
+			"stats": {
+				"PA": 676,
+				"AB": 612,
+				"H": 185,
+				"2B": 38,
+				"3B": 23,
+				"HR": 23,
+				"BB": 52,
+				"SO": 141,
+				"HBP": 5,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 12
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "thamema01-2006",
+			"nameFirst": "Marcus",
+			"nameLast": "Thames",
+			"nameGiven": "Marcus Markley",
+			"position": "designated-hitter",
+			"team": "Detroit Tigers",
+			"year": 2006,
+			"stats": {
+				"PA": 390,
+				"AB": 348,
+				"H": 89,
+				"2B": 20,
+				"3B": 2,
+				"HR": 26,
+				"BB": 37,
+				"SO": 92,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 85
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

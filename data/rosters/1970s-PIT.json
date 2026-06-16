@@ -1,0 +1,631 @@
+{
+	"team": "PIT",
+	"teamAbbr": "PIT",
+	"teamName": "Pittsburgh Pirates",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "sanguma01-1975",
+			"nameFirst": "Manny",
+			"nameLast": "Sanguillen",
+			"nameGiven": "Manuel de Jesus",
+			"position": "catcher",
+			"team": "Pittsburgh Pirates",
+			"year": 1975,
+			"stats": {
+				"PA": 537,
+				"AB": 481,
+				"H": 158,
+				"2B": 24,
+				"3B": 4,
+				"HR": 9,
+				"BB": 48,
+				"SO": 31,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "stennre01-1977",
+			"nameFirst": "Rennie",
+			"nameLast": "Stennett",
+			"nameGiven": "Renaldo Antonio",
+			"position": "shortstop",
+			"team": "Pittsburgh Pirates",
+			"year": 1977,
+			"stats": {
+				"PA": 490,
+				"AB": 453,
+				"H": 152,
+				"2B": 20,
+				"3B": 4,
+				"HR": 5,
+				"BB": 29,
+				"SO": 24,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 54
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "garneph01-1979",
+			"nameFirst": "Phil",
+			"nameLast": "Garner",
+			"nameGiven": "Philip Mason",
+			"position": "second-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1979,
+			"stats": {
+				"PA": 612,
+				"AB": 549,
+				"H": 161,
+				"2B": 32,
+				"3B": 8,
+				"HR": 11,
+				"BB": 55,
+				"SO": 74,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "hebneri01-1972",
+			"nameFirst": "Richie",
+			"nameLast": "Hebner",
+			"nameGiven": "Richard Joseph",
+			"position": "third-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1972,
+			"stats": {
+				"PA": 492,
+				"AB": 427,
+				"H": 128,
+				"2B": 24,
+				"3B": 4,
+				"HR": 19,
+				"BB": 52,
+				"SO": 54,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "stargwi01-1973",
+			"nameFirst": "Willie",
+			"nameLast": "Stargell",
+			"nameGiven": "Wilver Dornel",
+			"position": "first-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1973,
+			"stats": {
+				"PA": 609,
+				"AB": 522,
+				"H": 156,
+				"2B": 43,
+				"3B": 3,
+				"HR": 44,
+				"BB": 80,
+				"SO": 129,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "parkeda01-1978",
+			"nameFirst": "Dave",
+			"nameLast": "Parker",
+			"nameGiven": "David Gene",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1978,
+			"stats": {
+				"PA": 642,
+				"AB": 581,
+				"H": 194,
+				"2B": 32,
+				"3B": 12,
+				"HR": 30,
+				"BB": 57,
+				"SO": 92,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "ziskri01-1973",
+			"nameFirst": "Richie",
+			"nameLast": "Zisk",
+			"nameGiven": "Richard Walter",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1973,
+			"stats": {
+				"PA": 354,
+				"AB": 333,
+				"H": 108,
+				"2B": 23,
+				"3B": 7,
+				"HR": 10,
+				"BB": 21,
+				"SO": 63,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 64
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "robinbi02-1976",
+			"nameFirst": "Bill",
+			"nameLast": "Robinson",
+			"nameGiven": "William Henry",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1976,
+			"stats": {
+				"PA": 416,
+				"AB": 393,
+				"H": 119,
+				"2B": 22,
+				"3B": 3,
+				"HR": 21,
+				"BB": 16,
+				"SO": 73,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "roberbo01-1970",
+			"nameFirst": "Bob",
+			"nameLast": "Robertson",
+			"nameGiven": "Robert Eugene",
+			"position": "designated-hitter",
+			"team": "Pittsburgh Pirates",
+			"year": 1970,
+			"stats": {
+				"PA": 451,
+				"AB": 390,
+				"H": 112,
+				"2B": 19,
+				"3B": 4,
+				"HR": 27,
+				"BB": 51,
+				"SO": 98,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

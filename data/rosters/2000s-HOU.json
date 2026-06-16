@@ -1,0 +1,623 @@
+{
+	"team": "HOU",
+	"teamAbbr": "HOU",
+	"teamName": "Houston Astros",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "ausmubr01-2005",
+			"nameFirst": "Brad",
+			"nameLast": "Ausmus",
+			"nameGiven": "Bradley David",
+			"position": "catcher",
+			"team": "Houston Astros",
+			"year": 2005,
+			"stats": {
+				"PA": 451,
+				"AB": 387,
+				"H": 100,
+				"2B": 19,
+				"3B": 0,
+				"HR": 3,
+				"BB": 51,
+				"SO": 48,
+				"HBP": 5,
+				"SF": 1,
+				"SH": 7,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 53
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 54
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "berkmla01-2001",
+			"nameFirst": "Lance",
+			"nameLast": "Berkman",
+			"nameGiven": "William Lance",
+			"position": "first-base",
+			"team": "Houston Astros",
+			"year": 2001,
+			"stats": {
+				"PA": 688,
+				"AB": 577,
+				"H": 191,
+				"2B": 55,
+				"3B": 5,
+				"HR": 34,
+				"BB": 92,
+				"SO": 121,
+				"HBP": 13,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "biggicr01-2001",
+			"nameFirst": "Craig",
+			"nameLast": "Biggio",
+			"nameGiven": "Craig Alan",
+			"position": "second-base",
+			"team": "Houston Astros",
+			"year": 2001,
+			"stats": {
+				"PA": 717,
+				"AB": 617,
+				"H": 180,
+				"2B": 35,
+				"3B": 3,
+				"HR": 20,
+				"BB": 66,
+				"SO": 100,
+				"HBP": 28,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "vizcajo01-2002",
+			"nameFirst": "Jose",
+			"nameLast": "Vizcaino",
+			"nameGiven": "Jose Luis",
+			"position": "shortstop",
+			"team": "Houston Astros",
+			"year": 2002,
+			"stats": {
+				"PA": 438,
+				"AB": 406,
+				"H": 123,
+				"2B": 19,
+				"3B": 2,
+				"HR": 5,
+				"BB": 24,
+				"SO": 40,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "ensbemo01-2005",
+			"nameFirst": "Morgan",
+			"nameLast": "Ensberg",
+			"nameGiven": "Morgan Paul",
+			"position": "third-base",
+			"team": "Houston Astros",
+			"year": 2005,
+			"stats": {
+				"PA": 624,
+				"AB": 526,
+				"H": 149,
+				"2B": 30,
+				"3B": 3,
+				"HR": 36,
+				"BB": 85,
+				"SO": 119,
+				"HBP": 8,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "hidalri01-2000",
+			"nameFirst": "Richard",
+			"nameLast": "Hidalgo",
+			"nameGiven": "Richard Jose",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2000,
+			"stats": {
+				"PA": 644,
+				"AB": 558,
+				"H": 175,
+				"2B": 42,
+				"3B": 3,
+				"HR": 44,
+				"BB": 56,
+				"SO": 110,
+				"HBP": 21,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "leeca01-2008",
+			"nameFirst": "Carlos",
+			"nameLast": "Lee",
+			"nameGiven": "Carlos",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2008,
+			"stats": {
+				"PA": 481,
+				"AB": 436,
+				"H": 137,
+				"2B": 27,
+				"3B": 0,
+				"HR": 28,
+				"BB": 37,
+				"SO": 49,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "pencehu01-2007",
+			"nameFirst": "Hunter",
+			"nameLast": "Pence",
+			"nameGiven": "Hunter Andrew",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 2007,
+			"stats": {
+				"PA": 484,
+				"AB": 456,
+				"H": 147,
+				"2B": 30,
+				"3B": 9,
+				"HR": 17,
+				"BB": 26,
+				"SO": 95,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "bagweje01-2000",
+			"nameFirst": "Jeff",
+			"nameLast": "Bagwell",
+			"nameGiven": "Jeffrey Robert",
+			"position": "designated-hitter",
+			"team": "Houston Astros",
+			"year": 2000,
+			"stats": {
+				"PA": 719,
+				"AB": 590,
+				"H": 183,
+				"2B": 37,
+				"3B": 1,
+				"HR": 47,
+				"BB": 107,
+				"SO": 116,
+				"HBP": 15,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

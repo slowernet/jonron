@@ -1,0 +1,631 @@
+{
+	"team": "TEX",
+	"teamAbbr": "TEX",
+	"teamName": "Texas Rangers",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "chiriro01-2017",
+			"nameFirst": "Robinson",
+			"nameLast": "Chirinos",
+			"nameGiven": "Robinson David",
+			"position": "catcher",
+			"team": "Texas Rangers",
+			"year": 2017,
+			"stats": {
+				"PA": 309,
+				"AB": 263,
+				"H": 67,
+				"2B": 13,
+				"3B": 1,
+				"HR": 17,
+				"BB": 34,
+				"SO": 79,
+				"HBP": 10,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 92
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "andruel01-2017",
+			"nameFirst": "Elvis",
+			"nameLast": "Andrus",
+			"nameGiven": "Elvis Augusto",
+			"position": "shortstop",
+			"team": "Texas Rangers",
+			"year": 2017,
+			"stats": {
+				"PA": 689,
+				"AB": 643,
+				"H": 191,
+				"2B": 44,
+				"3B": 4,
+				"HR": 20,
+				"BB": 38,
+				"SO": 101,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "kinslia01-2011",
+			"nameFirst": "Ian",
+			"nameLast": "Kinsler",
+			"nameGiven": "Ian Michael",
+			"position": "second-base",
+			"team": "Texas Rangers",
+			"year": 2011,
+			"stats": {
+				"PA": 723,
+				"AB": 620,
+				"H": 158,
+				"2B": 34,
+				"3B": 4,
+				"HR": 32,
+				"BB": 89,
+				"SO": 71,
+				"HBP": 8,
+				"SF": 2,
+				"SH": 4,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "gallojo01-2019",
+			"nameFirst": "Joey",
+			"nameLast": "Gallo",
+			"nameGiven": "Joseph Nicholas",
+			"position": "first-base",
+			"team": "Texas Rangers",
+			"year": 2019,
+			"stats": {
+				"PA": 297,
+				"AB": 241,
+				"H": 61,
+				"2B": 15,
+				"3B": 1,
+				"HR": 22,
+				"BB": 52,
+				"SO": 114,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 0
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 13
+				},
+				{
+					"number": 3,
+					"size": 28
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 17
+				},
+				{
+					"number": 9,
+					"size": 65
+				},
+				{
+					"number": 10,
+					"size": 138
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 13
+				},
+				{
+					"number": 13,
+					"size": 11
+				},
+				{
+					"number": 14,
+					"size": 28
+				}
+			]
+		},
+		{
+			"id": "beltrad01-2012",
+			"nameFirst": "Adrian",
+			"nameLast": "Beltre",
+			"nameGiven": "Adrian",
+			"position": "third-base",
+			"team": "Texas Rangers",
+			"year": 2012,
+			"stats": {
+				"PA": 654,
+				"AB": 604,
+				"H": 194,
+				"2B": 33,
+				"3B": 2,
+				"HR": 36,
+				"BB": 36,
+				"SO": 82,
+				"HBP": 5,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "hamiljo03-2010",
+			"nameFirst": "Josh",
+			"nameLast": "Hamilton",
+			"nameGiven": "Joshua Holt",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 2010,
+			"stats": {
+				"PA": 571,
+				"AB": 518,
+				"H": 186,
+				"2B": 40,
+				"3B": 3,
+				"HR": 32,
+				"BB": 43,
+				"SO": 95,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "cruzne02-2010",
+			"nameFirst": "Nelson",
+			"nameLast": "Cruz",
+			"nameGiven": "Nelson Ramon",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 2010,
+			"stats": {
+				"PA": 445,
+				"AB": 399,
+				"H": 127,
+				"2B": 31,
+				"3B": 3,
+				"HR": 22,
+				"BB": 38,
+				"SO": 81,
+				"HBP": 1,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "murphda07-2012",
+			"nameFirst": "David",
+			"nameLast": "Murphy",
+			"nameGiven": "David Matthew",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 2012,
+			"stats": {
+				"PA": 519,
+				"AB": 457,
+				"H": 139,
+				"2B": 29,
+				"3B": 3,
+				"HR": 15,
+				"BB": 54,
+				"SO": 74,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "youngmi02-2011",
+			"nameFirst": "Michael",
+			"nameLast": "Young",
+			"nameGiven": "Michael Brian",
+			"position": "designated-hitter",
+			"team": "Texas Rangers",
+			"year": 2011,
+			"stats": {
+				"PA": 689,
+				"AB": 631,
+				"H": 213,
+				"2B": 41,
+				"3B": 6,
+				"HR": 11,
+				"BB": 47,
+				"SO": 78,
+				"HBP": 2,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

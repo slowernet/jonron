@@ -1,0 +1,631 @@
+{
+	"team": "TEX",
+	"teamAbbr": "TEX",
+	"teamName": "Texas Rangers",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "sundbji01-1980",
+			"nameFirst": "Jim",
+			"nameLast": "Sundberg",
+			"nameGiven": "James Howard",
+			"position": "catcher",
+			"team": "Texas Rangers",
+			"year": 1980,
+			"stats": {
+				"PA": 581,
+				"AB": 505,
+				"H": 138,
+				"2B": 24,
+				"3B": 1,
+				"HR": 10,
+				"BB": 64,
+				"SO": 67,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 6,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "obriepe03-1986",
+			"nameFirst": "Pete",
+			"nameLast": "O'Brien",
+			"nameGiven": "Peter Michael",
+			"position": "first-base",
+			"team": "Texas Rangers",
+			"year": 1986,
+			"stats": {
+				"PA": 641,
+				"AB": 551,
+				"H": 160,
+				"2B": 23,
+				"3B": 3,
+				"HR": 23,
+				"BB": 87,
+				"SO": 66,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "buechst01-1988",
+			"nameFirst": "Steve",
+			"nameLast": "Buechele",
+			"nameGiven": "Steven Bernard",
+			"position": "second-base",
+			"team": "Texas Rangers",
+			"year": 1988,
+			"stats": {
+				"PA": 579,
+				"AB": 503,
+				"H": 126,
+				"2B": 21,
+				"3B": 4,
+				"HR": 16,
+				"BB": 65,
+				"SO": 79,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "fletcsc01-1986",
+			"nameFirst": "Scott",
+			"nameLast": "Fletcher",
+			"nameGiven": "Scott Brian",
+			"position": "shortstop",
+			"team": "Texas Rangers",
+			"year": 1986,
+			"stats": {
+				"PA": 594,
+				"AB": 530,
+				"H": 159,
+				"2B": 34,
+				"3B": 5,
+				"HR": 3,
+				"BB": 47,
+				"SO": 59,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 10,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "bellbu01-1980",
+			"nameFirst": "Buddy",
+			"nameLast": "Bell",
+			"nameGiven": "David Gus",
+			"position": "third-base",
+			"team": "Texas Rangers",
+			"year": 1980,
+			"stats": {
+				"PA": 534,
+				"AB": 490,
+				"H": 161,
+				"2B": 24,
+				"3B": 4,
+				"HR": 17,
+				"BB": 40,
+				"SO": 39,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "sierrru01-1989",
+			"nameFirst": "Ruben",
+			"nameLast": "Sierra",
+			"nameGiven": "Ruben Angel",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 1989,
+			"stats": {
+				"PA": 689,
+				"AB": 634,
+				"H": 194,
+				"2B": 35,
+				"3B": 14,
+				"HR": 29,
+				"BB": 43,
+				"SO": 82,
+				"HBP": 2,
+				"SF": 10,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "parrila01-1986",
+			"nameFirst": "Larry",
+			"nameLast": "Parrish",
+			"nameGiven": "Larry Alton",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 1986,
+			"stats": {
+				"PA": 524,
+				"AB": 464,
+				"H": 128,
+				"2B": 22,
+				"3B": 1,
+				"HR": 28,
+				"BB": 52,
+				"SO": 114,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "incavpe01-1987",
+			"nameFirst": "Pete",
+			"nameLast": "Incaviglia",
+			"nameGiven": "Peter Joseph",
+			"position": "outfield",
+			"team": "Texas Rangers",
+			"year": 1987,
+			"stats": {
+				"PA": 563,
+				"AB": 509,
+				"H": 138,
+				"2B": 26,
+				"3B": 4,
+				"HR": 27,
+				"BB": 48,
+				"SO": 168,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 107
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "wardga01-1984",
+			"nameFirst": "Gary",
+			"nameLast": "Ward",
+			"nameGiven": "Gary Lamell",
+			"position": "designated-hitter",
+			"team": "Texas Rangers",
+			"year": 1984,
+			"stats": {
+				"PA": 659,
+				"AB": 602,
+				"H": 171,
+				"2B": 21,
+				"3B": 7,
+				"HR": 21,
+				"BB": 55,
+				"SO": 95,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

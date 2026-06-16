@@ -1,0 +1,619 @@
+{
+	"team": "BAL",
+	"teamAbbr": "BAL",
+	"teamName": "Baltimore Orioles",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "wietema01-2011",
+			"nameFirst": "Matt",
+			"nameLast": "Wieters",
+			"nameGiven": "Matthew Richard",
+			"position": "catcher",
+			"team": "Baltimore Orioles",
+			"year": 2011,
+			"stats": {
+				"PA": 551,
+				"AB": 500,
+				"H": 131,
+				"2B": 28,
+				"3B": 0,
+				"HR": 22,
+				"BB": 48,
+				"SO": 84,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "schoojo01-2017",
+			"nameFirst": "Jonathan",
+			"nameLast": "Schoop",
+			"nameGiven": "Jonathan Rufino Jezus",
+			"position": "second-base",
+			"team": "Baltimore Orioles",
+			"year": 2017,
+			"stats": {
+				"PA": 675,
+				"AB": 622,
+				"H": 182,
+				"2B": 35,
+				"3B": 0,
+				"HR": 32,
+				"BB": 35,
+				"SO": 142,
+				"HBP": 11,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "machama01-2018",
+			"nameFirst": "Manny",
+			"nameLast": "Machado",
+			"nameGiven": "Manuel Arturo",
+			"position": "third-base",
+			"team": "Baltimore Orioles",
+			"year": 2018,
+			"stats": {
+				"PA": 413,
+				"AB": 365,
+				"H": 115,
+				"2B": 21,
+				"3B": 1,
+				"HR": 24,
+				"BB": 45,
+				"SO": 51,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "davisch02-2013",
+			"nameFirst": "Chris",
+			"nameLast": "Davis",
+			"nameGiven": "Christopher Lyn",
+			"position": "first-base",
+			"team": "Baltimore Orioles",
+			"year": 2013,
+			"stats": {
+				"PA": 673,
+				"AB": 584,
+				"H": 167,
+				"2B": 42,
+				"3B": 1,
+				"HR": 53,
+				"BB": 72,
+				"SO": 199,
+				"HBP": 10,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 28
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 106
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "hardyjj01-2011",
+			"nameFirst": "J. J.",
+			"nameLast": "Hardy",
+			"nameGiven": "James Jerry",
+			"position": "shortstop",
+			"team": "Baltimore Orioles",
+			"year": 2011,
+			"stats": {
+				"PA": 567,
+				"AB": 527,
+				"H": 142,
+				"2B": 27,
+				"3B": 0,
+				"HR": 30,
+				"BB": 31,
+				"SO": 92,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "mancitr01-2019",
+			"nameFirst": "Trey",
+			"nameLast": "Mancini",
+			"nameGiven": "Joseph Anthony",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 2019,
+			"stats": {
+				"PA": 679,
+				"AB": 602,
+				"H": 175,
+				"2B": 38,
+				"3B": 2,
+				"HR": 35,
+				"BB": 63,
+				"SO": 143,
+				"HBP": 9,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "trumbma01-2016",
+			"nameFirst": "Mark",
+			"nameLast": "Trumbo",
+			"nameGiven": "Mark Daniel",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 2016,
+			"stats": {
+				"PA": 667,
+				"AB": 613,
+				"H": 157,
+				"2B": 27,
+				"3B": 1,
+				"HR": 47,
+				"BB": 51,
+				"SO": 170,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 92
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "jonesad01-2012",
+			"nameFirst": "Adam",
+			"nameLast": "Jones",
+			"nameGiven": "Adam LaMarque",
+			"position": "outfield",
+			"team": "Baltimore Orioles",
+			"year": 2012,
+			"stats": {
+				"PA": 697,
+				"AB": 648,
+				"H": 186,
+				"2B": 39,
+				"3B": 3,
+				"HR": 32,
+				"BB": 34,
+				"SO": 126,
+				"HBP": 13,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "markani01-2012",
+			"nameFirst": "Nick",
+			"nameLast": "Markakis",
+			"nameGiven": "Nicholas William",
+			"position": "designated-hitter",
+			"team": "Baltimore Orioles",
+			"year": 2012,
+			"stats": {
+				"PA": 471,
+				"AB": 420,
+				"H": 125,
+				"2B": 28,
+				"3B": 3,
+				"HR": 13,
+				"BB": 42,
+				"SO": 51,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

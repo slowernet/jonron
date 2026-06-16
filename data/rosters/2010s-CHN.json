@@ -1,0 +1,631 @@
+{
+	"team": "CHN",
+	"teamAbbr": "CHC",
+	"teamName": "Chicago Cubs",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "contrwi01-2019",
+			"nameFirst": "Willson",
+			"nameLast": "Contreras",
+			"nameGiven": "Willson Eduardo",
+			"position": "catcher",
+			"team": "Chicago Cubs",
+			"year": 2019,
+			"stats": {
+				"PA": 409,
+				"AB": 360,
+				"H": 98,
+				"2B": 18,
+				"3B": 2,
+				"HR": 24,
+				"BB": 38,
+				"SO": 102,
+				"HBP": 9,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "rizzoan01-2016",
+			"nameFirst": "Anthony",
+			"nameLast": "Rizzo",
+			"nameGiven": "Anthony Vincent",
+			"position": "first-base",
+			"team": "Chicago Cubs",
+			"year": 2016,
+			"stats": {
+				"PA": 676,
+				"AB": 583,
+				"H": 170,
+				"2B": 43,
+				"3B": 4,
+				"HR": 32,
+				"BB": 74,
+				"SO": 108,
+				"HBP": 16,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "bryankr01-2017",
+			"nameFirst": "Kris",
+			"nameLast": "Bryant",
+			"nameGiven": "Kristopher Lee",
+			"position": "third-base",
+			"team": "Chicago Cubs",
+			"year": 2017,
+			"stats": {
+				"PA": 665,
+				"AB": 549,
+				"H": 162,
+				"2B": 38,
+				"3B": 4,
+				"HR": 29,
+				"BB": 95,
+				"SO": 128,
+				"HBP": 15,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 69
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "baezja01-2018",
+			"nameFirst": "Javier",
+			"nameLast": "Baez",
+			"nameGiven": "Ednel Javier",
+			"position": "shortstop",
+			"team": "Chicago Cubs",
+			"year": 2018,
+			"stats": {
+				"PA": 645,
+				"AB": 606,
+				"H": 176,
+				"2B": 40,
+				"3B": 9,
+				"HR": 34,
+				"BB": 29,
+				"SO": 167,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 93
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "zobribe01-2016",
+			"nameFirst": "Ben",
+			"nameLast": "Zobrist",
+			"nameGiven": "Benjamin Thomas",
+			"position": "second-base",
+			"team": "Chicago Cubs",
+			"year": 2016,
+			"stats": {
+				"PA": 631,
+				"AB": 523,
+				"H": 142,
+				"2B": 31,
+				"3B": 3,
+				"HR": 18,
+				"BB": 96,
+				"SO": 82,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 57
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "schwaky01-2019",
+			"nameFirst": "Kyle",
+			"nameLast": "Schwarber",
+			"nameGiven": "Kyle Joseph",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 2019,
+			"stats": {
+				"PA": 610,
+				"AB": 529,
+				"H": 132,
+				"2B": 29,
+				"3B": 3,
+				"HR": 38,
+				"BB": 70,
+				"SO": 156,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 92
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "soriaal01-2012",
+			"nameFirst": "Alfonso",
+			"nameLast": "Soriano",
+			"nameGiven": "Alfonso Guilleard",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 2012,
+			"stats": {
+				"PA": 615,
+				"AB": 561,
+				"H": 147,
+				"2B": 33,
+				"3B": 2,
+				"HR": 32,
+				"BB": 44,
+				"SO": 153,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "heywaja01-2019",
+			"nameFirst": "Jason",
+			"nameLast": "Heyward",
+			"nameGiven": "Jason Alias",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 2019,
+			"stats": {
+				"PA": 589,
+				"AB": 513,
+				"H": 129,
+				"2B": 20,
+				"3B": 4,
+				"HR": 21,
+				"BB": 68,
+				"SO": 110,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "castrst01-2014",
+			"nameFirst": "Starlin",
+			"nameLast": "Castro",
+			"nameGiven": "Starlin DeJesus",
+			"position": "designated-hitter",
+			"team": "Chicago Cubs",
+			"year": 2014,
+			"stats": {
+				"PA": 569,
+				"AB": 528,
+				"H": 154,
+				"2B": 33,
+				"3B": 1,
+				"HR": 14,
+				"BB": 35,
+				"SO": 100,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		}
+	]
+}

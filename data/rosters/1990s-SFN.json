@@ -1,0 +1,631 @@
+{
+	"team": "SFN",
+	"teamAbbr": "SFG",
+	"teamName": "San Francisco Giants",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "manwaki01-1993",
+			"nameFirst": "Kirt",
+			"nameLast": "Manwaring",
+			"nameGiven": "Kirt Dean",
+			"position": "catcher",
+			"team": "San Francisco Giants",
+			"year": 1993,
+			"stats": {
+				"PA": 486,
+				"AB": 432,
+				"H": 119,
+				"2B": 15,
+				"3B": 1,
+				"HR": 5,
+				"BB": 41,
+				"SO": 76,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "snowjt01-1997",
+			"nameFirst": "J. T.",
+			"nameLast": "Snow",
+			"nameGiven": "Jack Thomas",
+			"position": "first-base",
+			"team": "San Francisco Giants",
+			"year": 1997,
+			"stats": {
+				"PA": 637,
+				"AB": 531,
+				"H": 149,
+				"2B": 36,
+				"3B": 1,
+				"HR": 28,
+				"BB": 96,
+				"SO": 124,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "kentje01-1998",
+			"nameFirst": "Jeff",
+			"nameLast": "Kent",
+			"nameGiven": "Jeffrey Franklin",
+			"position": "second-base",
+			"team": "San Francisco Giants",
+			"year": 1998,
+			"stats": {
+				"PA": 594,
+				"AB": 526,
+				"H": 156,
+				"2B": 37,
+				"3B": 3,
+				"HR": 31,
+				"BB": 48,
+				"SO": 110,
+				"HBP": 9,
+				"SF": 10,
+				"SH": 1,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "willima04-1995",
+			"nameFirst": "Matt",
+			"nameLast": "Williams",
+			"nameGiven": "Matthew Derrick",
+			"position": "third-base",
+			"team": "San Francisco Giants",
+			"year": 1995,
+			"stats": {
+				"PA": 318,
+				"AB": 283,
+				"H": 95,
+				"2B": 17,
+				"3B": 1,
+				"HR": 23,
+				"BB": 30,
+				"SO": 58,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "aurilri01-1999",
+			"nameFirst": "Rich",
+			"nameLast": "Aurilia",
+			"nameGiven": "Richard Santo",
+			"position": "shortstop",
+			"team": "San Francisco Giants",
+			"year": 1999,
+			"stats": {
+				"PA": 614,
+				"AB": 558,
+				"H": 157,
+				"2B": 23,
+				"3B": 1,
+				"HR": 22,
+				"BB": 43,
+				"SO": 71,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "bondsba01-1993",
+			"nameFirst": "Barry",
+			"nameLast": "Bonds",
+			"nameGiven": "Barry Lamar",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1993,
+			"stats": {
+				"PA": 674,
+				"AB": 539,
+				"H": 181,
+				"2B": 38,
+				"3B": 4,
+				"HR": 46,
+				"BB": 126,
+				"SO": 79,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 68
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "benarma01-1998",
+			"nameFirst": "Marvin",
+			"nameLast": "Benard",
+			"nameGiven": "Marvin Larry",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1998,
+			"stats": {
+				"PA": 327,
+				"AB": 286,
+				"H": 92,
+				"2B": 21,
+				"3B": 1,
+				"HR": 3,
+				"BB": 34,
+				"SO": 39,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "javiest01-1997",
+			"nameFirst": "Stan",
+			"nameLast": "Javier",
+			"nameGiven": "Stanley Julian Antonio",
+			"position": "outfield",
+			"team": "San Francisco Giants",
+			"year": 1997,
+			"stats": {
+				"PA": 510,
+				"AB": 440,
+				"H": 126,
+				"2B": 16,
+				"3B": 4,
+				"HR": 8,
+				"BB": 56,
+				"SO": 70,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 2,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "clarkwi02-1991",
+			"nameFirst": "Will",
+			"nameLast": "Clark",
+			"nameGiven": "William Nuschler",
+			"position": "designated-hitter",
+			"team": "San Francisco Giants",
+			"year": 1991,
+			"stats": {
+				"PA": 622,
+				"AB": 565,
+				"H": 170,
+				"2B": 32,
+				"3B": 7,
+				"HR": 29,
+				"BB": 51,
+				"SO": 91,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,627 @@
+{
+	"team": "PIT",
+	"teamAbbr": "PIT",
+	"teamName": "Pittsburgh Pirates",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "burgesm01-1962",
+			"nameFirst": "Smoky",
+			"nameLast": "Burgess",
+			"nameGiven": "Forrest Harrill",
+			"position": "catcher",
+			"team": "Pittsburgh Pirates",
+			"year": 1962,
+			"stats": {
+				"PA": 399,
+				"AB": 360,
+				"H": 118,
+				"2B": 19,
+				"3B": 2,
+				"HR": 13,
+				"BB": 31,
+				"SO": 19,
+				"HBP": 0,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 69
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "stargwi01-1966",
+			"nameFirst": "Willie",
+			"nameLast": "Stargell",
+			"nameGiven": "Wilver Dornel",
+			"position": "first-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1966,
+			"stats": {
+				"PA": 549,
+				"AB": 485,
+				"H": 153,
+				"2B": 30,
+				"3B": 0,
+				"HR": 33,
+				"BB": 48,
+				"SO": 109,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "alleyge01-1966",
+			"nameFirst": "Gene",
+			"nameLast": "Alley",
+			"nameGiven": "Leonard Eugene",
+			"position": "second-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1966,
+			"stats": {
+				"PA": 634,
+				"AB": 579,
+				"H": 173,
+				"2B": 28,
+				"3B": 10,
+				"HR": 7,
+				"BB": 27,
+				"SO": 83,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 20,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "hoakdo01-1961",
+			"nameFirst": "Don",
+			"nameLast": "Hoak",
+			"nameGiven": "Donald Albert",
+			"position": "third-base",
+			"team": "Pittsburgh Pirates",
+			"year": 1961,
+			"stats": {
+				"PA": 586,
+				"AB": 503,
+				"H": 150,
+				"2B": 27,
+				"3B": 7,
+				"HR": 12,
+				"BB": 73,
+				"SO": 53,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "groatdi01-1960",
+			"nameFirst": "Dick",
+			"nameLast": "Groat",
+			"nameGiven": "Richard Morrow",
+			"position": "shortstop",
+			"team": "Pittsburgh Pirates",
+			"year": 1960,
+			"stats": {
+				"PA": 629,
+				"AB": 573,
+				"H": 186,
+				"2B": 26,
+				"3B": 4,
+				"HR": 2,
+				"BB": 39,
+				"SO": 35,
+				"HBP": 4,
+				"SF": 1,
+				"SH": 12,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 53
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 35
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "clemero01-1969",
+			"nameFirst": "Roberto",
+			"nameLast": "Clemente",
+			"nameGiven": "Roberto",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1969,
+			"stats": {
+				"PA": 570,
+				"AB": 507,
+				"H": 175,
+				"2B": 20,
+				"3B": 12,
+				"HR": 19,
+				"BB": 56,
+				"SO": 73,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "skinnbo01-1962",
+			"nameFirst": "Bob",
+			"nameLast": "Skinner",
+			"nameGiven": "Robert Ralph",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1962,
+			"stats": {
+				"PA": 597,
+				"AB": 510,
+				"H": 154,
+				"2B": 29,
+				"3B": 7,
+				"HR": 20,
+				"BB": 76,
+				"SO": 89,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "motama01-1966",
+			"nameFirst": "Manny",
+			"nameLast": "Mota",
+			"nameGiven": "Manuel Rafael",
+			"position": "outfield",
+			"team": "Pittsburgh Pirates",
+			"year": 1966,
+			"stats": {
+				"PA": 359,
+				"AB": 322,
+				"H": 107,
+				"2B": 16,
+				"3B": 7,
+				"HR": 5,
+				"BB": 25,
+				"SO": 28,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "clenddo01-1966",
+			"nameFirst": "Donn",
+			"nameLast": "Clendenon",
+			"nameGiven": "Donn Alvin",
+			"position": "designated-hitter",
+			"team": "Pittsburgh Pirates",
+			"year": 1966,
+			"stats": {
+				"PA": 629,
+				"AB": 571,
+				"H": 171,
+				"2B": 22,
+				"3B": 10,
+				"HR": 28,
+				"BB": 52,
+				"SO": 142,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		}
+	]
+}

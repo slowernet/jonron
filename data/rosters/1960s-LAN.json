@@ -1,0 +1,631 @@
+{
+	"team": "LAN",
+	"teamAbbr": "LAD",
+	"teamName": "Los Angeles Dodgers",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "rosebjo01-1961",
+			"nameFirst": "John",
+			"nameLast": "Roseboro",
+			"nameGiven": "John Junior",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 1961,
+			"stats": {
+				"PA": 462,
+				"AB": 394,
+				"H": 99,
+				"2B": 16,
+				"3B": 6,
+				"HR": 18,
+				"BB": 56,
+				"SO": 62,
+				"HBP": 4,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "willsma01-1969",
+			"nameFirst": "Maury",
+			"nameLast": "Wills",
+			"nameGiven": "Maurice Morning",
+			"position": "shortstop",
+			"team": "Los Angeles Dodgers",
+			"year": 1969,
+			"stats": {
+				"PA": 479,
+				"AB": 434,
+				"H": 129,
+				"2B": 7,
+				"3B": 8,
+				"HR": 4,
+				"BB": 39,
+				"SO": 40,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 5
+				},
+				{
+					"number": 12,
+					"size": 43
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "fairlro01-1961",
+			"nameFirst": "Ron",
+			"nameLast": "Fairly",
+			"nameGiven": "Ronald Ray",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1961,
+			"stats": {
+				"PA": 301,
+				"AB": 245,
+				"H": 79,
+				"2B": 15,
+				"3B": 2,
+				"HR": 10,
+				"BB": 48,
+				"SO": 22,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 6,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "lefebji01-1966",
+			"nameFirst": "Jim",
+			"nameLast": "Lefebvre",
+			"nameGiven": "James Kenneth",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1966,
+			"stats": {
+				"PA": 610,
+				"AB": 544,
+				"H": 149,
+				"2B": 23,
+				"3B": 3,
+				"HR": 24,
+				"BB": 48,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 10,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "davisto02-1962",
+			"nameFirst": "Tommy",
+			"nameLast": "Davis",
+			"nameGiven": "Herman Thomas",
+			"position": "third-base",
+			"team": "Los Angeles Dodgers",
+			"year": 1962,
+			"stats": {
+				"PA": 711,
+				"AB": 665,
+				"H": 230,
+				"2B": 27,
+				"3B": 9,
+				"HR": 27,
+				"BB": 33,
+				"SO": 65,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 9,
+					"size": 18
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "moonwa01-1961",
+			"nameFirst": "Wally",
+			"nameLast": "Moon",
+			"nameGiven": "Wallace Wade",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1961,
+			"stats": {
+				"PA": 561,
+				"AB": 463,
+				"H": 152,
+				"2B": 25,
+				"3B": 3,
+				"HR": 17,
+				"BB": 89,
+				"SO": 79,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "howarfr01-1962",
+			"nameFirst": "Frank",
+			"nameLast": "Howard",
+			"nameGiven": "Frank Oliver",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1962,
+			"stats": {
+				"PA": 538,
+				"AB": 493,
+				"H": 146,
+				"2B": 25,
+				"3B": 6,
+				"HR": 31,
+				"BB": 39,
+				"SO": 108,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "daviswi02-1969",
+			"nameFirst": "Willie",
+			"nameLast": "Davis",
+			"nameGiven": "William Henry",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 1969,
+			"stats": {
+				"PA": 540,
+				"AB": 498,
+				"H": 155,
+				"2B": 23,
+				"3B": 8,
+				"HR": 11,
+				"BB": 33,
+				"SO": 39,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "parkewe01-1969",
+			"nameFirst": "Wes",
+			"nameLast": "Parker",
+			"nameGiven": "Maurice Wesley",
+			"position": "designated-hitter",
+			"team": "Los Angeles Dodgers",
+			"year": 1969,
+			"stats": {
+				"PA": 541,
+				"AB": 471,
+				"H": 131,
+				"2B": 23,
+				"3B": 4,
+				"HR": 13,
+				"BB": 56,
+				"SO": 46,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 6,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		}
+	]
+}

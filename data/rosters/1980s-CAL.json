@@ -1,0 +1,627 @@
+{
+	"team": "CAL",
+	"teamAbbr": "CAL",
+	"teamName": "California Angels",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "grichbo01-1981",
+			"nameFirst": "Bobby",
+			"nameLast": "Grich",
+			"nameGiven": "Robert Anthony",
+			"position": "second-base",
+			"team": "California Angels",
+			"year": 1981,
+			"stats": {
+				"PA": 404,
+				"AB": 352,
+				"H": 107,
+				"2B": 14,
+				"3B": 2,
+				"HR": 22,
+				"BB": 40,
+				"SO": 71,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 5,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "schofdi02-1986",
+			"nameFirst": "Dick",
+			"nameLast": "Schofield",
+			"nameGiven": "Richard Craig",
+			"position": "shortstop",
+			"team": "California Angels",
+			"year": 1986,
+			"stats": {
+				"PA": 529,
+				"AB": 458,
+				"H": 114,
+				"2B": 17,
+				"3B": 6,
+				"HR": 13,
+				"BB": 48,
+				"SO": 55,
+				"HBP": 5,
+				"SF": 9,
+				"SH": 9,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "downibr01-1987",
+			"nameFirst": "Brian",
+			"nameLast": "Downing",
+			"nameGiven": "Brian Jay",
+			"position": "catcher",
+			"team": "California Angels",
+			"year": 1987,
+			"stats": {
+				"PA": 695,
+				"AB": 567,
+				"H": 154,
+				"2B": 29,
+				"3B": 3,
+				"HR": 29,
+				"BB": 106,
+				"SO": 85,
+				"HBP": 17,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 64
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "decindo01-1982",
+			"nameFirst": "Doug",
+			"nameLast": "DeCinces",
+			"nameGiven": "Douglas Vernon",
+			"position": "third-base",
+			"team": "California Angels",
+			"year": 1982,
+			"stats": {
+				"PA": 655,
+				"AB": 575,
+				"H": 173,
+				"2B": 42,
+				"3B": 5,
+				"HR": 30,
+				"BB": 66,
+				"SO": 80,
+				"HBP": 1,
+				"SF": 9,
+				"SH": 4,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "joynewa01-1987",
+			"nameFirst": "Wally",
+			"nameLast": "Joyner",
+			"nameGiven": "Wallace Keith",
+			"position": "first-base",
+			"team": "California Angels",
+			"year": 1987,
+			"stats": {
+				"PA": 653,
+				"AB": 564,
+				"H": 161,
+				"2B": 33,
+				"3B": 1,
+				"HR": 34,
+				"BB": 72,
+				"SO": 64,
+				"HBP": 5,
+				"SF": 10,
+				"SH": 2,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "jacksre01-1982",
+			"nameFirst": "Reggie",
+			"nameLast": "Jackson",
+			"nameGiven": "Reginald Martinez",
+			"position": "outfield",
+			"team": "California Angels",
+			"year": 1982,
+			"stats": {
+				"PA": 621,
+				"AB": 530,
+				"H": 146,
+				"2B": 17,
+				"3B": 1,
+				"HR": 39,
+				"BB": 85,
+				"SO": 156,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "lynnfr01-1982",
+			"nameFirst": "Fred",
+			"nameLast": "Lynn",
+			"nameGiven": "Fredric Michael",
+			"position": "outfield",
+			"team": "California Angels",
+			"year": 1982,
+			"stats": {
+				"PA": 545,
+				"AB": 472,
+				"H": 141,
+				"2B": 38,
+				"3B": 1,
+				"HR": 21,
+				"BB": 58,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 5,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "beniqju01-1984",
+			"nameFirst": "Juan",
+			"nameLast": "Beniquez",
+			"nameGiven": "Juan Jose",
+			"position": "outfield",
+			"team": "California Angels",
+			"year": 1984,
+			"stats": {
+				"PA": 382,
+				"AB": 354,
+				"H": 119,
+				"2B": 17,
+				"3B": 0,
+				"HR": 8,
+				"BB": 18,
+				"SO": 43,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 4,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 7,
+					"size": 53
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "carewro01-1980",
+			"nameFirst": "Rod",
+			"nameLast": "Carew",
+			"nameGiven": "Rodney Cline",
+			"position": "designated-hitter",
+			"team": "California Angels",
+			"year": 1980,
+			"stats": {
+				"PA": 612,
+				"AB": 540,
+				"H": 179,
+				"2B": 34,
+				"3B": 7,
+				"HR": 3,
+				"BB": 59,
+				"SO": 38,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 9,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

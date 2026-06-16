@@ -1,0 +1,615 @@
+{
+	"team": "LAN",
+	"teamAbbr": "LAD",
+	"teamName": "Los Angeles Dodgers",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "beltrad01-2004",
+			"nameFirst": "Adrian",
+			"nameLast": "Beltre",
+			"nameGiven": "Adrian",
+			"position": "third-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2004,
+			"stats": {
+				"PA": 657,
+				"AB": 598,
+				"H": 200,
+				"2B": 32,
+				"3B": 0,
+				"HR": 48,
+				"BB": 53,
+				"SO": 87,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "loducpa01-2001",
+			"nameFirst": "Paul",
+			"nameLast": "Lo Duca",
+			"nameGiven": "Paul Anthony",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 2001,
+			"stats": {
+				"PA": 519,
+				"AB": 460,
+				"H": 147,
+				"2B": 28,
+				"3B": 0,
+				"HR": 25,
+				"BB": 39,
+				"SO": 30,
+				"HBP": 6,
+				"SF": 9,
+				"SH": 5,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "kentje01-2005",
+			"nameFirst": "Jeff",
+			"nameLast": "Kent",
+			"nameGiven": "Jeffrey Franklin",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2005,
+			"stats": {
+				"PA": 637,
+				"AB": 553,
+				"H": 160,
+				"2B": 36,
+				"3B": 0,
+				"HR": 29,
+				"BB": 72,
+				"SO": 85,
+				"HBP": 8,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "furcara01-2006",
+			"nameFirst": "Rafael",
+			"nameLast": "Furcal",
+			"nameGiven": "Rafael",
+			"position": "shortstop",
+			"team": "Los Angeles Dodgers",
+			"year": 2006,
+			"stats": {
+				"PA": 736,
+				"AB": 654,
+				"H": 196,
+				"2B": 32,
+				"3B": 9,
+				"HR": 15,
+				"BB": 73,
+				"SO": 98,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "greensh01-2001",
+			"nameFirst": "Shawn",
+			"nameLast": "Green",
+			"nameGiven": "Shawn David",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2001,
+			"stats": {
+				"PA": 701,
+				"AB": 619,
+				"H": 184,
+				"2B": 31,
+				"3B": 4,
+				"HR": 49,
+				"BB": 72,
+				"SO": 107,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "kempma01-2007",
+			"nameFirst": "Matt",
+			"nameLast": "Kemp",
+			"nameGiven": "Matthew Ryan",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2007,
+			"stats": {
+				"PA": 311,
+				"AB": 292,
+				"H": 100,
+				"2B": 12,
+				"3B": 5,
+				"HR": 10,
+				"BB": 16,
+				"SO": 66,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "ethiean01-2008",
+			"nameFirst": "Andre",
+			"nameLast": "Ethier",
+			"nameGiven": "Andre Everett",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2008,
+			"stats": {
+				"PA": 596,
+				"AB": 525,
+				"H": 160,
+				"2B": 38,
+				"3B": 5,
+				"HR": 20,
+				"BB": 59,
+				"SO": 88,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "pierrju01-2009",
+			"nameFirst": "Juan",
+			"nameLast": "Pierre",
+			"nameGiven": "Juan D'Vaughn",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2009,
+			"stats": {
+				"PA": 425,
+				"AB": 380,
+				"H": 117,
+				"2B": 16,
+				"3B": 8,
+				"HR": 0,
+				"BB": 27,
+				"SO": 27,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 9,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 23
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 47
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "loneyja01-2007",
+			"nameFirst": "James",
+			"nameLast": "Loney",
+			"nameGiven": "James Anthony",
+			"position": "designated-hitter",
+			"team": "Los Angeles Dodgers",
+			"year": 2007,
+			"stats": {
+				"PA": 375,
+				"AB": 344,
+				"H": 114,
+				"2B": 18,
+				"3B": 4,
+				"HR": 15,
+				"BB": 28,
+				"SO": 48,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		}
+	]
+}

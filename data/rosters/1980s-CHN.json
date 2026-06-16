@@ -1,0 +1,627 @@
+{
+	"team": "CHN",
+	"teamAbbr": "CHC",
+	"teamName": "Chicago Cubs",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "sandbry01-1984",
+			"nameFirst": "Ryne",
+			"nameLast": "Sandberg",
+			"nameGiven": "Ryne Dee",
+			"position": "second-base",
+			"team": "Chicago Cubs",
+			"year": 1984,
+			"stats": {
+				"PA": 700,
+				"AB": 636,
+				"H": 200,
+				"2B": 36,
+				"3B": 19,
+				"HR": 19,
+				"BB": 52,
+				"SO": 101,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "morelke01-1983",
+			"nameFirst": "Keith",
+			"nameLast": "Moreland",
+			"nameGiven": "Bobby Keith",
+			"position": "catcher",
+			"team": "Chicago Cubs",
+			"year": 1983,
+			"stats": {
+				"PA": 619,
+				"AB": 533,
+				"H": 161,
+				"2B": 30,
+				"3B": 3,
+				"HR": 16,
+				"BB": 68,
+				"SO": 73,
+				"HBP": 3,
+				"SF": 10,
+				"SH": 5,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "dunstsh01-1989",
+			"nameFirst": "Shawon",
+			"nameLast": "Dunston",
+			"nameGiven": "Shawon Donnell",
+			"position": "shortstop",
+			"team": "Chicago Cubs",
+			"year": 1989,
+			"stats": {
+				"PA": 512,
+				"AB": 471,
+				"H": 131,
+				"2B": 20,
+				"3B": 6,
+				"HR": 9,
+				"BB": 30,
+				"SO": 86,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 6,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "durhale01-1982",
+			"nameFirst": "Leon",
+			"nameLast": "Durham",
+			"nameGiven": "Leon",
+			"position": "first-base",
+			"team": "Chicago Cubs",
+			"year": 1982,
+			"stats": {
+				"PA": 609,
+				"AB": 539,
+				"H": 168,
+				"2B": 33,
+				"3B": 7,
+				"HR": 22,
+				"BB": 66,
+				"SO": 77,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "ceyro01-1986",
+			"nameFirst": "Ron",
+			"nameLast": "Cey",
+			"nameGiven": "Ronald Charles",
+			"position": "third-base",
+			"team": "Chicago Cubs",
+			"year": 1986,
+			"stats": {
+				"PA": 306,
+				"AB": 256,
+				"H": 70,
+				"2B": 21,
+				"3B": 0,
+				"HR": 13,
+				"BB": 44,
+				"SO": 66,
+				"HBP": 3,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "dawsoan01-1987",
+			"nameFirst": "Andre",
+			"nameLast": "Dawson",
+			"nameGiven": "Andre Nolan",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1987,
+			"stats": {
+				"PA": 662,
+				"AB": 621,
+				"H": 178,
+				"2B": 24,
+				"3B": 2,
+				"HR": 49,
+				"BB": 32,
+				"SO": 103,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "dernibo01-1987",
+			"nameFirst": "Bob",
+			"nameLast": "Dernier",
+			"nameGiven": "Robert Eugene",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1987,
+			"stats": {
+				"PA": 220,
+				"AB": 199,
+				"H": 63,
+				"2B": 4,
+				"3B": 4,
+				"HR": 8,
+				"BB": 19,
+				"SO": 19,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 7
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "bucknbi01-1981",
+			"nameFirst": "Bill",
+			"nameLast": "Buckner",
+			"nameGiven": "William Joseph",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1981,
+			"stats": {
+				"PA": 453,
+				"AB": 421,
+				"H": 131,
+				"2B": 35,
+				"3B": 3,
+				"HR": 10,
+				"BB": 26,
+				"SO": 16,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 75
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 13
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 75
+				}
+			]
+		},
+		{
+			"id": "davisjo02-1983",
+			"nameFirst": "Jody",
+			"nameLast": "Davis",
+			"nameGiven": "Jody Richard",
+			"position": "designated-hitter",
+			"team": "Chicago Cubs",
+			"year": 1983,
+			"stats": {
+				"PA": 550,
+				"AB": 510,
+				"H": 138,
+				"2B": 31,
+				"3B": 2,
+				"HR": 24,
+				"BB": 33,
+				"SO": 93,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

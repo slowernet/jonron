@@ -1,0 +1,611 @@
+{
+	"team": "CHA",
+	"teamAbbr": "CHW",
+	"teamName": "Chicago White Sox",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "pierzaj01-2006",
+			"nameFirst": "A. J.",
+			"nameLast": "Pierzynski",
+			"nameGiven": "Anthony John",
+			"position": "catcher",
+			"team": "Chicago White Sox",
+			"year": 2006,
+			"stats": {
+				"PA": 543,
+				"AB": 509,
+				"H": 150,
+				"2B": 24,
+				"3B": 0,
+				"HR": 16,
+				"BB": 22,
+				"SO": 72,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "thomafr04-2000",
+			"nameFirst": "Frank",
+			"nameLast": "Thomas",
+			"nameGiven": "Frank Edward",
+			"position": "first-base",
+			"team": "Chicago White Sox",
+			"year": 2000,
+			"stats": {
+				"PA": 707,
+				"AB": 582,
+				"H": 191,
+				"2B": 44,
+				"3B": 0,
+				"HR": 43,
+				"BB": 112,
+				"SO": 94,
+				"HBP": 5,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "valenjo03-2001",
+			"nameFirst": "Jose",
+			"nameLast": "Valentin",
+			"nameGiven": "Jose Antonio",
+			"position": "shortstop",
+			"team": "Chicago White Sox",
+			"year": 2001,
+			"stats": {
+				"PA": 502,
+				"AB": 438,
+				"H": 113,
+				"2B": 22,
+				"3B": 2,
+				"HR": 28,
+				"BB": 50,
+				"SO": 114,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 8,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "durhara01-2002",
+			"nameFirst": "Ray",
+			"nameLast": "Durham",
+			"nameGiven": "Ray",
+			"position": "second-base",
+			"team": "Chicago White Sox",
+			"year": 2002,
+			"stats": {
+				"PA": 411,
+				"AB": 345,
+				"H": 103,
+				"2B": 20,
+				"3B": 2,
+				"HR": 9,
+				"BB": 49,
+				"SO": 59,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 8,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "credejo01-2006",
+			"nameFirst": "Joe",
+			"nameLast": "Crede",
+			"nameGiven": "Joseph Taylor",
+			"position": "third-base",
+			"team": "Chicago White Sox",
+			"year": 2006,
+			"stats": {
+				"PA": 586,
+				"AB": 544,
+				"H": 154,
+				"2B": 31,
+				"3B": 0,
+				"HR": 30,
+				"BB": 28,
+				"SO": 58,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "thomeji01-2006",
+			"nameFirst": "Jim",
+			"nameLast": "Thome",
+			"nameGiven": "James Howard",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2006,
+			"stats": {
+				"PA": 610,
+				"AB": 490,
+				"H": 141,
+				"2B": 26,
+				"3B": 0,
+				"HR": 42,
+				"BB": 107,
+				"SO": 147,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 42
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 67
+				},
+				{
+					"number": 10,
+					"size": 87
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 42
+				}
+			]
+		},
+		{
+			"id": "dyeje01-2006",
+			"nameFirst": "Jermaine",
+			"nameLast": "Dye",
+			"nameGiven": "Jermaine Terrell",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2006,
+			"stats": {
+				"PA": 611,
+				"AB": 539,
+				"H": 170,
+				"2B": 27,
+				"3B": 3,
+				"HR": 44,
+				"BB": 59,
+				"SO": 118,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ordonma01-2002",
+			"nameFirst": "Magglio",
+			"nameLast": "Ordonez",
+			"nameGiven": "Magglio",
+			"position": "outfield",
+			"team": "Chicago White Sox",
+			"year": 2002,
+			"stats": {
+				"PA": 653,
+				"AB": 590,
+				"H": 189,
+				"2B": 47,
+				"3B": 1,
+				"HR": 38,
+				"BB": 53,
+				"SO": 77,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "konerpa01-2006",
+			"nameFirst": "Paul",
+			"nameLast": "Konerko",
+			"nameGiven": "Paul Henry",
+			"position": "designated-hitter",
+			"team": "Chicago White Sox",
+			"year": 2006,
+			"stats": {
+				"PA": 643,
+				"AB": 566,
+				"H": 177,
+				"2B": 30,
+				"3B": 0,
+				"HR": 35,
+				"BB": 60,
+				"SO": 104,
+				"HBP": 8,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 25
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,627 @@
+{
+	"team": "HOU",
+	"teamAbbr": "HOU",
+	"teamName": "Houston Astros",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "ashbyal01-1985",
+			"nameFirst": "Alan",
+			"nameLast": "Ashby",
+			"nameGiven": "Alan Dean",
+			"position": "catcher",
+			"team": "Houston Astros",
+			"year": 1985,
+			"stats": {
+				"PA": 216,
+				"AB": 189,
+				"H": 53,
+				"2B": 8,
+				"3B": 0,
+				"HR": 8,
+				"BB": 24,
+				"SO": 27,
+				"HBP": 1,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "thondi01-1983",
+			"nameFirst": "Dickie",
+			"nameLast": "Thon",
+			"nameGiven": "Richard William",
+			"position": "shortstop",
+			"team": "Houston Astros",
+			"year": 1983,
+			"stats": {
+				"PA": 686,
+				"AB": 619,
+				"H": 177,
+				"2B": 28,
+				"3B": 9,
+				"HR": 20,
+				"BB": 54,
+				"SO": 73,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "wallide01-1986",
+			"nameFirst": "Denny",
+			"nameLast": "Walling",
+			"nameGiven": "Dennis Martin",
+			"position": "first-base",
+			"team": "Houston Astros",
+			"year": 1986,
+			"stats": {
+				"PA": 422,
+				"AB": 382,
+				"H": 119,
+				"2B": 23,
+				"3B": 1,
+				"HR": 13,
+				"BB": 36,
+				"SO": 31,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "doranbi02-1985",
+			"nameFirst": "Bill",
+			"nameLast": "Doran",
+			"nameGiven": "William Donald",
+			"position": "second-base",
+			"team": "Houston Astros",
+			"year": 1985,
+			"stats": {
+				"PA": 657,
+				"AB": 578,
+				"H": 166,
+				"2B": 31,
+				"3B": 6,
+				"HR": 14,
+				"BB": 71,
+				"SO": 69,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "knighra01-1983",
+			"nameFirst": "Ray",
+			"nameLast": "Knight",
+			"nameGiven": "Charles Ray",
+			"position": "third-base",
+			"team": "Houston Astros",
+			"year": 1983,
+			"stats": {
+				"PA": 567,
+				"AB": 507,
+				"H": 154,
+				"2B": 36,
+				"3B": 4,
+				"HR": 9,
+				"BB": 42,
+				"SO": 62,
+				"HBP": 4,
+				"SF": 11,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "cruzjo01-1983",
+			"nameFirst": "Jose",
+			"nameLast": "Cruz",
+			"nameGiven": "Jose",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 1983,
+			"stats": {
+				"PA": 664,
+				"AB": 594,
+				"H": 189,
+				"2B": 28,
+				"3B": 8,
+				"HR": 14,
+				"BB": 65,
+				"SO": 86,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "basske01-1986",
+			"nameFirst": "Kevin",
+			"nameLast": "Bass",
+			"nameGiven": "Kevin Charles",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 1986,
+			"stats": {
+				"PA": 640,
+				"AB": 591,
+				"H": 184,
+				"2B": 33,
+				"3B": 5,
+				"HR": 20,
+				"BB": 38,
+				"SO": 72,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "puhlte01-1984",
+			"nameFirst": "Terry",
+			"nameLast": "Puhl",
+			"nameGiven": "Terry Stephen",
+			"position": "outfield",
+			"team": "Houston Astros",
+			"year": 1984,
+			"stats": {
+				"PA": 519,
+				"AB": 449,
+				"H": 135,
+				"2B": 19,
+				"3B": 7,
+				"HR": 9,
+				"BB": 59,
+				"SO": 45,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 6,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "davisgl01-1989",
+			"nameFirst": "Glenn",
+			"nameLast": "Davis",
+			"nameGiven": "Glenn Earle",
+			"position": "designated-hitter",
+			"team": "Houston Astros",
+			"year": 1989,
+			"stats": {
+				"PA": 663,
+				"AB": 581,
+				"H": 156,
+				"2B": 26,
+				"3B": 1,
+				"HR": 34,
+				"BB": 69,
+				"SO": 123,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

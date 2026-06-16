@@ -1,0 +1,627 @@
+{
+	"team": "BOS",
+	"teamAbbr": "BOS",
+	"teamName": "Boston Red Sox",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "varitja01-2004",
+			"nameFirst": "Jason",
+			"nameLast": "Varitek",
+			"nameGiven": "Jason Andrew",
+			"position": "catcher",
+			"team": "Boston Red Sox",
+			"year": 2004,
+			"stats": {
+				"PA": 536,
+				"AB": 463,
+				"H": 137,
+				"2B": 30,
+				"3B": 1,
+				"HR": 18,
+				"BB": 62,
+				"SO": 126,
+				"HBP": 10,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 41
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 85
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "pedrodu01-2008",
+			"nameFirst": "Dustin",
+			"nameLast": "Pedroia",
+			"nameGiven": "Dustin Luis",
+			"position": "second-base",
+			"team": "Boston Red Sox",
+			"year": 2008,
+			"stats": {
+				"PA": 726,
+				"AB": 653,
+				"H": 213,
+				"2B": 54,
+				"3B": 2,
+				"HR": 17,
+				"BB": 50,
+				"SO": 52,
+				"HBP": 7,
+				"SF": 9,
+				"SH": 7,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "garcino01-2000",
+			"nameFirst": "Nomar",
+			"nameLast": "Garciaparra",
+			"nameGiven": "Anthony Nomar",
+			"position": "shortstop",
+			"team": "Boston Red Sox",
+			"year": 2000,
+			"stats": {
+				"PA": 599,
+				"AB": 529,
+				"H": 197,
+				"2B": 51,
+				"3B": 3,
+				"HR": 21,
+				"BB": 61,
+				"SO": 50,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 31
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "youklke01-2009",
+			"nameFirst": "Kevin",
+			"nameLast": "Youkilis",
+			"nameGiven": "Kevin Edmund",
+			"position": "third-base",
+			"team": "Boston Red Sox",
+			"year": 2009,
+			"stats": {
+				"PA": 588,
+				"AB": 491,
+				"H": 150,
+				"2B": 36,
+				"3B": 1,
+				"HR": 27,
+				"BB": 77,
+				"SO": 125,
+				"HBP": 16,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 57
+				},
+				{
+					"number": 10,
+					"size": 77
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "ortizda01-2007",
+			"nameFirst": "David",
+			"nameLast": "Ortiz",
+			"nameGiven": "David Americo",
+			"position": "first-base",
+			"team": "Boston Red Sox",
+			"year": 2007,
+			"stats": {
+				"PA": 667,
+				"AB": 549,
+				"H": 182,
+				"2B": 52,
+				"3B": 1,
+				"HR": 35,
+				"BB": 111,
+				"SO": 103,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "ramirma02-2002",
+			"nameFirst": "Manny",
+			"nameLast": "Ramirez",
+			"nameGiven": "Manuel Aristides",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2002,
+			"stats": {
+				"PA": 518,
+				"AB": 436,
+				"H": 152,
+				"2B": 31,
+				"3B": 0,
+				"HR": 33,
+				"BB": 73,
+				"SO": 85,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "nixontr01-2003",
+			"nameFirst": "Trot",
+			"nameLast": "Nixon",
+			"nameGiven": "Christopher Trotman",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2003,
+			"stats": {
+				"PA": 513,
+				"AB": 441,
+				"H": 135,
+				"2B": 24,
+				"3B": 6,
+				"HR": 28,
+				"BB": 65,
+				"SO": 96,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "drewjd01-2008",
+			"nameFirst": "J. D.",
+			"nameLast": "Drew",
+			"nameGiven": "David Jonathan",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 2008,
+			"stats": {
+				"PA": 456,
+				"AB": 368,
+				"H": 103,
+				"2B": 23,
+				"3B": 4,
+				"HR": 19,
+				"BB": 79,
+				"SO": 80,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 66
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "muellbi02-2003",
+			"nameFirst": "Bill",
+			"nameLast": "Mueller",
+			"nameGiven": "William Richard",
+			"position": "designated-hitter",
+			"team": "Boston Red Sox",
+			"year": 2003,
+			"stats": {
+				"PA": 600,
+				"AB": 524,
+				"H": 171,
+				"2B": 45,
+				"3B": 5,
+				"HR": 19,
+				"BB": 59,
+				"SO": 77,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

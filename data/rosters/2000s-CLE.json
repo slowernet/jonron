@@ -1,0 +1,627 @@
+{
+	"team": "CLE",
+	"teamAbbr": "CLE",
+	"teamName": "Cleveland Indians",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "martivi01-2007",
+			"nameFirst": "Victor",
+			"nameLast": "Martinez",
+			"nameGiven": "Victor Jesus",
+			"position": "catcher",
+			"team": "Cleveland Indians",
+			"year": 2007,
+			"stats": {
+				"PA": 645,
+				"AB": 562,
+				"H": 169,
+				"2B": 40,
+				"3B": 0,
+				"HR": 25,
+				"BB": 62,
+				"SO": 76,
+				"HBP": 10,
+				"SF": 11,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "belliro01-2004",
+			"nameFirst": "Ronnie",
+			"nameLast": "Belliard",
+			"nameGiven": "Ronald",
+			"position": "second-base",
+			"team": "Cleveland Indians",
+			"year": 2004,
+			"stats": {
+				"PA": 663,
+				"AB": 599,
+				"H": 169,
+				"2B": 48,
+				"3B": 1,
+				"HR": 12,
+				"BB": 60,
+				"SO": 98,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "peraljh01-2005",
+			"nameFirst": "Jhonny",
+			"nameLast": "Peralta",
+			"nameGiven": "Jhonny Antonio",
+			"position": "third-base",
+			"team": "Cleveland Indians",
+			"year": 2005,
+			"stats": {
+				"PA": 570,
+				"AB": 504,
+				"H": 147,
+				"2B": 35,
+				"3B": 4,
+				"HR": 24,
+				"BB": 58,
+				"SO": 128,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "vizquom01-2002",
+			"nameFirst": "Omar",
+			"nameLast": "Vizquel",
+			"nameGiven": "Omar Enrique",
+			"position": "shortstop",
+			"team": "Cleveland Indians",
+			"year": 2002,
+			"stats": {
+				"PA": 663,
+				"AB": 582,
+				"H": 160,
+				"2B": 31,
+				"3B": 5,
+				"HR": 14,
+				"BB": 56,
+				"SO": 64,
+				"HBP": 8,
+				"SF": 10,
+				"SH": 7,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "sizemgr01-2006",
+			"nameFirst": "Grady",
+			"nameLast": "Sizemore",
+			"nameGiven": "Grady",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 2006,
+			"stats": {
+				"PA": 751,
+				"AB": 655,
+				"H": 190,
+				"2B": 53,
+				"3B": 11,
+				"HR": 28,
+				"BB": 78,
+				"SO": 153,
+				"HBP": 13,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 73
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "blakeca01-2004",
+			"nameFirst": "Casey",
+			"nameLast": "Blake",
+			"nameGiven": "William Casey",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 2004,
+			"stats": {
+				"PA": 668,
+				"AB": 587,
+				"H": 159,
+				"2B": 36,
+				"3B": 3,
+				"HR": 28,
+				"BB": 68,
+				"SO": 139,
+				"HBP": 9,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "crispco01-2005",
+			"nameFirst": "Coco",
+			"nameLast": "Crisp",
+			"nameGiven": "Covelli Loyce",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 2005,
+			"stats": {
+				"PA": 656,
+				"AB": 594,
+				"H": 178,
+				"2B": 42,
+				"3B": 4,
+				"HR": 16,
+				"BB": 44,
+				"SO": 81,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 13,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "thomeji01-2002",
+			"nameFirst": "Jim",
+			"nameLast": "Thome",
+			"nameGiven": "James Howard",
+			"position": "first-base",
+			"team": "Cleveland Indians",
+			"year": 2002,
+			"stats": {
+				"PA": 613,
+				"AB": 480,
+				"H": 146,
+				"2B": 19,
+				"3B": 2,
+				"HR": 52,
+				"BB": 122,
+				"SO": 139,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 31
+				},
+				{
+					"number": 2,
+					"size": 17
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 75
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 18
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "hafnetr01-2006",
+			"nameFirst": "Travis",
+			"nameLast": "Hafner",
+			"nameGiven": "Travis Lee",
+			"position": "designated-hitter",
+			"team": "Cleveland Indians",
+			"year": 2006,
+			"stats": {
+				"PA": 563,
+				"AB": 454,
+				"H": 140,
+				"2B": 31,
+				"3B": 1,
+				"HR": 42,
+				"BB": 100,
+				"SO": 111,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 68
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		}
+	]
+}

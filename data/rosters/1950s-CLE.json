@@ -1,0 +1,627 @@
+{
+	"team": "CLE",
+	"teamAbbr": "CLE",
+	"teamName": "Cleveland Indians",
+	"year": 1950,
+	"decade": "1950s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "heganji01-1950",
+			"nameFirst": "Jim",
+			"nameLast": "Hegan",
+			"nameGiven": "James Edward",
+			"position": "catcher",
+			"team": "Cleveland Indians",
+			"year": 1950,
+			"stats": {
+				"PA": 469,
+				"AB": 415,
+				"H": 91,
+				"2B": 16,
+				"3B": 5,
+				"HR": 14,
+				"BB": 42,
+				"SO": 52,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 12,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 49
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 49
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "avilabo01-1954",
+			"nameFirst": "Bobby",
+			"nameLast": "Avila",
+			"nameGiven": "Roberto Francisco",
+			"position": "second-base",
+			"team": "Cleveland Indians",
+			"year": 1954,
+			"stats": {
+				"PA": 638,
+				"AB": 555,
+				"H": 189,
+				"2B": 27,
+				"3B": 2,
+				"HR": 15,
+				"BB": 59,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 19,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "boonera01-1950",
+			"nameFirst": "Ray",
+			"nameLast": "Boone",
+			"nameGiven": "Raymond Otis",
+			"position": "shortstop",
+			"team": "Cleveland Indians",
+			"year": 1950,
+			"stats": {
+				"PA": 425,
+				"AB": 365,
+				"H": 110,
+				"2B": 14,
+				"3B": 6,
+				"HR": 7,
+				"BB": 56,
+				"SO": 27,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 23
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "rosenal01-1953",
+			"nameFirst": "Al",
+			"nameLast": "Rosen",
+			"nameGiven": "Albert Leonard",
+			"position": "first-base",
+			"team": "Cleveland Indians",
+			"year": 1953,
+			"stats": {
+				"PA": 688,
+				"AB": 599,
+				"H": 201,
+				"2B": 27,
+				"3B": 5,
+				"HR": 43,
+				"BB": 85,
+				"SO": 48,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "smithal04-1955",
+			"nameFirst": "Al",
+			"nameLast": "Smith",
+			"nameGiven": "Alphonse Eugene",
+			"position": "third-base",
+			"team": "Cleveland Indians",
+			"year": 1955,
+			"stats": {
+				"PA": 725,
+				"AB": 607,
+				"H": 186,
+				"2B": 27,
+				"3B": 4,
+				"HR": 22,
+				"BB": 93,
+				"SO": 77,
+				"HBP": 15,
+				"SF": 7,
+				"SH": 3,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "colavro01-1958",
+			"nameFirst": "Rocky",
+			"nameLast": "Colavito",
+			"nameGiven": "Rocco Domenico",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1958,
+			"stats": {
+				"PA": 578,
+				"AB": 489,
+				"H": 148,
+				"2B": 26,
+				"3B": 3,
+				"HR": 41,
+				"BB": 84,
+				"SO": 89,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 54
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "dobyla01-1950",
+			"nameFirst": "Larry",
+			"nameLast": "Doby",
+			"nameGiven": "Lawrence Eugene",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1950,
+			"stats": {
+				"PA": 609,
+				"AB": 503,
+				"H": 164,
+				"2B": 25,
+				"3B": 5,
+				"HR": 25,
+				"BB": 98,
+				"SO": 71,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mitchda01-1953",
+			"nameFirst": "Dale",
+			"nameLast": "Mitchell",
+			"nameGiven": "Loren Dale",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1953,
+			"stats": {
+				"PA": 542,
+				"AB": 500,
+				"H": 150,
+				"2B": 26,
+				"3B": 4,
+				"HR": 13,
+				"BB": 42,
+				"SO": 20,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 69
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 13
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "wertzvi01-1956",
+			"nameFirst": "Vic",
+			"nameLast": "Wertz",
+			"nameGiven": "Victor Woodrow",
+			"position": "designated-hitter",
+			"team": "Cleveland Indians",
+			"year": 1956,
+			"stats": {
+				"PA": 568,
+				"AB": 481,
+				"H": 127,
+				"2B": 22,
+				"3B": 0,
+				"HR": 32,
+				"BB": 75,
+				"SO": 87,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

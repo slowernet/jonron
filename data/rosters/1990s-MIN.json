@@ -1,0 +1,631 @@
+{
+	"team": "MIN",
+	"teamAbbr": "MIN",
+	"teamName": "Minnesota Twins",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "harpebr01-1991",
+			"nameFirst": "Brian",
+			"nameLast": "Harper",
+			"nameGiven": "Brian David",
+			"position": "catcher",
+			"team": "Minnesota Twins",
+			"year": 1991,
+			"stats": {
+				"PA": 469,
+				"AB": 441,
+				"H": 137,
+				"2B": 28,
+				"3B": 1,
+				"HR": 10,
+				"BB": 14,
+				"SO": 22,
+				"HBP": 6,
+				"SF": 6,
+				"SH": 2,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 69
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "knoblch01-1996",
+			"nameFirst": "Chuck",
+			"nameLast": "Knoblauch",
+			"nameGiven": "Edward Charles",
+			"position": "second-base",
+			"team": "Minnesota Twins",
+			"year": 1996,
+			"stats": {
+				"PA": 701,
+				"AB": 578,
+				"H": 197,
+				"2B": 35,
+				"3B": 14,
+				"HR": 13,
+				"BB": 98,
+				"SO": 74,
+				"HBP": 19,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "coomero01-1996",
+			"nameFirst": "Ron",
+			"nameLast": "Coomer",
+			"nameGiven": "Ronald Bryan",
+			"position": "first-base",
+			"team": "Minnesota Twins",
+			"year": 1996,
+			"stats": {
+				"PA": 253,
+				"AB": 233,
+				"H": 69,
+				"2B": 12,
+				"3B": 1,
+				"HR": 12,
+				"BB": 17,
+				"SO": 24,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "leiussc01-1991",
+			"nameFirst": "Scott",
+			"nameLast": "Leius",
+			"nameGiven": "Scott Thomas",
+			"position": "third-base",
+			"team": "Minnesota Twins",
+			"year": 1991,
+			"stats": {
+				"PA": 235,
+				"AB": 199,
+				"H": 57,
+				"2B": 7,
+				"3B": 2,
+				"HR": 5,
+				"BB": 30,
+				"SO": 35,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 5,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "mearepa01-1995",
+			"nameFirst": "Pat",
+			"nameLast": "Meares",
+			"nameGiven": "Patrick James",
+			"position": "shortstop",
+			"team": "Minnesota Twins",
+			"year": 1995,
+			"stats": {
+				"PA": 425,
+				"AB": 390,
+				"H": 105,
+				"2B": 19,
+				"3B": 4,
+				"HR": 12,
+				"BB": 15,
+				"SO": 68,
+				"HBP": 11,
+				"SF": 5,
+				"SH": 4,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "macksh01-1994",
+			"nameFirst": "Shane",
+			"nameLast": "Mack",
+			"nameGiven": "Shane Lee",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1994,
+			"stats": {
+				"PA": 347,
+				"AB": 303,
+				"H": 101,
+				"2B": 21,
+				"3B": 2,
+				"HR": 15,
+				"BB": 32,
+				"SO": 51,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "puckeki01-1994",
+			"nameFirst": "Kirby",
+			"nameLast": "Puckett",
+			"nameGiven": "Kirby",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1994,
+			"stats": {
+				"PA": 482,
+				"AB": 439,
+				"H": 139,
+				"2B": 32,
+				"3B": 3,
+				"HR": 20,
+				"BB": 28,
+				"SO": 47,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "lawtoma02-1998",
+			"nameFirst": "Matt",
+			"nameLast": "Lawton",
+			"nameGiven": "Matthew",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1998,
+			"stats": {
+				"PA": 662,
+				"AB": 557,
+				"H": 155,
+				"2B": 36,
+				"3B": 6,
+				"HR": 21,
+				"BB": 86,
+				"SO": 64,
+				"HBP": 15,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "molitpa01-1996",
+			"nameFirst": "Paul",
+			"nameLast": "Molitor",
+			"nameGiven": "Paul Leo",
+			"position": "designated-hitter",
+			"team": "Minnesota Twins",
+			"year": 1996,
+			"stats": {
+				"PA": 728,
+				"AB": 660,
+				"H": 225,
+				"2B": 41,
+				"3B": 8,
+				"HR": 9,
+				"BB": 56,
+				"SO": 72,
+				"HBP": 3,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		}
+	]
+}

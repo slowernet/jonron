@@ -1,0 +1,631 @@
+{
+	"team": "SDN",
+	"teamAbbr": "SDP",
+	"teamName": "San Diego Padres",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "thomade01-1974",
+			"nameFirst": "Derrel",
+			"nameLast": "Thomas",
+			"nameGiven": "Derrell Osbon",
+			"position": "second-base",
+			"team": "San Diego Padres",
+			"year": 1974,
+			"stats": {
+				"PA": 585,
+				"AB": 523,
+				"H": 129,
+				"2B": 24,
+				"3B": 6,
+				"HR": 3,
+				"BB": 51,
+				"SO": 58,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 6,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 50
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "roberda06-1973",
+			"nameFirst": "Dave",
+			"nameLast": "Roberts",
+			"nameGiven": "David Wayne",
+			"position": "third-base",
+			"team": "San Diego Padres",
+			"year": 1973,
+			"stats": {
+				"PA": 503,
+				"AB": 479,
+				"H": 137,
+				"2B": 20,
+				"3B": 3,
+				"HR": 21,
+				"BB": 17,
+				"SO": 83,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 13
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "hernaen01-1976",
+			"nameFirst": "Enzo",
+			"nameLast": "Hernandez",
+			"nameGiven": "Enzo Octavio",
+			"position": "shortstop",
+			"team": "San Diego Padres",
+			"year": 1976,
+			"stats": {
+				"PA": 389,
+				"AB": 340,
+				"H": 87,
+				"2B": 13,
+				"3B": 3,
+				"HR": 1,
+				"BB": 32,
+				"SO": 16,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 16,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 56
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 57
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "tenacge01-1979",
+			"nameFirst": "Gene",
+			"nameLast": "Tenace",
+			"nameGiven": "Fury Gene",
+			"position": "catcher",
+			"team": "San Diego Padres",
+			"year": 1979,
+			"stats": {
+				"PA": 582,
+				"AB": 463,
+				"H": 122,
+				"2B": 16,
+				"3B": 4,
+				"HR": 20,
+				"BB": 105,
+				"SO": 106,
+				"HBP": 7,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 69
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "colbena01-1972",
+			"nameFirst": "Nate",
+			"nameLast": "Colbert",
+			"nameGiven": "Nathan",
+			"position": "first-base",
+			"team": "San Diego Padres",
+			"year": 1972,
+			"stats": {
+				"PA": 643,
+				"AB": 563,
+				"H": 141,
+				"2B": 27,
+				"3B": 2,
+				"HR": 38,
+				"BB": 70,
+				"SO": 127,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "winfida01-1979",
+			"nameFirst": "Dave",
+			"nameLast": "Winfield",
+			"nameGiven": "David Mark",
+			"position": "outfield",
+			"team": "San Diego Padres",
+			"year": 1979,
+			"stats": {
+				"PA": 686,
+				"AB": 597,
+				"H": 184,
+				"2B": 27,
+				"3B": 10,
+				"HR": 34,
+				"BB": 85,
+				"SO": 71,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "gastoci01-1970",
+			"nameFirst": "Cito",
+			"nameLast": "Gaston",
+			"nameGiven": "Clarence Edwin",
+			"position": "outfield",
+			"team": "San Diego Padres",
+			"year": 1970,
+			"stats": {
+				"PA": 629,
+				"AB": 584,
+				"H": 186,
+				"2B": 26,
+				"3B": 9,
+				"HR": 29,
+				"BB": 41,
+				"SO": 142,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "grubbjo01-1973",
+			"nameFirst": "Johnny",
+			"nameLast": "Grubb",
+			"nameGiven": "John Raymond",
+			"position": "outfield",
+			"team": "San Diego Padres",
+			"year": 1973,
+			"stats": {
+				"PA": 432,
+				"AB": 389,
+				"H": 121,
+				"2B": 22,
+				"3B": 3,
+				"HR": 8,
+				"BB": 37,
+				"SO": 50,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "richage01-1978",
+			"nameFirst": "Gene",
+			"nameLast": "Richards",
+			"nameGiven": "Eugene",
+			"position": "designated-hitter",
+			"team": "San Diego Padres",
+			"year": 1978,
+			"stats": {
+				"PA": 629,
+				"AB": 555,
+				"H": 171,
+				"2B": 26,
+				"3B": 12,
+				"HR": 4,
+				"BB": 64,
+				"SO": 80,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		}
+	]
+}

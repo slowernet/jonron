@@ -1,0 +1,627 @@
+{
+	"team": "CHN",
+	"teamAbbr": "CHC",
+	"teamName": "Chicago Cubs",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "hundlra01-1969",
+			"nameFirst": "Randy",
+			"nameLast": "Hundley",
+			"nameGiven": "Cecil Randolph",
+			"position": "catcher",
+			"team": "Chicago Cubs",
+			"year": 1969,
+			"stats": {
+				"PA": 595,
+				"AB": 522,
+				"H": 133,
+				"2B": 15,
+				"3B": 1,
+				"HR": 18,
+				"BB": 61,
+				"SO": 90,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 6,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "bankser01-1960",
+			"nameFirst": "Ernie",
+			"nameLast": "Banks",
+			"nameGiven": "Ernest",
+			"position": "first-base",
+			"team": "Chicago Cubs",
+			"year": 1960,
+			"stats": {
+				"PA": 678,
+				"AB": 597,
+				"H": 162,
+				"2B": 32,
+				"3B": 7,
+				"HR": 41,
+				"BB": 71,
+				"SO": 69,
+				"HBP": 4,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "beckegl01-1968",
+			"nameFirst": "Glenn",
+			"nameLast": "Beckert",
+			"nameGiven": "Glenn Alfred",
+			"position": "second-base",
+			"team": "Chicago Cubs",
+			"year": 1968,
+			"stats": {
+				"PA": 685,
+				"AB": 643,
+				"H": 189,
+				"2B": 28,
+				"3B": 4,
+				"HR": 4,
+				"BB": 31,
+				"SO": 20,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 5,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 70
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 48
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 11
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 47
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 70
+				}
+			]
+		},
+		{
+			"id": "santoro01-1964",
+			"nameFirst": "Ron",
+			"nameLast": "Santo",
+			"nameGiven": "Ronald Edward",
+			"position": "third-base",
+			"team": "Chicago Cubs",
+			"year": 1964,
+			"stats": {
+				"PA": 686,
+				"AB": 592,
+				"H": 185,
+				"2B": 33,
+				"3B": 13,
+				"HR": 30,
+				"BB": 86,
+				"SO": 96,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "rodgean01-1961",
+			"nameFirst": "Andre",
+			"nameLast": "Rodgers",
+			"nameGiven": "Kenneth Andre Ian",
+			"position": "shortstop",
+			"team": "Chicago Cubs",
+			"year": 1961,
+			"stats": {
+				"PA": 243,
+				"AB": 214,
+				"H": 57,
+				"2B": 17,
+				"3B": 0,
+				"HR": 6,
+				"BB": 25,
+				"SO": 54,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "willibi01-1965",
+			"nameFirst": "Billy",
+			"nameLast": "Williams",
+			"nameGiven": "Billy Leo",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1965,
+			"stats": {
+				"PA": 719,
+				"AB": 645,
+				"H": 203,
+				"2B": 39,
+				"3B": 6,
+				"HR": 34,
+				"BB": 65,
+				"SO": 76,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "altmage01-1961",
+			"nameFirst": "George",
+			"nameLast": "Altman",
+			"nameGiven": "George Lee",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1961,
+			"stats": {
+				"PA": 573,
+				"AB": 518,
+				"H": 157,
+				"2B": 28,
+				"3B": 12,
+				"HR": 27,
+				"BB": 40,
+				"SO": 92,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 4,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "phillad01-1967",
+			"nameFirst": "Adolfo",
+			"nameLast": "Phillips",
+			"nameGiven": "Adolfo Emilio",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1967,
+			"stats": {
+				"PA": 541,
+				"AB": 448,
+				"H": 120,
+				"2B": 20,
+				"3B": 7,
+				"HR": 17,
+				"BB": 80,
+				"SO": 93,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 57
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "kessido01-1969",
+			"nameFirst": "Don",
+			"nameLast": "Kessinger",
+			"nameGiven": "Donald Eulon",
+			"position": "designated-hitter",
+			"team": "Chicago Cubs",
+			"year": 1969,
+			"stats": {
+				"PA": 737,
+				"AB": 664,
+				"H": 181,
+				"2B": 38,
+				"3B": 6,
+				"HR": 4,
+				"BB": 61,
+				"SO": 70,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 6,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 45
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		}
+	]
+}

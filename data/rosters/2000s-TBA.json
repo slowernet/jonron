@@ -1,0 +1,623 @@
+{
+	"team": "TBA",
+	"teamAbbr": "TBD",
+	"teamName": "Tampa Bay Devil Rays",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "iwamuak01-2007",
+			"nameFirst": "Akinori",
+			"nameLast": "Iwamura",
+			"nameGiven": "Akinori",
+			"position": "second-base",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2007,
+			"stats": {
+				"PA": 559,
+				"AB": 491,
+				"H": 140,
+				"2B": 21,
+				"3B": 10,
+				"HR": 7,
+				"BB": 58,
+				"SO": 114,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 4,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 73
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "lugoju01-2006",
+			"nameFirst": "Julio",
+			"nameLast": "Lugo",
+			"nameGiven": "Julio Cesar",
+			"position": "shortstop",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2006,
+			"stats": {
+				"PA": 322,
+				"AB": 289,
+				"H": 89,
+				"2B": 17,
+				"3B": 1,
+				"HR": 12,
+				"BB": 27,
+				"SO": 47,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "navardi01-2008",
+			"nameFirst": "Dioner",
+			"nameLast": "Navarro",
+			"nameGiven": "Dioner Favian",
+			"position": "catcher",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2008,
+			"stats": {
+				"PA": 470,
+				"AB": 427,
+				"H": 126,
+				"2B": 27,
+				"3B": 0,
+				"HR": 7,
+				"BB": 34,
+				"SO": 49,
+				"HBP": 3,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "penaca01-2007",
+			"nameFirst": "Carlos",
+			"nameLast": "Pena",
+			"nameGiven": "Carlos Felipe",
+			"position": "first-base",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2007,
+			"stats": {
+				"PA": 612,
+				"AB": 490,
+				"H": 138,
+				"2B": 29,
+				"3B": 1,
+				"HR": 46,
+				"BB": 103,
+				"SO": 142,
+				"HBP": 10,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 66
+				},
+				{
+					"number": 10,
+					"size": 84
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "huffau01-2003",
+			"nameFirst": "Aubrey",
+			"nameLast": "Huff",
+			"nameGiven": "Aubrey Lewis",
+			"position": "third-base",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2003,
+			"stats": {
+				"PA": 706,
+				"AB": 636,
+				"H": 198,
+				"2B": 47,
+				"3B": 3,
+				"HR": 34,
+				"BB": 53,
+				"SO": 80,
+				"HBP": 8,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "uptonbj01-2007",
+			"nameFirst": "B. J.",
+			"nameLast": "Upton",
+			"nameGiven": "Melvin Emanuel",
+			"position": "outfield",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2007,
+			"stats": {
+				"PA": 548,
+				"AB": 474,
+				"H": 142,
+				"2B": 25,
+				"3B": 1,
+				"HR": 24,
+				"BB": 65,
+				"SO": 154,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 101
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 39
+				}
+			]
+		},
+		{
+			"id": "baldero01-2006",
+			"nameFirst": "Rocco",
+			"nameLast": "Baldelli",
+			"nameGiven": "Rocco Dan",
+			"position": "outfield",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2006,
+			"stats": {
+				"PA": 387,
+				"AB": 364,
+				"H": 110,
+				"2B": 24,
+				"3B": 6,
+				"HR": 16,
+				"BB": 14,
+				"SO": 70,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "crawfca02-2006",
+			"nameFirst": "Carl",
+			"nameLast": "Crawford",
+			"nameGiven": "Carl Demonte",
+			"position": "outfield",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2006,
+			"stats": {
+				"PA": 652,
+				"AB": 600,
+				"H": 183,
+				"2B": 20,
+				"3B": 16,
+				"HR": 18,
+				"BB": 37,
+				"SO": 85,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 9,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 9
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "hallto02-2005",
+			"nameFirst": "Toby",
+			"nameLast": "Hall",
+			"nameGiven": "Toby Jason",
+			"position": "designated-hitter",
+			"team": "Tampa Bay Devil Rays",
+			"year": 2005,
+			"stats": {
+				"PA": 463,
+				"AB": 432,
+				"H": 124,
+				"2B": 20,
+				"3B": 0,
+				"HR": 5,
+				"BB": 16,
+				"SO": 39,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 3,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 54
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 16
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 54
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		}
+	]
+}

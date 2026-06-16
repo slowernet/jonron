@@ -1,0 +1,627 @@
+{
+	"team": "ATL",
+	"teamAbbr": "ATL",
+	"teamName": "Atlanta Braves",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "lopezja01-1999",
+			"nameFirst": "Javy",
+			"nameLast": "Lopez",
+			"nameGiven": "Javier",
+			"position": "catcher",
+			"team": "Atlanta Braves",
+			"year": 1999,
+			"stats": {
+				"PA": 269,
+				"AB": 246,
+				"H": 78,
+				"2B": 18,
+				"3B": 1,
+				"HR": 11,
+				"BB": 20,
+				"SO": 41,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "blausje01-1997",
+			"nameFirst": "Jeff",
+			"nameLast": "Blauser",
+			"nameGiven": "Jeffrey Michael",
+			"position": "shortstop",
+			"team": "Atlanta Braves",
+			"year": 1997,
+			"stats": {
+				"PA": 623,
+				"AB": 519,
+				"H": 160,
+				"2B": 31,
+				"3B": 4,
+				"HR": 17,
+				"BB": 70,
+				"SO": 101,
+				"HBP": 20,
+				"SF": 9,
+				"SH": 5,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 58
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "lemkema01-1994",
+			"nameFirst": "Mark",
+			"nameLast": "Lemke",
+			"nameGiven": "Mark Alan",
+			"position": "second-base",
+			"team": "Atlanta Braves",
+			"year": 1994,
+			"stats": {
+				"PA": 394,
+				"AB": 350,
+				"H": 103,
+				"2B": 15,
+				"3B": 0,
+				"HR": 3,
+				"BB": 38,
+				"SO": 37,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 48
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 34
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 48
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "mcgrifr01-1994",
+			"nameFirst": "Fred",
+			"nameLast": "McGriff",
+			"nameGiven": "Frederick Stanley",
+			"position": "first-base",
+			"team": "Atlanta Braves",
+			"year": 1994,
+			"stats": {
+				"PA": 478,
+				"AB": 424,
+				"H": 135,
+				"2B": 25,
+				"3B": 1,
+				"HR": 34,
+				"BB": 50,
+				"SO": 76,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "jonesch06-1999",
+			"nameFirst": "Chipper",
+			"nameLast": "Jones",
+			"nameGiven": "Larry Wayne",
+			"position": "third-base",
+			"team": "Atlanta Braves",
+			"year": 1999,
+			"stats": {
+				"PA": 701,
+				"AB": 567,
+				"H": 181,
+				"2B": 41,
+				"3B": 1,
+				"HR": 45,
+				"BB": 126,
+				"SO": 94,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 66
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "kleskry01-1995",
+			"nameFirst": "Ryan",
+			"nameLast": "Klesko",
+			"nameGiven": "Ryan Anthony",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 1995,
+			"stats": {
+				"PA": 381,
+				"AB": 329,
+				"H": 102,
+				"2B": 25,
+				"3B": 2,
+				"HR": 23,
+				"BB": 47,
+				"SO": 72,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "justida01-1994",
+			"nameFirst": "David",
+			"nameLast": "Justice",
+			"nameGiven": "David Christopher",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 1994,
+			"stats": {
+				"PA": 424,
+				"AB": 352,
+				"H": 110,
+				"2B": 16,
+				"3B": 2,
+				"HR": 19,
+				"BB": 69,
+				"SO": 45,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "gantro01-1990",
+			"nameFirst": "Ron",
+			"nameLast": "Gant",
+			"nameGiven": "Ronald Edwin",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 1990,
+			"stats": {
+				"PA": 631,
+				"AB": 575,
+				"H": 174,
+				"2B": 34,
+				"3B": 3,
+				"HR": 32,
+				"BB": 50,
+				"SO": 86,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "pendlte01-1991",
+			"nameFirst": "Terry",
+			"nameLast": "Pendleton",
+			"nameGiven": "Terry Lee",
+			"position": "designated-hitter",
+			"team": "Atlanta Braves",
+			"year": 1991,
+			"stats": {
+				"PA": 644,
+				"AB": 586,
+				"H": 187,
+				"2B": 34,
+				"3B": 8,
+				"HR": 22,
+				"BB": 43,
+				"SO": 70,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 7,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		}
+	]
+}

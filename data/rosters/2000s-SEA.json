@@ -1,0 +1,623 @@
+{
+	"team": "SEA",
+	"teamAbbr": "SEA",
+	"teamName": "Seattle Mariners",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "johjike01-2006",
+			"nameFirst": "Kenji",
+			"nameLast": "Johjima",
+			"nameGiven": "Kenji",
+			"position": "catcher",
+			"team": "Seattle Mariners",
+			"year": 2006,
+			"stats": {
+				"PA": 542,
+				"AB": 506,
+				"H": 147,
+				"2B": 25,
+				"3B": 1,
+				"HR": 18,
+				"BB": 20,
+				"SO": 46,
+				"HBP": 13,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "sexsori01-2005",
+			"nameFirst": "Richie",
+			"nameLast": "Sexson",
+			"nameGiven": "Richmond Lockwood",
+			"position": "first-base",
+			"team": "Seattle Mariners",
+			"year": 2005,
+			"stats": {
+				"PA": 656,
+				"AB": 558,
+				"H": 147,
+				"2B": 36,
+				"3B": 1,
+				"HR": 39,
+				"BB": 89,
+				"SO": 167,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 92
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "boonebr01-2001",
+			"nameFirst": "Bret",
+			"nameLast": "Boone",
+			"nameGiven": "Bret Robert",
+			"position": "second-base",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 690,
+				"AB": 623,
+				"H": 206,
+				"2B": 37,
+				"3B": 3,
+				"HR": 37,
+				"BB": 40,
+				"SO": 110,
+				"HBP": 9,
+				"SF": 13,
+				"SH": 5,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "beltrad01-2007",
+			"nameFirst": "Adrian",
+			"nameLast": "Beltre",
+			"nameGiven": "Adrian",
+			"position": "third-base",
+			"team": "Seattle Mariners",
+			"year": 2007,
+			"stats": {
+				"PA": 639,
+				"AB": 595,
+				"H": 164,
+				"2B": 41,
+				"3B": 2,
+				"HR": 26,
+				"BB": 38,
+				"SO": 104,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "mclemma01-2001",
+			"nameFirst": "Mark",
+			"nameLast": "McLemore",
+			"nameGiven": "Mark Tremell",
+			"position": "shortstop",
+			"team": "Seattle Mariners",
+			"year": 2001,
+			"stats": {
+				"PA": 487,
+				"AB": 409,
+				"H": 117,
+				"2B": 16,
+				"3B": 9,
+				"HR": 5,
+				"BB": 69,
+				"SO": 84,
+				"HBP": 0,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "martied01-2000",
+			"nameFirst": "Edgar",
+			"nameLast": "Martinez",
+			"nameGiven": "Edgar",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 2000,
+			"stats": {
+				"PA": 665,
+				"AB": 556,
+				"H": 180,
+				"2B": 31,
+				"3B": 0,
+				"HR": 37,
+				"BB": 96,
+				"SO": 95,
+				"HBP": 5,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 55
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ibanera01-2006",
+			"nameFirst": "Raul",
+			"nameLast": "Ibanez",
+			"nameGiven": "Raul Javier",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 2006,
+			"stats": {
+				"PA": 699,
+				"AB": 626,
+				"H": 181,
+				"2B": 33,
+				"3B": 5,
+				"HR": 33,
+				"BB": 65,
+				"SO": 115,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "suzukic01-2004",
+			"nameFirst": "Ichiro",
+			"nameLast": "Suzuki",
+			"nameGiven": "Ichiro",
+			"position": "outfield",
+			"team": "Seattle Mariners",
+			"year": 2004,
+			"stats": {
+				"PA": 762,
+				"AB": 704,
+				"H": 262,
+				"2B": 24,
+				"3B": 5,
+				"HR": 8,
+				"BB": 49,
+				"SO": 63,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 64
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 42
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "olerujo01-2002",
+			"nameFirst": "John",
+			"nameLast": "Olerud",
+			"nameGiven": "John Garrett",
+			"position": "designated-hitter",
+			"team": "Seattle Mariners",
+			"year": 2002,
+			"stats": {
+				"PA": 668,
+				"AB": 553,
+				"H": 166,
+				"2B": 39,
+				"3B": 0,
+				"HR": 22,
+				"BB": 98,
+				"SO": 66,
+				"HBP": 5,
+				"SF": 12,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		}
+	]
+}

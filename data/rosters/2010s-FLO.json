@@ -1,0 +1,623 @@
+{
+	"team": "FLO",
+	"teamAbbr": "FLA",
+	"teamName": "Florida Marlins",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "realmjt01-2018",
+			"nameFirst": "J. T.",
+			"nameLast": "Realmuto",
+			"nameGiven": "Jacob Tyler",
+			"position": "catcher",
+			"team": "Florida Marlins",
+			"year": 2018,
+			"stats": {
+				"PA": 529,
+				"AB": 477,
+				"H": 132,
+				"2B": 30,
+				"3B": 3,
+				"HR": 21,
+				"BB": 38,
+				"SO": 104,
+				"HBP": 10,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "rojasmi02-2017",
+			"nameFirst": "Miguel",
+			"nameLast": "Rojas",
+			"nameGiven": "Miguel Elias",
+			"position": "shortstop",
+			"team": "Florida Marlins",
+			"year": 2017,
+			"stats": {
+				"PA": 306,
+				"AB": 272,
+				"H": 79,
+				"2B": 16,
+				"3B": 2,
+				"HR": 1,
+				"BB": 27,
+				"SO": 32,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 47
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "dietrde01-2015",
+			"nameFirst": "Derek",
+			"nameLast": "Dietrich",
+			"nameGiven": "Derek Richard",
+			"position": "second-base",
+			"team": "Florida Marlins",
+			"year": 2015,
+			"stats": {
+				"PA": 289,
+				"AB": 250,
+				"H": 64,
+				"2B": 14,
+				"3B": 3,
+				"HR": 10,
+				"BB": 23,
+				"SO": 65,
+				"HBP": 13,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "pradoma01-2016",
+			"nameFirst": "Martin",
+			"nameLast": "Prado",
+			"nameGiven": "Martin Manuel",
+			"position": "third-base",
+			"team": "Florida Marlins",
+			"year": 2016,
+			"stats": {
+				"PA": 658,
+				"AB": 600,
+				"H": 183,
+				"2B": 37,
+				"3B": 3,
+				"HR": 8,
+				"BB": 49,
+				"SO": 69,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 24
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "bourju01-2017",
+			"nameFirst": "Justin",
+			"nameLast": "Bour",
+			"nameGiven": "Justin James",
+			"position": "first-base",
+			"team": "Florida Marlins",
+			"year": 2017,
+			"stats": {
+				"PA": 429,
+				"AB": 377,
+				"H": 109,
+				"2B": 18,
+				"3B": 0,
+				"HR": 25,
+				"BB": 47,
+				"SO": 95,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "stantmi03-2017",
+			"nameFirst": "Giancarlo",
+			"nameLast": "Stanton",
+			"nameGiven": "Giancarlo Cruz-Michael",
+			"position": "outfield",
+			"team": "Florida Marlins",
+			"year": 2017,
+			"stats": {
+				"PA": 692,
+				"AB": 597,
+				"H": 168,
+				"2B": 32,
+				"3B": 0,
+				"HR": 59,
+				"BB": 85,
+				"SO": 163,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 31
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 85
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "ozunama01-2017",
+			"nameFirst": "Marcell",
+			"nameLast": "Ozuna",
+			"nameGiven": "Marcell",
+			"position": "outfield",
+			"team": "Florida Marlins",
+			"year": 2017,
+			"stats": {
+				"PA": 679,
+				"AB": 613,
+				"H": 191,
+				"2B": 30,
+				"3B": 2,
+				"HR": 37,
+				"BB": 64,
+				"SO": 144,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "yelicch01-2016",
+			"nameFirst": "Christian",
+			"nameLast": "Yelich",
+			"nameGiven": "Christian Stephen",
+			"position": "outfield",
+			"team": "Florida Marlins",
+			"year": 2016,
+			"stats": {
+				"PA": 659,
+				"AB": 578,
+				"H": 172,
+				"2B": 38,
+				"3B": 3,
+				"HR": 21,
+				"BB": 72,
+				"SO": 138,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 75
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "sanchga01-2010",
+			"nameFirst": "Gaby",
+			"nameLast": "Sanchez",
+			"nameGiven": "Gabriel",
+			"position": "designated-hitter",
+			"team": "Florida Marlins",
+			"year": 2010,
+			"stats": {
+				"PA": 643,
+				"AB": 572,
+				"H": 156,
+				"2B": 37,
+				"3B": 3,
+				"HR": 19,
+				"BB": 57,
+				"SO": 101,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		}
+	]
+}

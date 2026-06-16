@@ -1,0 +1,631 @@
+{
+	"team": "WS1",
+	"teamAbbr": "WSH",
+	"teamName": "Washington Senators",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "earlyja01-1941",
+			"nameFirst": "Jake",
+			"nameLast": "Early",
+			"nameGiven": "Jacob Willard",
+			"position": "catcher",
+			"team": "Washington Senators",
+			"year": 1941,
+			"stats": {
+				"PA": 384,
+				"AB": 355,
+				"H": 102,
+				"2B": 20,
+				"3B": 7,
+				"HR": 10,
+				"BB": 24,
+				"SO": 38,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "vernomi01-1946",
+			"nameFirst": "Mickey",
+			"nameLast": "Vernon",
+			"nameGiven": "James Barton",
+			"position": "first-base",
+			"team": "Washington Senators",
+			"year": 1946,
+			"stats": {
+				"PA": 638,
+				"AB": 587,
+				"H": 207,
+				"2B": 51,
+				"3B": 8,
+				"HR": 8,
+				"BB": 49,
+				"SO": 64,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "priddje01-1943",
+			"nameFirst": "Jerry",
+			"nameLast": "Priddy",
+			"nameGiven": "Gerald Edward",
+			"position": "second-base",
+			"team": "Washington Senators",
+			"year": 1943,
+			"stats": {
+				"PA": 635,
+				"AB": 560,
+				"H": 152,
+				"2B": 31,
+				"3B": 3,
+				"HR": 4,
+				"BB": 67,
+				"SO": 76,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "yosted01-1949",
+			"nameFirst": "Eddie",
+			"nameLast": "Yost",
+			"nameGiven": "Edward Frederick",
+			"position": "third-base",
+			"team": "Washington Senators",
+			"year": 1949,
+			"stats": {
+				"PA": 531,
+				"AB": 435,
+				"H": 110,
+				"2B": 19,
+				"3B": 7,
+				"HR": 9,
+				"BB": 91,
+				"SO": 41,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "travice01-1941",
+			"nameFirst": "Cecil",
+			"nameLast": "Travis",
+			"nameGiven": "Cecil Howell",
+			"position": "shortstop",
+			"team": "Washington Senators",
+			"year": 1941,
+			"stats": {
+				"PA": 663,
+				"AB": 608,
+				"H": 218,
+				"2B": 39,
+				"3B": 19,
+				"HR": 7,
+				"BB": 52,
+				"SO": 25,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 14
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "lewisbu01-1945",
+			"nameFirst": "Buddy",
+			"nameLast": "Lewis",
+			"nameGiven": "John Kelly",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1945,
+			"stats": {
+				"PA": 306,
+				"AB": 258,
+				"H": 86,
+				"2B": 14,
+				"3B": 7,
+				"HR": 2,
+				"BB": 37,
+				"SO": 15,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "spencst01-1944",
+			"nameFirst": "Stan",
+			"nameLast": "Spence",
+			"nameGiven": "Stanley Orville",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1944,
+			"stats": {
+				"PA": 669,
+				"AB": 592,
+				"H": 187,
+				"2B": 31,
+				"3B": 8,
+				"HR": 18,
+				"BB": 69,
+				"SO": 28,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 4,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 70
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 71
+				}
+			]
+		},
+		{
+			"id": "casege01-1942",
+			"nameFirst": "George",
+			"nameLast": "Case",
+			"nameGiven": "George Washington",
+			"position": "outfield",
+			"team": "Washington Senators",
+			"year": 1942,
+			"stats": {
+				"PA": 563,
+				"AB": 513,
+				"H": 164,
+				"2B": 26,
+				"3B": 2,
+				"HR": 5,
+				"BB": 44,
+				"SO": 30,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "evansal01-1949",
+			"nameFirst": "Al",
+			"nameLast": "Evans",
+			"nameGiven": "Alfred Hubert",
+			"position": "designated-hitter",
+			"team": "Washington Senators",
+			"year": 1949,
+			"stats": {
+				"PA": 374,
+				"AB": 321,
+				"H": 87,
+				"2B": 12,
+				"3B": 3,
+				"HR": 2,
+				"BB": 50,
+				"SO": 19,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 49
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 50
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		}
+	]
+}

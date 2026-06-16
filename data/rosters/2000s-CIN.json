@@ -1,0 +1,619 @@
+{
+	"team": "CIN",
+	"teamAbbr": "CIN",
+	"teamName": "Cincinnati Reds",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "larueja01-2005",
+			"nameFirst": "Jason",
+			"nameLast": "LaRue",
+			"nameGiven": "Michael Jason",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 2005,
+			"stats": {
+				"PA": 422,
+				"AB": 361,
+				"H": 94,
+				"2B": 27,
+				"3B": 0,
+				"HR": 14,
+				"BB": 41,
+				"SO": 101,
+				"HBP": 13,
+				"SF": 2,
+				"SH": 5,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 7,
+					"size": 27
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 86
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "dunnad01-2004",
+			"nameFirst": "Adam",
+			"nameLast": "Dunn",
+			"nameGiven": "Adam Troy",
+			"position": "first-base",
+			"team": "Cincinnati Reds",
+			"year": 2004,
+			"stats": {
+				"PA": 681,
+				"AB": 568,
+				"H": 151,
+				"2B": 34,
+				"3B": 0,
+				"HR": 46,
+				"BB": 108,
+				"SO": 195,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 103
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 40
+				}
+			]
+		},
+		{
+			"id": "phillbr01-2007",
+			"nameFirst": "Brandon",
+			"nameLast": "Phillips",
+			"nameGiven": "Brandon Emil",
+			"position": "second-base",
+			"team": "Cincinnati Reds",
+			"year": 2007,
+			"stats": {
+				"PA": 702,
+				"AB": 650,
+				"H": 187,
+				"2B": 26,
+				"3B": 6,
+				"HR": 30,
+				"BB": 33,
+				"SO": 109,
+				"HBP": 12,
+				"SF": 5,
+				"SH": 2,
+				"GIDP": 26
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "larkiba01-2000",
+			"nameFirst": "Barry",
+			"nameLast": "Larkin",
+			"nameGiven": "Barry Louis",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 2000,
+			"stats": {
+				"PA": 447,
+				"AB": 396,
+				"H": 124,
+				"2B": 26,
+				"3B": 5,
+				"HR": 11,
+				"BB": 48,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "booneaa01-2001",
+			"nameFirst": "Aaron",
+			"nameLast": "Boone",
+			"nameGiven": "Aaron John",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 2001,
+			"stats": {
+				"PA": 427,
+				"AB": 381,
+				"H": 112,
+				"2B": 26,
+				"3B": 2,
+				"HR": 14,
+				"BB": 29,
+				"SO": 71,
+				"HBP": 8,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "griffke02-2005",
+			"nameFirst": "Ken",
+			"nameLast": "Griffey",
+			"nameGiven": "George Kenneth",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2005,
+			"stats": {
+				"PA": 555,
+				"AB": 491,
+				"H": 148,
+				"2B": 30,
+				"3B": 0,
+				"HR": 35,
+				"BB": 54,
+				"SO": 93,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 60
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "kearnau01-2002",
+			"nameFirst": "Austin",
+			"nameLast": "Kearns",
+			"nameGiven": "Austin Ryan",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2002,
+			"stats": {
+				"PA": 435,
+				"AB": 372,
+				"H": 117,
+				"2B": 24,
+				"3B": 3,
+				"HR": 13,
+				"BB": 54,
+				"SO": 81,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "freelry01-2006",
+			"nameFirst": "Ryan",
+			"nameLast": "Freel",
+			"nameGiven": "Ryan Paul",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 2006,
+			"stats": {
+				"PA": 523,
+				"AB": 454,
+				"H": 123,
+				"2B": 30,
+				"3B": 2,
+				"HR": 8,
+				"BB": 57,
+				"SO": 98,
+				"HBP": 9,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 43
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "caseyse01-2004",
+			"nameFirst": "Sean",
+			"nameLast": "Casey",
+			"nameGiven": "Sean Thomas",
+			"position": "designated-hitter",
+			"team": "Cincinnati Reds",
+			"year": 2004,
+			"stats": {
+				"PA": 633,
+				"AB": 571,
+				"H": 185,
+				"2B": 44,
+				"3B": 2,
+				"HR": 24,
+				"BB": 46,
+				"SO": 36,
+				"HBP": 10,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		}
+	]
+}

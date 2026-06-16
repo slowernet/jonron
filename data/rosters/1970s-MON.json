@@ -1,0 +1,631 @@
+{
+	"team": "MON",
+	"teamAbbr": "MON",
+	"teamName": "Montreal Expos",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "cartega01-1977",
+			"nameFirst": "Gary",
+			"nameLast": "Carter",
+			"nameGiven": "Gary Edmund",
+			"position": "catcher",
+			"team": "Montreal Expos",
+			"year": 1977,
+			"stats": {
+				"PA": 595,
+				"AB": 522,
+				"H": 148,
+				"2B": 29,
+				"3B": 2,
+				"HR": 31,
+				"BB": 58,
+				"SO": 103,
+				"HBP": 5,
+				"SF": 7,
+				"SH": 3,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "cashda01-1979",
+			"nameFirst": "Dave",
+			"nameLast": "Cash",
+			"nameGiven": "David",
+			"position": "second-base",
+			"team": "Montreal Expos",
+			"year": 1979,
+			"stats": {
+				"PA": 203,
+				"AB": 187,
+				"H": 60,
+				"2B": 11,
+				"3B": 1,
+				"HR": 2,
+				"BB": 12,
+				"SO": 12,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "speiech01-1977",
+			"nameFirst": "Chris",
+			"nameLast": "Speier",
+			"nameGiven": "Chris Edward",
+			"position": "shortstop",
+			"team": "Montreal Expos",
+			"year": 1977,
+			"stats": {
+				"PA": 604,
+				"AB": 531,
+				"H": 125,
+				"2B": 30,
+				"3B": 6,
+				"HR": 5,
+				"BB": 67,
+				"SO": 78,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 49
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 49
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "jorgemi01-1974",
+			"nameFirst": "Mike",
+			"nameLast": "Jorgensen",
+			"nameGiven": "Michael",
+			"position": "first-base",
+			"team": "Montreal Expos",
+			"year": 1974,
+			"stats": {
+				"PA": 366,
+				"AB": 287,
+				"H": 89,
+				"2B": 16,
+				"3B": 1,
+				"HR": 11,
+				"BB": 70,
+				"SO": 39,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 36
+				},
+				{
+					"number": 9,
+					"size": 71
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "bailebo01-1970",
+			"nameFirst": "Bob",
+			"nameLast": "Bailey",
+			"nameGiven": "Robert Sherwood",
+			"position": "third-base",
+			"team": "Montreal Expos",
+			"year": 1970,
+			"stats": {
+				"PA": 429,
+				"AB": 352,
+				"H": 101,
+				"2B": 19,
+				"3B": 3,
+				"HR": 28,
+				"BB": 72,
+				"SO": 70,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "singlke01-1973",
+			"nameFirst": "Ken",
+			"nameLast": "Singleton",
+			"nameGiven": "Kenneth Wayne",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1973,
+			"stats": {
+				"PA": 692,
+				"AB": 560,
+				"H": 169,
+				"2B": 26,
+				"3B": 2,
+				"HR": 23,
+				"BB": 123,
+				"SO": 91,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 27
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 65
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "fairlro01-1973",
+			"nameFirst": "Ron",
+			"nameLast": "Fairly",
+			"nameGiven": "Ronald Ray",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1973,
+			"stats": {
+				"PA": 505,
+				"AB": 413,
+				"H": 123,
+				"2B": 13,
+				"3B": 1,
+				"HR": 17,
+				"BB": 86,
+				"SO": 33,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 63
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "valenel01-1977",
+			"nameFirst": "Ellis",
+			"nameLast": "Valentine",
+			"nameGiven": "Ellis Clarence",
+			"position": "outfield",
+			"team": "Montreal Expos",
+			"year": 1977,
+			"stats": {
+				"PA": 541,
+				"AB": 508,
+				"H": 149,
+				"2B": 28,
+				"3B": 2,
+				"HR": 25,
+				"BB": 30,
+				"SO": 58,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "parrila01-1979",
+			"nameFirst": "Larry",
+			"nameLast": "Parrish",
+			"nameGiven": "Larry Alton",
+			"position": "designated-hitter",
+			"team": "Montreal Expos",
+			"year": 1979,
+			"stats": {
+				"PA": 595,
+				"AB": 544,
+				"H": 167,
+				"2B": 39,
+				"3B": 2,
+				"HR": 30,
+				"BB": 41,
+				"SO": 101,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 7,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		}
+	]
+}

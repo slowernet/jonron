@@ -1,0 +1,627 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 1960,
+	"decade": "1960s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "mccarti01-1967",
+			"nameFirst": "Tim",
+			"nameLast": "McCarver",
+			"nameGiven": "James Timothy",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1967,
+			"stats": {
+				"PA": 540,
+				"AB": 471,
+				"H": 139,
+				"2B": 26,
+				"3B": 3,
+				"HR": 14,
+				"BB": 54,
+				"SO": 32,
+				"HBP": 5,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "cepedor01-1967",
+			"nameFirst": "Orlando",
+			"nameLast": "Cepeda",
+			"nameGiven": "Orlando Manuel",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1967,
+			"stats": {
+				"PA": 644,
+				"AB": 563,
+				"H": 183,
+				"2B": 37,
+				"3B": 0,
+				"HR": 25,
+				"BB": 62,
+				"SO": 75,
+				"HBP": 12,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "javieju01-1969",
+			"nameFirst": "Julian",
+			"nameLast": "Javier",
+			"nameGiven": "Manuel Julian",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1969,
+			"stats": {
+				"PA": 540,
+				"AB": 493,
+				"H": 139,
+				"2B": 28,
+				"3B": 2,
+				"HR": 10,
+				"BB": 40,
+				"SO": 74,
+				"HBP": 1,
+				"SF": 2,
+				"SH": 4,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "boyerke01-1960",
+			"nameFirst": "Ken",
+			"nameLast": "Boyer",
+			"nameGiven": "Kenton Lloyd",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1960,
+			"stats": {
+				"PA": 616,
+				"AB": 552,
+				"H": 168,
+				"2B": 26,
+				"3B": 10,
+				"HR": 32,
+				"BB": 56,
+				"SO": 77,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 35
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "groatdi01-1963",
+			"nameFirst": "Dick",
+			"nameLast": "Groat",
+			"nameGiven": "Richard Morrow",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1963,
+			"stats": {
+				"PA": 704,
+				"AB": 631,
+				"H": 201,
+				"2B": 43,
+				"3B": 11,
+				"HR": 6,
+				"BB": 56,
+				"SO": 58,
+				"HBP": 6,
+				"SF": 4,
+				"SH": 7,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "musiast01-1962",
+			"nameFirst": "Stan",
+			"nameLast": "Musial",
+			"nameGiven": "Stanley Frank",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1962,
+			"stats": {
+				"PA": 505,
+				"AB": 433,
+				"H": 143,
+				"2B": 18,
+				"3B": 1,
+				"HR": 19,
+				"BB": 64,
+				"SO": 46,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "brocklo01-1964",
+			"nameFirst": "Lou",
+			"nameLast": "Brock",
+			"nameGiven": "Louis Clark",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1964,
+			"stats": {
+				"PA": 464,
+				"AB": 419,
+				"H": 146,
+				"2B": 21,
+				"3B": 9,
+				"HR": 12,
+				"BB": 27,
+				"SO": 87,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 12,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 49
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "whitebi03-1962",
+			"nameFirst": "Bill",
+			"nameLast": "White",
+			"nameGiven": "William DeKova",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1962,
+			"stats": {
+				"PA": 682,
+				"AB": 614,
+				"H": 199,
+				"2B": 31,
+				"3B": 3,
+				"HR": 20,
+				"BB": 58,
+				"SO": 69,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "shannmi01-1966",
+			"nameFirst": "Mike",
+			"nameLast": "Shannon",
+			"nameGiven": "Thomas Michael",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 1966,
+			"stats": {
+				"PA": 501,
+				"AB": 459,
+				"H": 132,
+				"2B": 20,
+				"3B": 6,
+				"HR": 16,
+				"BB": 37,
+				"SO": 106,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 76
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

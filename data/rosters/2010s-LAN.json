@@ -1,0 +1,627 @@
+{
+	"team": "LAN",
+	"teamAbbr": "LAD",
+	"teamName": "Los Angeles Dodgers",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "turneju01-2017",
+			"nameFirst": "Justin",
+			"nameLast": "Turner",
+			"nameGiven": "Justin Matthew",
+			"position": "third-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2017,
+			"stats": {
+				"PA": 543,
+				"AB": 457,
+				"H": 147,
+				"2B": 32,
+				"3B": 0,
+				"HR": 21,
+				"BB": 59,
+				"SO": 56,
+				"HBP": 19,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "grandya01-2016",
+			"nameFirst": "Yasmani",
+			"nameLast": "Grandal",
+			"nameGiven": "Yasmani",
+			"position": "catcher",
+			"team": "Los Angeles Dodgers",
+			"year": 2016,
+			"stats": {
+				"PA": 457,
+				"AB": 390,
+				"H": 89,
+				"2B": 14,
+				"3B": 1,
+				"HR": 27,
+				"BB": 64,
+				"SO": 116,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 46
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 91
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 15
+				},
+				{
+					"number": 14,
+					"size": 46
+				}
+			]
+		},
+		{
+			"id": "tayloch03-2017",
+			"nameFirst": "Chris",
+			"nameLast": "Taylor",
+			"nameGiven": "Christopher Armand",
+			"position": "second-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2017,
+			"stats": {
+				"PA": 568,
+				"AB": 514,
+				"H": 148,
+				"2B": 34,
+				"3B": 5,
+				"HR": 21,
+				"BB": 50,
+				"SO": 142,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "bellico01-2019",
+			"nameFirst": "Cody",
+			"nameLast": "Bellinger",
+			"nameGiven": "Cody James",
+			"position": "first-base",
+			"team": "Los Angeles Dodgers",
+			"year": 2019,
+			"stats": {
+				"PA": 660,
+				"AB": 558,
+				"H": 170,
+				"2B": 34,
+				"3B": 3,
+				"HR": 47,
+				"BB": 95,
+				"SO": 108,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "seageco01-2016",
+			"nameFirst": "Corey",
+			"nameLast": "Seager",
+			"nameGiven": "Corey Drew",
+			"position": "shortstop",
+			"team": "Los Angeles Dodgers",
+			"year": 2016,
+			"stats": {
+				"PA": 687,
+				"AB": 627,
+				"H": 193,
+				"2B": 40,
+				"3B": 5,
+				"HR": 26,
+				"BB": 54,
+				"SO": 133,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "kempma01-2011",
+			"nameFirst": "Matt",
+			"nameLast": "Kemp",
+			"nameGiven": "Matthew Ryan",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2011,
+			"stats": {
+				"PA": 689,
+				"AB": 602,
+				"H": 195,
+				"2B": 33,
+				"3B": 4,
+				"HR": 39,
+				"BB": 74,
+				"SO": 159,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 20
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 83
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 20
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "puigya01-2013",
+			"nameFirst": "Yasiel",
+			"nameLast": "Puig",
+			"nameGiven": "Yasiel",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2013,
+			"stats": {
+				"PA": 432,
+				"AB": 382,
+				"H": 122,
+				"2B": 21,
+				"3B": 2,
+				"HR": 19,
+				"BB": 36,
+				"SO": 97,
+				"HBP": 11,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 81
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 47
+				}
+			]
+		},
+		{
+			"id": "pederjo01-2019",
+			"nameFirst": "Joc",
+			"nameLast": "Pederson",
+			"nameGiven": "Joc Russell",
+			"position": "outfield",
+			"team": "Los Angeles Dodgers",
+			"year": 2019,
+			"stats": {
+				"PA": 514,
+				"AB": 450,
+				"H": 112,
+				"2B": 16,
+				"3B": 3,
+				"HR": 36,
+				"BB": 50,
+				"SO": 111,
+				"HBP": 12,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 24
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "ethiean01-2010",
+			"nameFirst": "Andre",
+			"nameLast": "Ethier",
+			"nameGiven": "Andre Everett",
+			"position": "designated-hitter",
+			"team": "Los Angeles Dodgers",
+			"year": 2010,
+			"stats": {
+				"PA": 585,
+				"AB": 517,
+				"H": 151,
+				"2B": 33,
+				"3B": 1,
+				"HR": 23,
+				"BB": 59,
+				"SO": 102,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 63
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		}
+	]
+}

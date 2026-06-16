@@ -1,0 +1,627 @@
+{
+	"team": "SLN",
+	"teamAbbr": "STL",
+	"teamName": "St. Louis Cardinals",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "porteda02-1983",
+			"nameFirst": "Darrell",
+			"nameLast": "Porter",
+			"nameGiven": "Darrell Ray",
+			"position": "catcher",
+			"team": "St. Louis Cardinals",
+			"year": 1983,
+			"stats": {
+				"PA": 519,
+				"AB": 443,
+				"H": 116,
+				"2B": 24,
+				"3B": 3,
+				"HR": 15,
+				"BB": 68,
+				"SO": 94,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "smithoz01-1987",
+			"nameFirst": "Ozzie",
+			"nameLast": "Smith",
+			"nameGiven": "Osborne Earl",
+			"position": "shortstop",
+			"team": "St. Louis Cardinals",
+			"year": 1987,
+			"stats": {
+				"PA": 706,
+				"AB": 600,
+				"H": 182,
+				"2B": 40,
+				"3B": 4,
+				"HR": 0,
+				"BB": 89,
+				"SO": 36,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 12,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 2,
+					"size": 46
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 46
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "hernake01-1980",
+			"nameFirst": "Keith",
+			"nameLast": "Hernandez",
+			"nameGiven": "Keith",
+			"position": "first-base",
+			"team": "St. Louis Cardinals",
+			"year": 1980,
+			"stats": {
+				"PA": 690,
+				"AB": 595,
+				"H": 191,
+				"2B": 39,
+				"3B": 8,
+				"HR": 16,
+				"BB": 86,
+				"SO": 73,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "herrto01-1983",
+			"nameFirst": "Tom",
+			"nameLast": "Herr",
+			"nameGiven": "Thomas Mitchell",
+			"position": "second-base",
+			"team": "St. Louis Cardinals",
+			"year": 1983,
+			"stats": {
+				"PA": 368,
+				"AB": 313,
+				"H": 101,
+				"2B": 14,
+				"3B": 4,
+				"HR": 2,
+				"BB": 43,
+				"SO": 27,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 8,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "vanslan01-1986",
+			"nameFirst": "Andy",
+			"nameLast": "Van Slyke",
+			"nameGiven": "Andrew James",
+			"position": "third-base",
+			"team": "St. Louis Cardinals",
+			"year": 1986,
+			"stats": {
+				"PA": 470,
+				"AB": 418,
+				"H": 113,
+				"2B": 23,
+				"3B": 7,
+				"HR": 13,
+				"BB": 47,
+				"SO": 85,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 65
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "mcgeewi01-1985",
+			"nameFirst": "Willie",
+			"nameLast": "McGee",
+			"nameGiven": "Willie Dean",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1985,
+			"stats": {
+				"PA": 652,
+				"AB": 612,
+				"H": 216,
+				"2B": 26,
+				"3B": 18,
+				"HR": 10,
+				"BB": 34,
+				"SO": 86,
+				"HBP": 0,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 10
+				},
+				{
+					"number": 7,
+					"size": 53
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "hendrge01-1983",
+			"nameFirst": "George",
+			"nameLast": "Hendrick",
+			"nameGiven": "George Andrew",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1983,
+			"stats": {
+				"PA": 593,
+				"AB": 529,
+				"H": 168,
+				"2B": 33,
+				"3B": 3,
+				"HR": 18,
+				"BB": 51,
+				"SO": 76,
+				"HBP": 2,
+				"SF": 11,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "smithlo01-1983",
+			"nameFirst": "Lonnie",
+			"nameLast": "Smith",
+			"nameGiven": "Lonnie",
+			"position": "outfield",
+			"team": "St. Louis Cardinals",
+			"year": 1983,
+			"stats": {
+				"PA": 547,
+				"AB": 492,
+				"H": 158,
+				"2B": 31,
+				"3B": 5,
+				"HR": 8,
+				"BB": 41,
+				"SO": 55,
+				"HBP": 9,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "oberkke01-1980",
+			"nameFirst": "Ken",
+			"nameLast": "Oberkfell",
+			"nameGiven": "Kenneth Ray",
+			"position": "designated-hitter",
+			"team": "St. Louis Cardinals",
+			"year": 1980,
+			"stats": {
+				"PA": 486,
+				"AB": 422,
+				"H": 128,
+				"2B": 27,
+				"3B": 6,
+				"HR": 3,
+				"BB": 51,
+				"SO": 23,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 9,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 41
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,623 @@
+{
+	"team": "CHN",
+	"teamAbbr": "CHC",
+	"teamName": "Chicago Cubs",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "wilkiri01-1993",
+			"nameFirst": "Rick",
+			"nameLast": "Wilkins",
+			"nameGiven": "Richard David",
+			"position": "catcher",
+			"team": "Chicago Cubs",
+			"year": 1993,
+			"stats": {
+				"PA": 500,
+				"AB": 446,
+				"H": 135,
+				"2B": 23,
+				"3B": 1,
+				"HR": 30,
+				"BB": 50,
+				"SO": 99,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "gracema01-1995",
+			"nameFirst": "Mark",
+			"nameLast": "Grace",
+			"nameGiven": "Mark Eugene",
+			"position": "first-base",
+			"team": "Chicago Cubs",
+			"year": 1995,
+			"stats": {
+				"PA": 627,
+				"AB": 552,
+				"H": 180,
+				"2B": 51,
+				"3B": 3,
+				"HR": 16,
+				"BB": 65,
+				"SO": 46,
+				"HBP": 2,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "hernajo01-1999",
+			"nameFirst": "Jose",
+			"nameLast": "Hernandez",
+			"nameGiven": "Jose Antonio",
+			"position": "third-base",
+			"team": "Chicago Cubs",
+			"year": 1999,
+			"stats": {
+				"PA": 388,
+				"AB": 342,
+				"H": 93,
+				"2B": 12,
+				"3B": 2,
+				"HR": 15,
+				"BB": 40,
+				"SO": 101,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 94
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 41
+				}
+			]
+		},
+		{
+			"id": "sandbry01-1990",
+			"nameFirst": "Ryne",
+			"nameLast": "Sandberg",
+			"nameGiven": "Ryne Dee",
+			"position": "second-base",
+			"team": "Chicago Cubs",
+			"year": 1990,
+			"stats": {
+				"PA": 675,
+				"AB": 615,
+				"H": 188,
+				"2B": 30,
+				"3B": 3,
+				"HR": 40,
+				"BB": 50,
+				"SO": 84,
+				"HBP": 1,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "dunstsh01-1995",
+			"nameFirst": "Shawon",
+			"nameLast": "Dunston",
+			"nameGiven": "Shawon Donnell",
+			"position": "shortstop",
+			"team": "Chicago Cubs",
+			"year": 1995,
+			"stats": {
+				"PA": 503,
+				"AB": 477,
+				"H": 141,
+				"2B": 30,
+				"3B": 6,
+				"HR": 14,
+				"BB": 10,
+				"SO": 75,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 7,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 11
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "sosasa01-1998",
+			"nameFirst": "Sammy",
+			"nameLast": "Sosa",
+			"nameGiven": "Samuel Peralta",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1998,
+			"stats": {
+				"PA": 722,
+				"AB": 643,
+				"H": 198,
+				"2B": 20,
+				"3B": 0,
+				"HR": 66,
+				"BB": 73,
+				"SO": 171,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 20
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 33
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 85
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "dawsoan01-1990",
+			"nameFirst": "Andre",
+			"nameLast": "Dawson",
+			"nameGiven": "Andre Nolan",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1990,
+			"stats": {
+				"PA": 581,
+				"AB": 529,
+				"H": 164,
+				"2B": 28,
+				"3B": 5,
+				"HR": 27,
+				"BB": 42,
+				"SO": 65,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 27
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "mcraebr01-1995",
+			"nameFirst": "Brian",
+			"nameLast": "McRae",
+			"nameGiven": "Brian Wesley",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1995,
+			"stats": {
+				"PA": 638,
+				"AB": 580,
+				"H": 167,
+				"2B": 38,
+				"3B": 7,
+				"HR": 12,
+				"BB": 47,
+				"SO": 92,
+				"HBP": 7,
+				"SF": 1,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "sanchre01-1994",
+			"nameFirst": "Rey",
+			"nameLast": "Sanchez",
+			"nameGiven": "Rey Francisco",
+			"position": "designated-hitter",
+			"team": "Chicago Cubs",
+			"year": 1994,
+			"stats": {
+				"PA": 323,
+				"AB": 291,
+				"H": 83,
+				"2B": 13,
+				"3B": 1,
+				"HR": 0,
+				"BB": 20,
+				"SO": 29,
+				"HBP": 7,
+				"SF": 1,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 2,
+					"size": 54
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 55
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		}
+	]
+}

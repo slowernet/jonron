@@ -1,0 +1,631 @@
+{
+	"team": "MIN",
+	"teamAbbr": "MIN",
+	"teamName": "Minnesota Twins",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "wynegbu01-1976",
+			"nameFirst": "Butch",
+			"nameLast": "Wynegar",
+			"nameGiven": "Harold Delano",
+			"position": "catcher",
+			"team": "Minnesota Twins",
+			"year": 1976,
+			"stats": {
+				"PA": 622,
+				"AB": 534,
+				"H": 139,
+				"2B": 21,
+				"3B": 2,
+				"HR": 10,
+				"BB": 79,
+				"SO": 63,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 4,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "carewro01-1977",
+			"nameFirst": "Rod",
+			"nameLast": "Carew",
+			"nameGiven": "Rodney Cline",
+			"position": "first-base",
+			"team": "Minnesota Twins",
+			"year": 1977,
+			"stats": {
+				"PA": 694,
+				"AB": 616,
+				"H": 239,
+				"2B": 38,
+				"3B": 16,
+				"HR": 14,
+				"BB": 69,
+				"SO": 55,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 53
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 29
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 36
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "thompda01-1972",
+			"nameFirst": "Danny",
+			"nameLast": "Thompson",
+			"nameGiven": "Danny Leon",
+			"position": "second-base",
+			"team": "Minnesota Twins",
+			"year": 1972,
+			"stats": {
+				"PA": 624,
+				"AB": 573,
+				"H": 158,
+				"2B": 22,
+				"3B": 6,
+				"HR": 4,
+				"BB": 34,
+				"SO": 57,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 13,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 45
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "smallro02-1979",
+			"nameFirst": "Roy",
+			"nameLast": "Smalley",
+			"nameGiven": "Roy Frederick",
+			"position": "shortstop",
+			"team": "Minnesota Twins",
+			"year": 1979,
+			"stats": {
+				"PA": 729,
+				"AB": 621,
+				"H": 168,
+				"2B": 28,
+				"3B": 3,
+				"HR": 24,
+				"BB": 80,
+				"SO": 80,
+				"HBP": 4,
+				"SF": 9,
+				"SH": 15,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "killeha01-1970",
+			"nameFirst": "Harmon",
+			"nameLast": "Killebrew",
+			"nameGiven": "Harmon Clayton",
+			"position": "third-base",
+			"team": "Minnesota Twins",
+			"year": 1970,
+			"stats": {
+				"PA": 665,
+				"AB": 527,
+				"H": 143,
+				"2B": 20,
+				"3B": 1,
+				"HR": 41,
+				"BB": 128,
+				"SO": 84,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 28
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 70
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 18
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "olivato01-1971",
+			"nameFirst": "Tony",
+			"nameLast": "Oliva",
+			"nameGiven": "Tony Pedro",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1971,
+			"stats": {
+				"PA": 518,
+				"AB": 487,
+				"H": 164,
+				"2B": 30,
+				"3B": 3,
+				"HR": 22,
+				"BB": 25,
+				"SO": 44,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 21
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 19
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		},
+		{
+			"id": "hislela01-1977",
+			"nameFirst": "Larry",
+			"nameLast": "Hisle",
+			"nameGiven": "Larry Eugene",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1977,
+			"stats": {
+				"PA": 620,
+				"AB": 546,
+				"H": 165,
+				"2B": 36,
+				"3B": 3,
+				"HR": 28,
+				"BB": 56,
+				"SO": 106,
+				"HBP": 6,
+				"SF": 7,
+				"SH": 5,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "bostoly01-1977",
+			"nameFirst": "Lyman",
+			"nameLast": "Bostock",
+			"nameGiven": "Lyman Wesley",
+			"position": "outfield",
+			"team": "Minnesota Twins",
+			"year": 1977,
+			"stats": {
+				"PA": 660,
+				"AB": 593,
+				"H": 199,
+				"2B": 36,
+				"3B": 12,
+				"HR": 14,
+				"BB": 51,
+				"SO": 59,
+				"HBP": 6,
+				"SF": 8,
+				"SH": 2,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 45
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "braunst01-1973",
+			"nameFirst": "Steve",
+			"nameLast": "Braun",
+			"nameGiven": "Stephen Russell",
+			"position": "designated-hitter",
+			"team": "Minnesota Twins",
+			"year": 1973,
+			"stats": {
+				"PA": 440,
+				"AB": 361,
+				"H": 102,
+				"2B": 28,
+				"3B": 5,
+				"HR": 6,
+				"BB": 74,
+				"SO": 48,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 63
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,631 @@
+{
+	"team": "CIN",
+	"teamAbbr": "CIN",
+	"teamName": "Cincinnati Reds",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "benchjo01-1970",
+			"nameFirst": "Johnny",
+			"nameLast": "Bench",
+			"nameGiven": "Johnny Lee",
+			"position": "catcher",
+			"team": "Cincinnati Reds",
+			"year": 1970,
+			"stats": {
+				"PA": 671,
+				"AB": 605,
+				"H": 177,
+				"2B": 35,
+				"3B": 4,
+				"HR": 45,
+				"BB": 54,
+				"SO": 102,
+				"HBP": 0,
+				"SF": 11,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "morgajo02-1976",
+			"nameFirst": "Joe",
+			"nameLast": "Morgan",
+			"nameGiven": "Joe Leonard",
+			"position": "second-base",
+			"team": "Cincinnati Reds",
+			"year": 1976,
+			"stats": {
+				"PA": 599,
+				"AB": 472,
+				"H": 151,
+				"2B": 30,
+				"3B": 5,
+				"HR": 27,
+				"BB": 114,
+				"SO": 41,
+				"HBP": 1,
+				"SF": 12,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 69
+				},
+				{
+					"number": 10,
+					"size": 25
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "conceda01-1978",
+			"nameFirst": "Dave",
+			"nameLast": "Concepcion",
+			"nameGiven": "David Ismael",
+			"position": "shortstop",
+			"team": "Cincinnati Reds",
+			"year": 1978,
+			"stats": {
+				"PA": 624,
+				"AB": 565,
+				"H": 170,
+				"2B": 33,
+				"3B": 4,
+				"HR": 6,
+				"BB": 51,
+				"SO": 83,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "perezto01-1970",
+			"nameFirst": "Tony",
+			"nameLast": "Perez",
+			"nameGiven": "Atanacio",
+			"position": "first-base",
+			"team": "Cincinnati Reds",
+			"year": 1970,
+			"stats": {
+				"PA": 681,
+				"AB": 587,
+				"H": 186,
+				"2B": 28,
+				"3B": 6,
+				"HR": 40,
+				"BB": 83,
+				"SO": 134,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 71
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 22
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "rosepe01-1970",
+			"nameFirst": "Pete",
+			"nameLast": "Rose",
+			"nameGiven": "Peter Edward",
+			"position": "third-base",
+			"team": "Cincinnati Reds",
+			"year": 1970,
+			"stats": {
+				"PA": 728,
+				"AB": 649,
+				"H": 205,
+				"2B": 37,
+				"3B": 9,
+				"HR": 15,
+				"BB": 73,
+				"SO": 64,
+				"HBP": 2,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "fostege01-1977",
+			"nameFirst": "George",
+			"nameLast": "Foster",
+			"nameGiven": "George Arthur",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1977,
+			"stats": {
+				"PA": 689,
+				"AB": 615,
+				"H": 197,
+				"2B": 31,
+				"3B": 2,
+				"HR": 52,
+				"BB": 61,
+				"SO": 107,
+				"HBP": 5,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "griffke01-1977",
+			"nameFirst": "Ken",
+			"nameLast": "Griffey",
+			"nameGiven": "George Kenneth",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1977,
+			"stats": {
+				"PA": 657,
+				"AB": 585,
+				"H": 186,
+				"2B": 35,
+				"3B": 8,
+				"HR": 12,
+				"BB": 69,
+				"SO": 84,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "tolanbo01-1970",
+			"nameFirst": "Bobby",
+			"nameLast": "Tolan",
+			"nameGiven": "Robert",
+			"position": "outfield",
+			"team": "Cincinnati Reds",
+			"year": 1970,
+			"stats": {
+				"PA": 675,
+				"AB": 589,
+				"H": 186,
+				"2B": 34,
+				"3B": 6,
+				"HR": 16,
+				"BB": 62,
+				"SO": 94,
+				"HBP": 8,
+				"SF": 7,
+				"SH": 9,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "driesda01-1977",
+			"nameFirst": "Dan",
+			"nameLast": "Driessen",
+			"nameGiven": "Daniel",
+			"position": "designated-hitter",
+			"team": "Cincinnati Reds",
+			"year": 1977,
+			"stats": {
+				"PA": 608,
+				"AB": 536,
+				"H": 161,
+				"2B": 31,
+				"3B": 4,
+				"HR": 17,
+				"BB": 64,
+				"SO": 85,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		}
+	]
+}

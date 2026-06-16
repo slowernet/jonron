@@ -1,0 +1,631 @@
+{
+	"team": "CLE",
+	"teamAbbr": "CLE",
+	"teamName": "Cleveland Indians",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "fossera01-1970",
+			"nameFirst": "Ray",
+			"nameLast": "Fosse",
+			"nameGiven": "Raymond Earl",
+			"position": "catcher",
+			"team": "Cleveland Indians",
+			"year": 1970,
+			"stats": {
+				"PA": 497,
+				"AB": 450,
+				"H": 138,
+				"2B": 17,
+				"3B": 1,
+				"HR": 18,
+				"BB": 39,
+				"SO": 55,
+				"HBP": 1,
+				"SF": 3,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "duffyfr01-1973",
+			"nameFirst": "Frank",
+			"nameLast": "Duffy",
+			"nameGiven": "Frank Thomas",
+			"position": "shortstop",
+			"team": "Cleveland Indians",
+			"year": 1973,
+			"stats": {
+				"PA": 395,
+				"AB": 361,
+				"H": 95,
+				"2B": 16,
+				"3B": 4,
+				"HR": 8,
+				"BB": 25,
+				"SO": 41,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 4,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 43
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "thornan01-1977",
+			"nameFirst": "Andre",
+			"nameLast": "Thornton",
+			"nameGiven": "Andre",
+			"position": "first-base",
+			"team": "Cleveland Indians",
+			"year": 1977,
+			"stats": {
+				"PA": 517,
+				"AB": 433,
+				"H": 114,
+				"2B": 20,
+				"3B": 5,
+				"HR": 28,
+				"BB": 70,
+				"SO": 82,
+				"HBP": 11,
+				"SF": 2,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "lowenjo01-1973",
+			"nameFirst": "John",
+			"nameLast": "Lowenstein",
+			"nameGiven": "John Lee",
+			"position": "second-base",
+			"team": "Cleveland Indians",
+			"year": 1973,
+			"stats": {
+				"PA": 334,
+				"AB": 305,
+				"H": 89,
+				"2B": 16,
+				"3B": 1,
+				"HR": 6,
+				"BB": 23,
+				"SO": 41,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 44
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 59
+				}
+			]
+		},
+		{
+			"id": "nettlgr01-1971",
+			"nameFirst": "Graig",
+			"nameLast": "Nettles",
+			"nameGiven": "Graig",
+			"position": "third-base",
+			"team": "Cleveland Indians",
+			"year": 1971,
+			"stats": {
+				"PA": 690,
+				"AB": 598,
+				"H": 156,
+				"2B": 18,
+				"3B": 1,
+				"HR": 28,
+				"BB": 82,
+				"SO": 56,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 29
+				},
+				{
+					"number": 11,
+					"size": 9
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "cartyri01-1975",
+			"nameFirst": "Rico",
+			"nameLast": "Carty",
+			"nameGiven": "Ricardo Adolfo Jacobo",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1975,
+			"stats": {
+				"PA": 436,
+				"AB": 383,
+				"H": 118,
+				"2B": 19,
+				"3B": 1,
+				"HR": 18,
+				"BB": 45,
+				"SO": 31,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "bellbu01-1977",
+			"nameFirst": "Buddy",
+			"nameLast": "Bell",
+			"nameGiven": "David Gus",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1977,
+			"stats": {
+				"PA": 538,
+				"AB": 479,
+				"H": 140,
+				"2B": 23,
+				"3B": 4,
+				"HR": 11,
+				"BB": 45,
+				"SO": 63,
+				"HBP": 1,
+				"SF": 5,
+				"SH": 8,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "hendrge01-1976",
+			"nameFirst": "George",
+			"nameLast": "Hendrick",
+			"nameGiven": "George Andrew",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1976,
+			"stats": {
+				"PA": 611,
+				"AB": 551,
+				"H": 146,
+				"2B": 20,
+				"3B": 3,
+				"HR": 25,
+				"BB": 51,
+				"SO": 82,
+				"HBP": 0,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "spikech01-1974",
+			"nameFirst": "Charlie",
+			"nameLast": "Spikes",
+			"nameGiven": "Leslie Charles",
+			"position": "designated-hitter",
+			"team": "Cleveland Indians",
+			"year": 1974,
+			"stats": {
+				"PA": 612,
+				"AB": 568,
+				"H": 154,
+				"2B": 23,
+				"3B": 1,
+				"HR": 22,
+				"BB": 34,
+				"SO": 100,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

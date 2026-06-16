@@ -1,0 +1,619 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "velarra01-1993",
+			"nameFirst": "Randy",
+			"nameLast": "Velarde",
+			"nameGiven": "Randy Lee",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1993,
+			"stats": {
+				"PA": 253,
+				"AB": 226,
+				"H": 68,
+				"2B": 13,
+				"3B": 2,
+				"HR": 7,
+				"BB": 18,
+				"SO": 39,
+				"HBP": 4,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 31
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "jeterde01-1999",
+			"nameFirst": "Derek",
+			"nameLast": "Jeter",
+			"nameGiven": "Derek Sanderson",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1999,
+			"stats": {
+				"PA": 739,
+				"AB": 627,
+				"H": 219,
+				"2B": 37,
+				"3B": 9,
+				"HR": 24,
+				"BB": 91,
+				"SO": 116,
+				"HBP": 12,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 48
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "leyriji01-1993",
+			"nameFirst": "Jim",
+			"nameLast": "Leyritz",
+			"nameGiven": "James Joseph",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1993,
+			"stats": {
+				"PA": 305,
+				"AB": 259,
+				"H": 80,
+				"2B": 14,
+				"3B": 0,
+				"HR": 14,
+				"BB": 37,
+				"SO": 59,
+				"HBP": 8,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 70
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		},
+		{
+			"id": "martiti02-1997",
+			"nameFirst": "Tino",
+			"nameLast": "Martinez",
+			"nameGiven": "Constantino",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1997,
+			"stats": {
+				"PA": 685,
+				"AB": 594,
+				"H": 176,
+				"2B": 31,
+				"3B": 2,
+				"HR": 44,
+				"BB": 75,
+				"SO": 75,
+				"HBP": 3,
+				"SF": 13,
+				"SH": 0,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "boggswa01-1994",
+			"nameFirst": "Wade",
+			"nameLast": "Boggs",
+			"nameGiven": "Wade Anthony",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1994,
+			"stats": {
+				"PA": 434,
+				"AB": 366,
+				"H": 125,
+				"2B": 19,
+				"3B": 1,
+				"HR": 11,
+				"BB": 61,
+				"SO": 29,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 2,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 51
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "oneilpa01-1994",
+			"nameFirst": "Paul",
+			"nameLast": "O'Neill",
+			"nameGiven": "Paul Andrew",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1994,
+			"stats": {
+				"PA": 443,
+				"AB": 368,
+				"H": 132,
+				"2B": 25,
+				"3B": 1,
+				"HR": 21,
+				"BB": 72,
+				"SO": 56,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 59
+				},
+				{
+					"number": 10,
+					"size": 46
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "willibe02-1998",
+			"nameFirst": "Bernie",
+			"nameLast": "Williams",
+			"nameGiven": "Bernabe",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1998,
+			"stats": {
+				"PA": 578,
+				"AB": 499,
+				"H": 169,
+				"2B": 30,
+				"3B": 5,
+				"HR": 26,
+				"BB": 74,
+				"SO": 81,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 19
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "tartada01-1992",
+			"nameFirst": "Danny",
+			"nameLast": "Tartabull",
+			"nameGiven": "Danilo",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1992,
+			"stats": {
+				"PA": 526,
+				"AB": 421,
+				"H": 112,
+				"2B": 19,
+				"3B": 0,
+				"HR": 25,
+				"BB": 103,
+				"SO": 115,
+				"HBP": 0,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 70
+				},
+				{
+					"number": 10,
+					"size": 79
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "stanlmi02-1994",
+			"nameFirst": "Mike",
+			"nameLast": "Stanley",
+			"nameGiven": "Robert Michael",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1994,
+			"stats": {
+				"PA": 333,
+				"AB": 290,
+				"H": 87,
+				"2B": 20,
+				"3B": 0,
+				"HR": 17,
+				"BB": 39,
+				"SO": 56,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 61
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		}
+	]
+}

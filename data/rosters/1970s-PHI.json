@@ -1,0 +1,627 @@
+{
+	"team": "PHI",
+	"teamAbbr": "PHI",
+	"teamName": "Philadelphia Phillies",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "bowala01-1975",
+			"nameFirst": "Larry",
+			"nameLast": "Bowa",
+			"nameGiven": "Lawrence Robert",
+			"position": "shortstop",
+			"team": "Philadelphia Phillies",
+			"year": 1975,
+			"stats": {
+				"PA": 628,
+				"AB": 583,
+				"H": 178,
+				"2B": 18,
+				"3B": 9,
+				"HR": 2,
+				"BB": 24,
+				"SO": 32,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 17,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 47
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 51
+				},
+				{
+					"number": 9,
+					"size": 15
+				},
+				{
+					"number": 10,
+					"size": 18
+				},
+				{
+					"number": 11,
+					"size": 10
+				},
+				{
+					"number": 12,
+					"size": 48
+				},
+				{
+					"number": 13,
+					"size": 34
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "mccarti01-1977",
+			"nameFirst": "Tim",
+			"nameLast": "McCarver",
+			"nameGiven": "James Timothy",
+			"position": "catcher",
+			"team": "Philadelphia Phillies",
+			"year": 1977,
+			"stats": {
+				"PA": 205,
+				"AB": 169,
+				"H": 54,
+				"2B": 13,
+				"3B": 2,
+				"HR": 6,
+				"BB": 28,
+				"SO": 11,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 0,
+				"GIDP": 4
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 19
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "johnsde01-1971",
+			"nameFirst": "Deron",
+			"nameLast": "Johnson",
+			"nameGiven": "Deron Roger",
+			"position": "first-base",
+			"team": "Philadelphia Phillies",
+			"year": 1971,
+			"stats": {
+				"PA": 660,
+				"AB": 582,
+				"H": 154,
+				"2B": 29,
+				"3B": 0,
+				"HR": 34,
+				"BB": 72,
+				"SO": 146,
+				"HBP": 2,
+				"SF": 2,
+				"SH": 2,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "cashda01-1975",
+			"nameFirst": "Dave",
+			"nameLast": "Cash",
+			"nameGiven": "David",
+			"position": "second-base",
+			"team": "Philadelphia Phillies",
+			"year": 1975,
+			"stats": {
+				"PA": 766,
+				"AB": 699,
+				"H": 213,
+				"2B": 40,
+				"3B": 3,
+				"HR": 4,
+				"BB": 56,
+				"SO": 34,
+				"HBP": 4,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 44
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 16
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 44
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "schmimi01-1977",
+			"nameFirst": "Mike",
+			"nameLast": "Schmidt",
+			"nameGiven": "Michael Jack",
+			"position": "third-base",
+			"team": "Philadelphia Phillies",
+			"year": 1977,
+			"stats": {
+				"PA": 667,
+				"AB": 544,
+				"H": 149,
+				"2B": 27,
+				"3B": 11,
+				"HR": 38,
+				"BB": 104,
+				"SO": 122,
+				"HBP": 9,
+				"SF": 9,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 21
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 23
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 66
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "luzingr01-1977",
+			"nameFirst": "Greg",
+			"nameLast": "Luzinski",
+			"nameGiven": "Gregory Michael",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1977,
+			"stats": {
+				"PA": 645,
+				"AB": 554,
+				"H": 171,
+				"2B": 35,
+				"3B": 3,
+				"HR": 39,
+				"BB": 80,
+				"SO": 140,
+				"HBP": 3,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 21
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 21
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "johnsja01-1975",
+			"nameFirst": "Jay",
+			"nameLast": "Johnstone",
+			"nameGiven": "John William",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1975,
+			"stats": {
+				"PA": 398,
+				"AB": 350,
+				"H": 115,
+				"2B": 19,
+				"3B": 2,
+				"HR": 7,
+				"BB": 42,
+				"SO": 39,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "maddoga01-1976",
+			"nameFirst": "Garry",
+			"nameLast": "Maddox",
+			"nameGiven": "Garry Lee",
+			"position": "outfield",
+			"team": "Philadelphia Phillies",
+			"year": 1976,
+			"stats": {
+				"PA": 586,
+				"AB": 531,
+				"H": 175,
+				"2B": 37,
+				"3B": 6,
+				"HR": 6,
+				"BB": 42,
+				"SO": 59,
+				"HBP": 4,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "moneydo01-1970",
+			"nameFirst": "Don",
+			"nameLast": "Money",
+			"nameGiven": "Donald Wayne",
+			"position": "designated-hitter",
+			"team": "Philadelphia Phillies",
+			"year": 1970,
+			"stats": {
+				"PA": 507,
+				"AB": 447,
+				"H": 132,
+				"2B": 25,
+				"3B": 4,
+				"HR": 14,
+				"BB": 43,
+				"SO": 68,
+				"HBP": 7,
+				"SF": 7,
+				"SH": 3,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

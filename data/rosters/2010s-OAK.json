@@ -1,0 +1,631 @@
+{
+	"team": "OAK",
+	"teamAbbr": "OAK",
+	"teamName": "Oakland Athletics",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "vogtst01-2015",
+			"nameFirst": "Stephen",
+			"nameLast": "Vogt",
+			"nameGiven": "Stephen Guy",
+			"position": "catcher",
+			"team": "Oakland Athletics",
+			"year": 2015,
+			"stats": {
+				"PA": 511,
+				"AB": 445,
+				"H": 116,
+				"2B": 21,
+				"3B": 3,
+				"HR": 18,
+				"BB": 56,
+				"SO": 97,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 41
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "lowrije01-2017",
+			"nameFirst": "Jed",
+			"nameLast": "Lowrie",
+			"nameGiven": "Jed Carlson",
+			"position": "second-base",
+			"team": "Oakland Athletics",
+			"year": 2017,
+			"stats": {
+				"PA": 645,
+				"AB": 567,
+				"H": 157,
+				"2B": 49,
+				"3B": 3,
+				"HR": 14,
+				"BB": 73,
+				"SO": 100,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 56
+				},
+				{
+					"number": 11,
+					"size": 27
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "canhama01-2019",
+			"nameFirst": "Mark",
+			"nameLast": "Canha",
+			"nameGiven": "Mark David",
+			"position": "first-base",
+			"team": "Oakland Athletics",
+			"year": 2019,
+			"stats": {
+				"PA": 497,
+				"AB": 410,
+				"H": 112,
+				"2B": 16,
+				"3B": 3,
+				"HR": 26,
+				"BB": 67,
+				"SO": 107,
+				"HBP": 18,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 62
+				},
+				{
+					"number": 10,
+					"size": 78
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "donaljo02-2013",
+			"nameFirst": "Josh",
+			"nameLast": "Donaldson",
+			"nameGiven": "Joshua Adam",
+			"position": "third-base",
+			"team": "Oakland Athletics",
+			"year": 2013,
+			"stats": {
+				"PA": 668,
+				"AB": 579,
+				"H": 174,
+				"2B": 37,
+				"3B": 3,
+				"HR": 24,
+				"BB": 76,
+				"SO": 110,
+				"HBP": 6,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 15
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 59
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "semiema01-2019",
+			"nameFirst": "Marcus",
+			"nameLast": "Semien",
+			"nameGiven": "Marcus Andrew",
+			"position": "shortstop",
+			"team": "Oakland Athletics",
+			"year": 2019,
+			"stats": {
+				"PA": 747,
+				"AB": 657,
+				"H": 187,
+				"2B": 43,
+				"3B": 7,
+				"HR": 33,
+				"BB": 87,
+				"SO": 102,
+				"HBP": 2,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 11
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "daviskh01-2018",
+			"nameFirst": "Khris",
+			"nameLast": "Davis",
+			"nameGiven": "Khristopher Adrian",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2018,
+			"stats": {
+				"PA": 654,
+				"AB": 576,
+				"H": 142,
+				"2B": 28,
+				"3B": 1,
+				"HR": 48,
+				"BB": 59,
+				"SO": 175,
+				"HBP": 12,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 26
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 96
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 49
+				}
+			]
+		},
+		{
+			"id": "cespeyo01-2012",
+			"nameFirst": "Yoenis",
+			"nameLast": "Cespedes",
+			"nameGiven": "Yoenis",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2012,
+			"stats": {
+				"PA": 540,
+				"AB": 487,
+				"H": 142,
+				"2B": 25,
+				"3B": 5,
+				"HR": 23,
+				"BB": 43,
+				"SO": 102,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "reddijo01-2016",
+			"nameFirst": "Josh",
+			"nameLast": "Reddick",
+			"nameGiven": "William Joshua",
+			"position": "outfield",
+			"team": "Oakland Athletics",
+			"year": 2016,
+			"stats": {
+				"PA": 272,
+				"AB": 243,
+				"H": 72,
+				"2B": 11,
+				"3B": 1,
+				"HR": 8,
+				"BB": 28,
+				"SO": 34,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "chapmma01-2018",
+			"nameFirst": "Matt",
+			"nameLast": "Chapman",
+			"nameGiven": "Matt James",
+			"position": "designated-hitter",
+			"team": "Oakland Athletics",
+			"year": 2018,
+			"stats": {
+				"PA": 616,
+				"AB": 547,
+				"H": 152,
+				"2B": 42,
+				"3B": 6,
+				"HR": 24,
+				"BB": 58,
+				"SO": 146,
+				"HBP": 9,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 47
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 39
+				},
+				{
+					"number": 10,
+					"size": 85
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 48
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,627 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 1970,
+	"decade": "1970s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "munsoth01-1973",
+			"nameFirst": "Thurman",
+			"nameLast": "Munson",
+			"nameGiven": "Thurman Lee",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1973,
+			"stats": {
+				"PA": 576,
+				"AB": 519,
+				"H": 156,
+				"2B": 29,
+				"3B": 4,
+				"HR": 20,
+				"BB": 48,
+				"SO": 64,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 32
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "chambch01-1977",
+			"nameFirst": "Chris",
+			"nameLast": "Chambliss",
+			"nameGiven": "Carroll Christopher",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1977,
+			"stats": {
+				"PA": 652,
+				"AB": 600,
+				"H": 172,
+				"2B": 32,
+				"3B": 6,
+				"HR": 17,
+				"BB": 45,
+				"SO": 73,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 39
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 40
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "nettlgr01-1977",
+			"nameFirst": "Graig",
+			"nameLast": "Nettles",
+			"nameGiven": "Graig",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1977,
+			"stats": {
+				"PA": 664,
+				"AB": 589,
+				"H": 150,
+				"2B": 23,
+				"3B": 4,
+				"HR": 37,
+				"BB": 68,
+				"SO": 79,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 28
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 43
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 64
+				}
+			]
+		},
+		{
+			"id": "michage01-1971",
+			"nameFirst": "Gene",
+			"nameLast": "Michael",
+			"nameGiven": "Eugene Richard",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1971,
+			"stats": {
+				"PA": 514,
+				"AB": 456,
+				"H": 102,
+				"2B": 15,
+				"3B": 0,
+				"HR": 3,
+				"BB": 48,
+				"SO": 64,
+				"HBP": 3,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 58
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 45
+				},
+				{
+					"number": 11,
+					"size": 11
+				},
+				{
+					"number": 12,
+					"size": 59
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "randowi01-1979",
+			"nameFirst": "Willie",
+			"nameLast": "Randolph",
+			"nameGiven": "Willie Larry",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1979,
+			"stats": {
+				"PA": 682,
+				"AB": 574,
+				"H": 155,
+				"2B": 15,
+				"3B": 13,
+				"HR": 5,
+				"BB": 95,
+				"SO": 39,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 5,
+				"GIDP": 23
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 49
+				},
+				{
+					"number": 3,
+					"size": 53
+				},
+				{
+					"number": 5,
+					"size": 7
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 8
+				},
+				{
+					"number": 12,
+					"size": 49
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 54
+				}
+			]
+		},
+		{
+			"id": "murcebo01-1971",
+			"nameFirst": "Bobby",
+			"nameLast": "Murcer",
+			"nameGiven": "Bobby Ray",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1971,
+			"stats": {
+				"PA": 624,
+				"AB": 529,
+				"H": 175,
+				"2B": 25,
+				"3B": 6,
+				"HR": 25,
+				"BB": 91,
+				"SO": 60,
+				"HBP": 0,
+				"SF": 3,
+				"SH": 1,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "jacksre01-1979",
+			"nameFirst": "Reggie",
+			"nameLast": "Jackson",
+			"nameGiven": "Reginald Martinez",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1979,
+			"stats": {
+				"PA": 537,
+				"AB": 465,
+				"H": 138,
+				"2B": 24,
+				"3B": 2,
+				"HR": 29,
+				"BB": 65,
+				"SO": 107,
+				"HBP": 2,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 17
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 45
+				},
+				{
+					"number": 10,
+					"size": 72
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 24
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "pinielo01-1977",
+			"nameFirst": "Lou",
+			"nameLast": "Piniella",
+			"nameGiven": "Louis Victor",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1977,
+			"stats": {
+				"PA": 369,
+				"AB": 339,
+				"H": 112,
+				"2B": 19,
+				"3B": 3,
+				"HR": 12,
+				"BB": 20,
+				"SO": 31,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 5,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 20
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 34
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "whitero01-1970",
+			"nameFirst": "Roy",
+			"nameLast": "White",
+			"nameGiven": "Roy Hilton",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1970,
+			"stats": {
+				"PA": 712,
+				"AB": 609,
+				"H": 180,
+				"2B": 30,
+				"3B": 6,
+				"HR": 22,
+				"BB": 95,
+				"SO": 66,
+				"HBP": 0,
+				"SF": 7,
+				"SH": 1,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 48
+				},
+				{
+					"number": 10,
+					"size": 33
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,631 @@
+{
+	"team": "CHN",
+	"teamAbbr": "CHC",
+	"teamName": "Chicago Cubs",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "mcculcl01-1946",
+			"nameFirst": "Clyde",
+			"nameLast": "McCullough",
+			"nameGiven": "Clyde Edward",
+			"position": "catcher",
+			"team": "Chicago Cubs",
+			"year": 1946,
+			"stats": {
+				"PA": 336,
+				"AB": 307,
+				"H": 88,
+				"2B": 18,
+				"3B": 5,
+				"HR": 4,
+				"BB": 22,
+				"SO": 39,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 63
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 26
+				},
+				{
+					"number": 10,
+					"size": 42
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "johnsdo02-1945",
+			"nameFirst": "Don",
+			"nameLast": "Johnson",
+			"nameGiven": "Donald Spore",
+			"position": "second-base",
+			"team": "Chicago Cubs",
+			"year": 1945,
+			"stats": {
+				"PA": 614,
+				"AB": 557,
+				"H": 168,
+				"2B": 23,
+				"3B": 2,
+				"HR": 2,
+				"BB": 32,
+				"SO": 34,
+				"HBP": 3,
+				"SF": 0,
+				"SH": 22,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 47
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 50
+				},
+				{
+					"number": 9,
+					"size": 21
+				},
+				{
+					"number": 10,
+					"size": 20
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 48
+				},
+				{
+					"number": 13,
+					"size": 33
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "merulle01-1942",
+			"nameFirst": "Lennie",
+			"nameLast": "Merullo",
+			"nameGiven": "Leonard Richard",
+			"position": "shortstop",
+			"team": "Chicago Cubs",
+			"year": 1942,
+			"stats": {
+				"PA": 577,
+				"AB": 515,
+				"H": 132,
+				"2B": 23,
+				"3B": 3,
+				"HR": 2,
+				"BB": 35,
+				"SO": 45,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 22,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 51
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 28
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 51
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "cavarph01-1945",
+			"nameFirst": "Phil",
+			"nameLast": "Cavarretta",
+			"nameGiven": "Philip Joseph",
+			"position": "first-base",
+			"team": "Chicago Cubs",
+			"year": 1945,
+			"stats": {
+				"PA": 586,
+				"AB": 498,
+				"H": 177,
+				"2B": 34,
+				"3B": 10,
+				"HR": 6,
+				"BB": 81,
+				"SO": 34,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "pafkoan01-1948",
+			"nameFirst": "Andy",
+			"nameLast": "Pafko",
+			"nameGiven": "Andrew",
+			"position": "third-base",
+			"team": "Chicago Cubs",
+			"year": 1948,
+			"stats": {
+				"PA": 606,
+				"AB": 548,
+				"H": 171,
+				"2B": 30,
+				"3B": 2,
+				"HR": 26,
+				"BB": 50,
+				"SO": 50,
+				"HBP": 5,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 30
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 67
+				}
+			]
+		},
+		{
+			"id": "nichobi01-1944",
+			"nameFirst": "Bill",
+			"nameLast": "Nicholson",
+			"nameGiven": "William Beck",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1944,
+			"stats": {
+				"PA": 686,
+				"AB": 582,
+				"H": 167,
+				"2B": 35,
+				"3B": 8,
+				"HR": 33,
+				"BB": 93,
+				"SO": 71,
+				"HBP": 6,
+				"SF": 0,
+				"SH": 5,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "dalledo01-1944",
+			"nameFirst": "Dom",
+			"nameLast": "Dallessandro",
+			"nameGiven": "Nicholas Dominic",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1944,
+			"stats": {
+				"PA": 444,
+				"AB": 381,
+				"H": 116,
+				"2B": 19,
+				"3B": 4,
+				"HR": 8,
+				"BB": 61,
+				"SO": 29,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 63
+				}
+			]
+		},
+		{
+			"id": "lowrepe01-1943",
+			"nameFirst": "Peanuts",
+			"nameLast": "Lowrey",
+			"nameGiven": "Harry Lee",
+			"position": "outfield",
+			"team": "Chicago Cubs",
+			"year": 1943,
+			"stats": {
+				"PA": 526,
+				"AB": 480,
+				"H": 140,
+				"2B": 25,
+				"3B": 12,
+				"HR": 1,
+				"BB": 35,
+				"SO": 24,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 11,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 70
+				},
+				{
+					"number": 5,
+					"size": 8
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 16
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 70
+				}
+			]
+		},
+		{
+			"id": "hackst01-1941",
+			"nameFirst": "Stan",
+			"nameLast": "Hack",
+			"nameGiven": "Stanley Camfield",
+			"position": "designated-hitter",
+			"team": "Chicago Cubs",
+			"year": 1941,
+			"stats": {
+				"PA": 694,
+				"AB": 586,
+				"H": 186,
+				"2B": 33,
+				"3B": 5,
+				"HR": 7,
+				"BB": 99,
+				"SO": 40,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 8,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 4
+				},
+				{
+					"number": 2,
+					"size": 34
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 21
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		}
+	]
+}

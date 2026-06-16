@@ -1,0 +1,627 @@
+{
+	"team": "ATL",
+	"teamAbbr": "ATL",
+	"teamName": "Atlanta Braves",
+	"year": 2010,
+	"decade": "2010s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "mccanbr01-2010",
+			"nameFirst": "Brian",
+			"nameLast": "McCann",
+			"nameGiven": "Brian Michael",
+			"position": "catcher",
+			"team": "Atlanta Braves",
+			"year": 2010,
+			"stats": {
+				"PA": 566,
+				"AB": 479,
+				"H": 129,
+				"2B": 25,
+				"3B": 0,
+				"HR": 21,
+				"BB": 74,
+				"SO": 98,
+				"HBP": 9,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 31
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 62
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "freemfr01-2017",
+			"nameFirst": "Freddie",
+			"nameLast": "Freeman",
+			"nameGiven": "Frederick Charles",
+			"position": "first-base",
+			"team": "Atlanta Braves",
+			"year": 2017,
+			"stats": {
+				"PA": 514,
+				"AB": 440,
+				"H": 135,
+				"2B": 35,
+				"3B": 2,
+				"HR": 28,
+				"BB": 65,
+				"SO": 95,
+				"HBP": 7,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 23
+				},
+				{
+					"number": 3,
+					"size": 50
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 50
+				},
+				{
+					"number": 10,
+					"size": 67
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 51
+				}
+			]
+		},
+		{
+			"id": "pradoma01-2010",
+			"nameFirst": "Martin",
+			"nameLast": "Prado",
+			"nameGiven": "Martin Manuel",
+			"position": "third-base",
+			"team": "Atlanta Braves",
+			"year": 2010,
+			"stats": {
+				"PA": 651,
+				"AB": 599,
+				"H": 184,
+				"2B": 40,
+				"3B": 3,
+				"HR": 15,
+				"BB": 40,
+				"SO": 86,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 3,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 24
+				},
+				{
+					"number": 10,
+					"size": 48
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "swansda01-2019",
+			"nameFirst": "Dansby",
+			"nameLast": "Swanson",
+			"nameGiven": "James Dansby",
+			"position": "shortstop",
+			"team": "Atlanta Braves",
+			"year": 2019,
+			"stats": {
+				"PA": 545,
+				"AB": 483,
+				"H": 121,
+				"2B": 26,
+				"3B": 3,
+				"HR": 17,
+				"BB": 51,
+				"SO": 124,
+				"HBP": 5,
+				"SF": 5,
+				"SH": 1,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 82
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 36
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "albieoz01-2019",
+			"nameFirst": "Ozzie",
+			"nameLast": "Albies",
+			"nameGiven": "Ozhaino Jurdy Jiandro",
+			"position": "second-base",
+			"team": "Atlanta Braves",
+			"year": 2019,
+			"stats": {
+				"PA": 702,
+				"AB": 640,
+				"H": 189,
+				"2B": 43,
+				"3B": 8,
+				"HR": 24,
+				"BB": 54,
+				"SO": 112,
+				"HBP": 4,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 2
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 57
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "heywaja01-2010",
+			"nameFirst": "Jason",
+			"nameLast": "Heyward",
+			"nameGiven": "Jason Alias",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 2010,
+			"stats": {
+				"PA": 623,
+				"AB": 520,
+				"H": 144,
+				"2B": 29,
+				"3B": 5,
+				"HR": 18,
+				"BB": 91,
+				"SO": 128,
+				"HBP": 10,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 45
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 32
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "markani01-2018",
+			"nameFirst": "Nick",
+			"nameLast": "Markakis",
+			"nameGiven": "Nicholas William",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 2018,
+			"stats": {
+				"PA": 705,
+				"AB": 623,
+				"H": 185,
+				"2B": 43,
+				"3B": 2,
+				"HR": 14,
+				"BB": 72,
+				"SO": 80,
+				"HBP": 1,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 18
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 7
+				},
+				{
+					"number": 2,
+					"size": 37
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "inciaen01-2017",
+			"nameFirst": "Ender",
+			"nameLast": "Inciarte",
+			"nameGiven": "Ender David",
+			"position": "outfield",
+			"team": "Atlanta Braves",
+			"year": 2017,
+			"stats": {
+				"PA": 718,
+				"AB": 662,
+				"H": 201,
+				"2B": 27,
+				"3B": 5,
+				"HR": 11,
+				"BB": 49,
+				"SO": 94,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 3,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 6
+				},
+				{
+					"number": 2,
+					"size": 41
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 25
+				},
+				{
+					"number": 10,
+					"size": 47
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "ugglada01-2011",
+			"nameFirst": "Dan",
+			"nameLast": "Uggla",
+			"nameGiven": "Daniel Cooley",
+			"position": "designated-hitter",
+			"team": "Atlanta Braves",
+			"year": 2011,
+			"stats": {
+				"PA": 672,
+				"AB": 600,
+				"H": 140,
+				"2B": 22,
+				"3B": 1,
+				"HR": 36,
+				"BB": 62,
+				"SO": 156,
+				"HBP": 7,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 51
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 26
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 84
+				},
+				{
+					"number": 11,
+					"size": 12
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 17
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		}
+	]
+}

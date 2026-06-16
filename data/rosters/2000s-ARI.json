@@ -1,0 +1,631 @@
+{
+	"team": "ARI",
+	"teamAbbr": "ARI",
+	"teamName": "Arizona Diamondbacks",
+	"year": 2000,
+	"decade": "2000s",
+	"league": "NL",
+	"players": [
+		{
+			"id": "snydech02-2008",
+			"nameFirst": "Chris",
+			"nameLast": "Snyder",
+			"nameGiven": "Christopher Ryan",
+			"position": "catcher",
+			"team": "Arizona Diamondbacks",
+			"year": 2008,
+			"stats": {
+				"PA": 404,
+				"AB": 334,
+				"H": 79,
+				"2B": 22,
+				"3B": 1,
+				"HR": 16,
+				"BB": 56,
+				"SO": 101,
+				"HBP": 4,
+				"SF": 5,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 22
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 90
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 44
+				}
+			]
+		},
+		{
+			"id": "tracych01-2005",
+			"nameFirst": "Chad",
+			"nameLast": "Tracy",
+			"nameGiven": "Chad Austin",
+			"position": "first-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2005,
+			"stats": {
+				"PA": 553,
+				"AB": 503,
+				"H": 155,
+				"2B": 34,
+				"3B": 4,
+				"HR": 27,
+				"BB": 35,
+				"SO": 78,
+				"HBP": 8,
+				"SF": 6,
+				"SH": 1,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 18
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 29
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "cintral01-2003",
+			"nameFirst": "Alex",
+			"nameLast": "Cintron",
+			"nameGiven": "Alexander",
+			"position": "second-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2003,
+			"stats": {
+				"PA": 487,
+				"AB": 448,
+				"H": 142,
+				"2B": 26,
+				"3B": 6,
+				"HR": 13,
+				"BB": 29,
+				"SO": 33,
+				"HBP": 2,
+				"SF": 3,
+				"SH": 5,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 43
+				},
+				{
+					"number": 9,
+					"size": 23
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 38
+				},
+				{
+					"number": 13,
+					"size": 29
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "reynoma01-2009",
+			"nameFirst": "Mark",
+			"nameLast": "Reynolds",
+			"nameGiven": "Mark Andrew",
+			"position": "third-base",
+			"team": "Arizona Diamondbacks",
+			"year": 2009,
+			"stats": {
+				"PA": 662,
+				"AB": 578,
+				"H": 150,
+				"2B": 30,
+				"3B": 1,
+				"HR": 44,
+				"BB": 76,
+				"SO": 223,
+				"HBP": 5,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 38
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 25
+				},
+				{
+					"number": 9,
+					"size": 44
+				},
+				{
+					"number": 10,
+					"size": 120
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 16
+				},
+				{
+					"number": 14,
+					"size": 38
+				}
+			]
+		},
+		{
+			"id": "drewst01-2006",
+			"nameFirst": "Stephen",
+			"nameLast": "Drew",
+			"nameGiven": "Stephen Oris",
+			"position": "shortstop",
+			"team": "Arizona Diamondbacks",
+			"year": 2006,
+			"stats": {
+				"PA": 226,
+				"AB": 209,
+				"H": 66,
+				"2B": 13,
+				"3B": 7,
+				"HR": 5,
+				"BB": 14,
+				"SO": 50,
+				"HBP": 0,
+				"SF": 1,
+				"SH": 2,
+				"GIDP": 1
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 49
+				},
+				{
+					"number": 5,
+					"size": 11
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 22
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 21
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 50
+				}
+			]
+		},
+		{
+			"id": "gonzalu01-2001",
+			"nameFirst": "Luis",
+			"nameLast": "Gonzalez",
+			"nameGiven": "Luis Emilio",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2001,
+			"stats": {
+				"PA": 728,
+				"AB": 609,
+				"H": 198,
+				"2B": 36,
+				"3B": 7,
+				"HR": 57,
+				"BB": 100,
+				"SO": 83,
+				"HBP": 14,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 28
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 56
+				},
+				{
+					"number": 10,
+					"size": 41
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 19
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "finlest01-2000",
+			"nameFirst": "Steve",
+			"nameLast": "Finley",
+			"nameGiven": "Steven Allen",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2000,
+			"stats": {
+				"PA": 623,
+				"AB": 539,
+				"H": 151,
+				"2B": 27,
+				"3B": 5,
+				"HR": 35,
+				"BB": 65,
+				"SO": 87,
+				"HBP": 8,
+				"SF": 9,
+				"SH": 2,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 42
+				},
+				{
+					"number": 10,
+					"size": 50
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "bautida01-2000",
+			"nameFirst": "Danny",
+			"nameLast": "Bautista",
+			"nameGiven": "Daniel",
+			"position": "outfield",
+			"team": "Arizona Diamondbacks",
+			"year": 2000,
+			"stats": {
+				"PA": 294,
+				"AB": 262,
+				"H": 83,
+				"2B": 16,
+				"3B": 7,
+				"HR": 7,
+				"BB": 20,
+				"SO": 30,
+				"HBP": 3,
+				"SF": 5,
+				"SH": 4,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 35
+				},
+				{
+					"number": 3,
+					"size": 61
+				},
+				{
+					"number": 5,
+					"size": 9
+				},
+				{
+					"number": 7,
+					"size": 39
+				},
+				{
+					"number": 9,
+					"size": 28
+				},
+				{
+					"number": 10,
+					"size": 37
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 35
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "jacksco01-2007",
+			"nameFirst": "Conor",
+			"nameLast": "Jackson",
+			"nameGiven": "Conor Sims",
+			"position": "designated-hitter",
+			"team": "Arizona Diamondbacks",
+			"year": 2007,
+			"stats": {
+				"PA": 477,
+				"AB": 415,
+				"H": 118,
+				"2B": 29,
+				"3B": 1,
+				"HR": 15,
+				"BB": 53,
+				"SO": 50,
+				"HBP": 4,
+				"SF": 3,
+				"SH": 2,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 33
+				},
+				{
+					"number": 9,
+					"size": 43
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}

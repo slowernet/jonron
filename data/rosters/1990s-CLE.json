@@ -1,0 +1,623 @@
+{
+	"team": "CLE",
+	"teamAbbr": "CLE",
+	"teamName": "Cleveland Indians",
+	"year": 1990,
+	"decade": "1990s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "alomasa02-1997",
+			"nameFirst": "Sandy",
+			"nameLast": "Alomar",
+			"nameGiven": "Santos",
+			"position": "catcher",
+			"team": "Cleveland Indians",
+			"year": 1997,
+			"stats": {
+				"PA": 480,
+				"AB": 451,
+				"H": 146,
+				"2B": 37,
+				"3B": 0,
+				"HR": 21,
+				"BB": 19,
+				"SO": 48,
+				"HBP": 3,
+				"SF": 1,
+				"SH": 6,
+				"GIDP": 16
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 16
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 36
+				},
+				{
+					"number": 11,
+					"size": 28
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "sorrepa01-1995",
+			"nameFirst": "Paul",
+			"nameLast": "Sorrento",
+			"nameGiven": "Paul Anthony",
+			"position": "first-base",
+			"team": "Cleveland Indians",
+			"year": 1995,
+			"stats": {
+				"PA": 378,
+				"AB": 323,
+				"H": 76,
+				"2B": 14,
+				"3B": 0,
+				"HR": 25,
+				"BB": 51,
+				"SO": 71,
+				"HBP": 0,
+				"SF": 4,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 24
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 7,
+					"size": 21
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 68
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 14
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "baergca01-1994",
+			"nameFirst": "Carlos",
+			"nameLast": "Baerga",
+			"nameGiven": "Carlos Obed",
+			"position": "second-base",
+			"team": "Cleveland Indians",
+			"year": 1994,
+			"stats": {
+				"PA": 469,
+				"AB": 442,
+				"H": 139,
+				"2B": 32,
+				"3B": 2,
+				"HR": 19,
+				"BB": 10,
+				"SO": 45,
+				"HBP": 6,
+				"SF": 8,
+				"SH": 3,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 36
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 12
+				},
+				{
+					"number": 10,
+					"size": 35
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 37
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "thomeji01-1996",
+			"nameFirst": "Jim",
+			"nameLast": "Thome",
+			"nameGiven": "James Howard",
+			"position": "third-base",
+			"team": "Cleveland Indians",
+			"year": 1996,
+			"stats": {
+				"PA": 636,
+				"AB": 505,
+				"H": 157,
+				"2B": 28,
+				"3B": 5,
+				"HR": 38,
+				"BB": 123,
+				"SO": 141,
+				"HBP": 6,
+				"SF": 2,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 22
+				},
+				{
+					"number": 2,
+					"size": 18
+				},
+				{
+					"number": 3,
+					"size": 40
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 73
+				},
+				{
+					"number": 10,
+					"size": 80
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 40
+				}
+			]
+		},
+		{
+			"id": "vizquom01-1999",
+			"nameFirst": "Omar",
+			"nameLast": "Vizquel",
+			"nameGiven": "Omar Enrique",
+			"position": "shortstop",
+			"team": "Cleveland Indians",
+			"year": 1999,
+			"stats": {
+				"PA": 664,
+				"AB": 574,
+				"H": 191,
+				"2B": 36,
+				"3B": 4,
+				"HR": 5,
+				"BB": 65,
+				"SO": 50,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 17,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 3
+				},
+				{
+					"number": 2,
+					"size": 42
+				},
+				{
+					"number": 3,
+					"size": 54
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 36
+				},
+				{
+					"number": 10,
+					"size": 27
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 42
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "belleal01-1994",
+			"nameFirst": "Albert",
+			"nameLast": "Belle",
+			"nameGiven": "Albert Jojuan",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1994,
+			"stats": {
+				"PA": 480,
+				"AB": 412,
+				"H": 147,
+				"2B": 35,
+				"3B": 2,
+				"HR": 36,
+				"BB": 58,
+				"SO": 71,
+				"HBP": 5,
+				"SF": 4,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 27
+				},
+				{
+					"number": 2,
+					"size": 22
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 34
+				},
+				{
+					"number": 9,
+					"size": 47
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 26
+				},
+				{
+					"number": 12,
+					"size": 23
+				},
+				{
+					"number": 13,
+					"size": 22
+				},
+				{
+					"number": 14,
+					"size": 52
+				}
+			]
+		},
+		{
+			"id": "ramirma02-1999",
+			"nameFirst": "Manny",
+			"nameLast": "Ramirez",
+			"nameGiven": "Manuel Aristides",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1999,
+			"stats": {
+				"PA": 640,
+				"AB": 522,
+				"H": 174,
+				"2B": 34,
+				"3B": 3,
+				"HR": 44,
+				"BB": 96,
+				"SO": 131,
+				"HBP": 13,
+				"SF": 9,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 25
+				},
+				{
+					"number": 2,
+					"size": 19
+				},
+				{
+					"number": 3,
+					"size": 44
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 31
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 74
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 19
+				},
+				{
+					"number": 13,
+					"size": 21
+				},
+				{
+					"number": 14,
+					"size": 45
+				}
+			]
+		},
+		{
+			"id": "justida01-1997",
+			"nameFirst": "David",
+			"nameLast": "Justice",
+			"nameGiven": "David Christopher",
+			"position": "outfield",
+			"team": "Cleveland Indians",
+			"year": 1997,
+			"stats": {
+				"PA": 582,
+				"AB": 495,
+				"H": 163,
+				"2B": 31,
+				"3B": 1,
+				"HR": 33,
+				"BB": 80,
+				"SO": 79,
+				"HBP": 0,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 24
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 49
+				},
+				{
+					"number": 10,
+					"size": 49
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 56
+				}
+			]
+		},
+		{
+			"id": "loftoke01-1994",
+			"nameFirst": "Kenny",
+			"nameLast": "Lofton",
+			"nameGiven": "Kenneth",
+			"position": "designated-hitter",
+			"team": "Cleveland Indians",
+			"year": 1994,
+			"stats": {
+				"PA": 523,
+				"AB": 459,
+				"H": 160,
+				"2B": 32,
+				"3B": 9,
+				"HR": 12,
+				"BB": 52,
+				"SO": 56,
+				"HBP": 2,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 8
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 56
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 44
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 39
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		}
+	]
+}

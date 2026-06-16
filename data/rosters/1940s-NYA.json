@@ -1,0 +1,631 @@
+{
+	"team": "NYA",
+	"teamAbbr": "NYY",
+	"teamName": "New York Yankees",
+	"year": 1940,
+	"decade": "1940s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "dickebi01-1943",
+			"nameFirst": "Bill",
+			"nameLast": "Dickey",
+			"nameGiven": "William Malcolm",
+			"position": "catcher",
+			"team": "New York Yankees",
+			"year": 1943,
+			"stats": {
+				"PA": 284,
+				"AB": 242,
+				"H": 85,
+				"2B": 18,
+				"3B": 2,
+				"HR": 4,
+				"BB": 41,
+				"SO": 12,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 5
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 28
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 23
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 31
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "henrito01-1940",
+			"nameFirst": "Tommy",
+			"nameLast": "Henrich",
+			"nameGiven": "Thomas David",
+			"position": "first-base",
+			"team": "New York Yankees",
+			"year": 1940,
+			"stats": {
+				"PA": 346,
+				"AB": 293,
+				"H": 90,
+				"2B": 28,
+				"3B": 5,
+				"HR": 10,
+				"BB": 48,
+				"SO": 30,
+				"HBP": 2,
+				"SF": 0,
+				"SH": 3,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 62
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 29
+				},
+				{
+					"number": 9,
+					"size": 52
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 29
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 62
+				}
+			]
+		},
+		{
+			"id": "gordojo01-1942",
+			"nameFirst": "Joe",
+			"nameLast": "Gordon",
+			"nameGiven": "Joseph Lowell",
+			"position": "second-base",
+			"team": "New York Yankees",
+			"year": 1942,
+			"stats": {
+				"PA": 625,
+				"AB": 538,
+				"H": 173,
+				"2B": 29,
+				"3B": 4,
+				"HR": 18,
+				"BB": 79,
+				"SO": 95,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 7,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 10
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 55
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 55
+				},
+				{
+					"number": 11,
+					"size": 17
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 55
+				}
+			]
+		},
+		{
+			"id": "stirnsn01-1945",
+			"nameFirst": "Snuffy",
+			"nameLast": "Stirnweiss",
+			"nameGiven": "George Henry",
+			"position": "shortstop",
+			"team": "New York Yankees",
+			"year": 1945,
+			"stats": {
+				"PA": 717,
+				"AB": 632,
+				"H": 195,
+				"2B": 32,
+				"3B": 22,
+				"HR": 10,
+				"BB": 78,
+				"SO": 62,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 65
+				},
+				{
+					"number": 5,
+					"size": 11
+				},
+				{
+					"number": 7,
+					"size": 40
+				},
+				{
+					"number": 9,
+					"size": 40
+				},
+				{
+					"number": 10,
+					"size": 31
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 26
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "johnsbi03-1948",
+			"nameFirst": "Billy",
+			"nameLast": "Johnson",
+			"nameGiven": "William Russell",
+			"position": "third-base",
+			"team": "New York Yankees",
+			"year": 1948,
+			"stats": {
+				"PA": 492,
+				"AB": 446,
+				"H": 131,
+				"2B": 20,
+				"3B": 6,
+				"HR": 12,
+				"BB": 41,
+				"SO": 30,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 22
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 9
+				},
+				{
+					"number": 2,
+					"size": 38
+				},
+				{
+					"number": 3,
+					"size": 66
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 33
+				},
+				{
+					"number": 10,
+					"size": 22
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 39
+				},
+				{
+					"number": 13,
+					"size": 27
+				},
+				{
+					"number": 14,
+					"size": 66
+				}
+			]
+		},
+		{
+			"id": "dimagjo01-1941",
+			"nameFirst": "Joe",
+			"nameLast": "DiMaggio",
+			"nameGiven": "Joseph Paul",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 621,
+				"AB": 541,
+				"H": 193,
+				"2B": 43,
+				"3B": 11,
+				"HR": 30,
+				"BB": 76,
+				"SO": 13,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 6
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 17
+				},
+				{
+					"number": 2,
+					"size": 29
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 38
+				},
+				{
+					"number": 9,
+					"size": 46
+				},
+				{
+					"number": 10,
+					"size": 8
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 30
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "kellech01-1941",
+			"nameFirst": "Charlie",
+			"nameLast": "Keller",
+			"nameGiven": "Charles Ernest",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1941,
+			"stats": {
+				"PA": 610,
+				"AB": 507,
+				"H": 151,
+				"2B": 24,
+				"3B": 10,
+				"HR": 33,
+				"BB": 102,
+				"SO": 65,
+				"HBP": 1,
+				"SF": 0,
+				"SH": 0,
+				"GIDP": 3
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 6
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 61
+				},
+				{
+					"number": 10,
+					"size": 38
+				},
+				{
+					"number": 11,
+					"size": 14
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "lindejo01-1948",
+			"nameFirst": "Johnny",
+			"nameLast": "Lindell",
+			"nameGiven": "John Harlan",
+			"position": "outfield",
+			"team": "New York Yankees",
+			"year": 1948,
+			"stats": {
+				"PA": 345,
+				"AB": 309,
+				"H": 98,
+				"2B": 17,
+				"3B": 2,
+				"HR": 13,
+				"BB": 35,
+				"SO": 50,
+				"HBP": 0,
+				"SF": 0,
+				"SH": 1,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 14
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 41
+				},
+				{
+					"number": 9,
+					"size": 37
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 57
+				}
+			]
+		},
+		{
+			"id": "ettenni01-1944",
+			"nameFirst": "Nick",
+			"nameLast": "Etten",
+			"nameGiven": "Nicholas Raymond Thomas",
+			"position": "designated-hitter",
+			"team": "New York Yankees",
+			"year": 1944,
+			"stats": {
+				"PA": 680,
+				"AB": 573,
+				"H": 168,
+				"2B": 25,
+				"3B": 4,
+				"HR": 22,
+				"BB": 97,
+				"SO": 29,
+				"HBP": 4,
+				"SF": 0,
+				"SH": 6,
+				"GIDP": 14
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 33
+				},
+				{
+					"number": 3,
+					"size": 68
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 53
+				},
+				{
+					"number": 10,
+					"size": 15
+				},
+				{
+					"number": 11,
+					"size": 13
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 69
+				}
+			]
+		}
+	]
+}

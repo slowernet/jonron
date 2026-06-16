@@ -62,6 +62,1070 @@
 			"year": 2001,
 			"team": "SEA",
 			"abbr": "SEA"
+		},
+		{
+			"id": "1940s-BSN",
+			"label": "1940s Boston Bees",
+			"year": 1940,
+			"team": "BSN",
+			"abbr": "BSN",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-CHN",
+			"label": "1940s Chicago Cubs",
+			"year": 1940,
+			"team": "CHN",
+			"abbr": "CHC",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-CHA",
+			"label": "1940s Chicago White Sox",
+			"year": 1940,
+			"team": "CHA",
+			"abbr": "CHW",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-CIN",
+			"label": "1940s Cincinnati Reds",
+			"year": 1940,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-CLE",
+			"label": "1940s Cleveland Indians",
+			"year": 1940,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-DET",
+			"label": "1940s Detroit Tigers",
+			"year": 1940,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-BRO",
+			"label": "1940s Brooklyn Dodgers",
+			"year": 1940,
+			"team": "BRO",
+			"abbr": "BRO",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-NYA",
+			"label": "1940s New York Yankees",
+			"year": 1940,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-PHA",
+			"label": "1940s Philadelphia Athletics",
+			"year": 1940,
+			"team": "PHA",
+			"abbr": "PHA",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-PIT",
+			"label": "1940s Pittsburgh Pirates",
+			"year": 1940,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-NY1",
+			"label": "1940s New York Giants",
+			"year": 1940,
+			"team": "NY1",
+			"abbr": "NYG",
+			"decade": "1940s"
+		},
+		{
+			"id": "1940s-SLN",
+			"label": "1940s St. Louis Cardinals",
+			"year": 1940,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1940s"
+		},
+		{
+			"id": "1950s-BSN",
+			"label": "1950s Boston Braves",
+			"year": 1950,
+			"team": "BSN",
+			"abbr": "BSN",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-BOS",
+			"label": "1950s Boston Red Sox",
+			"year": 1950,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-CIN",
+			"label": "1950s Cincinnati Reds",
+			"year": 1950,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-CLE",
+			"label": "1950s Cleveland Indians",
+			"year": 1950,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-DET",
+			"label": "1950s Detroit Tigers",
+			"year": 1950,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-BRO",
+			"label": "1950s Brooklyn Dodgers",
+			"year": 1950,
+			"team": "BRO",
+			"abbr": "BRO",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-NYA",
+			"label": "1950s New York Yankees",
+			"year": 1950,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-PHA",
+			"label": "1950s Philadelphia Athletics",
+			"year": 1950,
+			"team": "PHA",
+			"abbr": "PHA",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-NY1",
+			"label": "1950s New York Giants",
+			"year": 1950,
+			"team": "NY1",
+			"abbr": "NYG",
+			"decade": "1950s"
+		},
+		{
+			"id": "1950s-SLN",
+			"label": "1950s St. Louis Cardinals",
+			"year": 1950,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1950s"
+		},
+		{
+			"id": "1960s-LAA",
+			"label": "1960s Los Angeles Angels",
+			"year": 1960,
+			"team": "LAA",
+			"abbr": "LAA",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-ML1",
+			"label": "1960s Milwaukee Braves",
+			"year": 1960,
+			"team": "ML1",
+			"abbr": "MLN",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-BOS",
+			"label": "1960s Boston Red Sox",
+			"year": 1960,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-CHN",
+			"label": "1960s Chicago Cubs",
+			"year": 1960,
+			"team": "CHN",
+			"abbr": "CHC",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-CHA",
+			"label": "1960s Chicago White Sox",
+			"year": 1960,
+			"team": "CHA",
+			"abbr": "CHW",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-CIN",
+			"label": "1960s Cincinnati Reds",
+			"year": 1960,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-CLE",
+			"label": "1960s Cleveland Indians",
+			"year": 1960,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-DET",
+			"label": "1960s Detroit Tigers",
+			"year": 1960,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-LAN",
+			"label": "1960s Los Angeles Dodgers",
+			"year": 1960,
+			"team": "LAN",
+			"abbr": "LAD",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-WS1",
+			"label": "1960s Washington Senators",
+			"year": 1960,
+			"team": "WS1",
+			"abbr": "WSH",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-NYA",
+			"label": "1960s New York Yankees",
+			"year": 1960,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-PHI",
+			"label": "1960s Philadelphia Phillies",
+			"year": 1960,
+			"team": "PHI",
+			"abbr": "PHI",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-PIT",
+			"label": "1960s Pittsburgh Pirates",
+			"year": 1960,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-SFN",
+			"label": "1960s San Francisco Giants",
+			"year": 1960,
+			"team": "SFN",
+			"abbr": "SFG",
+			"decade": "1960s"
+		},
+		{
+			"id": "1960s-SLN",
+			"label": "1960s St. Louis Cardinals",
+			"year": 1960,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1960s"
+		},
+		{
+			"id": "1970s-ATL",
+			"label": "1970s Atlanta Braves",
+			"year": 1970,
+			"team": "ATL",
+			"abbr": "ATL",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-BOS",
+			"label": "1970s Boston Red Sox",
+			"year": 1970,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-CHA",
+			"label": "1970s Chicago White Sox",
+			"year": 1970,
+			"team": "CHA",
+			"abbr": "CHW",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-CIN",
+			"label": "1970s Cincinnati Reds",
+			"year": 1970,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-CLE",
+			"label": "1970s Cleveland Indians",
+			"year": 1970,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-DET",
+			"label": "1970s Detroit Tigers",
+			"year": 1970,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-HOU",
+			"label": "1970s Houston Astros",
+			"year": 1970,
+			"team": "HOU",
+			"abbr": "HOU",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-KCA",
+			"label": "1970s Kansas City Royals",
+			"year": 1970,
+			"team": "KCA",
+			"abbr": "KCR",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-LAN",
+			"label": "1970s Los Angeles Dodgers",
+			"year": 1970,
+			"team": "LAN",
+			"abbr": "LAD",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-ML4",
+			"label": "1970s Milwaukee Brewers",
+			"year": 1970,
+			"team": "ML4",
+			"abbr": "MIL",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-MIN",
+			"label": "1970s Minnesota Twins",
+			"year": 1970,
+			"team": "MIN",
+			"abbr": "MIN",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-NYN",
+			"label": "1970s New York Mets",
+			"year": 1970,
+			"team": "NYN",
+			"abbr": "NYM",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-NYA",
+			"label": "1970s New York Yankees",
+			"year": 1970,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-PHI",
+			"label": "1970s Philadelphia Phillies",
+			"year": 1970,
+			"team": "PHI",
+			"abbr": "PHI",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-PIT",
+			"label": "1970s Pittsburgh Pirates",
+			"year": 1970,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-SDN",
+			"label": "1970s San Diego Padres",
+			"year": 1970,
+			"team": "SDN",
+			"abbr": "SDP",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-SFN",
+			"label": "1970s San Francisco Giants",
+			"year": 1970,
+			"team": "SFN",
+			"abbr": "SFG",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-SLN",
+			"label": "1970s St. Louis Cardinals",
+			"year": 1970,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-WS2",
+			"label": "1970s Washington Senators",
+			"year": 1970,
+			"team": "WS2",
+			"abbr": "WSA",
+			"decade": "1970s"
+		},
+		{
+			"id": "1970s-MON",
+			"label": "1970s Montreal Expos",
+			"year": 1970,
+			"team": "MON",
+			"abbr": "MON",
+			"decade": "1970s"
+		},
+		{
+			"id": "1980s-CAL",
+			"label": "1980s California Angels",
+			"year": 1980,
+			"team": "CAL",
+			"abbr": "CAL",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-ATL",
+			"label": "1980s Atlanta Braves",
+			"year": 1980,
+			"team": "ATL",
+			"abbr": "ATL",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-BOS",
+			"label": "1980s Boston Red Sox",
+			"year": 1980,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-CHN",
+			"label": "1980s Chicago Cubs",
+			"year": 1980,
+			"team": "CHN",
+			"abbr": "CHC",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-CIN",
+			"label": "1980s Cincinnati Reds",
+			"year": 1980,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-CLE",
+			"label": "1980s Cleveland Indians",
+			"year": 1980,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-DET",
+			"label": "1980s Detroit Tigers",
+			"year": 1980,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-HOU",
+			"label": "1980s Houston Astros",
+			"year": 1980,
+			"team": "HOU",
+			"abbr": "HOU",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-KCA",
+			"label": "1980s Kansas City Royals",
+			"year": 1980,
+			"team": "KCA",
+			"abbr": "KCR",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-LAN",
+			"label": "1980s Los Angeles Dodgers",
+			"year": 1980,
+			"team": "LAN",
+			"abbr": "LAD",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-ML4",
+			"label": "1980s Milwaukee Brewers",
+			"year": 1980,
+			"team": "ML4",
+			"abbr": "MIL",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-MIN",
+			"label": "1980s Minnesota Twins",
+			"year": 1980,
+			"team": "MIN",
+			"abbr": "MIN",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-NYN",
+			"label": "1980s New York Mets",
+			"year": 1980,
+			"team": "NYN",
+			"abbr": "NYM",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-NYA",
+			"label": "1980s New York Yankees",
+			"year": 1980,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-OAK",
+			"label": "1980s Oakland Athletics",
+			"year": 1980,
+			"team": "OAK",
+			"abbr": "OAK",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-PIT",
+			"label": "1980s Pittsburgh Pirates",
+			"year": 1980,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-SDN",
+			"label": "1980s San Diego Padres",
+			"year": 1980,
+			"team": "SDN",
+			"abbr": "SDP",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-SFN",
+			"label": "1980s San Francisco Giants",
+			"year": 1980,
+			"team": "SFN",
+			"abbr": "SFG",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-SLN",
+			"label": "1980s St. Louis Cardinals",
+			"year": 1980,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-TEX",
+			"label": "1980s Texas Rangers",
+			"year": 1980,
+			"team": "TEX",
+			"abbr": "TEX",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-TOR",
+			"label": "1980s Toronto Blue Jays",
+			"year": 1980,
+			"team": "TOR",
+			"abbr": "TOR",
+			"decade": "1980s"
+		},
+		{
+			"id": "1980s-MON",
+			"label": "1980s Montreal Expos",
+			"year": 1980,
+			"team": "MON",
+			"abbr": "MON",
+			"decade": "1980s"
+		},
+		{
+			"id": "1990s-ATL",
+			"label": "1990s Atlanta Braves",
+			"year": 1990,
+			"team": "ATL",
+			"abbr": "ATL",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-BAL",
+			"label": "1990s Baltimore Orioles",
+			"year": 1990,
+			"team": "BAL",
+			"abbr": "BAL",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-BOS",
+			"label": "1990s Boston Red Sox",
+			"year": 1990,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-CHN",
+			"label": "1990s Chicago Cubs",
+			"year": 1990,
+			"team": "CHN",
+			"abbr": "CHC",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-CIN",
+			"label": "1990s Cincinnati Reds",
+			"year": 1990,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-ML4",
+			"label": "1990s Milwaukee Brewers",
+			"year": 1990,
+			"team": "ML4",
+			"abbr": "MIL",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-MIN",
+			"label": "1990s Minnesota Twins",
+			"year": 1990,
+			"team": "MIN",
+			"abbr": "MIN",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-NYA",
+			"label": "1990s New York Yankees",
+			"year": 1990,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-OAK",
+			"label": "1990s Oakland Athletics",
+			"year": 1990,
+			"team": "OAK",
+			"abbr": "OAK",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-PHI",
+			"label": "1990s Philadelphia Phillies",
+			"year": 1990,
+			"team": "PHI",
+			"abbr": "PHI",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-PIT",
+			"label": "1990s Pittsburgh Pirates",
+			"year": 1990,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-SEA",
+			"label": "1990s Seattle Mariners",
+			"year": 1990,
+			"team": "SEA",
+			"abbr": "SEA",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-SFN",
+			"label": "1990s San Francisco Giants",
+			"year": 1990,
+			"team": "SFN",
+			"abbr": "SFG",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-SLN",
+			"label": "1990s St. Louis Cardinals",
+			"year": 1990,
+			"team": "SLN",
+			"abbr": "STL",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-TOR",
+			"label": "1990s Toronto Blue Jays",
+			"year": 1990,
+			"team": "TOR",
+			"abbr": "TOR",
+			"decade": "1990s"
+		},
+		{
+			"id": "1990s-MON",
+			"label": "1990s Montreal Expos",
+			"year": 1990,
+			"team": "MON",
+			"abbr": "MON",
+			"decade": "1990s"
+		},
+		{
+			"id": "2000s-ANA",
+			"label": "2000s Anaheim Angels",
+			"year": 2000,
+			"team": "ANA",
+			"abbr": "ANA",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-ARI",
+			"label": "2000s Arizona Diamondbacks",
+			"year": 2000,
+			"team": "ARI",
+			"abbr": "ARI",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-ATL",
+			"label": "2000s Atlanta Braves",
+			"year": 2000,
+			"team": "ATL",
+			"abbr": "ATL",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-BOS",
+			"label": "2000s Boston Red Sox",
+			"year": 2000,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-CHA",
+			"label": "2000s Chicago White Sox",
+			"year": 2000,
+			"team": "CHA",
+			"abbr": "CHW",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-CIN",
+			"label": "2000s Cincinnati Reds",
+			"year": 2000,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-CLE",
+			"label": "2000s Cleveland Indians",
+			"year": 2000,
+			"team": "CLE",
+			"abbr": "CLE",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-DET",
+			"label": "2000s Detroit Tigers",
+			"year": 2000,
+			"team": "DET",
+			"abbr": "DET",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-HOU",
+			"label": "2000s Houston Astros",
+			"year": 2000,
+			"team": "HOU",
+			"abbr": "HOU",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-LAN",
+			"label": "2000s Los Angeles Dodgers",
+			"year": 2000,
+			"team": "LAN",
+			"abbr": "LAD",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-MIN",
+			"label": "2000s Minnesota Twins",
+			"year": 2000,
+			"team": "MIN",
+			"abbr": "MIN",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-NYA",
+			"label": "2000s New York Yankees",
+			"year": 2000,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-OAK",
+			"label": "2000s Oakland Athletics",
+			"year": 2000,
+			"team": "OAK",
+			"abbr": "OAK",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-PHI",
+			"label": "2000s Philadelphia Phillies",
+			"year": 2000,
+			"team": "PHI",
+			"abbr": "PHI",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-PIT",
+			"label": "2000s Pittsburgh Pirates",
+			"year": 2000,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-SEA",
+			"label": "2000s Seattle Mariners",
+			"year": 2000,
+			"team": "SEA",
+			"abbr": "SEA",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-TBA",
+			"label": "2000s Tampa Bay Devil Rays",
+			"year": 2000,
+			"team": "TBA",
+			"abbr": "TBD",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-TOR",
+			"label": "2000s Toronto Blue Jays",
+			"year": 2000,
+			"team": "TOR",
+			"abbr": "TOR",
+			"decade": "2000s"
+		},
+		{
+			"id": "2000s-MON",
+			"label": "2000s Montreal Expos",
+			"year": 2000,
+			"team": "MON",
+			"abbr": "MON",
+			"decade": "2000s"
+		},
+		{
+			"id": "2010s-ARI",
+			"label": "2010s Arizona Diamondbacks",
+			"year": 2010,
+			"team": "ARI",
+			"abbr": "ARI",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-ATL",
+			"label": "2010s Atlanta Braves",
+			"year": 2010,
+			"team": "ATL",
+			"abbr": "ATL",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-BAL",
+			"label": "2010s Baltimore Orioles",
+			"year": 2010,
+			"team": "BAL",
+			"abbr": "BAL",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-BOS",
+			"label": "2010s Boston Red Sox",
+			"year": 2010,
+			"team": "BOS",
+			"abbr": "BOS",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-CHN",
+			"label": "2010s Chicago Cubs",
+			"year": 2010,
+			"team": "CHN",
+			"abbr": "CHC",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-CHA",
+			"label": "2010s Chicago White Sox",
+			"year": 2010,
+			"team": "CHA",
+			"abbr": "CHW",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-CIN",
+			"label": "2010s Cincinnati Reds",
+			"year": 2010,
+			"team": "CIN",
+			"abbr": "CIN",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-COL",
+			"label": "2010s Colorado Rockies",
+			"year": 2010,
+			"team": "COL",
+			"abbr": "COL",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-FLO",
+			"label": "2010s Florida Marlins",
+			"year": 2010,
+			"team": "FLO",
+			"abbr": "FLA",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-HOU",
+			"label": "2010s Houston Astros",
+			"year": 2010,
+			"team": "HOU",
+			"abbr": "HOU",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-KCA",
+			"label": "2010s Kansas City Royals",
+			"year": 2010,
+			"team": "KCA",
+			"abbr": "KCR",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-LAN",
+			"label": "2010s Los Angeles Dodgers",
+			"year": 2010,
+			"team": "LAN",
+			"abbr": "LAD",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-MIL",
+			"label": "2010s Milwaukee Brewers",
+			"year": 2010,
+			"team": "MIL",
+			"abbr": "MIL",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-MIN",
+			"label": "2010s Minnesota Twins",
+			"year": 2010,
+			"team": "MIN",
+			"abbr": "MIN",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-NYA",
+			"label": "2010s New York Yankees",
+			"year": 2010,
+			"team": "NYA",
+			"abbr": "NYY",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-OAK",
+			"label": "2010s Oakland Athletics",
+			"year": 2010,
+			"team": "OAK",
+			"abbr": "OAK",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-PHI",
+			"label": "2010s Philadelphia Phillies",
+			"year": 2010,
+			"team": "PHI",
+			"abbr": "PHI",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-PIT",
+			"label": "2010s Pittsburgh Pirates",
+			"year": 2010,
+			"team": "PIT",
+			"abbr": "PIT",
+			"decade": "2010s"
+		},
+		{
+			"id": "2010s-TEX",
+			"label": "2010s Texas Rangers",
+			"year": 2010,
+			"team": "TEX",
+			"abbr": "TEX",
+			"decade": "2010s"
 		}
 	]
 }

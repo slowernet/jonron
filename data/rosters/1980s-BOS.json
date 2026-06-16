@@ -1,0 +1,631 @@
+{
+	"team": "BOS",
+	"teamAbbr": "BOS",
+	"teamName": "Boston Red Sox",
+	"year": 1980,
+	"decade": "1980s",
+	"league": "AL",
+	"players": [
+		{
+			"id": "gedmari01-1985",
+			"nameFirst": "Rich",
+			"nameLast": "Gedman",
+			"nameGiven": "Richard Leo",
+			"position": "catcher",
+			"team": "Boston Red Sox",
+			"year": 1985,
+			"stats": {
+				"PA": 556,
+				"AB": 498,
+				"H": 147,
+				"2B": 30,
+				"3B": 5,
+				"HR": 18,
+				"BB": 50,
+				"SO": 79,
+				"HBP": 3,
+				"SF": 2,
+				"SH": 3,
+				"GIDP": 12
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 12
+				},
+				{
+					"number": 2,
+					"size": 32
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 34
+				},
+				{
+					"number": 10,
+					"size": 51
+				},
+				{
+					"number": 11,
+					"size": 19
+				},
+				{
+					"number": 12,
+					"size": 33
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "boggswa01-1987",
+			"nameFirst": "Wade",
+			"nameLast": "Boggs",
+			"nameGiven": "Wade Anthony",
+			"position": "third-base",
+			"team": "Boston Red Sox",
+			"year": 1987,
+			"stats": {
+				"PA": 667,
+				"AB": 551,
+				"H": 200,
+				"2B": 40,
+				"3B": 6,
+				"HR": 24,
+				"BB": 105,
+				"SO": 48,
+				"HBP": 2,
+				"SF": 8,
+				"SH": 1,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 13
+				},
+				{
+					"number": 2,
+					"size": 26
+				},
+				{
+					"number": 3,
+					"size": 58
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 42
+				},
+				{
+					"number": 9,
+					"size": 58
+				},
+				{
+					"number": 10,
+					"size": 26
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 26
+				},
+				{
+					"number": 13,
+					"size": 28
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "staplda01-1980",
+			"nameFirst": "Dave",
+			"nameLast": "Stapleton",
+			"nameGiven": "David Leslie",
+			"position": "shortstop",
+			"team": "Boston Red Sox",
+			"year": 1980,
+			"stats": {
+				"PA": 472,
+				"AB": 449,
+				"H": 144,
+				"2B": 33,
+				"3B": 5,
+				"HR": 7,
+				"BB": 13,
+				"SO": 32,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 5,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 5
+				},
+				{
+					"number": 2,
+					"size": 40
+				},
+				{
+					"number": 3,
+					"size": 67
+				},
+				{
+					"number": 5,
+					"size": 4
+				},
+				{
+					"number": 7,
+					"size": 46
+				},
+				{
+					"number": 9,
+					"size": 11
+				},
+				{
+					"number": 10,
+					"size": 24
+				},
+				{
+					"number": 11,
+					"size": 25
+				},
+				{
+					"number": 12,
+					"size": 40
+				},
+				{
+					"number": 13,
+					"size": 30
+				},
+				{
+					"number": 14,
+					"size": 68
+				}
+			]
+		},
+		{
+			"id": "barrema02-1984",
+			"nameFirst": "Marty",
+			"nameLast": "Barrett",
+			"nameGiven": "Martin Glenn",
+			"position": "second-base",
+			"team": "Boston Red Sox",
+			"year": 1984,
+			"stats": {
+				"PA": 526,
+				"AB": 475,
+				"H": 144,
+				"2B": 23,
+				"3B": 3,
+				"HR": 3,
+				"BB": 42,
+				"SO": 25,
+				"HBP": 1,
+				"SF": 4,
+				"SH": 4,
+				"GIDP": 9
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 2
+				},
+				{
+					"number": 2,
+					"size": 48
+				},
+				{
+					"number": 3,
+					"size": 59
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 47
+				},
+				{
+					"number": 9,
+					"size": 29
+				},
+				{
+					"number": 10,
+					"size": 17
+				},
+				{
+					"number": 11,
+					"size": 16
+				},
+				{
+					"number": 12,
+					"size": 48
+				},
+				{
+					"number": 13,
+					"size": 32
+				},
+				{
+					"number": 14,
+					"size": 60
+				}
+			]
+		},
+		{
+			"id": "evansdw01-1987",
+			"nameFirst": "Dwight",
+			"nameLast": "Evans",
+			"nameGiven": "Dwight Michael",
+			"position": "first-base",
+			"team": "Boston Red Sox",
+			"year": 1987,
+			"stats": {
+				"PA": 657,
+				"AB": 541,
+				"H": 165,
+				"2B": 37,
+				"3B": 2,
+				"HR": 34,
+				"BB": 106,
+				"SO": 98,
+				"HBP": 3,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 10
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 19
+				},
+				{
+					"number": 2,
+					"size": 25
+				},
+				{
+					"number": 3,
+					"size": 52
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 60
+				},
+				{
+					"number": 10,
+					"size": 54
+				},
+				{
+					"number": 11,
+					"size": 20
+				},
+				{
+					"number": 12,
+					"size": 25
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 53
+				}
+			]
+		},
+		{
+			"id": "greenmi01-1987",
+			"nameFirst": "Mike",
+			"nameLast": "Greenwell",
+			"nameGiven": "Michael Lewis",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1987,
+			"stats": {
+				"PA": 456,
+				"AB": 412,
+				"H": 135,
+				"2B": 31,
+				"3B": 6,
+				"HR": 19,
+				"BB": 35,
+				"SO": 40,
+				"HBP": 6,
+				"SF": 3,
+				"SH": 0,
+				"GIDP": 7
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 15
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 64
+				},
+				{
+					"number": 5,
+					"size": 5
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 32
+				},
+				{
+					"number": 10,
+					"size": 32
+				},
+				{
+					"number": 11,
+					"size": 24
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 25
+				},
+				{
+					"number": 14,
+					"size": 65
+				}
+			]
+		},
+		{
+			"id": "riceji01-1983",
+			"nameFirst": "Jim",
+			"nameLast": "Rice",
+			"nameGiven": "James Edward",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1983,
+			"stats": {
+				"PA": 689,
+				"AB": 626,
+				"H": 191,
+				"2B": 34,
+				"3B": 1,
+				"HR": 39,
+				"BB": 52,
+				"SO": 102,
+				"HBP": 6,
+				"SF": 5,
+				"SH": 0,
+				"GIDP": 31
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 20
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 60
+				},
+				{
+					"number": 5,
+					"size": 2
+				},
+				{
+					"number": 7,
+					"size": 37
+				},
+				{
+					"number": 9,
+					"size": 30
+				},
+				{
+					"number": 10,
+					"size": 53
+				},
+				{
+					"number": 11,
+					"size": 18
+				},
+				{
+					"number": 12,
+					"size": 28
+				},
+				{
+					"number": 13,
+					"size": 24
+				},
+				{
+					"number": 14,
+					"size": 61
+				}
+			]
+		},
+		{
+			"id": "burksel01-1988",
+			"nameFirst": "Ellis",
+			"nameLast": "Burks",
+			"nameGiven": "Ellis Rena",
+			"position": "outfield",
+			"team": "Boston Red Sox",
+			"year": 1988,
+			"stats": {
+				"PA": 615,
+				"AB": 540,
+				"H": 159,
+				"2B": 37,
+				"3B": 5,
+				"HR": 18,
+				"BB": 62,
+				"SO": 89,
+				"HBP": 3,
+				"SF": 6,
+				"SH": 4,
+				"GIDP": 8
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 11
+				},
+				{
+					"number": 2,
+					"size": 30
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 35
+				},
+				{
+					"number": 9,
+					"size": 38
+				},
+				{
+					"number": 10,
+					"size": 52
+				},
+				{
+					"number": 11,
+					"size": 22
+				},
+				{
+					"number": 12,
+					"size": 31
+				},
+				{
+					"number": 13,
+					"size": 23
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		},
+		{
+			"id": "armasto01-1984",
+			"nameFirst": "Tony",
+			"nameLast": "Armas",
+			"nameGiven": "Antonio Rafael",
+			"position": "designated-hitter",
+			"team": "Boston Red Sox",
+			"year": 1984,
+			"stats": {
+				"PA": 679,
+				"AB": 639,
+				"H": 171,
+				"2B": 29,
+				"3B": 5,
+				"HR": 43,
+				"BB": 32,
+				"SO": 156,
+				"HBP": 1,
+				"SF": 7,
+				"SH": 0,
+				"GIDP": 13
+			},
+			"sectors": [
+				{
+					"number": 1,
+					"size": 23
+				},
+				{
+					"number": 2,
+					"size": 27
+				},
+				{
+					"number": 3,
+					"size": 57
+				},
+				{
+					"number": 5,
+					"size": 3
+				},
+				{
+					"number": 7,
+					"size": 30
+				},
+				{
+					"number": 9,
+					"size": 17
+				},
+				{
+					"number": 10,
+					"size": 83
+				},
+				{
+					"number": 11,
+					"size": 15
+				},
+				{
+					"number": 12,
+					"size": 27
+				},
+				{
+					"number": 13,
+					"size": 20
+				},
+				{
+					"number": 14,
+					"size": 58
+				}
+			]
+		}
+	]
+}
