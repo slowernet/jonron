@@ -161,22 +161,32 @@ function showRosterPicker(overlay, container, rosterIndex) {
 		decades.get(decade).push(r)
 	}
 
-	for (const [decade, teams] of decades) {
+	const sortedDecades = [...decades.entries()]
+		.sort((a, b) => b[0].localeCompare(a[0]))
+
+	for (const [decade, teams] of sortedDecades) {
 		const group = document.createElement('div')
 		group.className = 'jr-team-group'
 		const groupLabel = document.createElement('div')
 		groupLabel.className = 'jr-team-decade'
 		groupLabel.textContent = decade
+		groupLabel.addEventListener('click', () => {
+			group.classList.toggle('open')
+			groupLabel.classList.toggle('open')
+		})
 		group.appendChild(groupLabel)
 
+		const cardsContainer = document.createElement('div')
+		cardsContainer.className = 'jr-team-cards'
 		for (const team of teams) {
 			const card = document.createElement('button')
 			card.className = 'jr-team-card'
 			card.dataset.rosterId = team.id
 			card.innerHTML = `<span class="nm">${team.label.replace(/^\d+s?\s*/, '')}</span>`
 			card.addEventListener('click', () => pickTeam(team))
-			group.appendChild(card)
+			cardsContainer.appendChild(card)
 		}
+		group.appendChild(cardsContainer)
 		grid.appendChild(group)
 	}
 
@@ -235,7 +245,7 @@ function showRosterPicker(overlay, container, rosterIndex) {
 function buildLineup(players) {
 	const NEEDS = {
 		catcher: 1, 'first-base': 1, 'second-base': 1, 'third-base': 1,
-		shortstop: 1, outfield: 3, 'designated-hitter': 1, pitcher: 1
+		shortstop: 1, outfield: 3, 'designated-hitter': 1
 	}
 	const obp = (p) => {
 		const s = p.sectors ?? []

@@ -1415,13 +1415,36 @@ body {
 .jr-team-decade {
 	font-family: var(--f-display);
 	font-weight: 700;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-	color: var(--ink-soft);
-	padding: 4px 0 8px;
+	font-size: 15px;
+	letter-spacing: 0.04em;
+	color: var(--ink);
+	padding: 10px 0;
 	border-bottom: 1px solid var(--ink-faint);
-	margin-bottom: 8px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	user-select: none;
+}
+
+.jr-team-decade::after {
+	content: '\25B6';
+	font-size: 10px;
+	color: var(--ink-soft);
+	transition: transform 0.2s;
+}
+
+.jr-team-decade.open::after {
+	transform: rotate(90deg);
+}
+
+.jr-team-cards {
+	display: none;
+	padding-top: 8px;
+}
+
+.jr-team-group.open .jr-team-cards {
+	display: block;
 }
 
 .jr-team-card {
