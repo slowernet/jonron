@@ -366,7 +366,7 @@ describe('isGameOver', () => {
 			expect(game.score.visitor[0]).toBe(0)
 		})
 
-		it('run DOES score on 3rd-out fly ball tag play', () => {
+		it('no run scores on 3rd-out fly ball (batter out before reaching 1B)', () => {
 			const game = createGame(makeLineup('home'), makeLineup('visitor'))
 			game.outs = 2
 			game.bases = { first: null, second: null, third: 'r3' }
@@ -380,7 +380,7 @@ describe('isGameOver', () => {
 				isError: false,
 				isTagPlay: true
 			})
-			expect(game.score.visitor[0]).toBe(1)
+			expect(game.score.visitor[0]).toBe(0)
 		})
 
 		it('run scores normally when fewer than 3 outs on ground ball', () => {

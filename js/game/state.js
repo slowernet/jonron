@@ -94,11 +94,10 @@ export function recordResult(game, result) {
 	const prevOuts = game.outs
 	game.outs += result.outs
 
-	// Baseball rule: no run scores on a play where the 3rd out is a force out.
-	// Force outs occur on ground balls (batter thrown out at 1B, lead runner forced).
-	// Tag plays (fly ball sac flies) DO allow the run even on the 3rd out.
+	// No run scores when the 3rd out is made by the batter-runner before
+	// reaching first base (strikeout, fly out, ground out). MLB Rule 5.08(a).
 	let runsToScore = result.runsScored || 0
-	if (game.outs >= 3 && runsToScore > 0 && !result.isTagPlay) {
+	if (game.outs >= 3 && runsToScore > 0) {
 		runsToScore = 0
 		// Also update runner data so commentary doesn't say "scores"
 		if (result.runners) {
